@@ -17,7 +17,9 @@
     "pages/serve/serve-reward/serve-reward",
     "pages/serve/serve-evaluate/serve-evaluate",
     "pages/user/prize/prize",
-    "pages/activity/index/index"
+    "pages/activity/index/index",
+    "pages/activity/detail/detail",
+    "pages/activity/activity"
   ],
   "window": {
     "backgroundTextStyle": "light",

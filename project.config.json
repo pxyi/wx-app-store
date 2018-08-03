@@ -34,7 +34,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 19,
 			"list": [
 				{
 					"id": 0,
@@ -149,6 +149,11 @@
 					"name": "首页",
 					"pathName": "pages/index/index",
 					"query": "isActivity=true"
+				},
+				{
+					"id": -1,
+					"name": "代金券",
+					"pathName": "pages/activity/activity"
 				}
 			]
 		}

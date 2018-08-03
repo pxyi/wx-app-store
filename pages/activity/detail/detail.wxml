@@ -1,0 +1,44 @@
+<view class='container'>
+  <view class='header' wx:if="{{ type }}">
+    <view class='head-h1'>{{ type }}</view>
+    <view class='head-p'>
+      {{ type == '温馨提示' ? '会员无法领取，代金券仅对首次游泳体验有效' : '请保持手机通畅，稍后门店会联系您' }}
+    </view>
+    <view class='head-btn' wx:if="{{ type != '温馨提示' }}"><navigator url="/pages/user/coupon/coupon" hover-class="active">查看代金券</navigator></view>
+    <view class='head-btn' wx:if="{{ type == '温馨提示' }}"><navigator url="/pages/user/prize/prize" hover-class="active">查看我的奖品</navigator></view>
+  </view>
+
+  <view class='welfare'>
+    <view class='content-head'>邀2人到店还能得奖品</view>
+  </view>
+
+  <view class='content'>
+    <view class='content-head'>送好友代金券</view>
+    <view class='content-tip'>
+      <view><view>{{ shopInfo.shopName }}，{{ shopInfo.coupon }}元代金券送给你，门店单游价{{ shopInfo.originPrice }}元呢。</view><view>请叫我雷锋~</view></view>
+    </view>
+    <view class='content-image'><image mode='widthFix' src='/assets/images/activity/shop-default-head.png'></image></view>
+    <view class='content-cover'>
+      <view class='coupon-money'>{{ shopInfo.coupon }}</view>  
+    </view>
+  </view>
+
+
+  <view class='welfare-title'>--- {{ receiveItems.length ? '您已给' +  receiveItems.length + '位好友发福利' : '暂无好友接受邀请' }} ---</view>
+  <view class='activity-prize-box' wx:if="{{ receiveItems.length }}">
+    <view class='invitation-item' wx:for="{{ receiveItems }}" wx:key="">
+      <text>{{ item.receivePhone }}</text>
+      <image src='/assets/images/activity/invitation-true.png' class='icon-true' mode='widthFix'></image>
+      <image src='/assets/images/activity/invitation-{{ item.useStatus == 1 ? "false" : "true" }}.png' class='{{ item.useStatus == 1 ? "icon-false" : "icon-true" }}' mode='widthFix'></image>
+    </view>
+  </view>
+
+
+  <view class='footer'>
+    <view class='foot-h1'><view>送好友{{ shopInfo.coupon }}元代金券</view><view>2位好友到店体验，即可获小猪佩奇书包</view></view>
+    <view class='foot-share'>
+      <button open-type='share'>立即分享给好友</button>
+    </view>
+  </view> 
+
+</view>

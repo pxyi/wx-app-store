@@ -27,6 +27,38 @@ Page({
     });
   },
 
+  /* --------------- 领取代金券 --------------- */
+  couponSubmit(e) {
+    wx.showLoading({ title: '领取中...', mask: true });
+    let formId = e.detail.formId;
+    getUserInfo().then(userInfo => {
+      if (userInfo.isMember == 1) {
+        wx.navigateTo({
+          url: `/pages/activity/detail/detail?text=温馨提示&shopId=${this.data.shopId}`,
+        });
+        return;
+      }
+      let sharePhone = wx.getStorageSync('sharePhone') || '';
+      let param = JSON.stringify({
+        onlyId: userInfo.openid,
+        storeId: this.data.shopId,
+        sendPhone: sharePhone,
+        couponAmount: this.data.shopInfo.coupon,
+        formId: formId
+      });
+      Http.post('/coupon/saveCoupon', { paramJson: param }).then(res => {
+        if (res.code == 1000) {
+          this.pushKdd(userInfo, '19');
+        }
+        wx.navigateTo({
+          url: `/pages/activity/detail/detail?text=${res.code == 1000 ? '领取代金券成功' : res.info}&shopId=${this.data.shopId}`,
+        });
+        wx.hideLoading();
+      });
+
+    })
+  },
+
   /* --------------- 获取门店详细信息 --------------- */
   getStoreItems(shopId, lat, lon) {
     wx.showLoading({ title: '加载中...' });

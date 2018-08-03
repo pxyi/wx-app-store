@@ -66,7 +66,7 @@ Page({
 
   /* ---------------- 绑定电话号码 ---------------- */
   submit(e) {
-    var formId = e.detail.formId; //获取formid
+    var formId = e.detail.formId; //获取formid 
     if (!this.data.code) {
       wx.showToast({
         icon: "none",

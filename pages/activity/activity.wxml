@@ -1,0 +1,52 @@
+<view class='container' wx:if="{{ !hidePage }}">
+  <view class='header' wx:if="{{ optimumShop.shopName }}">
+    <image src='{{ optimumShop.coverImag }}' mode='widthFix'></image>
+    <view class='head-cell'>
+      <view class='head-h1'>{{ optimumShop.shopName }}</view>
+      <view class='head-p'>地址：{{ optimumShop.address }}</view>
+      <view class='head-span'>{{ optimumShop.distance }}</view>
+    </view>
+  </view>
+
+  <view class='content'>
+    <view class='content-box'>
+      <view class='activity-amount'>{{ optimumShop.couponPrice || optimumShop.coupon }}</view>
+      <form class='form' bindsubmit="formSubmit" report-submit='true'>
+        <view class='form-item'>
+          <view class='form-label'>宝宝小名</view>
+          <view class='form-control'><input placeholder='请输入宝宝小名' name="nickName" placeholder-style='color: #ccc;'></input></view>
+        </view>
+        <view class='form-item'>
+          <view class='form-label'>宝宝生日</view>
+          <view class='form-control'>
+            <picker mode="date" name="birthday" end="{{ nowDate }}" bindchange="birthdayChange">
+              <view class="picker" style='color: {{ birthday ? "#999" : "#ccc" }}'>{{ birthday ? birthday : '请选择宝宝生日' }}</view>
+            </picker>
+          </view>
+        </view>
+        <view class='form-item'>
+          <view class='form-label'>+86</view>
+          <view class='form-control'><input placeholder='请输入手机号' name="userPhone" maxlength='11' placeholder-style='color: #ccc;'></input></view>
+        </view>
+        <view class='submit' hover-class='tab-active'>
+          <button formType="submit"></button>
+        </view>
+      </form>
+    </view>
+  </view>
+</view>
+
+
+<view class='confirm-box' hidden="{{ !showConfirm }}">
+  <view class='confirm'>
+    <view class='confirm-tip'>请输入短信验证码</view>
+    <view class='code-control'>
+      <view class='code-input'><input maxlength='6' bindinput='ewCode'></input></view>
+      <view class='code-btn {{ getCodeTime == 60 ? "" : "active" }}' bindtap='getCode'>{{ getCodeTime == 60 ? '获取验证码' : getCodeTime + 's后重新获取' }}</view>
+    </view>
+    <view class='confirm-btns'>
+      <view bindtap='hideConfirm' hover-class='active'>取消</view>
+      <view bindtap='validateCode' hover-class='active'>提交</view>
+    </view>
+  </view>
+</view>
