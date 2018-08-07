@@ -12,16 +12,13 @@
     <view class='content-head'>邀2人到店还能得奖品</view>
   </view>
 
-  <view class='content'>
-    <view class='content-head'>送好友代金券</view>
-    <view class='content-tip'>
-      <view><view>{{ shopInfo.shopName }}，{{ shopInfo.coupon }}元代金券送给你，门店单游价{{ shopInfo.originPrice }}元呢。</view><view>请叫我雷锋~</view></view>
-    </view>
-    <view class='content-image'><image mode='widthFix' src='/assets/images/activity/shop-default-head.png'></image></view>
-    <view class='content-cover'>
-      <view class='coupon-money'>{{ shopInfo.coupon }}</view>  
+  <view class='welfare welfare1'>
+    <view class='content-head'>邀5人到店还能得奖品</view>
+    <view class='welfare_po' wx:if="{{robot}}">
+        <image src='https://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/store/robots45435.gif'></image>
     </view>
   </view>
+
 
 
   <view class='welfare-title'>--- {{ receiveItems.length ? '您已给' +  receiveItems.length + '位好友发福利' : '暂无好友接受邀请' }} ---</view>
@@ -32,10 +29,8 @@
       <image src='/assets/images/activity/invitation-{{ item.useStatus == 1 ? "false" : "true" }}.png' class='{{ item.useStatus == 1 ? "icon-false" : "icon-true" }}' mode='widthFix'></image>
     </view>
   </view>
-
-
   <view class='footer'>
-    <view class='foot-h1'><view>送好友{{ shopInfo.coupon }}元代金券</view><view>2位好友到店体验，即可获小猪佩奇书包</view></view>
+    <view class='foot-h1'><view>送好友代金券</view><view>好友到店后即可获得礼品</view></view>
     <view class='foot-share'>
       <button open-type='share'>立即分享给好友</button>
     </view>

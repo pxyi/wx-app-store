@@ -151,9 +151,16 @@
 					"query": "isActivity=true"
 				},
 				{
-					"id": -1,
+					"id": 19,
 					"name": "代金券",
-					"pathName": "pages/activity/activity"
+					"pathName": "pages/activity/activity",
+					"query": "shopId=1458&phone=17624237675"
+				},
+				{
+					"id": -1,
+					"name": "分享页面",
+					"pathName": "pages/activity/detail/detail",
+					"query": "shopId=197"
 				}
 			]
 		}

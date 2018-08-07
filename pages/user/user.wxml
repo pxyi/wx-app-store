@@ -25,9 +25,9 @@
     </view>
   </view>
 
-  <!-- <view class='activity-banner' hover-class='tap-active'>
-    <image mode='widthFix' src='/assets/images/user/activity-banner.png'></image>
-  </view> -->
+  <view class='activity-banner' hover-class='tap-active'>
+    <navigator url='/pages/activity/index/index'><image mode='widthFix' src='/assets/images/user/activity-banner.png'></image></navigator>
+  </view>
 
   <view class='tab-box'>
     <view class='item' hover-class='active'>

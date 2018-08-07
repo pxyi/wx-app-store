@@ -48,7 +48,7 @@ Page({
       });
       Http.post('/coupon/saveCoupon', { paramJson: param }).then(res => {
         if (res.code == 1000) {
-          this.pushKdd(userInfo, '19');
+          this.pushKdd(userInfo, '27');
         }
         wx.navigateTo({
           url: `/pages/activity/detail/detail?text=${res.code == 1000 ? '领取代金券成功' : res.info}&shopId=${this.data.shopId}`,
@@ -229,8 +229,8 @@ Page({
   }).then(res => {
     let birthday = res.result.birthday;
     let babyName = res.result.nickName;
-    Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
-    //Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
+   Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
+     //Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
       phone: userInfo.userPhone,
       birthday: birthday,
       shopId: that.data.shopId,
@@ -254,7 +254,7 @@ Page({
    });
  },
 
-  /* ----------- 推送数据到客多多 ----------- */
+  /*27 ----------- 推送数据到客多多 ----------- */
   pushKdd(userInfo, spreadId) {
     if (spreadId == 18) {
       wx.showLoading({ title: '加载中...', mask: true });
@@ -266,7 +266,7 @@ Page({
       let birthday = res.result.birthday;
       let babyName = res.result.nickName;
       Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
-      //Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
+     // Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
         phone: userInfo.userPhone,
         birthday: birthday,
         shopId: this.data.shopId,

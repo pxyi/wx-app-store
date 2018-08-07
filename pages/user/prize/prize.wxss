@@ -13,6 +13,7 @@ page {
   padding: 20rpx;
   background: #fff;
   position: relative;
+  margin-bottom:10px; 
 }
 .header image {
   display: block;

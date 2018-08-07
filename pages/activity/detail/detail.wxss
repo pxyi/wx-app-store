@@ -148,6 +148,24 @@ page {
   background-size: 694rpx;
   position: relative;
 }
+.welfare1 {
+  background: url('http://ylbb-business.oss-cn-beijing.aliyuncs.com/Group 6 Copy445456456.png') no-repeat center 54rpx;
+  background-size: 694rpx;
+  position: relative;
+}
+.welfare_po{
+  width: 636rpx;
+  height: 432rpx;
+  position: absolute;
+  top: 115rpx;
+  left: 59rpx;
+}
+.welfare_po image{
+  width: 100%;
+  height: 100%;
+}
+
+
 .welfare .content-head {
   width: 346rpx;
   top: 30rpx;

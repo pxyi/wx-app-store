@@ -6,7 +6,8 @@ Page({
 
   data: {
     text: null,
-    receiveItems: []
+    receiveItems: [],
+    robot:false
   },
 
   onLoad: function (options) {
@@ -20,7 +21,14 @@ Page({
           res.result.map(item => { item.receivePhone = item.receivePhone.replace(item.receivePhone.substring(3, 9), ' **** **'); })
           this.setData({ receiveItems: res.result });
         }
-      })
+      });
+      let that = this;
+      setTimeout(function(){
+          that.setData({
+            robot: true
+          })
+      },2000);
+      
     });
     getAddress( address => {
       if (options.shopId) {
@@ -57,8 +65,8 @@ Page({
   onShareAppMessage: function () {
     return {
       title: '首次游泳体验代金券快去领，请叫我雷锋~',
-      path: `/pages/activity/activity?phone=${this.data.userInfo.userPhone}`,
-      imageUrl: 'https://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/store/store-coupon-share.jpg'
+       path: `/pages/activity/activity?phone=${this.data.userInfo.userPhone}`,
+      imageUrl: 'https://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/store/wxfx45534.png'
     }
   }
 })

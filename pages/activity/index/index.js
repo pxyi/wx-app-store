@@ -9,7 +9,9 @@ var addresslist = cityAddress.postList;
 Page({
   data: {
     storeItems: [],
-    address   : ['', '定位中', '']
+    address   : ['', '定位中', ''],
+    pageNo: 1,
+    pageSize: 10,
   },
   onLoad: function (options) {
     this.getaddressIndex();
@@ -70,6 +72,9 @@ Page({
     });
     this.getStoreItems();
   },
+  onReachBottom: function () {
+    this.getStoreItems();
+  },
   /* ------------ 获取列表数据 ------------ */
   getStoreItems(param) {
     var paramJson;
@@ -110,11 +115,14 @@ Page({
         province: provincecode,
         city: citycode,
         lon: this.data.location.lng,
-        lat: this.data.location.lat
+        lat: this.data.location.lat,
+        pageNo: this.data.pageNo,
+        pageSize: this.data.pageSize
+
       });
     }
     wx.showLoading({ title: '加载中...' });
-    Http.post('/shop/listActivityShop', { paramJson }).then(res => {
+    Http.post('/shop/listActivityShopNew', { paramJson }).then(res => {
       wx.hideLoading();
       if (res.code == 1000 && res.result.shopList) {
         let storeItem = res.result.shopList;

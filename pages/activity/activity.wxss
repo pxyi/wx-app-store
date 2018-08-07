@@ -45,7 +45,7 @@ page {
 .content {
   padding: 40rpx 0 30rpx;
   flex: auto;
-  background: url('https://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/store/activity-bg.png') no-repeat;
+  background: url('https://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/store/activityBg.png') no-repeat;
   background-size: cover;
 }
 .content-box {

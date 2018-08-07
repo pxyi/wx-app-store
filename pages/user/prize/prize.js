@@ -27,7 +27,7 @@ Page({
     return {
       title: '首次游泳体验代金券快去领，请叫我雷锋~',
       path: `/pages/activity/activity?phone=${this.data.userInfo.userPhone}`,
-      imageUrl: 'https://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/store/store-coupon-share.jpg'
+      imageUrl: 'https://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/store/wxfx45534.png'
     }
   }
 })

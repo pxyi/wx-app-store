@@ -32,8 +32,7 @@
 
   </view>
   <!-- 卡券 -->
-  <!-- <view class='activity-box' wx-if="{{ shopInfo.isActivity == 1 }}"> -->
-  <view class='activity-box'>
+   <view class='activity-box' wx-if="{{ shopInfo.isActivity == 1 }}">
     <view class='activity-coupon'>
       <view class='coupon-price'>{{ shopInfo.coupon }}</view>
       <form bindsubmit="couponSubmit" report-submit='true'>

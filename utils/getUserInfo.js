@@ -27,7 +27,7 @@ const app = getApp();
  * ---------------------------------------------------------------
  */
 const Login = () => {
-  return new Promise( (resolve, reject) => {
+  return new Promise( (resolve, reject) => { 
     wx.login({
       success(res) {
         wx.request({

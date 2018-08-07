@@ -10,7 +10,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    nowDate : null,                     // 记录当前年月日
+    nowDate: null,                     // 记录当前年月日
     birthday: null,                     // 宝宝生日
     showConfirm: false,
     getCodeTime: 60,
@@ -27,7 +27,6 @@ Page({
       shopId: options.shopId || null
     });
     wx.setStorageSync('sharePhone', options.phone || null);
-    return false;
     getUserInfo(false).then(userInfo => {
       this.setData({ userInfo });
       if (userInfo.isMember == 1) {
@@ -84,9 +83,11 @@ Page({
           } else {
             let paramJson = JSON.stringify({
               lon: address.location.lng,
-              lat: address.location.lat
+              lat: address.location.lat,
+              pageNo: 1,
+              pageSize: 1
             });
-            Http.post('/shop/listActivityShop', { paramJson }).then(res => {
+            Http.post('/shop/listActivityShopNew', { paramJson }).then(res => {
               let optimumShop = res.result.shopList[0] || {};
               optimumShop.distance = optimumShop.distance > 1000 ? (optimumShop.distance / 1000).toFixed(1) + 'km' : optimumShop.distance + 'm';
               this.setData({ optimumShop });
@@ -174,8 +175,8 @@ Page({
       title: '绑定中...',
       mask: true
     });
-    let params = Object.assign({ 
-      userId: this.data.userInfo.openid, 
+    let params = Object.assign({
+      userId: this.data.userInfo.openid,
       token: this.data.token,
       code: this.data.code,
       storeId: this.data.optimumShop.id
@@ -206,7 +207,7 @@ Page({
       cancelText: '更换门店',
       confirmText: '就去这家',
       content: `“${this.data.optimumShop.shopName}”的代金券，是否要更换预约门店`,
-      success (res) {
+      success(res) {
         if (res.confirm) {
           let sharePhone = _this.data.sharePhone || '';
           let param = JSON.stringify({
@@ -225,14 +226,14 @@ Page({
           });
 
           /* ----------- 推送数据到客多多 ----------- */
-          Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
-          // Http.post('http://192.168.1.110:8090/customerDetail/weChatWithNoVerifyNum', {
+         Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
+          // Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
             phone: _this.data.userx.userPhone,
             birthday: _this.data.userx.birthday,
             shopId: _this.data.optimumShop.id,
             babyName: _this.data.userx.nickName,
-            activityId: '7',
-            spreadId: '19',
+            activityId: '9',
+            spreadId: '27',
           });
         } else if (res.cancel) {
           wx.redirectTo({
