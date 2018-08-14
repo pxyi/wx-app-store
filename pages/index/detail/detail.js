@@ -9,6 +9,7 @@ Page({
     onsub:false,
   },
   onLoad: function (options) {
+    getUserInfo(true, true);
     this.setData({ 
       shopId: options.shopId
       });
@@ -17,7 +18,6 @@ Page({
         activityType: options.activityType 
       }) 
   }    
-     console.log(this.data.activityType) ;
     getAddress(address => {
       this.setData({
         lat: address.location.lat,
@@ -89,7 +89,6 @@ Page({
         /* --------------- 判断门店是否有轮播图 --------------- */
         shopInfo.shopInfoImag = shopInfo.shopInfoImag ? shopInfo.shopInfoImag.split(',') : [];
         //判断是否最后有逗号脏数据
-        console.log(shopInfo.shopInfoImag);
         if (shopInfo.shopInfoImag[shopInfo.shopInfoImag.length - 1] == "," || !shopInfo.shopInfoImag[shopInfo.shopInfoImag.length - 1]){
           shopInfo.shopInfoImag.pop();
         }

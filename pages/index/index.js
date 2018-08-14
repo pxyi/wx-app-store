@@ -18,10 +18,12 @@ Page({
   },
   onLoad: function (options) {
     this.getaddressIndex();
+    getUserInfo(true, true);
   },
   onReachBottom: function () {
     this.getStoreItems();
   },
+
   /* ------------------- 获取用户地理位置信息 ------------------- */
   getaddressIndex() {
     wx.showLoading({ title: '加载中...' });
