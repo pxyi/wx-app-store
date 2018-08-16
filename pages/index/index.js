@@ -18,7 +18,6 @@ Page({
   },
   onLoad: function (options) {
     this.getaddressIndex();
-    getUserInfo(true, true);
   },
   onReachBottom: function () {
     this.getStoreItems();

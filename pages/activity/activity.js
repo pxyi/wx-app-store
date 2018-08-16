@@ -226,8 +226,8 @@ Page({
           });
 
           /* ----------- 推送数据到客多多 ----------- */
-         Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
-          // Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
+          Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
+          //Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
             phone: _this.data.userx.userPhone,
             birthday: _this.data.userx.birthday,
             shopId: _this.data.optimumShop.id,

@@ -21,7 +21,7 @@ App({
     memberId        : null,           // 会员id
     baseInfo        : null,           // 是否录入过基本信息 1:录入过,0:没有录入过
     storeId         : null,           // 会员归属门店
-    userPhone       : null,           // 绑定手机号
+    userPhone       : '',           // 绑定手机号
   }
 
 })

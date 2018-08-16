@@ -4,6 +4,9 @@
     <view class='head-p'>
       {{ type == '温馨提示' ? '会员无法领取，代金券仅对首次游泳体验有效' : '请保持手机通畅，稍后门店会联系您' }}
     </view>
+    <view class='head-p' wx:if="{{ type != '温馨提示' }}" style='color:#FF5500'>
+     体验结束后，向门店支付差额即可
+    </view>  
     <view class='head-btn' wx:if="{{ type != '温馨提示' }}"><navigator url="/pages/user/coupon/coupon" hover-class="active">查看代金券</navigator></view>
     <view class='head-btn' wx:if="{{ type == '温馨提示' }}"><navigator url="/pages/user/prize/prize" hover-class="active">查看我的奖品</navigator></view>
   </view>
@@ -30,6 +33,7 @@
     </view>
   </view>
   <view class='footer'>
+  
     <view class='foot-h1'><view>送好友代金券</view><view>好友到店后即可获得礼品</view></view>
     <view class='foot-share'>
       <button open-type='share'>立即分享给好友</button>
