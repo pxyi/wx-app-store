@@ -21,12 +21,14 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    getUserInfo(true, true);
     this.setData({
       nowDate: format.formatTime(new Date()),
       sharePhone: options.phone || null,
       shopId: options.shopId || null
     });
     wx.setStorageSync('sharePhone', options.phone || null);
+
     getUserInfo(false).then(userInfo => {
       this.setData({ userInfo });
       if (userInfo.isMember == 1) {
