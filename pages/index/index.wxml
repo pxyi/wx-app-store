@@ -41,11 +41,14 @@
           <view>{{ item.address }}</view>
           <text>{{ item.distance }}</text>
         </view>
-        <view class='activity' wx:if="{{ item.isActivity == 1 }}">
-          <view class='activity-icon'>劵</view>
-          <view class='activity-text'>{{ item.couponName }}</view>
+        <view wx:for="{{item.activityMessage}}" wx:key="id">
+        <view class='activity' wx:if="{{item.activityId != 36}}" >
+          <view >
+            <view class='activity-icon'>劵</view>
+            <view class='activity-text'>{{ item.activityName }}</view>
+          </view>  
         </view>
-
+        </view>
       </navigator>
     </view>
   </view>

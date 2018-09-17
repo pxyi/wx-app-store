@@ -1,41 +1,64 @@
 <scroll-view scroll-y class='serve-details'>
-
-  <view class='apply-info'>
-    <view class='apply-title'>
-      <view>预约时间</view>
-      <view>{{lists.reserveDate}}</view>
-    </view>
-
-    <view class='apply-cell'>
-      <view class='apply-cell-desc'>
-        <text>类型: </text>
-        <text>{{lists.babyType}}</text>
-      </view>
-      <view class='apply-cell-desc' wx:if="{{lists.businessTime}}">
-        <text>营业时间: </text>
-        <text>{{lists.businessTime}}</text>
-      </view>
-      <view class='apply-cell-desc'>
-        <text>预约老师: </text>
-        <text>{{lists.teacher}}</text>
-      </view>
-    </view>
+  <view class='tkSuccess' wx:if="{{contentDetail.useFlag==2}}">
+        <view class='tkSuccess_icon'>
+            <image src='https://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/store/success_4543342.4.png'></image>
+        </view>
+        <view class='tkSuccess_text'>
+            <text>退款成功</text>
+            退款将于3日内到达您的账户
+        </view>
   </view>
-
-
+ 
+ <view class='serve_tit'>{{contentDetail.activityName}}<text>￥{{contentDetail.price}}</text></view>
   <view class='store-info'>
     <view class='apply-title'>
       <text>门店信息</text>
       <view class='title-button' bindtap='mapclick' hover-class='active'>导航</view>
     </view>
     <view class='store-info-content'>
-      <view class='store-item' wx:if='{{lists.shopName}}'>· {{lists.shopName}}</view>
-      <view class='store-item' wx:if='{{lists.shopAddress}}'>· {{lists.shopAddress}}</view>
-      <view class='store-item' wx:if='{{lists.businessTime}}'>· {{lists.businessTime}}</view>
+      <view class='store_left'>
+          <image src="{{contentDetail.shopImage}}"></image>
+      </view>
+      <view class='store_right'>
+        <view class='store-item'>· {{contentDetail.shopName}}</view>
+        <view class='store-item'>· {{contentDetail.shopAddress}}</view>
+        <view class='store-item'>· {{contentDetail.bussinessHour}}</view>
+      </view>
     </view>
   </view>
+    
+  <view class='store-info'>
+    
+        <view class='ticket' wx:if="{{contentDetail.useFlag==0}}">
+            <view class='ticket_banner'><text>团</text><text selectable="true" >券码：{{contentDetail.couponCode}}</text></view>
+        </view>
+        <view class='ticket_list'>
+            <view class='ticket_left'>
+                <view >订单编号：{{contentDetail.orderNo}}</view>
+                <view>付款时间：{{contentDetail.payTime}}</view>
+                <view>支付方式：微信公众号</view>
+            </view>
 
+            <!-- <view class='ticke_right' bindtap='subForm' >
+              申请退款
+            </view> -->
+            <!--  -->
+              <form report-submit="true" bindsubmit="subForm"  >
+                <button formType="submit" class='ticke_right'  wx:if="{{contentDetail.useFlag==0}}">申请退款</button>
+              </form>
 
+        </view>
+  
+  </view>
+  <view class='store-info'  wx:if="{{contentDetail.useFlag==0}}">
+    <view class='apply-title'>
+      <text>温馨提示</text>
+    </view>
+    <view class='store-info-content store-info-content1 ' style='padding-bottom: 59rpx;'>
+        <view>1、请提前到达门店，对门店工作人员出示劵码，门店工作人员核对无误即可获得相应的服务。</view>
+        <view>2、门店服务均为预约制，需与门店预约好时间。</view>
+    </view>
+  </view>
 <view class='footer'>
   <view class='footer-phone' bindtap='makePhone' data-num='400-6321531'>客服电话：400-6321531</view>
   <view class='footer-time'>客服时间：09:00 - 18:00 周一至周日</view>

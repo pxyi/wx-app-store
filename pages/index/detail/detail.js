@@ -9,7 +9,7 @@ Page({
     onsub:false,
   },
   onLoad: function (options) {
-    getUserInfo(true, true);
+    //getUserInfo(true, true);
     this.setData({ 
       shopId: options.shopId
       });
@@ -59,8 +59,30 @@ Page({
     })
   },
 
+
+  /* --------------- 领取体验卡券 --------------- */
+  cardSubmit(e) {
+    let formId = e.detail.formId;
+    getUserInfo().then(userInfo => {
+      if (userInfo.isMember == 1) {
+        wx.showModal({
+          title: '温馨提示',
+          content: '只有非会员才可以参与活动哦~',
+        })
+        return false;
+      }   
+        wx.navigateTo({
+          url: `/pages/index/detail/activity/activity?shopId=${this.data.shopId}&originalPrice=${this.data.originalPrice}&coupon=${this.data.coupon}`,
+        });
+    
+
+    })
+  },
+
+
   /* --------------- 获取门店详细信息 --------------- */
   getStoreItems(shopId, lat, lon) {
+    let that = this;
     wx.showLoading({ title: '加载中...' });
     Http.post('/shop/getShopDetail', {
       paramJson: JSON.stringify({
@@ -92,8 +114,18 @@ Page({
         if (shopInfo.shopInfoImag[shopInfo.shopInfoImag.length - 1] == "," || !shopInfo.shopInfoImag[shopInfo.shopInfoImag.length - 1]){
           shopInfo.shopInfoImag.pop();
         }
-        
+
         this.setData({ shopInfo });
+        shopInfo.activityMessage.map( item=> {
+          if (item.activityId==39){
+            that.setData({
+              originalPrice: item.originalPrice,
+              coupon: item.coupon
+            })
+          }
+        })
+        console.log(that.data.originalPrice, that.data.coupon);
+
       }
     }, _ => {
       wx.hideLoading();
@@ -228,8 +260,8 @@ Page({
   }).then(res => {
     let birthday = res.result.birthday;
     let babyName = res.result.nickName;
-     Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
-   //Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
+     //Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
+      Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
       phone: userInfo.userPhone,
       birthday: birthday,
       shopId: that.data.shopId,

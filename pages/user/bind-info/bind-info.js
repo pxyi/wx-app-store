@@ -66,7 +66,6 @@ Page({
   },
   //非会员录入信息
   branchpost(userInfo) {
-    // http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum
     Http.post('https://sale.beibeiyue.com/kb/manager/register', {
     //Http.post('http://101.200.177.83:7988/kb/manager/register', {
       typeStyle: 1,

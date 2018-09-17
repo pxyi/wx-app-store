@@ -8,9 +8,7 @@ const getUserInfo = require('../../../utils/getUserInfo.js');
 var addresslist = cityAddress.postList;
 Page({
   data: {
-    swiperArray: [
-      'http://ylbb-business.oss-cn-beijing.aliyuncs.com/JDbanneractivity.png'
-    ],
+
     pageNo: 1,
     pageSize: 10,
     storeItems: [],
@@ -18,11 +16,11 @@ Page({
   },
   onLoad: function (options) {
     this.getaddressIndex();
-    this.statistics();
   },
   onReachBottom: function () {
     this.getStoreItems();
   },
+
   /* ------------------- 获取用户地理位置信息 ------------------- */
   getaddressIndex() {
     wx.showLoading({ title: '加载中...' });
@@ -115,13 +113,15 @@ Page({
           }
         }
       }
+      console.log(app.activityId);
       paramJson = JSON.stringify({
         province: provincecode,
         city: citycode,
         lon: this.data.location.lng,
         lat: this.data.location.lat,
         pageNo: this.data.pageNo,
-        pageSize: this.data.pageSize
+        pageSize: this.data.pageSize,
+        activityId: app.activityId
       });
     }
     wx.showLoading({ title: '加载中...' });
@@ -148,19 +148,5 @@ Page({
     }, _ => {
       wx.hideLoading();
     });
-  },
-  statistics(){
-    let that = this;
-    wx.showLoading({ title: '加载中...' });
-    getUserInfo().then(userInfo => {
-         Http.post('/shop/activitystatistics', {  
-                openId: userInfo.openid,
-                accessType: '1'
-         }).then(res => {
-                  wx.hideLoading();
-                }, _ => {
-                  wx.hideLoading();
-                });
-    })
   }
 })

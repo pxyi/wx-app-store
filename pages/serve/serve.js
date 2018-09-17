@@ -1,20 +1,22 @@
 const app = getApp();
 const Http = require('../../utils/request.js');
-
 const getUserInfo = require('./../../utils/getUserInfo.js');
 
 Page({
   data: {
     currentTab: 0,
-    arrays: []
+    arrays: [],
+    refundList:[]
   },
   onLoad: function (options) {
+
   },
   onShow() {
-
     getUserInfo().then(userInfo => {
       this.setData({ userInfo });
       this.requestItem(this.data.currentTab);
+      this.getserverList();
+
     })
   },
   /* --------------- 切换表单 --------------- */
@@ -32,7 +34,7 @@ Page({
   },
   requestItem(index) {
     wx.showLoading({ title: '加载中...' });
-    
+
     let params = {
       onlyId: this.data.userInfo.openid,
       memberId: this.data.userInfo.memberId,
@@ -52,7 +54,7 @@ Page({
     wx.showModal({
       title: '尊敬的会员',
       content: '您确定要取消预约吗?',
-      success (res) {
+      success(res) {
         if (res.confirm) {
           wx.showLoading({ title: '加载中...' });
           Http.post('/reserve/reserveCancel', {
@@ -76,4 +78,27 @@ Page({
       }
     })
   },
+  getserverList(){
+    let that = this;
+    wx.showLoading({ title: '加载中...' });
+    Http.post('/order/getOrderCouponRefund', {
+      paramJson: JSON.stringify({
+        openId: that.data.userInfo.openid
+      })
+    }).then(res => {
+      wx.hideLoading();
+      if (res.code == 1000) {
+        let result = [];
+        res.result.map(item => {
+          item.createTIme = item.createTIme.substring(0, 10);
+          item.outDate = item.outDate.substring(0, 10);
+          result.push(item);
+        })
+       this.setData({
+         refundList:result
+       })
+      }
+    });
+ 
+  }
 })

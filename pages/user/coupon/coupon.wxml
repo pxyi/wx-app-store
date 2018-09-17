@@ -1,5 +1,5 @@
 <view class='coupon' wx:if="{{ couponItems.length }}">
-  <view wx:for="{{ couponItems }}" wx:key="" class='item {{ item.useStatus == 1 ? "active" : "" }}'> 
+  <view wx:for="{{ couponItems }}" wx:key="" class='item {{ item.useStatus == 1 ? "active" : "" }}' wx:if="{{ item.useStatus == 1 }}"> 
     <view class='item-cell'>
       <view class='item-box'>
         <view class='item-h2'>{{ item.couponName }}</view>
@@ -15,6 +15,71 @@
     </view>
   </view>
 </view>
+
+<view  wx:if="{{ listUserCoupon.length }}">
+<view class='coupon2' wx:for="{{ listUserCoupon }}" wx:key=""   wx:if="{{ item.useFlag==0 }}">
+<!-- <navigator url='../../serve/serve-details/serve-details?couponCode={{item.couponCode}}' ></navigator> -->
+  <view class='item {{ item.useStatus == 1 ? "active" : "" }}' data-ids='{{item.couponCode}}' bindtap='toDetail'> 
+    <view class='item-cell'>
+      <view class='item-box'>
+        <view class='item-h2'><text>团</text>{{item.activityName}}</view>
+         <view class='item-h6'>{{ item.shopName }}(专用)</view> 
+        <view class='item-p'>有效期：{{ item.createTime }} 至 {{ item.outDate }}</view>
+      </view>
+    </view>
+    <view class='item-info'>
+          <view class='info_text'>券码</view> 
+          <view class='info_code'>{{item.couponCode}}</view> 
+    </view>
+  </view>
+  
+</view>
+</view>
+
+
+<view class='coupon' wx:if="{{ couponItems.length }}">
+  <view wx:for="{{ couponItems }}" wx:key="" class='item {{ item.useStatus == 1 ? "active" : "" }}' wx:if="{{ item.useStatus != 1 }}"> 
+    <view class='item-cell'>
+      <view class='item-box'>
+        <view class='item-h2'>{{ item.couponName }}</view>
+         <view class='item-h6'>{{ item.shopName }}(专用)</view> 
+        <view class='item-p'>有效期：{{ item.startDate }} 至 {{ item.endDate }}</view>
+      </view>
+    </view>
+    <view class='item-info'>
+      <view class='info-h2'>
+        <text class='large'>{{ item.couponAmount }}</text>元
+      </view>
+      <view class='info-btn' hover-class='active' data-status="{{ item.useStatus }}" bindtap='useCoupon'>{{ item.useStatus == 1 ? "未使用" : "已使用" }}</view>  
+    </view>
+  </view>
+</view>
+
+
+
+<view  wx:if="{{ listUserCoupon.length }}" >
+<view class='coupon3' wx:for="{{ listUserCoupon }}" wx:key=""  wx:if="{{ item.useFlag!=0 }}" >
+<navigator url='../../serve/serve-details/serve-details?couponCode={{item.couponCode}}'>
+  <view class='item {{ item.useStatus == 1 ? "active" : "" }}'> 
+    <view class='item-cell'>
+      <view class='item-box'>
+        <view class='item-h2'><text>团</text>{{item.activityName}}</view>
+         <view class='item-h6'>{{ item.shopName }}(专用)</view> 
+        <view class='item-p'>有效期：{{ item.createTime }} 至 {{ item.outDate }}</view>
+      </view>
+    </view>
+    <view class='item-info'>
+        <view class='info_main'>
+          <view class='useFlag'><text>{{item.useFlag==1?'已使用': (item.useFlag==2?'已退款' : '已过期')}}</text></view>
+          <view class='info_text'>券码</view> 
+          <view class='info_code'>{{item.couponCode}}</view> 
+        </view>  
+    </view>
+  </view>
+  </navigator>
+</view>
+</view>
+
 
 <view class='alert-box {{ showAlert ? "active" : "" }}'>
   <view class='alert'>
@@ -34,4 +99,4 @@
   </view>
 </view>
 
-<nothing wx:if="{{ !couponItems.length }}">暂无优惠券</nothing> 
+<nothing wx:if="{{ !couponItems.length&& !listUserCoupon.length }}">暂无优惠券</nothing> 

@@ -2,6 +2,7 @@
 page{
   height: 100%;
   overflow: hidden;
+
 }
 .container{
   height: 100%;
@@ -230,4 +231,71 @@ swiper-item{
   text-align: center;
   font-size: 26rpx;
   color: #ccc;
+}
+.serve_list_f{
+  width: 691rpx;
+  height:386rpx;
+  background: #fff;
+  border-radius: 15rpx;
+  margin: 0 auto;
+  margin-top:20rpx; 
+}
+.serve_header{
+  width: 631rpx;
+  margin: 0 auto;
+  height: 110rpx;
+  line-height: 110rpx;
+  color: #333;
+  font-size: 30rpx;
+  border-bottom: solid 2rpx #F0F0F0;
+}
+.serve_header text{
+  float: right;
+  color: #999999;
+  font-size: 22rpx;
+}
+
+.store_left{
+  width: 120rpx;
+  height: 120rpx;
+  float: left;
+  margin-right: 24rpx;
+  margin-top: 8rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.store_left image{
+  width: 100%;
+  height: 100%;
+}
+.store-item{
+  padding-bottom: 8rpx;
+  color: #999;
+  font-size: 24rpx;
+  line-height: 40rpx;
+
+}
+.store-item text{
+  color: #333;
+  font-size: 26rpx;
+}
+.store-info-content{
+  width: 630rpx;
+  margin: 0 auto;
+  margin-top:30rpx;
+  padding-bottom: 15rpx;
+  border-bottom: solid 2rpx #F0F0F0;
+}
+.store_item_bottom{
+  width: 630rpx;
+  margin: 0 auto;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: right;
+  color: #333;
+  font-size: 30rpx;
+}
+.store_item_bottom text{
+  color:#999 ;
+  font-size: 26rpx;
 }

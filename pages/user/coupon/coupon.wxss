@@ -23,20 +23,12 @@ page{
   position: absolute;
   top: 0;
 }
-.item-cell::before{
-  left: 0;
-  background: url(http://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/store/border-left.png) no-repeat left center;
-  background-size: contain;
-}
-.item-cell::after{
-  background: url(http://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/store/border-right.png) no-repeat right center;
-  background-size: contain;
-  right: 0;
-}
+
+
 .item-box{
   padding: 0 27rpx;
   height: 217rpx;
-  background: #fff;
+
 }
 .item-box > view{
   overflow:hidden;
@@ -45,7 +37,7 @@ page{
 }
 .item-h2{
   padding-top: 42rpx;
-  font-size: 36rpx;
+  font-size: 32rpx;
   line-height: 36rpx;
 }
 .item-h6{
@@ -69,15 +61,47 @@ page{
   height: 217rpx;
   color: #fff;
   text-align: center;
-  background: url(http://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/store/coupon.png) no-repeat;
-  background-size: contain;
+  /* background: url(http://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/store/coupon.png) no-repeat;
+  background-size: contain; */
   position: absolute;
   top: 0;
   right: 0;
 }
-.item.active .item-info{
+/* .item.active .item-info{
   background: url(http://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/store/coupon-active.png) no-repeat;
   background-size: contain;
+} */
+/* .item.active .info-btn2{
+  background: url(http://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/store/coupon-active.png) no-repeat;
+  background-size: contain;
+} */
+.info_main{
+   overflow: hidden;
+   position: relative;
+   color: #AAAAAA;
+}
+.useFlag{
+  width: 130rpx;
+  height: 130rpx;
+  text-align: center;
+  position: absolute;
+  top: 30rpx;
+  right: 10rpx;
+  border: dashed 5rpx #fff;
+  border-radius: 50%;
+  font-size: 28rpx;
+  color: #fff;
+  overflow: hidden;
+  transform: rotate(-25deg);
+}
+.useFlag text{
+  display: block;
+  height: 50rpx;
+  line-height: 50rpx;
+  margin-top: 40rpx;
+  border: dashed 5rpx #fff;
+  border-left: none;
+   border-right: none; 
 }
 .info-h2{
   padding-top: 44rpx;
@@ -182,4 +206,45 @@ page{
   vertical-align: middle;
   font-size: 60rpx;
   line-height: 48rpx;
+}
+.info_text{
+  width: 183rpx;
+  margin: 0 auto;
+  text-align: right;
+  font-size:28rpx; 
+  margin-top: 110rpx;
+}
+.info_code{
+  width: 183rpx;
+  margin: 0 auto;
+  text-align: right;
+  font-size:32rpx; 
+}
+.item-h2 text{
+    width: 34rpx;
+    height: 34rpx;
+    line-height: 34rpx;
+    background: #FD5576;
+    color: #fff;
+    font-size: 22rpx;
+    border-radius: 5rpx;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10rpx;
+    
+}
+.coupon{
+  background: url(https://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/store/quan1_14565656.png) no-repeat;
+  background-size:100% 100%; 
+}
+.coupon2{
+  background: url(https://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/store/quan2_154535323132.png) no-repeat;
+  background-size:100% 100%; 
+}
+.coupon3{
+  background: url(https://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/store/quan3dsadasdasdsadsa.png) no-repeat;
+  background-size:100% 100%; 
+}
+.coupon3 .item-h2 text{
+  background: #9B9B9B;
 }

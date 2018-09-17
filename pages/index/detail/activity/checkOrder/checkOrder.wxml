@@ -1,0 +1,39 @@
+<view class='content'>
+
+    <view class='check_header'>
+        <view class='check_title'>核对订单</view>
+        <view class='check_remarks'>请认真核对订单后下单</view>
+    </view>
+    <view class='store-info-content'>
+      <view class='store_left'>
+          <image src="{{shopDetail.shopCoverImag}}"></image>
+      </view>
+      <view class='store_right'>
+        <view class='store-item store_weight'>婴儿游泳单次体验劵</view>
+        <view class='store-item'>门店：{{shopDetail.shop_name}}</view>
+        <view class='store-item'>地址：{{shopDetail.shop_address}}</view>
+      </view>
+    </view>
+    <view class='check_header'>
+        <view class='payment_title'>支付方式</view>
+    </view>  
+    <view class='wxpayment'>
+        <view class='wxpayment_left'>
+            <image src='https://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/store/wx_icon.png'></image>
+        </view>
+        <view class='wxpayment_right'>
+            <view>微信支付</view>
+            <view>推荐微信支付</view>
+        </view>
+    </view>
+   
+</view>
+
+
+<view class='footer'>
+  <view class='btn-info'>￥{{shopDetail.coupon}}<text>￥{{shopDetail.originalPrice}}</text></view>
+  <!-- <view class='footer-btn' hover-class='active' bindtap='payments'>确认支付</view> -->
+  <form report-submit="true" bindsubmit="payments" >
+  <button formType="submit" class='footer-btn'>确认支付</button>
+</form>
+</view>

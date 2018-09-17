@@ -192,13 +192,13 @@ swiper image{
   margin-top: 26rpx;
 }
 .activity-icon{
-  width: 25rpx;
+  width: auto;
   height: 34rpx;
   padding: 0 5rpx;
-  background: #ffdcc5;
-  border:solid 1rpx #FF6603;
-  border-radius: 5rpx;
-  color: #FF6603;
+  background: #FF7664;
+  border:solid 1rpx #FF7664;
+ 
+  color: #fff;
   font-size: 22rpx;
   text-align: center;
   line-height: 34rpx;
@@ -210,7 +210,7 @@ swiper image{
   width: auto;
   float: left;
   font-size: 26rpx;
-  color: #FF6603;
+  color: #f63;
   height: 60rpx;
   line-height: 60rpx;
   margin-left: 18rpx;

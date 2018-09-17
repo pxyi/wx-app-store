@@ -73,8 +73,6 @@ page{
   right: 15rpx;
   z-index: 100;
 }
-
-
 .head-address text{
   display: block;
   width: 560rpx;
@@ -122,7 +120,69 @@ page{
 .coupon-btn.active {
   background: rgba(240,240,240,.3);
 }
-
+/*---------------体验卡-------------------*/
+.activity-card {
+  width: 750rpx;
+  margin: 0 auto;
+   /* background: url(http://ylbb-business.oss-cn-beijing.aliyuncs.com/tycard5554.png) no-repeat;
+   background-size: contain; */
+  background: #fff;
+  position: relative;
+  margin-bottom: 20rpx;
+  overflow: hidden;
+  padding-bottom: 30rpx;
+}
+.card-price{
+  color: #FD5576;
+  font-size: 60rpx;
+  position: absolute;
+  top: 44rpx;
+  left: 87rpx;
+  margin-right: 40rpx;
+   font-weight: bold;
+}
+.card-price text{
+  color: #AAAAAA;
+  font-size: 24rpx;
+  padding-left: 8rpx;
+  text-decoration:line-through;
+  font-weight: normal;
+}
+.card-text{
+  font-size: 32rpx;
+  height:55rpx;
+  line-height: 55rpx;
+     position: absolute;
+    top: 117rpx;
+    left: 85rpx;
+}
+.card-text text{
+    font-size:22rpx;
+    width: 35rpx;
+    height: 35rpx;
+    line-height: 35rpx;
+    color: #fff;
+    background: #FD5576;
+    text-align: center;
+    border-radius: 7rpx;
+    float: left;
+    margin-top: 10rpx;
+    margin-right: 9rpx;
+}
+.card-btn{
+  float: right;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 28rpx;
+  position: absolute;
+  right: 30rpx;
+  top: 98rpx;
+  background: #FF1F52;
+  color: #fff;
+}
+/* .card-btn::after{
+  display: none;
+} */
 /* -------------------- 详情 -------------------- */
 .storeinfo{
  background: #fff;
@@ -184,7 +244,7 @@ page{
 
 /* ------------------- footer ------------------- */
 .footer{
-  width: 100%;
+  width: 750rpx;
   color: #fff;
   font-size: 34rpx;
   line-height: 100rpx;
@@ -192,6 +252,7 @@ page{
   background: #FF839A;
   position: fixed;
   bottom: 0;
+  right:0;
   z-index: 9;
   transition: all .25s;
 }
@@ -403,4 +464,83 @@ page{
   line-height: 80rpx;
   font-size: 28rpx;
   margin-top: 20rpx;
+}
+/* background: url(http://ylbb-business.oss-cn-beijing.aliyuncs.com/tycard5554.png) no-repeat; */
+.share{
+  width: 205rpx;
+  height: 99rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: url(http://ylbb-business.oss-cn-beijing.aliyuncs.com/scaiop563255225.png) no-repeat #fff center 18rpx;
+  background-size:37rpx 39rpx;
+  text-align: center;
+  font-size: 24rpx;
+  color: #ccc; 
+  line-height: 150rpx;
+  border-top: solid 1rpx #aaa;
+
+}
+.head-price{
+   color: #FF1F52;
+   font-size: 36rpx;
+   padding-bottom:43rpx; 
+}
+.head-price text:first-child{
+  font-size: 28rpx;
+  color: #000;
+  padding-right:13rpx; 
+}
+.card_tit{
+  width: 690rpx;
+  margin: 0 auto;
+  font-size: 32rpx;
+  line-height: 35rpx;
+  padding-top: 32rpx;
+
+}
+.card_tit text{
+  width: 35rpx;
+  height: 35rpx;
+  line-height: 35rpx;
+  text-align: center;
+  font-size: 22rpx;
+  float: left;
+  color: #fff;
+  background: #FD5576;
+  border-radius: 6rpx;
+  margin-right: 21rpx;
+}
+.card_main{
+   width: 690rpx;
+  margin: 0 auto;
+    margin-top: 32rpx; 
+}
+.card_left{
+   width: 120rpx;
+   height:120rpx; 
+   float: left;
+}
+.card_left image{
+  width: 100%;
+  height: 100%;
+}
+.card_right{
+  margin-left: 30rpx;
+  float: left;
+}
+.card_right_tit{
+  font-size: 28rpx;
+  color: #333;
+}
+.card_right_coupon{
+  font-size: 36rpx;
+  color: #FD5576;
+
+}
+.card_right_coupon text{
+  font-size: 24rpx;
+  color: #AAA;
+  display: inline-block;
+  margin-left: 14rpx;
 }

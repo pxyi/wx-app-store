@@ -1,0 +1,137 @@
+page{
+  background: #F0F0F0;
+}
+.content{
+  background: #fff;
+}
+.check_header{
+  width: 100%;
+  overflow: hidden;
+  border-top: solid 20rpx #F0F0F0;
+}
+.check_title{
+  width: 690rpx;
+  margin: 0 auto;
+  font-size: 32rpx;
+  margin-top: 29rpx;
+}
+.check_remarks{
+  width: 690rpx;
+  margin: 0 auto;  
+  color: #999999;
+  font-size: 24rpx;
+  margin-top: 19rpx;
+  padding-bottom: 35rpx;
+  border-bottom: solid 2rpx #eee; 
+}
+
+.store_left{
+  width: 120rpx;
+  height: 120rpx;
+  float: left;
+  margin-right: 24rpx;
+  margin-top: 8rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.store_left image{
+  width: 100%;
+  height: 100%;
+}
+.store_right{
+  width: 500rpx;
+  float: left;
+}
+.store-item{
+  padding-bottom: 8rpx;
+  color: #63686e;
+  font-size: 26rpx;
+  line-height: 40rpx;
+}
+.store-info-content{
+  width:690rpx;
+  margin: 30rpx auto;
+}
+.store_weight{
+  font-size: 28rpx;
+  color: #333;
+  margin-bottom: 5rpx;
+}
+.payment_title{
+  width: 690rpx;
+  margin: 0 auto;
+  font-size: 32rpx;
+  margin-top: 29rpx;
+  padding-bottom: 35rpx;
+  border-bottom: solid 2rpx #eee; 
+}
+.wxpayment{
+  width: 690rpx;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 30rpx;
+}
+.wxpayment_left{
+  width: 80rpx;
+  height: 80rpx;
+  float: left;
+}
+.wxpayment_left image{
+  width: 100%;
+  height: 100%;
+}
+.wxpayment_right{
+  float: left;
+  font-size: 28rpx;
+  margin-left: 20rpx;
+}
+.wxpayment_right view:last-child{
+  font-size: 24rpx;
+  color: #999;
+  margin-top: 9rpx;
+  padding-bottom: 33rpx;
+}
+.footer{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.btn-info{
+  height: 100rpx;
+  color: #FF1F52;
+  font-size: 26rpx;
+  line-height: 100rpx;
+  text-indent: 36rpx;
+  border-top: solid 1px RGBA(238, 238, 238, 1);
+  box-sizing: border-box;
+  background: #fff;
+  font-weight: bold;
+}
+.btn-info text{
+  font-size: 24rpx;
+  color: #999;
+  font-weight: normal;
+  margin-left: 15rpx;
+  text-decoration: line-through;
+}
+.footer-btn{
+  width: 200rpx;
+  color: #fff;
+  font-size: 34rpx;
+  line-height: 100rpx;
+  height: 100rpx;
+  text-align: center;
+  background: none;
+  background: RGBA(255, 131, 154, 1);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  border-radius: 0;
+}
+.footer-btn.active{
+  background: #fba0b1;
+}
+.getUserInfo{
+  width: 200rpx;
+}

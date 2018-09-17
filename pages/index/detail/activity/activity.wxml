@@ -1,0 +1,67 @@
+    <view class='head-cover'>
+<image src='https://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/store/activity_abanner12433.png'></image>
+</view>
+<view class='header'>
+  <view class='head-title'>{{activityDetails.activityName}}</view>
+  <view class='head-detail'><text>过期退</text><text>实时退</text></view>
+  <view class='head-price'><view>¥{{activityDetails.coupon}}</view><view>¥{{activityDetails.originalPrice}}</view></view>
+  <view class='head-label'>{{activityDetails.discount}}折</view>
+</view>
+
+
+<view class='detail'>
+  <view class='detail-title'>购买须知</view>
+  <view class='detail-content' >
+    <view class='detail-item'>
+      <view class='item-label'></view>
+      <view class='item-content'>有效期：{{ todayDate }}至{{ afterDate }}</view>    
+    </view>
+    <view class='detail-item'>
+  
+      <view class='item-content'>使用时间：{{activityDetails.bussinessHour}}</view>
+    </view>
+    <view class='detail-item'>
+
+      <view class='item-content'>预约信息：请您提前1天预约</view>
+    </view>
+    <view class='detail-item'>
+
+      <view class='item-content'>适用人数：每张体验卡最多1人使用</view>
+    </view>
+    <view class='detail-item'>
+      <view class='item-content'>适用人群：年龄群体：0-6</view>
+    </view>
+    <view class='detail-item'>
+      <view class='item-content' style='text-indent:120rpx;'>只适用于初次到店会员使用</view>
+    </view>    
+    <view class='detail-item'>
+      <view class='item-content'>规则提醒：不与其他优惠同享</view>
+    </view>
+  </view>
+</view>
+
+<view class='detail'>
+  <view class='detail-title'>温馨提示</view>
+  <view class='detail-content'>
+    <view class='detail-item'>
+      <view class='item-label'></view>
+      <view class='item-content'>1、请提前到达门店，对门店工作人员出示券码，门店工作
+人员核对无误即可获得相应的服务。</view>    
+    </view>
+    <view class='detail-item'>
+      <view class='item-content'>2、门店服务均为预约制，需与门店预约好时间。</view>
+    </view>
+  
+  </view>
+</view>
+
+<view class='bottoms'>
+  <view class='footer-phone' bindtap='makePhone' data-num='400-6321531'>客服电话：400-6321531</view>
+  <view class='footer-time'>客服时间：09:00 - 18:00 周一至周日</view>
+</view>
+
+
+<view class='footer'>
+  <view class='btn-info'>￥{{activityDetails.coupon}}<text>￥{{activityDetails.originalPrice}}</text></view>
+  <view class='footer-btn' bindtap='rushBuy' hover-class='active'>立即抢购</view>
+</view>

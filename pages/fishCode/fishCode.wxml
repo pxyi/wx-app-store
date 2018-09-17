@@ -1,0 +1,18 @@
+
+      <view class='content'>
+          <view class='header'>
+                <view class='title'>我要预约门店</view>
+                     <form bindsubmit="submit" report-submit='true'>
+                        <input placeholder="请输入兑换码" bindinput="voucherInput" />
+                        <button hover-class='buttons' class='ipt-submit' form-type="submit" bindtap='subForm' type="default">提 交</button>
+                      </form>
+          </view> 
+
+      </view>
+          <view class='main'>
+              <view>小鱼码使用流程：   </view>
+              <view>1、输入您获得的券码</view>
+              <view>2、校验成功后选择预约的门店</view>
+              <view>3、门店客服会致电与您确认体验时间</view>
+              <view>4、预约后需到门店出示券码</view>
+          </view>

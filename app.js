@@ -3,8 +3,8 @@ App({
     
   },
 
-    domain: 'https://swx.beibeiyue.com/ylbb_weixin',
-    //domain: 'http://192.168.1.205:8800',
+    //domain: 'https://swx.beibeiyue.com/ylbb_weixin',
+    domain: 'http://192.168.1.33:8081',
 
   /* ------------- ------------- 全局数据存储 -------------------------- */
   globalData: {

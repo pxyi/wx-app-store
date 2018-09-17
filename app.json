@@ -1,10 +1,12 @@
-{ 
+{
   "pages": [
     "pages/index/index",
-    "pages/index/activityIndex/activityIndex", 
-    "pages/index/activityIndex/JDexplain/JDexplain",
     "pages/index/detail/detail",
+    "pages/index/detail/activity/activity",
+    "pages/index/detail/activity/checkOrder/checkOrder",
     "pages/user/user",
+    "pages/fishCode/fishCode",
+    "pages/fishCode/index/index",
     "pages/user/bind-phone/bind-phone",
     "pages/user/bind-info/bind-info",
     "pages/user/coupon/coupon",
@@ -44,6 +46,12 @@
         "iconPath": "assets/images/tabbar-serve.png",
         "pagePath": "pages/serve/serve",
         "text": "服务"
+      },
+      {
+        "selectedIconPath": "assets/images/xym_select_icon.png",
+        "iconPath": "assets/images/xym_icon.png",
+        "pagePath": "pages/fishCode/fishCode",
+        "text": "小鱼码"
       },
       {
         "selectedIconPath": "assets/images/tabbar-baby-active.png",

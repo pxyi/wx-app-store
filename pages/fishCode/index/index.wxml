@@ -5,24 +5,15 @@
       <view class='icon-slide'></view>
     </picker>
   </view>
- 
-  <view class='swiper'>
-    <swiper indicator-dots="{{ swiperArray.length > 1 }}" autoplay="true" interval="5000" duration="300"  indicator-active-color="#FFF" circular="true">
-      <block wx:for="{{ swiperArray }}" wx:key="key">
-        <swiper-item>
-          <navigator url='JDexplain/JDexplain'><image src="{{ item }}" class="slide-image" width="355" height="178"/></navigator>
-        </swiper-item>
-      </block>
-    </swiper>
-  </view>
+
   <view class='header'>
-    <view class='head-title'>附近活动门店</view>
-    <view class='head-desc'>为您精选的附近活动门店</view>
+    <view class='head-title'>附近门店{{ baseInfo }}{{ tongk }}</view>
+    <view class='head-desc'>为您精选的附近门店</view>
   </view>
   <view class='item-container'>
     <view class='no-data' hidden="{{ storeItems.length || requestLoading }}">您的附近没有合适的门店</view>
     <view class='item' wx:for="{{ storeItems }}" wx:key="id">
-      <navigator  hover-class="none" url="/pages/index/detail/detail?shopId={{ item.id }}&activityType=1" hover-class="navigator-hover">
+      <navigator  hover-class="none" url="/pages/index/detail/detail?shopId={{ item.id }}" hover-class="navigator-hover">
         <view class='item-image'><image src='{{ item.coverImag }}' mode='widthFix' ></image></view>
         <view class='item-card' wx:if = '{{ item.countryCardStatus }}' >全国通卡店</view>
         <view class='item-title'>
@@ -33,14 +24,10 @@
           <view>{{ item.address }}</view>
           <text>{{ item.distance }}</text>
         </view>
-        <view class='activity'>
-          <view class='activity-icon'>京</view>
-          <view class='activity-text'>京东plus会员特权，首次体验可享29.9元/次</view>
+        <view class='activity' wx:if="{{ item.isActivity == 1 }}">
+          <view class='activity-icon'>劵</view>
+          <view class='activity-text'>{{ item.couponName }}</view>
         </view>
-        <view class='activity' style='margin-top:15rpx;' >
-          <view class='activity-icon' style='font-weight:bold; '>1</view>
-          <view class='activity-text'>1号店会员特权，首次体验可享29.9元/次</view>
-        </view>        
 
       </navigator>
     </view>
