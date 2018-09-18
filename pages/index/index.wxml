@@ -15,11 +15,7 @@
        <block>
         <swiper-item>
           <navigator url='/pages/activity/index/index'><image src="http://ylbb-business.oss-cn-beijing.aliyuncs.com/hlsbanner414312.png" class="slide-image" width="355" height="178"/></navigator>
-        </swiper-item>
-        <swiper-item>
-          <navigator url='activityIndex/activityIndex'><image src="http://ylbb-business.oss-cn-beijing.aliyuncs.com/jdPlusBanner.png" class="slide-image" width="355" height="178"/></navigator>
         </swiper-item>       
-
       </block>
     </swiper>
   </view>

@@ -51,7 +51,7 @@ Page({
     for (var i = 0; i < addresslist.length; i++) {
       if (addresslist[i].label == province) {
         provincecode = addresslist[i].value;
-        for (var r = 0; r < addresslist[i].children.length; r++) {
+        for (var r = 0; r < addrsssesslist[i].children.length; r++) {
           if (city == addresslist[i].children[r].label) {
             citycode = addresslist[i].children[r].value;
             for (var j = 0; j < addresslist[i].children[r].children.length; j++) {

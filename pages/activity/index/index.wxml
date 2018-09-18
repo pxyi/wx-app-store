@@ -21,8 +21,7 @@
           <view>{{ item.shopName }}<text class='parent-offspring' wx:if="{{ !!item.storeType && item.storeType!=0 && item.storeType!=1 }}">亲子店</text>
           <text class='flagship' wx:if="{{ item.storeType == 1 }}">旗舰店</text><view class='item-icon' wx:if="{{ item.visitStatus }}">最近使用</view></view>
         </view>
-        <view class='item-address'>+
-        
+        <view class='item-address'>
           <view>{{ item.address }}</view>
           <text>{{ item.distance }}</text>
         </view>

@@ -76,8 +76,7 @@ Page({
         userName: res.result.nickName,
         openId: userInfo.openid,
         shopId: that.data.shopId,
-        //totalMoney: that.data.shopDetail.coupon+'',
-        totalMoney: '0.01',
+        totalMoney: that.data.shopDetail.coupon+'',
         activityName: that.data.shopDetail.activityName,
         activityId: that.data.shopDetail.activityId+'',
       })
@@ -97,8 +96,8 @@ Page({
           that.setData({
             offNo: false
           })
-          //Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
-           Http.post('http://192.168.1.110:8090/customerDetail/weChatWithNoVerifyNum', {
+          Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
+         // Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
             phone: userInfo.userPhone,
             birthday: birthday,
             shopId: that.data.shopId,
@@ -133,8 +132,8 @@ Page({
                       url: '../../../../user/coupon/coupon?type=1',
                     })
                   
-                  // Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
-                  Http.post('http://192.168.1.110:8090/customerDetail/weChatWithNoVerifyNum', {
+                   Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
+                  //Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
                     phone: userInfo.userPhone,
                     birthday: birthday,
                     shopId: that.data.shopId,

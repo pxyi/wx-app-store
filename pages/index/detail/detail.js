@@ -1,4 +1,4 @@
-const getAddress = require('../../../utils/getAddress.js');
+ const getAddress = require('../../../utils/getAddress.js');
 const getUserInfo = require('../../../utils/getUserInfo.js');
 const Http = require('../../../utils/request.js');
 const app = getApp();
@@ -260,8 +260,8 @@ Page({
   }).then(res => {
     let birthday = res.result.birthday;
     let babyName = res.result.nickName;
-     //Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
-      Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
+     Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
+      //Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
       phone: userInfo.userPhone,
       birthday: birthday,
       shopId: that.data.shopId,
@@ -315,6 +315,7 @@ Page({
       });
     });
   },
+  
 
   /* ------------- 拨打电话功能 ------------- */
   makePhone(e) {
