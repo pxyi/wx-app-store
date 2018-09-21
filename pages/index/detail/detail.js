@@ -261,7 +261,7 @@ Page({
     let birthday = res.result.birthday;
     let babyName = res.result.nickName;
      Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
-      //Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
+     // Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
       phone: userInfo.userPhone,
       birthday: birthday,
       shopId: that.data.shopId,
@@ -296,8 +296,8 @@ Page({
     }).then(res => {
       let birthday = res.result.birthday;
       let babyName = res.result.nickName;
-        Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
-        //Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
+       Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
+         //Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
         phone: userInfo.userPhone,
         birthday: birthday,
         shopId: this.data.shopId,

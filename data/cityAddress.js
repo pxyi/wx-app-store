@@ -10507,7 +10507,7 @@ const cityAddressItems = [
           },
           {
             "value": "430223",
-            "label": "攸　县",
+            "label": "攸县",
             isLeaf: true
           },
           {

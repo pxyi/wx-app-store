@@ -132,8 +132,8 @@ Page({
                       url: '../../../../user/coupon/coupon?type=1',
                     })
                   
-                   Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
-                  //Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
+                   //Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
+                  Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
                     phone: userInfo.userPhone,
                     birthday: birthday,
                     shopId: that.data.shopId,
