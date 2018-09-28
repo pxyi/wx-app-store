@@ -38,12 +38,18 @@ Page({
         });
         return;
       }
+      let coupon = 0;
+      this.data.shopInfo.map( item=>{
+        if (item.activityId==37){
+          coupon = item.coupon;
+        }
+      })
       let sharePhone = wx.getStorageSync('sharePhone') || '';
       let param = JSON.stringify({
         onlyId: userInfo.openid,
         storeId: this.data.shopId,
         sendPhone: sharePhone,
-        couponAmount: this.data.shopInfo.coupon,
+        couponAmount: coupon,
         formId: formId
       });
       Http.post('/coupon/saveCoupon', { paramJson: param }).then(res => {
@@ -260,8 +266,8 @@ Page({
   }).then(res => {
     let birthday = res.result.birthday;
     let babyName = res.result.nickName;
-     Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
-     // Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
+     //Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
+      Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
       phone: userInfo.userPhone,
       birthday: birthday,
       shopId: that.data.shopId,
@@ -296,8 +302,8 @@ Page({
     }).then(res => {
       let birthday = res.result.birthday;
       let babyName = res.result.nickName;
-       Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
-         //Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
+      // Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
+         Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
         phone: userInfo.userPhone,
         birthday: birthday,
         shopId: this.data.shopId,

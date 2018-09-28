@@ -76,7 +76,8 @@ Page({
         userName: res.result.nickName,
         openId: userInfo.openid,
         shopId: that.data.shopId,
-        totalMoney: that.data.shopDetail.coupon+'',
+       // totalMoney: that.data.shopDetail.coupon+'',
+        totalMoney:'0.01',
         activityName: that.data.shopDetail.activityName,
         activityId: that.data.shopDetail.activityId+'',
       })

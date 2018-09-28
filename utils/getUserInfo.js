@@ -30,6 +30,8 @@ const Login = () => {
   return new Promise( (resolve, reject) => { 
     wx.login({
       success(res) {
+        // console.log(res.code);
+        // return false;
         wx.request({
           url: `${app.domain}/user/judgeUserStatus`,
           method: "POST",
