@@ -24,18 +24,11 @@
       <text>通卡剩余</text>
     </view>
   </view>
-
-  <view class='activity-banner' hover-class='tap-active'>
-    <navigator url='/pages/activity/index/index'><image mode='widthFix' src='/assets/images/user/activity-banner.png'></image></navigator>
-  </view>
-
   <view class='tab-box'>
     <view class='item' hover-class='active'>
       <navigator url="/pages/user/coupon/coupon?ab=1" hover-class="none">我的卡券</navigator>
     </view>
-    <view class='item' hover-class='active'>
-      <navigator url="/pages/user/prize/prize" hover-class="none">我的奖品</navigator>
-    </view>
+
   </view>
 </view>
 

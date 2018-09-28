@@ -67,10 +67,10 @@ page{
   top: 0;
   right: 0;
 }
-/* .item.active .item-info{
-  background: url(http://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/store/coupon-active.png) no-repeat;
-  background-size: contain;
-} */
+  /* .item.active .item-info{
+    background: url(http://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/store/coupon.png) no-repeat;
+    background-size: contain;
+  } */
 /* .item.active .info-btn2{
   background: url(http://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/store/coupon-active.png) no-repeat;
   background-size: contain;
@@ -232,6 +232,11 @@ page{
     text-align: center;
     margin-right: 10rpx;
     
+}
+.coupon.active{
+  background: url(https://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/store/quan3dsadasdasdsadsa.png) no-repeat;
+  background-size:100% 100%; 
+
 }
 .coupon{
   background: url(https://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/store/quan1_14565656.png) no-repeat;

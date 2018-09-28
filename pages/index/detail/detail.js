@@ -26,46 +26,6 @@ Page({
       this.getStoreItems(options.shopId, address.location.lat, address.location.lng);
     });
   },
-
-  /* --------------- 领取代金券 --------------- */
-  couponSubmit(e) {
-    wx.showLoading({ title: '领取中...', mask: true });
-    let formId = e.detail.formId;
-    getUserInfo().then(userInfo => {
-      if (userInfo.isMember == 1) {
-        wx.navigateTo({
-          url: `/pages/activity/detail/detail?text=温馨提示&shopId=${this.data.shopId}`,
-        });
-        return;
-      }
-      let coupon = 0;
-      this.data.shopInfo.map( item=>{
-        if (item.activityId==37){
-          coupon = item.coupon;
-        }
-      })
-      let sharePhone = wx.getStorageSync('sharePhone') || '';
-      let param = JSON.stringify({
-        onlyId: userInfo.openid,
-        storeId: this.data.shopId,
-        sendPhone: sharePhone,
-        couponAmount: coupon,
-        formId: formId
-      });
-      Http.post('/coupon/saveCoupon', { paramJson: param }).then(res => {
-        if (res.code == 1000) {
-          this.pushKdd(userInfo, '27');
-        }
-        wx.navigateTo({
-          url: `/pages/activity/detail/detail?text=${res.code == 1000 ? '领取代金券成功' : res.info}&shopId=${this.data.shopId}`,
-        });
-        wx.hideLoading();
-      });
-
-    })
-  },
-
-
   /* --------------- 领取体验卡券 --------------- */
   cardSubmit(e) {
     let formId = e.detail.formId;
@@ -257,39 +217,7 @@ Page({
     });
 
   },
- /* --------------- 京东活动向客多多推送 --------------- */
- JDkddPost(){
-   let that = this;
-   getUserInfo().then(userInfo => {  
-  Http.post('/user/getBabyInfoByPhone', {
-    userPhone: userInfo.userPhone,
-  }).then(res => {
-    let birthday = res.result.birthday;
-    let babyName = res.result.nickName;
-     //Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
-      Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
-      phone: userInfo.userPhone,
-      birthday: birthday,
-      shopId: that.data.shopId,
-      babyName: babyName,
-      activityId: '8',
-      spreadId: '20',
 
-    }).then(res => {
-      if(res.code==1000){
-        wx.showModal({
-          title: '温馨提示',
-          showCancel: false,
-          content: '请保持手机通畅，门店客服会与您沟通预约的信息，体验结束后，向门店支付29.9即可。',
-      
-        })
-      }
-
-        wx.hideLoading();
-    });
-  });
-   }); 
- },
 
   /*27 ----------- 推送数据到客多多 ----------- */
   pushKdd(userInfo, spreadId) {
@@ -302,8 +230,8 @@ Page({
     }).then(res => {
       let birthday = res.result.birthday;
       let babyName = res.result.nickName;
-      // Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
-         Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
+       Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
+        // Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
         phone: userInfo.userPhone,
         birthday: birthday,
         shopId: this.data.shopId,

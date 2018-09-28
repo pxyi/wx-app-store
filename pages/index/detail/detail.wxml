@@ -37,16 +37,6 @@
      
   </view>
   <view wx:for="{{ shopInfo.activityMessage }}" wx:key="index">
-  <!-- 卡券 -->
-   <view class='activity-box' wx-if="{{ item.activityId==37 }}">
-    <view class='activity-coupon'>
-      <view class='coupon-price'>{{ item.coupon }}</view>
-      <form bindsubmit="couponSubmit" report-submit='true'>
-        <button formType="submit" class='coupon-btn' hover-class='active'></button>
-      </form>
-    </view>
-  </view>
-  <!-- 卡券 -->
     <!-- 体验卡 -->
   <view class='activity-box' wx-if="{{ item.activityId==39 }}">
     <view class='activity-card'>
@@ -63,35 +53,11 @@
                 </form>
             </view>
       </view>
-      <!-- <view class='card-price'>￥{{ item.coupon }}
-        <text>¥{{ item.originalPrice }}</text>
-      </view>
-      <view class='card-text'>
-        <text>团</text>婴儿游泳单次体验劵</view>
-      <form bindsubmit="cardSubmit" report-submit='true'>
-        <button formType="submit" class='card-btn' hover-class='active'>立即购买</button>
-      </form>-->
     </view> 
   </view>
   </view>
   <!-- 卡券 -->
-  <!-- 京东会员券 -->
-    <view class='jdVoucher' hidden="{{voucher}}">
 
-
-            <view class='voucher'>
-            <text>请输入京东/一号店兑换码进行预约</text>
-            <form bindsubmit="submit" report-submit='true'>
-                <input placeholder="请输入兑换码" bindinput="voucherInput"   />
-              
-                <view class='voucherClose' bindtap='voucherClose'>取消</view>
-                 <view class='voucherSubmit' >
-                 确定
-                   <button class='ipt-submit'  form-type="submit" type="default">提 交</button>
-                 </view>               
-             </form> 
-        </view>
-    </view>
 
   <!-- 详情 -->
   <view class='storeinfo'>
