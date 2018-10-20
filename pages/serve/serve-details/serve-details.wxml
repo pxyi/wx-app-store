@@ -38,15 +38,6 @@
                 <view>付款时间：{{contentDetail.payTime}}</view>
                 <view>支付方式：微信公众号</view>
             </view>
-
-            <!-- <view class='ticke_right' bindtap='subForm' >
-              申请退款
-            </view> -->
-            <!--  -->
-              <form report-submit="true" bindsubmit="subForm"  >
-                <button formType="submit" class='ticke_right'  wx:if="{{contentDetail.useFlag==0}}">申请退款</button>
-              </form>
-
         </view>
   
   </view>

@@ -18,6 +18,9 @@ Page({
   },
   onLoad: function (options) {
     this.getaddressIndex();
+    if (options.shareUserPhone) {
+      app.shareUserPhone = options.shareUserPhone;
+    }
   },
   onReachBottom: function () {
     this.getStoreItems();

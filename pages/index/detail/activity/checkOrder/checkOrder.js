@@ -11,18 +11,23 @@ Page({
     userDetail: '',
     openid:'',
     orderNo:'',
-    offNo:false
+    offNo:false,
+    shareUserPhone:''
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+
     this.setData({
-      shopId:options.shopId
+      shopId:options.shopId,
+      shareUserPhone: app.shareUserPhone
+      
     })
+  
     this.getShopDateil();
- 
+    
   },
 
   /**
@@ -71,13 +76,15 @@ Page({
       }).then(res => {
         let birthday = res.result.birthday;
         let babyName = res.result.nickName;
+       
     Http.post('/order/confirmPayOrder', {
       paramJson: JSON.stringify({
         userName: res.result.nickName,
         openId: userInfo.openid,
         shopId: that.data.shopId,
-       // totalMoney: that.data.shopDetail.coupon+'',
-        totalMoney:'0.01',
+        shareUserPhone: that.data.shareUserPhone,
+        totalMoney: that.data.shopDetail.coupon+'',
+        //totalMoney:'0.5',
         activityName: that.data.shopDetail.activityName,
         activityId: that.data.shopDetail.activityId+'',
       })
@@ -98,7 +105,7 @@ Page({
             offNo: false
           })
           Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
-         // Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
+          //Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
             phone: userInfo.userPhone,
             birthday: birthday,
             shopId: that.data.shopId,
@@ -110,7 +117,7 @@ Page({
           });
          
            wx.navigateTo({
-             url: '../../../../user/coupon/coupon?type=1',
+             url: `../../../../user/coupon/coupon?type=1&activityId=${that.data.shopDetail.activityId}&storeId=${that.data.shopDetail.storeId}&userPhone=${userInfo.userPhone}&shareMoney=${that.data.shopDetail.coupon}`,
            })
        
       
@@ -128,13 +135,12 @@ Page({
 
             if(res.code==1000){
                 if(res.result.orderStatus==1){
-                
-                    wx.navigateTo({
-                      url: '../../../../user/coupon/coupon?type=1',
-                    })
+                  wx.navigateTo({
+            url: `../../../../user/coupon/coupon?type=1&activityId=${that.data.shopDetail.activityId}&storeId=${that.data.shopDetail.storeId}&userPhone=${userInfo.userPhone}&shareMoney=${that.data.shopDetail.coupon}`,
+                  })
                   
-                   //Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
-                  Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
+                   Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
+                  //Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
                     phone: userInfo.userPhone,
                     birthday: birthday,
                     shopId: that.data.shopId,

@@ -2,10 +2,9 @@
 <image src='https://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/store/activity_abanner12433.png'></image>
 </view>
 <view class='header'>
-  <view class='head-title'>{{activityDetails.activityName}}</view>
-  <view class='head-detail'><text>过期退</text><text>实时退</text></view>
+  <view class='head-title'>{{activityDetails.activityName}}<view class='head-label'>{{activityDetails.discount}}折</view></view>
   <view class='head-price'><view>¥{{activityDetails.coupon}}</view><view>¥{{activityDetails.originalPrice}}</view></view>
-  <view class='head-label'>{{activityDetails.discount}}折</view>
+   <view class='share' hover-class='active' bindtap='toshare'>分享</view>
 </view>
 
 

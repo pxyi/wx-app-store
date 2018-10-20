@@ -12,6 +12,7 @@ App({
     userLocation: null,
     userAddress: null
   },
+  shareUserPhone:'',
   userInfo: {
     openid          : null,           // 用户唯一标识
     status          : null,           // 状态信息 1:绑定过,0:未绑定
@@ -21,7 +22,10 @@ App({
     memberId        : null,           // 会员id
     baseInfo        : null,           // 是否录入过基本信息 1:录入过,0:没有录入过
     storeId         : null,           // 会员归属门店
-    userPhone       : '',           // 绑定手机号
+    userPhone       : '',          // 绑定手机号
+  },
+  userarr: {
+    wxUserName :'',
+    wxHeadImage: ''
   }
-
 })

@@ -1,5 +1,6 @@
 const getUserInfo = require('../../../../utils/getUserInfo.js');
 const Http = require('../../../../utils/request.js');
+const app = getApp();
 Page({
 
   /**
@@ -14,6 +15,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+
 
     function GetDateStr(AddDayCount) {
       var dd = new Date();
@@ -93,7 +95,9 @@ Page({
         })
       }).then(res => {
         that.setData({
-          Userstatus:res
+          Userstatus:res,
+          userPhone:userInfo.userPhone,
+          isMember: userInfo.isMember
         });
       })
     })  
@@ -102,10 +106,14 @@ Page({
 
   getactivityData(){
     let that = this;
+    getUserInfo().then(userInfo => {
     Http.post('/activity/activityDetails', {
         paramJson: JSON.stringify({
           storeId:Number(this.data.shopId),
           activityId: 39,
+          wxUserName: app.userarr.wxUserName,
+          wxHeadImage: app.userarr.wxHeadImage,
+          userPhone: userInfo.userPhone 
         })
       }).then(res => {
         if (res.code == '1000') {
@@ -119,21 +127,51 @@ Page({
           })
         }
       })
-   
+    }) 
   },
 
   rushBuy(){
     let that = this;
+    if(that.data.isMember==1){
+      wx.showModal({
+        title: '温馨提示',
+        content: '只有非会员才可以参与活动哦' ,
+        confirmText: '分享',
+        success: function (res) {
+          let activityId = that.data.activityDetails.activityId;
+          let storeId = that.data.activityDetails.storeId;
+          let userPhone = that.data.userPhone;
+          let shareMoney = that.data.activityDetails.coupon;
+          if (!res.cancel) {
+            let that = this;
+            let path = `pages/index/index?activityId=${activityId}&storeId=${storeId}&userPhone=${userPhone}&shareMoney=${shareMoney}`;
+  
+            wx.navigateToMiniProgram({
+              appId: 'wxce6688718ef525db', // 要跳转的小程序的appid
+              path: path, // 跳转的目标页面
+              extarData: {
+                open: 'auth'
+              },
+              success(res) {
+                // 打开成功  
+              }
+            })
+          }
+        }
+      })
+    }else{
     if (that.data.Userstatus.code =='10051'){
           wx.navigateTo({
             url: `./checkOrder/checkOrder?shopId=${that.data.shopId}`,
           })
         }else{
+          wx.hideLoading()
           wx.showModal({
             title: '提示',
             content: that.data.Userstatus.info,
           })
         }
+    }
   },
   /**
    * 用户点击右上角分享
@@ -146,4 +184,23 @@ Page({
       phoneNumber: e.target.dataset.num
     })
   },
+  /*****跳到分享小程序******/
+  toshare() {
+    let that = this;
+    let activityId = that.data.activityDetails.activityId;
+    let storeId = that.data.activityDetails.storeId;
+    let userPhone = that.data.userPhone;
+    let shareMoney = that.data.activityDetails.coupon;
+      let path = `pages/index/index?activityId=${activityId}&storeId=${storeId}&userPhone=${userPhone}&shareMoney=${shareMoney}`;
+      wx.navigateToMiniProgram({
+        appId: 'wxce6688718ef525db', // 要跳转的小程序的appid
+        path: path, // 跳转的目标页面
+        extarData: {
+          open: 'auth'
+        },
+        success(res) {
+          // 打开成功  
+        }
+      })
+  }  
 })

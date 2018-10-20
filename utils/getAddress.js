@@ -80,6 +80,7 @@ const GetCity = (obj) => {
     }).then( res => {
       if (res.status == 0) {
         resolve(res.result)
+  
       } else {
         reject('获取城市失败')
       }

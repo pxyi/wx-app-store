@@ -7,12 +7,31 @@ Page({
     vouchertext: '',
     voucher :true,
     onsub:false,
+    isActivity:false,
+    isshare:false
   },
   onLoad: function (options) {
-    //getUserInfo(true, true);
-    this.setData({ 
-      shopId: options.shopId
+
+    getUserInfo().then(userInfo => {
+        this.setData({
+          userPhone: userInfo.userPhone
+        });
+    })
+ /***********判断从红包分享页面进来还是正常进来***************/
+    if (options.shareUserPhone){
+
+      app.shareUserPhone = options.shareUserPhone;
+      this.setData({
+        shopId: options.shareStoreId,
+        isshare:true
+      });     
+    }else{
+      this.setData({
+        shopId: options.shopId
       });
+    }  
+
+
   if(options.activityType){
       this.setData({
         activityType: options.activityType 
@@ -23,26 +42,18 @@ Page({
         lat: address.location.lat,
         lon: address.location.lng,
       });
-      this.getStoreItems(options.shopId, address.location.lat, address.location.lng);
+      this.getStoreItems(this.data.shopId, address.location.lat, address.location.lng);
     });
   },
   /* --------------- 领取体验卡券 --------------- */
   cardSubmit(e) {
-    let formId = e.detail.formId;
-    getUserInfo().then(userInfo => {
-      if (userInfo.isMember == 1) {
-        wx.showModal({
-          title: '温馨提示',
-          content: '只有非会员才可以参与活动哦~',
-        })
-        return false;
-      }   
+    console.log(e);
+    app.userarr.wxUserName = e.detail.userInfo.nickName;
+    app.userarr.wxHeadImage = e.detail.userInfo.avatarUrl;
+  
         wx.navigateTo({
           url: `/pages/index/detail/activity/activity?shopId=${this.data.shopId}&originalPrice=${this.data.originalPrice}&coupon=${this.data.coupon}`,
         });
-    
-
-    })
   },
 
 
@@ -82,6 +93,10 @@ Page({
         }
 
         this.setData({ shopInfo });
+        if (shopInfo.activityMessage){
+          that.setData({
+            isActivity:true
+          })
         shopInfo.activityMessage.map( item=> {
           if (item.activityId==39){
             that.setData({
@@ -90,7 +105,7 @@ Page({
             })
           }
         })
-        console.log(that.data.originalPrice, that.data.coupon);
+        }
 
       }
     }, _ => {
@@ -230,8 +245,8 @@ Page({
     }).then(res => {
       let birthday = res.result.birthday;
       let babyName = res.result.nickName;
-       Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
-        // Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
+        Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
+        //Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
         phone: userInfo.userPhone,
         birthday: birthday,
         shopId: this.data.shopId,
@@ -270,5 +285,11 @@ Page({
         wx.hideLoading();
       });
   })
-  }
+  },
+  backIndex(){
+    wx.switchTab({
+      url: '/pages/index/index',
+    })
+  },
+
 })

@@ -244,7 +244,7 @@ page{
 
 /* ------------------- footer ------------------- */
 .footer{
-  width: 750rpx;
+  width: 545rpx;
   color: #fff;
   font-size: 34rpx;
   line-height: 100rpx;
@@ -255,6 +255,9 @@ page{
   right:0;
   z-index: 9;
   transition: all .25s;
+}
+.footers{
+  width: 750rpx;
 }
 .footer.active{
   background: #fba0b1;
@@ -466,19 +469,27 @@ page{
   margin-top: 20rpx;
 }
 /* background: url(http://ylbb-business.oss-cn-beijing.aliyuncs.com/tycard5554.png) no-repeat; */
-.share{
-  width: 205rpx;
+.share,.backIndex{
+  width: 102.5rpx;
   height: 99rpx;
   position: fixed;
   bottom: 0;
   left: 0;
-  background: url(http://ylbb-business.oss-cn-beijing.aliyuncs.com/scaiop563255225.png) no-repeat #fff center 18rpx;
-  background-size:37rpx 39rpx;
+  background: url(https://ylbb-business.oss-cn-beijing.aliyuncs.com/scaiop563255225.png) no-repeat #fff center 18rpx;
+  background-size:33rpx 33rpx;
   text-align: center;
   font-size: 24rpx;
   color: #ccc; 
   line-height: 150rpx;
-  border-top: solid 1rpx #aaa;
+  border-top: solid 1rpx #F0F0F0;
+
+}
+.backIndex{
+  left: 102.5rpx;
+  border-left: solid 1rpx #F0F0F0;
+  background: url(https://ylbb-business.oss-cn-beijing.aliyuncs.com/backIndex.png) no-repeat #fff center 18rpx;
+  background-size:37rpx 39rpx;
+
 
 }
 .head-price{
@@ -543,4 +554,13 @@ page{
   color: #AAA;
   display: inline-block;
   margin-left: 14rpx;
+}
+.noActivityFooter .backIndex{
+  left: 0;
+}
+.noActivityFooter .footer{
+  width: 648rpx;
+}
+.noActivityFooter .footers{
+  width: 750rpx;
 }

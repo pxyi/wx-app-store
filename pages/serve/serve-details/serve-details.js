@@ -20,63 +20,7 @@ Page({
   onReady: function () {
     this.getData();
   },
-  subForm(e) {
-    let that = this;
-    let formId = e.detail.formId;
-    wx.showModal({
-      title: '温馨提示',
-      content: '如果您选择了退款，下单时若所用优惠券将不会返还！如有疑问请联系客服。',
-      success: function (res) {
-        if (res.confirm) {
 
-    wx.showModal({
-      title: '确认退款',
-      content: '您确定要立即退款吗？交易时间超过一年的订单无法提交退款。退款有一定延时，零钱支付退款20分钟内到账，银行卡支付退款3个工作日内到账。',
-      success:function(res){
-        if (res.confirm) {
-          wx.showLoading({
-            title: '加载中……',
-          })
-          getUserInfo().then(userInfo => {
-            Http.post('/user/getBabyInfoByPhone', {
-              userPhone: userInfo.userPhone,
-            }).then(res => {
-
-              Http.post('/refund/refundApplication', {
-                paramJson: JSON.stringify({
-                  openId: userInfo.openid,
-                  coupon: res.result.nickName,
-                  couponCode: that.data.couponCode,
-                  formId: formId
-                })
-              }).then(res => {
-                wx.hideLoading();
-                  if(res.code==1000){
-                    wx.showToast({
-                      title: '退款成功！',
-                    })
-                    that.getData();
-                  }else{
-                    wx.showToast({
-                      title: res.info,
-                      icon:'none'
-                    })
-                  }
-              })
-            }, _ => {
-              wx.hideLoading();
-            });
-          })
-         
-        }
-      }
-    })
-        }
-      }
-    })
-
-
-    },
   getData() {
     let that = this;
     getUserInfo().then(userInfo => {

@@ -3,7 +3,6 @@
   <view class="swiper-tab">
     <view class="swiper-list {{ currentTab == 0 ? 'active' : '' }}" data-current="0" bindtap="switchTab">待服务</view>
     <view class="swiper-list {{ currentTab == 1 ? 'active' : '' }}" data-current="1" bindtap="switchTab">已完成</view>
-    <view class="swiper-list {{ currentTab == 2 ? 'active' : '' }}" data-current="2" bindtap="switchTab">已退款</view>
   </view>
 
   <swiper current="{{currentTab}}" class="swiper-box" duration="300" bindchange="switchChange">   
@@ -63,30 +62,6 @@
         </view>
       </view>  
       <view class='wkong' wx:if="{{ !serveItems.length }}" >
-        <image src='../../assets/images/service.png'></image>
-        <text>您的宝宝没有上过游泳课哦</text>
-      </view>  
-    </swiper-item>
-     <swiper-item>
-      <view class='serve_list_f' wx:for="{{refundList}}" wx:key="index" >
-      <navigator url='./serve-details/serve-details?couponCode={{item.couponCode}}'>
-            <view class='serve_header'>
-                {{item.shopName}}<text>已退款</text>
-            </view>
-              <view class='store-info-content'>
-       
-                <view class='store_right'>
-                  <view class='store-item'><text>类型：</text>{{item.activityName}}</view>
-                  <view class='store-item'><text>有效期：</text>{{item.createTIme}}至{{item.outDate}}</view>
-                  <view class='store-item'><text>使用人数：</text>每张体验卡最多1人使用</view>
-                </view>
-              </view>
-              <view class='store_item_bottom'>
-                    <text>合计：</text>￥{{item.price}}
-              </view>
-         </navigator>     
-      </view> 
-      <view class='wkong' wx:if="{{ !refundList.length }}" >
         <image src='../../assets/images/service.png'></image>
         <text>您的宝宝没有上过游泳课哦</text>
       </view>  

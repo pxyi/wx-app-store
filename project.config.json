@@ -11,11 +11,11 @@
 	"libVersion": "1.9.90",
 	"appid": "wx15bc903bd3ce9d4a",
 	"projectname": "%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%A4%87%E4%BB%BD",
-	"svr": "",
-	"client": "",
-	"qcloudRoot": "",
-	"miniprogramRoot": "",
-	"pluginRoot": "",
+	"svr": "/",
+	"client": "/",
+	"qcloudRoot": "/",
+	"miniprogramRoot": "/",
+	"pluginRoot": "/",
 	"condition": {
 		"search": {
 			"current": -1,
@@ -34,13 +34,13 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
+			"current": 0,
 			"list": [
 				{
 					"id": 0,
 					"name": "门店详情",
 					"pathName": "pages/index/detail/detail",
-					"query": "shopId=362"
+					"query": "shareUserPhone=15934025826&shareStoreId=1458"
 				},
 				{
 					"id": 1,
@@ -76,7 +76,7 @@
 					"id": 6,
 					"name": "活动",
 					"pathName": "pages/index/detail/activity/activity",
-					"query": "shopId=672"
+					"query": "shopId=1458"
 				},
 				{
 					"id": 7,
@@ -167,6 +167,12 @@
 					"name": "核对订单",
 					"pathName": "pages/index/detail/activity/checkOrder/checkOrder",
 					"query": "shopId=362"
+				},
+				{
+					"id": -1,
+					"name": "首页",
+					"pathName": "pages/index/index",
+					"query": "shareUserPhone=15911038093"
 				}
 			]
 		}

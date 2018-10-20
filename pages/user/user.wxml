@@ -28,7 +28,9 @@
     <view class='item' hover-class='active'>
       <navigator url="/pages/user/coupon/coupon?ab=1" hover-class="none">我的卡券</navigator>
     </view>
-
+    <view class='item' hover-class='active' bindtap='toshare'>
+          <text>分享领红包</text>
+    </view>
   </view>
 </view>
 

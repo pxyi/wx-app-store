@@ -8,11 +8,15 @@
 }
 .head-title{
   padding: 42rpx 100rpx 19rpx 0;
-  font-size: 28rpx;
-  line-height: 28rpx;
+  font-size: 31rpx;
+  line-height: 44rpx;
   overflow:hidden;
   white-space:nowrap;
   text-overflow:ellipsis;
+}
+.head-title view{
+    display: inline-block;
+    margin-left: 20rpx;
 }
 .head-detail{
   color: RGBA(153, 153, 153, 1);
@@ -69,12 +73,10 @@
   padding: 0 14rpx;
   color: #fff;
   font-size: 22rpx;
-  line-height: 44rpx;
+  line-height: 40rpx;
   border-radius: 8rpx;
   background: #FF1F52;
-  position: absolute;
-  top: 40rpx;
-  right: 45rpx;
+
 } 
 
 .detail{
@@ -164,4 +166,17 @@
   font-size: 23rpx;
   line-height: 23rpx;
   padding-top: 15rpx;
+}
+.share{
+    width: 50rpx;
+  height: 50rpx;
+  position:absolute;
+  top: 30rpx;
+  right: 33rpx;
+  background: url(https://ylbb-business.oss-cn-beijing.aliyuncs.com/scaiop563255225.png) no-repeat  center 18rpx;
+  background-size:33rpx 33rpx;
+  text-align: center;
+  font-size: 24rpx;
+  color: #AAA; 
+  line-height: 150rpx;
 }

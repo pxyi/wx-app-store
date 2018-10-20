@@ -48,9 +48,9 @@
             <view class='card_right'>
                 <view class='card_right_tit'>{{ item.activityName }}</view>
                 <view class='card_right_coupon'>￥{{ item.coupon }}<text>¥{{ item.originalPrice }}</text></view>
-                <form bindsubmit="cardSubmit" report-submit='true'>
-                  <button formType="submit" class='card-btn' hover-class='active'>立即购买</button>
-                </form>
+                
+                  <button  open-type="getUserInfo"  class='card-btn'  bindgetuserinfo="cardSubmit">立即购买</button>
+                
             </view>
       </view>
     </view> 
@@ -131,9 +131,6 @@
           <view>卫生安全：{{ shopInfo.healthSafe }}</view>
         </view>
       </view>
-
-
-
     </view>
 
   </view>
@@ -145,7 +142,14 @@
 
 
   <!-- footer -->
-    <!-- <view class='share' hover-class='active'>分享</view> -->
+  
+  <view class='noActivityFooter' wx:if="{{isshare}}">
+  <view class='backIndex' hover-class='active' bindtap='backIndex'>首页</view>
   <view class='footer' hover-class='active' bindtap='makeAppointment'>去预约游泳课</view>
+</view>
+
+ <view class='noActivityFooter' wx:else>
+  <view class='footer footers' hover-class='active' bindtap='makeAppointment'>去预约游泳课</view>
+</view>
 
 </view>
