@@ -115,11 +115,11 @@ Page({
 
           }).then(res => {
           });
-         
+
            wx.navigateTo({
              url: `../../../../user/coupon/coupon?type=1&activityId=${that.data.shopDetail.activityId}&storeId=${that.data.shopDetail.storeId}&userPhone=${userInfo.userPhone}&shareMoney=${that.data.shopDetail.coupon}`,
            })
-       
+
       
         },
         'fail': function (res) {

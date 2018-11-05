@@ -14,7 +14,9 @@ Page({
     pageNo    : 1,
     pageSize  : 10,
     storeItems: [],
-    address   : ['', '定位中', '']
+    address   : ['', '定位中', ''],
+    useraddress: '1',
+    btnblon:'0'
   },
   onLoad: function (options) {
     this.getaddressIndex();
@@ -25,11 +27,46 @@ Page({
   onReachBottom: function () {
     this.getStoreItems();
   },
+  openSetting(e) {
+    let that = this;
+ 
+    //that.getaddressIndex('0');
+    // 对用户的设置进行判断，如果没有授权，即使用户返回到保存页面，显示的也是“去授权”按钮；同意授权之后才显示保存按钮
+    if (!e.detail.authSetting['scope.userLocation']) {
+      wx.showModal({
+        title: '警告',
+        content: '若不打开授权，则无法获取门店信息！',
+        showCancel: false
+      })
+    }else{
+      that.setData({
+        btnblon: '1' + ''
+      })
+    }
+  },
+  setshopList(){
+  let that = this;
+    that.setData({
+      useraddress: '1'
+    })
+    this.getaddressIndex();
 
+  },
   /* ------------------- 获取用户地理位置信息 ------------------- */
   getaddressIndex() {
-    wx.showLoading({ title: '加载中...' });
+ 
+   let that = this;
+
     getAddress(address => {
+      console.log(address);
+      if(address=='error'){
+        that.setData({
+          useraddress:'0'
+        })
+        
+      }else{
+
+     
       this.setData({
         location: address.location,
         address: [address.address_component.province, address.address_component.city],
@@ -44,6 +81,7 @@ Page({
       });
       wx.hideLoading();
       this.getStoreItems();
+      }
     })
   },
 
@@ -152,4 +190,5 @@ Page({
       wx.hideLoading();
     });
   }
+
 })

@@ -20,15 +20,15 @@ Page({
       this.setData({
         types : true
       })
-      if (res.confirm) {
+      
         wx.showModal({
         title: '提示',
         content: '购买成功，分享还可获得红包呦~',
         confirmText: '分享',
         success: function (res) {
-          
+          if (res.confirm) {
           let that = this;
-          let path = `pages/index/index?activityId=${options.activityId}&storeId=${options.shopId}&userPhone=${options.userPhone}&shareMoney=${options.shareMoney}`;
+            let path = `pages/index/index?activityId=${options.activityId}&storeId=${options.storeId}&userPhone=${options.userPhone}&shareMoney=${options.shareMoney}`;
           wx.navigateToMiniProgram({
             appId: 'wxce6688718ef525db', // 要跳转的小程序的appid
             path: path, // 跳转的目标页面
@@ -39,9 +39,10 @@ Page({
               // 打开成功  
             }
           })
+          }
         }
       })
-      }
+      
          
           }
 

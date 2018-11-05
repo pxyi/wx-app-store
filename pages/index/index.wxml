@@ -1,3 +1,4 @@
+
 <view class='list-box'>
   <view class='city'>
     <picker mode="region" bindchange="bindRegionChange" value="{{ address }}">
@@ -37,4 +38,15 @@
   </view>
 
 
+</view>
+<view class='getaddress' wx:if="{{ useraddress==0 }}">
+  <view class='addressMain'>
+    <text class='addTit'>{{btnblon==0 ? '获取用户地址失败' : '获取用户地址成功'}}</text>
+    <view>
+        <text class='addcontent'>{{btnblon==0 ? '请在设置页允许获取所在地址' : '请点击按钮获取门店列表'}}</text>
+         <button class='keepImg'  open-type="openSetting" bindopensetting='openSetting' wx:if="{{btnblon==0}}"  >设置允许获取地址</button>
+         <button class='keepImg'  wx:else bindtap='setshopList'  >点击获取门店列表</button>
+    </view> 
+ 
+  </view>
 </view>
