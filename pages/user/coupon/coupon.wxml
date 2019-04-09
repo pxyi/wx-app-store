@@ -79,5 +79,5 @@
     </view>
   </view>
 </view>
-
-<nothing wx:if="{{ !couponItems.length&& !listUserCoupon.length }}">暂无优惠券</nothing> 
+<!-- wx:if="{{ !couponItems.length&& !listUserCoupon.length }}" -->
+<nothing >暂无优惠券</nothing> 

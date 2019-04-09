@@ -13212,7 +13212,12 @@ const cityAddressItems = [
           },
           {
             "value": "510124",
-            "label": "郫　县",
+            "label": "郫都区",
+            isLeaf: true
+          },
+          {
+            "value": "510124",
+            "label": "郫县",
             isLeaf: true
           },
           {

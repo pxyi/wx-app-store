@@ -19,7 +19,7 @@ const app = getApp();
 /* ------------------------- 获取地理位置 ------------------------- */
 const GetAddress = (callback) => {
   /* --------- 如果app已经存储地址信息则直接返回 --------- */
-  if (app.globalData.address) {
+  if (app.globalData.address && app.globalData.address!='error') {
     callback(app.globalData.address)
   } else {
 
@@ -35,36 +35,39 @@ const GetAddress = (callback) => {
         })
       },
       fail(err) {
-        /* --------- 提示用户授权 --------- */
-        wx.showModal({
-          title: '获取用户地址失败',
-          content: '请在设置页允许获取所在地址',
-          showCancel: false,
-          success: function (res) {
-            if (res.confirm) {
-              wx.openSetting({
-                success(res) {
-                  wx.getLocation({
-                    type: 'wgs84',
-                    success() {
-                      /* --------- 通过经纬度获取到当前地址信息 --------- */
-                      GetCity({ lat: res.latitude, lon: res.longitude }).then(address => {
-                        app.globalData.address = address;
-                        callback(app.globalData.address)
-                      }).catch(err => {
-                        callback(null)
-                      })
-                    }
-                  })
-                },
-                complete(err) {
-                  /* --------- 用户未授权直接退出则再次提示用户授权 --------- */
-                  GetAddress(callback)
-                }
-              })
-            }
-          }
-        })
+        app.globalData.address = 'error';
+        callback('error')
+        // console.log(err);
+        // /* --------- 提示用户授权 --------- */
+        // wx.showModal({
+        //   title: '获取用户地址失败',
+        //   content: '请在设置页允许获取所在地址',
+        //   showCancel: false,
+        //   success: function (res) {
+        //     if (res.confirm) {
+        //       wx.openSetting({
+        //         success(res) {
+        //           wx.getLocation({
+        //             type: 'wgs84',
+        //             success() {
+        //               /* --------- 通过经纬度获取到当前地址信息 --------- */
+        //               GetCity({ lat: res.latitude, lon: res.longitude }).then(address => {
+        //                 app.globalData.address = address;
+        //                 callback(app.globalData.address)
+        //               }).catch(err => {
+        //                 callback(null)
+        //               })
+        //             }
+        //           })
+        //         },
+        //         complete(err) {
+        //           /* --------- 用户未授权直接退出则再次提示用户授权 --------- */
+        //           GetAddress(callback)
+        //         }
+        //       })
+        //     }
+        //   }
+        // })
       }
     })
   }

@@ -13,6 +13,7 @@
   </view>
   <view class='item-container'>
     <view class='no-data' hidden="{{ storeItems.length || requestLoading }}">您的附近没有合适的门店</view>
+    
     <view class='item' wx:for="{{ storeItems }}" wx:key="id">
       <navigator  hover-class="none" url="/pages/index/detail/detail?shopId={{ item.id }}" hover-class="navigator-hover">
         <view class='item-image'><image src='{{ item.coverImag }}' mode='widthFix' ></image></view>

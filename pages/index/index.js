@@ -23,6 +23,10 @@ Page({
     if (options.shareUserPhone) {
       app.shareUserPhone = options.shareUserPhone;
     }
+    
+    Http.post('/reserve/getStoreHoursConfig', { storeId: 623 }).then(res => {
+
+    });
   },
   onReachBottom: function () {
     this.getStoreItems();
@@ -58,7 +62,7 @@ Page({
    let that = this;
 
     getAddress(address => {
-      console.log(address);
+
       if(address=='error'){
         that.setData({
           useraddress:'0'

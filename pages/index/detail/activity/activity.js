@@ -191,7 +191,7 @@ Page({
     let storeId = that.data.activityDetails.storeId;
     let userPhone = that.data.userPhone;
     let shareMoney = that.data.activityDetails.coupon;
-      let path = `pages/index/index?activityId=${activityId}&storeId=${storeId}&userPhone=${userPhone}&shareMoney=${shareMoney}`;
+   let path = `pages/index/index?activityId=${activityId}&storeId=${storeId}&userPhone=${userPhone}&shareMoney=${shareMoney}`;
       wx.navigateToMiniProgram({
         appId: 'wxce6688718ef525db', // 要跳转的小程序的appid
         path: path, // 跳转的目标页面
