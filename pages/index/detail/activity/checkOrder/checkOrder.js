@@ -104,7 +104,7 @@ Page({
           that.setData({
             offNo: false
           })
-          Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
+          Http.post('https://sale.haochengzhang.com/kb/customerDetail/weChatWithNoVerifyNum', {
           //Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
             phone: userInfo.userPhone,
             birthday: birthday,
@@ -139,7 +139,7 @@ Page({
             url: `../../../../user/coupon/coupon?type=1&activityId=${that.data.shopDetail.activityId}&storeId=${that.data.shopDetail.storeId}&userPhone=${userInfo.userPhone}&shareMoney=${that.data.shopDetail.coupon}`,
                   })
                   
-                   Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
+                   Http.post('https://sale.haochengzhang.com/kb/customerDetail/weChatWithNoVerifyNum', {
                   //Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
                     phone: userInfo.userPhone,
                     birthday: birthday,

@@ -245,7 +245,7 @@ Page({
     }).then(res => {
       let birthday = res.result.birthday;
       let babyName = res.result.nickName;
-        Http.post('https://sale.beibeiyue.com/kb/customerDetail/weChatWithNoVerifyNum', {
+        Http.post('https://sale.haochengzhang.com/kb/customerDetail/weChatWithNoVerifyNum', {
         //Http.post('http://101.200.177.83:7988/kb/customerDetail/weChatWithNoVerifyNum', {
         // Http.post('http://192.168.1.110:8090/customerDetail/weChatWithNoVerifyNum', {
         phone: userInfo.userPhone,

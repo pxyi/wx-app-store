@@ -97,6 +97,8 @@ Page({
     var province = this.data.address[0];
     var city = this.data.address[1];
     var district = this.data.address[2];
+    district = district.substring(0,district.length-1);
+    console.log(district);
     var provincecode = '';
     var citycode = '';
     var districtcode = '';

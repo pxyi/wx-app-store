@@ -66,7 +66,7 @@ Page({
   },
   //非会员录入信息
   branchpost(userInfo) {
-    Http.post('https://sale.beibeiyue.com/kb/manager/register', {
+    Http.post('https://sale.haochengzhang.com/kb/manager/register', {
     //Http.post('http://101.200.177.83:7988/kb/manager/register', {
       typeStyle: 1,
       phone: userInfo.userPhone,

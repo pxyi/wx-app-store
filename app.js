@@ -3,7 +3,7 @@ App({
     
   },
 
-    domain: 'https://swx.beibeiyue.com/ylbb_weixin',
+    domain: 'https://swx.haochengzhang.com/ylbb_weixin',
     //domain: 'http://192.168.1.33:8088',
 
   /* ------------- ------------- 全局数据存储 -------------------------- */

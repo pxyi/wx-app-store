@@ -5,92 +5,92 @@ const cityAddressItems = [
         "children": [
           {
             "value": "110101",
-            "label": "东城",
+            "label": "东城区",
             isLeaf: true
           },
           {
             "value": "110102",
-            "label": "西城",
+            "label": "西城区",
             isLeaf: true
           },
           {
             "value": "110103",
-            "label": "崇文",
+            "label": "崇文区",
             isLeaf: true
           },
           {
             "value": "110104",
-            "label": "宣武",
+            "label": "宣武区",
             isLeaf: true
           },
           {
             "value": "110105",
-            "label": "朝阳",
+            "label": "朝阳区",
             isLeaf: true
           },
           {
             "value": "110106",
-            "label": "丰台",
+            "label": "丰台区",
             isLeaf: true
           },
           {
             "value": "110107",
-            "label": "石景山",
+            "label": "石景山区",
             isLeaf: true
           },
           {
             "value": "110108",
-            "label": "海淀",
+            "label": "海淀区",
             isLeaf: true
           },
           {
             "value": "110109",
-            "label": "门头沟",
+            "label": "门头沟区",
             isLeaf: true
           },
           {
             "value": "110111",
-            "label": "房山",
+            "label": "房山区",
             isLeaf: true
           },
           {
             "value": "110112",
-            "label": "通州",
+            "label": "通州区",
             isLeaf: true
           },
           {
             "value": "110113",
-            "label": "顺义",
+            "label": "顺义区",
             isLeaf: true
           },
           {
             "value": "110114",
-            "label": "昌平",
+            "label": "昌平区",
             isLeaf: true
           },
           {
             "value": "110115",
-            "label": "大兴",
+            "label": "大兴区",
             isLeaf: true
           },
           {
             "value": "110116",
-            "label": "怀柔",
+            "label": "怀柔区",
             isLeaf: true
           },
           {
             "value": "110117",
-            "label": "平谷",
+            "label": "平谷区",
             isLeaf: true
           },
           {
             "value": "110228",
-            "label": "密云",
+            "label": "密云区",
             isLeaf: true
           },
           {
             "value": "110229",
-            "label": "延庆",
+            "label": "延庆区",
             isLeaf: true
           }
         ],
@@ -107,97 +107,97 @@ const cityAddressItems = [
         "children": [
           {
             "value": "120101",
-            "label": "和平",
+            "label": "和平区",
             isLeaf: true
           },
           {
             "value": "120102",
-            "label": "河东",
+            "label": "河东区",
             isLeaf: true
           },
           {
             "value": "120103",
-            "label": "河西",
+            "label": "河西区",
             isLeaf: true
           },
           {
             "value": "120104",
-            "label": "南开",
+            "label": "南开区",
             isLeaf: true
           },
           {
             "value": "120105",
-            "label": "河北",
+            "label": "河北区",
             isLeaf: true
           },
           {
             "value": "120106",
-            "label": "红桥",
+            "label": "红桥区",
             isLeaf: true
           },
           {
             "value": "120107",
-            "label": "塘沽",
+            "label": "塘沽区",
             isLeaf: true
           },
           {
             "value": "120108",
-            "label": "汉沽",
+            "label": "汉沽区",
             isLeaf: true
           },
           {
             "value": "120109",
-            "label": "大港",
+            "label": "大港区",
             isLeaf: true
           },
           {
             "value": "120110",
-            "label": "东丽",
+            "label": "东丽区",
             isLeaf: true
           },
           {
             "value": "120111",
-            "label": "西青",
+            "label": "西青区",
             isLeaf: true
           },
           {
             "value": "120112",
-            "label": "津南",
+            "label": "津南区",
             isLeaf: true
           },
           {
             "value": "120113",
-            "label": "北辰",
+            "label": "北辰区",
             isLeaf: true
           },
           {
             "value": "120114",
-            "label": "武清",
+            "label": "武清区",
             isLeaf: true
           },
           {
             "value": "120115",
-            "label": "宝坻",
+            "label": "宝坻区",
             isLeaf: true
           },
           {
             "value": "120221",
-            "label": "宁河",
+            "label": "宁河县",
             isLeaf: true
           },
           {
             "value": "120223",
-            "label": "静海",
+            "label": "静海县",
             isLeaf: true
           },
           {
             "value": "120225",
-            "label": "蓟",
+            "label": "蓟县",
             isLeaf: true
           },
           {
             "value": "120116",
-            "label": "滨海新",
+            "label": "滨海新区",
             isLeaf: true
           }
         ],
@@ -214,97 +214,97 @@ const cityAddressItems = [
         "children": [
           {
             "value": "130101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "130102",
-            "label": "长安",
+            "label": "长安区",
             isLeaf: true
           },
           {
             "value": "130103",
-            "label": "桥东",
+            "label": "桥东区",
             isLeaf: true
           },
           {
             "value": "130104",
-            "label": "桥西",
+            "label": "桥西区",
             isLeaf: true
           },
           {
             "value": "130105",
-            "label": "新华",
+            "label": "新华区",
             isLeaf: true
           },
           {
             "value": "130107",
-            "label": "井陉矿",
+            "label": "井陉矿区",
             isLeaf: true
           },
           {
             "value": "130108",
-            "label": "裕华",
+            "label": "裕华区",
             isLeaf: true
           },
           {
             "value": "130121",
-            "label": "井陉",
+            "label": "井陉县",
             isLeaf: true
           },
           {
             "value": "130123",
-            "label": "正定",
+            "label": "正定县",
             isLeaf: true
           },
           {
             "value": "130124",
-            "label": "栾城",
+            "label": "栾城县",
             isLeaf: true
           },
           {
             "value": "130125",
-            "label": "行唐",
+            "label": "行唐县",
             isLeaf: true
           },
           {
             "value": "130126",
-            "label": "灵寿",
+            "label": "灵寿县",
             isLeaf: true
           },
           {
             "value": "130127",
-            "label": "高邑",
+            "label": "高邑县",
             isLeaf: true
           },
           {
             "value": "130128",
-            "label": "深泽",
+            "label": "深泽县",
             isLeaf: true
           },
           {
             "value": "130129",
-            "label": "赞皇",
+            "label": "赞皇县",
             isLeaf: true
           },
           {
             "value": "130130",
-            "label": "无极",
+            "label": "无极县",
             isLeaf: true
           },
           {
             "value": "130131",
-            "label": "平山",
+            "label": "平山县",
             isLeaf: true
           },
           {
             "value": "130132",
-            "label": "元氏",
+            "label": "元氏县",
             isLeaf: true
           },
           {
             "value": "130133",
-            "label": "赵",
+            "label": "赵县",
             isLeaf: true
           },
           {
@@ -340,67 +340,67 @@ const cityAddressItems = [
         "children": [
           {
             "value": "130201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "130202",
-            "label": "路南",
+            "label": "路南区",
             isLeaf: true
           },
           {
             "value": "130203",
-            "label": "路北",
+            "label": "路北区",
             isLeaf: true
           },
           {
             "value": "130204",
-            "label": "古冶",
+            "label": "古冶区",
             isLeaf: true
           },
           {
             "value": "130205",
-            "label": "开平",
+            "label": "开平区",
             isLeaf: true
           },
           {
             "value": "130207",
-            "label": "丰南",
+            "label": "丰南区",
             isLeaf: true
           },
           {
             "value": "130208",
-            "label": "丰润",
+            "label": "丰润区",
             isLeaf: true
           },
           {
             "value": "130223",
-            "label": "滦",
+            "label": "滦县",
             isLeaf: true
           },
           {
             "value": "130224",
-            "label": "滦南",
+            "label": "滦南县",
             isLeaf: true
           },
           {
             "value": "130225",
-            "label": "乐亭",
+            "label": "乐亭县",
             isLeaf: true
           },
           {
             "value": "130227",
-            "label": "迁西",
+            "label": "迁西县",
             isLeaf: true
           },
           {
             "value": "130229",
-            "label": "玉田",
+            "label": "玉田县",
             isLeaf: true
           },
           {
             "value": "130230",
-            "label": "唐海",
+            "label": "唐海县",
             isLeaf: true
           },
           {
@@ -415,7 +415,7 @@ const cityAddressItems = [
           },
           {
             "value": "130209",
-            "label": "曹妃甸",
+            "label": "曹妃甸区",
             isLeaf: true
           }
         ],
@@ -426,42 +426,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "130301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "130302",
-            "label": "海港",
+            "label": "海港区",
             isLeaf: true
           },
           {
             "value": "130303",
-            "label": "山海关",
+            "label": "山海关区",
             isLeaf: true
           },
           {
             "value": "130304",
-            "label": "北戴河",
+            "label": "北戴河区",
             isLeaf: true
           },
           {
             "value": "130321",
-            "label": "青龙满族自治",
+            "label": "青龙满族自治县",
             isLeaf: true
           },
           {
             "value": "130322",
-            "label": "昌黎",
+            "label": "昌黎县",
             isLeaf: true
           },
           {
             "value": "130323",
-            "label": "抚宁",
+            "label": "抚宁县",
             isLeaf: true
           },
           {
             "value": "130324",
-            "label": "卢龙",
+            "label": "卢龙县",
             isLeaf: true
           }
         ],
@@ -472,97 +472,97 @@ const cityAddressItems = [
         "children": [
           {
             "value": "130401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "130402",
-            "label": "邯山",
+            "label": "邯山区",
             isLeaf: true
           },
           {
             "value": "130403",
-            "label": "丛台",
+            "label": "丛台区",
             isLeaf: true
           },
           {
             "value": "130404",
-            "label": "复兴",
+            "label": "复兴区",
             isLeaf: true
           },
           {
             "value": "130406",
-            "label": "峰峰矿",
+            "label": "峰峰矿区",
             isLeaf: true
           },
           {
             "value": "130421",
-            "label": "邯郸",
+            "label": "邯郸县",
             isLeaf: true
           },
           {
             "value": "130423",
-            "label": "临漳",
+            "label": "临漳县",
             isLeaf: true
           },
           {
             "value": "130424",
-            "label": "成安",
+            "label": "成安县",
             isLeaf: true
           },
           {
             "value": "130425",
-            "label": "大名",
+            "label": "大名县",
             isLeaf: true
           },
           {
             "value": "130426",
-            "label": "涉",
+            "label": "涉县",
             isLeaf: true
           },
           {
             "value": "130427",
-            "label": "磁",
+            "label": "磁县",
             isLeaf: true
           },
           {
             "value": "130428",
-            "label": "肥乡",
+            "label": "肥乡县",
             isLeaf: true
           },
           {
             "value": "130429",
-            "label": "永年",
+            "label": "永年区",
             isLeaf: true
           },
           {
             "value": "130430",
-            "label": "邱",
+            "label": "邱县",
             isLeaf: true
           },
           {
             "value": "130431",
-            "label": "鸡泽",
+            "label": "鸡泽县",
             isLeaf: true
           },
           {
             "value": "130432",
-            "label": "广平",
+            "label": "广平县",
             isLeaf: true
           },
           {
             "value": "130433",
-            "label": "馆陶",
+            "label": "馆陶县",
             isLeaf: true
           },
           {
             "value": "130434",
-            "label": "魏",
+            "label": "魏县",
             isLeaf: true
           },
           {
             "value": "130435",
-            "label": "曲周",
+            "label": "曲周县",
             isLeaf: true
           },
           {
@@ -578,92 +578,92 @@ const cityAddressItems = [
         "children": [
           {
             "value": "130501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "130502",
-            "label": "桥东",
+            "label": "桥东区",
             isLeaf: true
           },
           {
             "value": "130503",
-            "label": "桥西",
+            "label": "桥西区",
             isLeaf: true
           },
           {
             "value": "130521",
-            "label": "邢台",
+            "label": "邢台县",
             isLeaf: true
           },
           {
             "value": "130522",
-            "label": "临城",
+            "label": "临城县",
             isLeaf: true
           },
           {
             "value": "130523",
-            "label": "内丘",
+            "label": "内丘县",
             isLeaf: true
           },
           {
             "value": "130524",
-            "label": "柏乡",
+            "label": "柏乡县",
             isLeaf: true
           },
           {
             "value": "130525",
-            "label": "隆尧",
+            "label": "隆尧县",
             isLeaf: true
           },
           {
             "value": "130526",
-            "label": "任",
+            "label": "任县",
             isLeaf: true
           },
           {
             "value": "130527",
-            "label": "南和",
+            "label": "南和县",
             isLeaf: true
           },
           {
             "value": "130528",
-            "label": "宁晋",
+            "label": "宁晋县",
             isLeaf: true
           },
           {
             "value": "130529",
-            "label": "巨鹿",
+            "label": "巨鹿县",
             isLeaf: true
           },
           {
             "value": "130530",
-            "label": "新河",
+            "label": "新河县",
             isLeaf: true
           },
           {
             "value": "130531",
-            "label": "广宗",
+            "label": "广宗县",
             isLeaf: true
           },
           {
             "value": "130532",
-            "label": "平乡",
+            "label": "平乡县",
             isLeaf: true
           },
           {
             "value": "130533",
-            "label": "威",
+            "label": "威县",
             isLeaf: true
           },
           {
             "value": "130534",
-            "label": "清河",
+            "label": "清河县",
             isLeaf: true
           },
           {
             "value": "130535",
-            "label": "临西",
+            "label": "临西县",
             isLeaf: true
           },
           {
@@ -684,112 +684,112 @@ const cityAddressItems = [
         "children": [
           {
             "value": "130601",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "130602",
-            "label": "新市",
+            "label": "新市区",
             isLeaf: true
           },
           {
             "value": "130603",
-            "label": "北市",
+            "label": "北市区",
             isLeaf: true
           },
           {
             "value": "130604",
-            "label": "南市",
+            "label": "南市区",
             isLeaf: true
           },
           {
             "value": "130621",
-            "label": "满城",
+            "label": "满城县",
             isLeaf: true
           },
           {
             "value": "130622",
-            "label": "清苑",
+            "label": "清苑县",
             isLeaf: true
           },
           {
             "value": "130623",
-            "label": "涞水",
+            "label": "涞水县",
             isLeaf: true
           },
           {
             "value": "130624",
-            "label": "阜平",
+            "label": "阜平县",
             isLeaf: true
           },
           {
             "value": "130625",
-            "label": "徐水",
+            "label": "徐水县",
             isLeaf: true
           },
           {
             "value": "130626",
-            "label": "定兴",
+            "label": "定兴县",
             isLeaf: true
           },
           {
             "value": "130627",
-            "label": "唐",
+            "label": "唐县",
             isLeaf: true
           },
           {
             "value": "130628",
-            "label": "高阳",
+            "label": "高阳县",
             isLeaf: true
           },
           {
             "value": "130629",
-            "label": "容城",
+            "label": "容城县",
             isLeaf: true
           },
           {
             "value": "130630",
-            "label": "涞源",
+            "label": "涞源县",
             isLeaf: true
           },
           {
             "value": "130631",
-            "label": "望都",
+            "label": "望都县",
             isLeaf: true
           },
           {
             "value": "130632",
-            "label": "安新",
+            "label": "安新县",
             isLeaf: true
           },
           {
             "value": "130633",
-            "label": "易",
+            "label": "易县",
             isLeaf: true
           },
           {
             "value": "130634",
-            "label": "曲阳",
+            "label": "曲阳县",
             isLeaf: true
           },
           {
             "value": "130635",
-            "label": "蠡",
+            "label": "蠡县",
             isLeaf: true
           },
           {
             "value": "130636",
-            "label": "顺平",
+            "label": "顺平县",
             isLeaf: true
           },
           {
             "value": "130637",
-            "label": "博野",
+            "label": "博野县",
             isLeaf: true
           },
           {
             "value": "130638",
-            "label": "雄",
+            "label": "雄县",
             isLeaf: true
           },
           {
@@ -809,12 +809,12 @@ const cityAddressItems = [
           },
           {
             "value": "130606",
-            "label": "莲池",
+            "label": "莲池区",
             isLeaf: true
           },
           {
             "value": "130602",
-            "label": "竞秀",
+            "label": "竞秀区",
             isLeaf: true
           }
         ],
@@ -825,92 +825,92 @@ const cityAddressItems = [
         "children": [
           {
             "value": "130701",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "130702",
-            "label": "桥东",
+            "label": "桥东区",
             isLeaf: true
           },
           {
             "value": "130703",
-            "label": "桥西",
+            "label": "桥西区",
             isLeaf: true
           },
           {
             "value": "130705",
-            "label": "宣化",
+            "label": "宣化区",
             isLeaf: true
           },
           {
             "value": "130706",
-            "label": "下花园",
+            "label": "下花园区",
             isLeaf: true
           },
           {
             "value": "130721",
-            "label": "宣化",
+            "label": "宣化县",
             isLeaf: true
           },
           {
             "value": "130722",
-            "label": "张北",
+            "label": "张北县",
             isLeaf: true
           },
           {
             "value": "130723",
-            "label": "康保",
+            "label": "康保县",
             isLeaf: true
           },
           {
             "value": "130724",
-            "label": "沽源",
+            "label": "沽源县",
             isLeaf: true
           },
           {
             "value": "130725",
-            "label": "尚义",
+            "label": "尚义县",
             isLeaf: true
           },
           {
             "value": "130726",
-            "label": "蔚",
+            "label": "蔚县",
             isLeaf: true
           },
           {
             "value": "130727",
-            "label": "阳原",
+            "label": "阳原县",
             isLeaf: true
           },
           {
             "value": "130728",
-            "label": "怀安",
+            "label": "怀安县",
             isLeaf: true
           },
           {
             "value": "130729",
-            "label": "万全",
+            "label": "万全县",
             isLeaf: true
           },
           {
             "value": "130730",
-            "label": "怀来",
+            "label": "怀来县",
             isLeaf: true
           },
           {
             "value": "130731",
-            "label": "涿鹿",
+            "label": "涿鹿县",
             isLeaf: true
           },
           {
             "value": "130732",
-            "label": "赤城",
+            "label": "赤城县",
             isLeaf: true
           },
           {
             "value": "130733",
-            "label": "崇礼",
+            "label": "崇礼县",
             isLeaf: true
           }
         ],
@@ -921,62 +921,62 @@ const cityAddressItems = [
         "children": [
           {
             "value": "130801",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "130802",
-            "label": "双桥",
+            "label": "双桥区",
             isLeaf: true
           },
           {
             "value": "130803",
-            "label": "双滦",
+            "label": "双滦区",
             isLeaf: true
           },
           {
             "value": "130804",
-            "label": "鹰手营子矿",
+            "label": "鹰手营子矿区",
             isLeaf: true
           },
           {
             "value": "130821",
-            "label": "承德",
+            "label": "承德县",
             isLeaf: true
           },
           {
             "value": "130822",
-            "label": "兴隆",
+            "label": "兴隆县",
             isLeaf: true
           },
           {
             "value": "130823",
-            "label": "平泉",
+            "label": "平泉县",
             isLeaf: true
           },
           {
             "value": "130824",
-            "label": "滦平",
+            "label": "滦平县",
             isLeaf: true
           },
           {
             "value": "130825",
-            "label": "隆化",
+            "label": "隆化县",
             isLeaf: true
           },
           {
             "value": "130826",
-            "label": "丰宁满族自治",
+            "label": "丰宁满族自治县",
             isLeaf: true
           },
           {
             "value": "130827",
-            "label": "宽城满族自治",
+            "label": "宽城满族自治县",
             isLeaf: true
           },
           {
             "value": "130828",
-            "label": "围场满族蒙古族自治",
+            "label": "围场满族蒙古族自治县",
             isLeaf: true
           }
         ],
@@ -987,67 +987,67 @@ const cityAddressItems = [
         "children": [
           {
             "value": "130901",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "130902",
-            "label": "新华",
+            "label": "新华区",
             isLeaf: true
           },
           {
             "value": "130903",
-            "label": "运河",
+            "label": "运河区",
             isLeaf: true
           },
           {
             "value": "130921",
-            "label": "沧",
+            "label": "沧县",
             isLeaf: true
           },
           {
             "value": "130922",
-            "label": "青",
+            "label": "青县",
             isLeaf: true
           },
           {
             "value": "130923",
-            "label": "东光",
+            "label": "东光县",
             isLeaf: true
           },
           {
             "value": "130924",
-            "label": "海兴",
+            "label": "海兴县",
             isLeaf: true
           },
           {
             "value": "130925",
-            "label": "盐山",
+            "label": "盐山县",
             isLeaf: true
           },
           {
             "value": "130926",
-            "label": "肃宁",
+            "label": "肃宁县",
             isLeaf: true
           },
           {
             "value": "130927",
-            "label": "南皮",
+            "label": "南皮县",
             isLeaf: true
           },
           {
             "value": "130928",
-            "label": "吴桥",
+            "label": "吴桥县",
             isLeaf: true
           },
           {
             "value": "130929",
-            "label": "献",
+            "label": "献县",
             isLeaf: true
           },
           {
             "value": "130930",
-            "label": "孟村回族自治",
+            "label": "孟村回族自治县",
             isLeaf: true
           },
           {
@@ -1078,47 +1078,47 @@ const cityAddressItems = [
         "children": [
           {
             "value": "131001",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "131002",
-            "label": "安次",
+            "label": "安次区",
             isLeaf: true
           },
           {
             "value": "131003",
-            "label": "广阳",
+            "label": "广阳区",
             isLeaf: true
           },
           {
             "value": "131022",
-            "label": "固安",
+            "label": "固安县",
             isLeaf: true
           },
           {
             "value": "131023",
-            "label": "永清",
+            "label": "永清县",
             isLeaf: true
           },
           {
             "value": "131024",
-            "label": "香河",
+            "label": "香河县",
             isLeaf: true
           },
           {
             "value": "131025",
-            "label": "大城",
+            "label": "大城县",
             isLeaf: true
           },
           {
             "value": "131026",
-            "label": "文安",
+            "label": "文安县",
             isLeaf: true
           },
           {
             "value": "131028",
-            "label": "大厂回族自治",
+            "label": "大厂回族自治县",
             isLeaf: true
           },
           {
@@ -1139,52 +1139,52 @@ const cityAddressItems = [
         "children": [
           {
             "value": "131101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "131102",
-            "label": "桃城",
+            "label": "桃城区",
             isLeaf: true
           },
           {
             "value": "131121",
-            "label": "枣强",
+            "label": "枣强县",
             isLeaf: true
           },
           {
             "value": "131122",
-            "label": "武邑",
+            "label": "武邑县",
             isLeaf: true
           },
           {
             "value": "131123",
-            "label": "武强",
+            "label": "武强县",
             isLeaf: true
           },
           {
             "value": "131124",
-            "label": "饶阳",
+            "label": "饶阳县",
             isLeaf: true
           },
           {
             "value": "131125",
-            "label": "安平",
+            "label": "安平县",
             isLeaf: true
           },
           {
             "value": "131126",
-            "label": "故城",
+            "label": "故城县",
             isLeaf: true
           },
           {
             "value": "131127",
-            "label": "景",
+            "label": "景县",
             isLeaf: true
           },
           {
             "value": "131128",
-            "label": "阜城",
+            "label": "阜城县",
             isLeaf: true
           },
           {
@@ -1215,7 +1215,7 @@ const cityAddressItems = [
           },
         ],
         "value": "131200",
-        "label": "省直辖级行政划"
+        "label": "省直辖县级行政区划"
       }
     ],
     "value": "130000",
@@ -1227,52 +1227,52 @@ const cityAddressItems = [
         "children": [
           {
             "value": "140101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "140105",
-            "label": "小店",
+            "label": "小店区",
             isLeaf: true
           },
           {
             "value": "140106",
-            "label": "迎泽",
+            "label": "迎泽区",
             isLeaf: true
           },
           {
             "value": "140107",
-            "label": "杏花岭",
+            "label": "杏花岭区",
             isLeaf: true
           },
           {
             "value": "140108",
-            "label": "尖草坪",
+            "label": "尖草坪区",
             isLeaf: true
           },
           {
             "value": "140109",
-            "label": "万柏林",
+            "label": "万柏林区",
             isLeaf: true
           },
           {
             "value": "140110",
-            "label": "晋源",
+            "label": "晋源区",
             isLeaf: true
           },
           {
             "value": "140121",
-            "label": "清徐",
+            "label": "清徐县",
             isLeaf: true
           },
           {
             "value": "140122",
-            "label": "阳曲",
+            "label": "阳曲县",
             isLeaf: true
           },
           {
             "value": "140123",
-            "label": "娄烦",
+            "label": "娄烦县",
             isLeaf: true
           },
           {
@@ -1288,62 +1288,62 @@ const cityAddressItems = [
         "children": [
           {
             "value": "140201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "140202",
-            "label": "城",
+            "label": "城区",
             isLeaf: true
           },
           {
             "value": "140203",
-            "label": "矿",
+            "label": "矿区",
             isLeaf: true
           },
           {
             "value": "140211",
-            "label": "南郊",
+            "label": "南郊区",
             isLeaf: true
           },
           {
             "value": "140212",
-            "label": "新荣",
+            "label": "新荣区",
             isLeaf: true
           },
           {
             "value": "140221",
-            "label": "阳高",
+            "label": "阳高县",
             isLeaf: true
           },
           {
             "value": "140222",
-            "label": "天镇",
+            "label": "天镇县",
             isLeaf: true
           },
           {
             "value": "140223",
-            "label": "广灵",
+            "label": "广灵县",
             isLeaf: true
           },
           {
             "value": "140224",
-            "label": "灵丘",
+            "label": "灵丘县",
             isLeaf: true
           },
           {
             "value": "140225",
-            "label": "浑源",
+            "label": "浑源县",
             isLeaf: true
           },
           {
             "value": "140226",
-            "label": "左云",
+            "label": "左云县",
             isLeaf: true
           },
           {
             "value": "140227",
-            "label": "大同",
+            "label": "大同县",
             isLeaf: true
           }
         ],
@@ -1354,32 +1354,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "140301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "140302",
-            "label": "城",
+            "label": "城区",
             isLeaf: true
           },
           {
             "value": "140303",
-            "label": "矿",
+            "label": "矿区",
             isLeaf: true
           },
           {
             "value": "140311",
-            "label": "郊",
+            "label": "郊区",
             isLeaf: true
           },
           {
             "value": "140321",
-            "label": "平定",
+            "label": "平定县",
             isLeaf: true
           },
           {
             "value": "140322",
-            "label": "盂",
+            "label": "盂县",
             isLeaf: true
           }
         ],
@@ -1390,67 +1390,67 @@ const cityAddressItems = [
         "children": [
           {
             "value": "140401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "140402",
-            "label": "城",
+            "label": "城区",
             isLeaf: true
           },
           {
             "value": "140411",
-            "label": "郊",
+            "label": "郊区",
             isLeaf: true
           },
           {
             "value": "140421",
-            "label": "长治",
+            "label": "长治县",
             isLeaf: true
           },
           {
             "value": "140423",
-            "label": "襄垣",
+            "label": "襄垣县",
             isLeaf: true
           },
           {
             "value": "140424",
-            "label": "屯留",
+            "label": "屯留县",
             isLeaf: true
           },
           {
             "value": "140425",
-            "label": "平顺",
+            "label": "平顺县",
             isLeaf: true
           },
           {
             "value": "140426",
-            "label": "黎城",
+            "label": "黎城县",
             isLeaf: true
           },
           {
             "value": "140427",
-            "label": "壶关",
+            "label": "壶关县",
             isLeaf: true
           },
           {
             "value": "140428",
-            "label": "长子",
+            "label": "长子县",
             isLeaf: true
           },
           {
             "value": "140429",
-            "label": "武乡",
+            "label": "武乡县",
             isLeaf: true
           },
           {
             "value": "140430",
-            "label": "沁",
+            "label": "沁县",
             isLeaf: true
           },
           {
             "value": "140431",
-            "label": "沁源",
+            "label": "沁源县",
             isLeaf: true
           },
           {
@@ -1466,32 +1466,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "140501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "140502",
-            "label": "城",
+            "label": "城区",
             isLeaf: true
           },
           {
             "value": "140521",
-            "label": "沁水",
+            "label": "沁水县",
             isLeaf: true
           },
           {
             "value": "140522",
-            "label": "阳城",
+            "label": "阳城县",
             isLeaf: true
           },
           {
             "value": "140524",
-            "label": "陵川",
+            "label": "陵川县",
             isLeaf: true
           },
           {
             "value": "140525",
-            "label": "泽州",
+            "label": "泽州县",
             isLeaf: true
           },
           {
@@ -1507,37 +1507,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "140601",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "140602",
-            "label": "朔城",
+            "label": "朔城区",
             isLeaf: true
           },
           {
             "value": "140603",
-            "label": "平鲁",
+            "label": "平鲁区",
             isLeaf: true
           },
           {
             "value": "140621",
-            "label": "山阴",
+            "label": "山阴县",
             isLeaf: true
           },
           {
             "value": "140622",
-            "label": "应",
+            "label": "应县",
             isLeaf: true
           },
           {
             "value": "140623",
-            "label": "右玉",
+            "label": "右玉县",
             isLeaf: true
           },
           {
             "value": "140624",
-            "label": "怀仁",
+            "label": "怀仁县",
             isLeaf: true
           }
         ],
@@ -1548,57 +1548,57 @@ const cityAddressItems = [
         "children": [
           {
             "value": "140701",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "140702",
-            "label": "榆次",
+            "label": "榆次区",
             isLeaf: true
           },
           {
             "value": "140721",
-            "label": "榆社",
+            "label": "榆社县",
             isLeaf: true
           },
           {
             "value": "140722",
-            "label": "左权",
+            "label": "左权县",
             isLeaf: true
           },
           {
             "value": "140723",
-            "label": "和顺",
+            "label": "和顺县",
             isLeaf: true
           },
           {
             "value": "140724",
-            "label": "昔阳",
+            "label": "昔阳县",
             isLeaf: true
           },
           {
             "value": "140725",
-            "label": "寿阳",
+            "label": "寿阳县",
             isLeaf: true
           },
           {
             "value": "140726",
-            "label": "太谷",
+            "label": "太谷县",
             isLeaf: true
           },
           {
             "value": "140727",
-            "label": "祁",
+            "label": "祁县",
             isLeaf: true
           },
           {
             "value": "140728",
-            "label": "平遥",
+            "label": "平遥县",
             isLeaf: true
           },
           {
             "value": "140729",
-            "label": "灵石",
+            "label": "灵石县",
             isLeaf: true
           },
           {
@@ -1614,62 +1614,62 @@ const cityAddressItems = [
         "children": [
           {
             "value": "140801",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "140802",
-            "label": "盐湖",
+            "label": "盐湖区",
             isLeaf: true
           },
           {
             "value": "140821",
-            "label": "临猗",
+            "label": "临猗县",
             isLeaf: true
           },
           {
             "value": "140822",
-            "label": "万荣",
+            "label": "万荣县",
             isLeaf: true
           },
           {
             "value": "140823",
-            "label": "闻喜",
+            "label": "闻喜县",
             isLeaf: true
           },
           {
             "value": "140824",
-            "label": "稷山",
+            "label": "稷山县",
             isLeaf: true
           },
           {
             "value": "140825",
-            "label": "新绛",
+            "label": "新绛县",
             isLeaf: true
           },
           {
             "value": "140826",
-            "label": "绛",
+            "label": "绛县",
             isLeaf: true
           },
           {
             "value": "140827",
-            "label": "垣曲",
+            "label": "垣曲县",
             isLeaf: true
           },
           {
             "value": "140828",
-            "label": "夏",
+            "label": "夏县",
             isLeaf: true
           },
           {
             "value": "140829",
-            "label": "平陆",
+            "label": "平陆县",
             isLeaf: true
           },
           {
             "value": "140830",
-            "label": "芮城",
+            "label": "芮城县",
             isLeaf: true
           },
           {
@@ -1690,72 +1690,72 @@ const cityAddressItems = [
         "children": [
           {
             "value": "140901",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "140902",
-            "label": "忻府",
+            "label": "忻府区",
             isLeaf: true
           },
           {
             "value": "140921",
-            "label": "定襄",
+            "label": "定襄县",
             isLeaf: true
           },
           {
             "value": "140922",
-            "label": "五台",
+            "label": "五台县",
             isLeaf: true
           },
           {
             "value": "140923",
-            "label": "代",
+            "label": "代县",
             isLeaf: true
           },
           {
             "value": "140924",
-            "label": "繁峙",
+            "label": "繁峙县",
             isLeaf: true
           },
           {
             "value": "140925",
-            "label": "宁武",
+            "label": "宁武县",
             isLeaf: true
           },
           {
             "value": "140926",
-            "label": "静乐",
+            "label": "静乐县",
             isLeaf: true
           },
           {
             "value": "140927",
-            "label": "神池",
+            "label": "神池县",
             isLeaf: true
           },
           {
             "value": "140928",
-            "label": "五寨",
+            "label": "五寨县",
             isLeaf: true
           },
           {
             "value": "140929",
-            "label": "岢岚",
+            "label": "岢岚县",
             isLeaf: true
           },
           {
             "value": "140930",
-            "label": "河曲",
+            "label": "河曲县",
             isLeaf: true
           },
           {
             "value": "140931",
-            "label": "保德",
+            "label": "保德县",
             isLeaf: true
           },
           {
             "value": "140932",
-            "label": "偏关",
+            "label": "偏关县",
             isLeaf: true
           },
           {
@@ -1771,82 +1771,82 @@ const cityAddressItems = [
         "children": [
           {
             "value": "141001",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "141002",
-            "label": "尧都",
+            "label": "尧都区",
             isLeaf: true
           },
           {
             "value": "141021",
-            "label": "曲沃",
+            "label": "曲沃县",
             isLeaf: true
           },
           {
             "value": "141022",
-            "label": "翼城",
+            "label": "翼城县",
             isLeaf: true
           },
           {
             "value": "141023",
-            "label": "襄汾",
+            "label": "襄汾县",
             isLeaf: true
           },
           {
             "value": "141024",
-            "label": "洪洞",
+            "label": "洪洞县",
             isLeaf: true
           },
           {
             "value": "141025",
-            "label": "古",
+            "label": "古县",
             isLeaf: true
           },
           {
             "value": "141026",
-            "label": "安泽",
+            "label": "安泽县",
             isLeaf: true
           },
           {
             "value": "141027",
-            "label": "浮山",
+            "label": "浮山县",
             isLeaf: true
           },
           {
             "value": "141028",
-            "label": "吉",
+            "label": "吉县",
             isLeaf: true
           },
           {
             "value": "141029",
-            "label": "乡宁",
+            "label": "乡宁县",
             isLeaf: true
           },
           {
             "value": "141030",
-            "label": "大宁",
+            "label": "大宁县",
             isLeaf: true
           },
           {
             "value": "141031",
-            "label": "隰",
+            "label": "隰县",
             isLeaf: true
           },
           {
             "value": "141032",
-            "label": "永和",
+            "label": "永和县",
             isLeaf: true
           },
           {
             "value": "141033",
-            "label": "蒲",
+            "label": "蒲县",
             isLeaf: true
           },
           {
             "value": "141034",
-            "label": "汾西",
+            "label": "汾西县",
             isLeaf: true
           },
           {
@@ -1867,62 +1867,62 @@ const cityAddressItems = [
         "children": [
           {
             "value": "141101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "141102",
-            "label": "离石",
+            "label": "离石区",
             isLeaf: true
           },
           {
             "value": "141121",
-            "label": "文水",
+            "label": "文水县",
             isLeaf: true
           },
           {
             "value": "141122",
-            "label": "交城",
+            "label": "交城县",
             isLeaf: true
           },
           {
             "value": "141123",
-            "label": "兴",
+            "label": "兴县",
             isLeaf: true
           },
           {
             "value": "141124",
-            "label": "临",
+            "label": "临县",
             isLeaf: true
           },
           {
             "value": "141125",
-            "label": "柳林",
+            "label": "柳林县",
             isLeaf: true
           },
           {
             "value": "141126",
-            "label": "石楼",
+            "label": "石楼县",
             isLeaf: true
           },
           {
             "value": "141127",
-            "label": "岚",
+            "label": "岚县",
             isLeaf: true
           },
           {
             "value": "141128",
-            "label": "方山",
+            "label": "方山县",
             isLeaf: true
           },
           {
             "value": "141129",
-            "label": "中阳",
+            "label": "中阳县",
             isLeaf: true
           },
           {
             "value": "141130",
-            "label": "交口",
+            "label": "交口县",
             isLeaf: true
           },
           {
@@ -1949,27 +1949,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "150101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "150102",
-            "label": "新城",
+            "label": "新城区",
             isLeaf: true
           },
           {
             "value": "150103",
-            "label": "回民",
+            "label": "回民区",
             isLeaf: true
           },
           {
             "value": "150104",
-            "label": "玉泉",
+            "label": "玉泉区",
             isLeaf: true
           },
           {
             "value": "150105",
-            "label": "赛罕",
+            "label": "赛罕区",
             isLeaf: true
           },
           {
@@ -1979,22 +1979,22 @@ const cityAddressItems = [
           },
           {
             "value": "150122",
-            "label": "托克托",
+            "label": "托克托县",
             isLeaf: true
           },
           {
             "value": "150123",
-            "label": "和林格尔",
+            "label": "和林格尔县",
             isLeaf: true
           },
           {
             "value": "150124",
-            "label": "清水河",
+            "label": "清水河县",
             isLeaf: true
           },
           {
             "value": "150125",
-            "label": "武川",
+            "label": "武川县",
             isLeaf: true
           }
         ],
@@ -2005,37 +2005,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "150201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "150202",
-            "label": "东河",
+            "label": "东河区",
             isLeaf: true
           },
           {
             "value": "150203",
-            "label": "昆都仑",
+            "label": "昆都仑区",
             isLeaf: true
           },
           {
             "value": "150204",
-            "label": "青山",
+            "label": "青山区",
             isLeaf: true
           },
           {
             "value": "150205",
-            "label": "石拐",
+            "label": "石拐区",
             isLeaf: true
           },
           {
             "value": "150206",
-            "label": "白云矿",
+            "label": "白云矿区",
             isLeaf: true
           },
           {
             "value": "150207",
-            "label": "九原",
+            "label": "九原区",
             isLeaf: true
           },
           {
@@ -2045,7 +2045,7 @@ const cityAddressItems = [
           },
           {
             "value": "150222",
-            "label": "固阳",
+            "label": "固阳县",
             isLeaf: true
           },
           {
@@ -2055,7 +2055,7 @@ const cityAddressItems = [
           },
           {
             "value": "150206",
-            "label": "白云鄂博矿",
+            "label": "白云鄂博矿区",
             isLeaf: true
           }
         ],
@@ -2066,22 +2066,22 @@ const cityAddressItems = [
         "children": [
           {
             "value": "150301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "150302",
-            "label": "海勃湾",
+            "label": "海勃湾区",
             isLeaf: true
           },
           {
             "value": "150303",
-            "label": "海南",
+            "label": "海南区",
             isLeaf: true
           },
           {
             "value": "150304",
-            "label": "乌达",
+            "label": "乌达区",
             isLeaf: true
           }
         ],
@@ -2092,22 +2092,22 @@ const cityAddressItems = [
         "children": [
           {
             "value": "150401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "150402",
-            "label": "红山",
+            "label": "红山区",
             isLeaf: true
           },
           {
             "value": "150403",
-            "label": "元宝山",
+            "label": "元宝山区",
             isLeaf: true
           },
           {
             "value": "150404",
-            "label": "松山",
+            "label": "松山区",
             isLeaf: true
           },
           {
@@ -2127,7 +2127,7 @@ const cityAddressItems = [
           },
           {
             "value": "150424",
-            "label": "林西",
+            "label": "林西县",
             isLeaf: true
           },
           {
@@ -2147,7 +2147,7 @@ const cityAddressItems = [
           },
           {
             "value": "150429",
-            "label": "宁城",
+            "label": "宁城县",
             isLeaf: true
           },
           {
@@ -2163,12 +2163,12 @@ const cityAddressItems = [
         "children": [
           {
             "value": "150501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "150502",
-            "label": "科尔沁",
+            "label": "科尔沁区",
             isLeaf: true
           },
           {
@@ -2183,7 +2183,7 @@ const cityAddressItems = [
           },
           {
             "value": "150523",
-            "label": "开鲁",
+            "label": "开鲁县",
             isLeaf: true
           },
           {
@@ -2214,7 +2214,7 @@ const cityAddressItems = [
         "children": [
           {
             "value": "150602",
-            "label": "东胜",
+            "label": "东胜区",
             isLeaf: true
           },
           {
@@ -2254,7 +2254,7 @@ const cityAddressItems = [
           },
           {
             "value": "150603",
-            "label": "康巴什",
+            "label": "康巴什区",
             isLeaf: true
           }
         ],
@@ -2265,12 +2265,12 @@ const cityAddressItems = [
         "children": [
           {
             "value": "150701",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "150702",
-            "label": "海拉尔",
+            "label": "海拉尔区",
             isLeaf: true
           },
           {
@@ -2335,7 +2335,7 @@ const cityAddressItems = [
           },
           {
             "value": "150703",
-            "label": "扎赉诺尔",
+            "label": "扎赉诺尔区",
             isLeaf: true
           }
         ],
@@ -2346,22 +2346,22 @@ const cityAddressItems = [
         "children": [
           {
             "value": "150801",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "150802",
-            "label": "临河",
+            "label": "临河区",
             isLeaf: true
           },
           {
             "value": "150821",
-            "label": "五原",
+            "label": "五原县",
             isLeaf: true
           },
           {
             "value": "150822",
-            "label": "磴口",
+            "label": "磴口县",
             isLeaf: true
           },
           {
@@ -2392,37 +2392,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "150901",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "150902",
-            "label": "集宁",
+            "label": "集宁区",
             isLeaf: true
           },
           {
             "value": "150921",
-            "label": "卓资",
+            "label": "卓资县",
             isLeaf: true
           },
           {
             "value": "150922",
-            "label": "化德",
+            "label": "化德县",
             isLeaf: true
           },
           {
             "value": "150923",
-            "label": "商都",
+            "label": "商都县",
             isLeaf: true
           },
           {
             "value": "150924",
-            "label": "兴和",
+            "label": "兴和县",
             isLeaf: true
           },
           {
             "value": "150925",
-            "label": "凉城",
+            "label": "凉城县",
             isLeaf: true
           },
           {
@@ -2483,7 +2483,7 @@ const cityAddressItems = [
           },
           {
             "value": "152224",
-            "label": "突泉",
+            "label": "突泉县",
             isLeaf: true
           }
         ],
@@ -2549,7 +2549,7 @@ const cityAddressItems = [
           },
           {
             "value": "152531",
-            "label": "多伦",
+            "label": "多伦县",
             isLeaf: true
           }
         ],
@@ -2579,7 +2579,7 @@ const cityAddressItems = [
       }
     ],
     "value": "150000",
-    "label": "内蒙古自治"
+    "label": "内蒙古自治区"
   },
   {
     "children": [
@@ -2587,67 +2587,67 @@ const cityAddressItems = [
         "children": [
           {
             "value": "210101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "210102",
-            "label": "和平",
+            "label": "和平区",
             isLeaf: true
           },
           {
             "value": "210103",
-            "label": "沈河",
+            "label": "沈河区",
             isLeaf: true
           },
           {
             "value": "210104",
-            "label": "大东",
+            "label": "大东区",
             isLeaf: true
           },
           {
             "value": "210105",
-            "label": "皇姑",
+            "label": "皇姑区",
             isLeaf: true
           },
           {
             "value": "210106",
-            "label": "铁西",
+            "label": "铁西区",
             isLeaf: true
           },
           {
             "value": "210111",
-            "label": "苏家屯",
+            "label": "苏家屯区",
             isLeaf: true
           },
           {
             "value": "210112",
-            "label": "东陵",
+            "label": "东陵区",
             isLeaf: true
           },
           {
             "value": "210113",
-            "label": "新城子",
+            "label": "新城子区",
             isLeaf: true
           },
           {
             "value": "210114",
-            "label": "于洪",
+            "label": "于洪区",
             isLeaf: true
           },
           {
             "value": "210122",
-            "label": "辽中",
+            "label": "辽中县",
             isLeaf: true
           },
           {
             "value": "210123",
-            "label": "康平",
+            "label": "康平县",
             isLeaf: true
           },
           {
             "value": "210124",
-            "label": "法库",
+            "label": "法库县",
             isLeaf: true
           },
           {
@@ -2657,12 +2657,12 @@ const cityAddressItems = [
           },
           {
             "value": "210112",
-            "label": "浑南",
+            "label": "浑南区",
             isLeaf: true
           },
           {
             "value": "210113",
-            "label": "沈北新",
+            "label": "沈北新区",
             isLeaf: true
           }
         ],
@@ -2673,42 +2673,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "210201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "210202",
-            "label": "中山",
+            "label": "中山区",
             isLeaf: true
           },
           {
             "value": "210203",
-            "label": "西岗",
+            "label": "西岗区",
             isLeaf: true
           },
           {
             "value": "210204",
-            "label": "沙河口",
+            "label": "沙河口区",
             isLeaf: true
           },
           {
             "value": "210211",
-            "label": "甘井子",
+            "label": "甘井子区",
             isLeaf: true
           },
           {
             "value": "210212",
-            "label": "旅顺口",
+            "label": "旅顺口区",
             isLeaf: true
           },
           {
             "value": "210213",
-            "label": "金州",
+            "label": "金州区",
             isLeaf: true
           },
           {
             "value": "210224",
-            "label": "长海",
+            "label": "长海县",
             isLeaf: true
           },
           {
@@ -2734,37 +2734,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "210301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "210302",
-            "label": "铁东",
+            "label": "铁东区",
             isLeaf: true
           },
           {
             "value": "210303",
-            "label": "铁西",
+            "label": "铁西区",
             isLeaf: true
           },
           {
             "value": "210304",
-            "label": "立山",
+            "label": "立山区",
             isLeaf: true
           },
           {
             "value": "210311",
-            "label": "千山",
+            "label": "千山区",
             isLeaf: true
           },
           {
             "value": "210321",
-            "label": "台安",
+            "label": "台安县",
             isLeaf: true
           },
           {
             "value": "210323",
-            "label": "岫岩满族自治",
+            "label": "岫岩满族自治县",
             isLeaf: true
           },
           {
@@ -2780,42 +2780,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "210401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "210402",
-            "label": "新抚",
+            "label": "新抚区",
             isLeaf: true
           },
           {
             "value": "210403",
-            "label": "东洲",
+            "label": "东洲区",
             isLeaf: true
           },
           {
             "value": "210404",
-            "label": "望花",
+            "label": "望花区",
             isLeaf: true
           },
           {
             "value": "210411",
-            "label": "顺城",
+            "label": "顺城区",
             isLeaf: true
           },
           {
             "value": "210421",
-            "label": "抚顺",
+            "label": "抚顺县",
             isLeaf: true
           },
           {
             "value": "210422",
-            "label": "新宾满族自治",
+            "label": "新宾满族自治县",
             isLeaf: true
           },
           {
             "value": "210423",
-            "label": "清原满族自治",
+            "label": "清原满族自治县",
             isLeaf: true
           }
         ],
@@ -2826,37 +2826,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "210501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "210502",
-            "label": "平山",
+            "label": "平山区",
             isLeaf: true
           },
           {
             "value": "210503",
-            "label": "溪湖",
+            "label": "溪湖区",
             isLeaf: true
           },
           {
             "value": "210504",
-            "label": "明山",
+            "label": "明山区",
             isLeaf: true
           },
           {
             "value": "210505",
-            "label": "南芬",
+            "label": "南芬区",
             isLeaf: true
           },
           {
             "value": "210521",
-            "label": "本溪满族自治",
+            "label": "本溪满族自治县",
             isLeaf: true
           },
           {
             "value": "210522",
-            "label": "桓仁满族自治",
+            "label": "桓仁满族自治县",
             isLeaf: true
           }
         ],
@@ -2867,27 +2867,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "210601",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "210602",
-            "label": "元宝",
+            "label": "元宝区",
             isLeaf: true
           },
           {
             "value": "210603",
-            "label": "振兴",
+            "label": "振兴区",
             isLeaf: true
           },
           {
             "value": "210604",
-            "label": "振安",
+            "label": "振安区",
             isLeaf: true
           },
           {
             "value": "210624",
-            "label": "宽甸满族自治",
+            "label": "宽甸满族自治县",
             isLeaf: true
           },
           {
@@ -2908,32 +2908,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "210701",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "210702",
-            "label": "古塔",
+            "label": "古塔区",
             isLeaf: true
           },
           {
             "value": "210703",
-            "label": "凌河",
+            "label": "凌河区",
             isLeaf: true
           },
           {
             "value": "210711",
-            "label": "太和",
+            "label": "太和区",
             isLeaf: true
           },
           {
             "value": "210726",
-            "label": "黑山",
+            "label": "黑山县",
             isLeaf: true
           },
           {
             "value": "210727",
-            "label": "义",
+            "label": "义县",
             isLeaf: true
           },
           {
@@ -2959,27 +2959,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "210801",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "210802",
-            "label": "站前",
+            "label": "站前区",
             isLeaf: true
           },
           {
             "value": "210803",
-            "label": "西市",
+            "label": "西市区",
             isLeaf: true
           },
           {
             "value": "210804",
-            "label": "鲅鱼圈",
+            "label": "鲅鱼圈区",
             isLeaf: true
           },
           {
             "value": "210811",
-            "label": "老边",
+            "label": "老边区",
             isLeaf: true
           },
           {
@@ -3000,42 +3000,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "210901",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "210902",
-            "label": "海州",
+            "label": "海州区",
             isLeaf: true
           },
           {
             "value": "210903",
-            "label": "新邱",
+            "label": "新邱区",
             isLeaf: true
           },
           {
             "value": "210904",
-            "label": "太平",
+            "label": "太平区",
             isLeaf: true
           },
           {
             "value": "210905",
-            "label": "清河门",
+            "label": "清河门区",
             isLeaf: true
           },
           {
             "value": "210911",
-            "label": "细河",
+            "label": "细河区",
             isLeaf: true
           },
           {
             "value": "210921",
-            "label": "阜新蒙古族自治",
+            "label": "阜新蒙古族自治县",
             isLeaf: true
           },
           {
             "value": "210922",
-            "label": "彰武",
+            "label": "彰武县",
             isLeaf: true
           }
         ],
@@ -3046,37 +3046,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "211001",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "211002",
-            "label": "白塔",
+            "label": "白塔区",
             isLeaf: true
           },
           {
             "value": "211003",
-            "label": "文圣",
+            "label": "文圣区",
             isLeaf: true
           },
           {
             "value": "211004",
-            "label": "宏伟",
+            "label": "宏伟区",
             isLeaf: true
           },
           {
             "value": "211005",
-            "label": "弓长岭",
+            "label": "弓长岭区",
             isLeaf: true
           },
           {
             "value": "211011",
-            "label": "太子河",
+            "label": "太子河区",
             isLeaf: true
           },
           {
             "value": "211021",
-            "label": "辽阳",
+            "label": "辽阳县",
             isLeaf: true
           },
           {
@@ -3092,27 +3092,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "211101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "211102",
-            "label": "双台子",
+            "label": "双台子区",
             isLeaf: true
           },
           {
             "value": "211103",
-            "label": "兴隆台",
+            "label": "兴隆台区",
             isLeaf: true
           },
           {
             "value": "211121",
-            "label": "大洼",
+            "label": "大洼县",
             isLeaf: true
           },
           {
             "value": "211122",
-            "label": "盘山",
+            "label": "盘山县",
             isLeaf: true
           }
         ],
@@ -3123,32 +3123,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "211201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "211202",
-            "label": "银州",
+            "label": "银州区",
             isLeaf: true
           },
           {
             "value": "211204",
-            "label": "清河",
+            "label": "清河区",
             isLeaf: true
           },
           {
             "value": "211221",
-            "label": "铁岭",
+            "label": "铁岭县",
             isLeaf: true
           },
           {
             "value": "211223",
-            "label": "西丰",
+            "label": "西丰县",
             isLeaf: true
           },
           {
             "value": "211224",
-            "label": "昌图",
+            "label": "昌图县",
             isLeaf: true
           },
           {
@@ -3169,32 +3169,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "211301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "211302",
-            "label": "双塔",
+            "label": "双塔区",
             isLeaf: true
           },
           {
             "value": "211303",
-            "label": "龙城",
+            "label": "龙城区",
             isLeaf: true
           },
           {
             "value": "211321",
-            "label": "朝阳",
+            "label": "朝阳县",
             isLeaf: true
           },
           {
             "value": "211322",
-            "label": "建平",
+            "label": "建平县",
             isLeaf: true
           },
           {
             "value": "211324",
-            "label": "喀喇沁左翼蒙古族自治",
+            "label": "喀喇沁左翼蒙古族自治县",
             isLeaf: true
           },
           {
@@ -3215,32 +3215,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "211401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "211402",
-            "label": "连山",
+            "label": "连山区",
             isLeaf: true
           },
           {
             "value": "211403",
-            "label": "龙港",
+            "label": "龙港区",
             isLeaf: true
           },
           {
             "value": "211404",
-            "label": "南票",
+            "label": "南票区",
             isLeaf: true
           },
           {
             "value": "211421",
-            "label": "绥中",
+            "label": "绥中县",
             isLeaf: true
           },
           {
             "value": "211422",
-            "label": "建昌",
+            "label": "建昌县",
             isLeaf: true
           },
           {
@@ -3262,42 +3262,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "220101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "220102",
-            "label": "南关",
+            "label": "南关区",
             isLeaf: true
           },
           {
             "value": "220103",
-            "label": "宽城",
+            "label": "宽城区",
             isLeaf: true
           },
           {
             "value": "220104",
-            "label": "朝阳",
+            "label": "朝阳区",
             isLeaf: true
           },
           {
             "value": "220105",
-            "label": "二道",
+            "label": "二道区",
             isLeaf: true
           },
           {
             "value": "220106",
-            "label": "绿园",
+            "label": "绿园区",
             isLeaf: true
           },
           {
             "value": "220112",
-            "label": "双阳",
+            "label": "双阳区",
             isLeaf: true
           },
           {
             "value": "220122",
-            "label": "农安",
+            "label": "农安县",
             isLeaf: true
           },
           {
@@ -3323,32 +3323,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "220201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "220202",
-            "label": "昌邑",
+            "label": "昌邑区",
             isLeaf: true
           },
           {
             "value": "220203",
-            "label": "龙潭",
+            "label": "龙潭区",
             isLeaf: true
           },
           {
             "value": "220204",
-            "label": "船营",
+            "label": "船营区",
             isLeaf: true
           },
           {
             "value": "220211",
-            "label": "丰满",
+            "label": "丰满区",
             isLeaf: true
           },
           {
             "value": "220221",
-            "label": "永吉",
+            "label": "永吉县",
             isLeaf: true
           },
           {
@@ -3379,27 +3379,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "220301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "220302",
-            "label": "铁西",
+            "label": "铁西区",
             isLeaf: true
           },
           {
             "value": "220303",
-            "label": "铁东",
+            "label": "铁东区",
             isLeaf: true
           },
           {
             "value": "220322",
-            "label": "梨树",
+            "label": "梨树县",
             isLeaf: true
           },
           {
             "value": "220323",
-            "label": "伊通满族自治",
+            "label": "伊通满族自治县",
             isLeaf: true
           },
           {
@@ -3420,27 +3420,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "220401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "220402",
-            "label": "龙山",
+            "label": "龙山区",
             isLeaf: true
           },
           {
             "value": "220403",
-            "label": "西安",
+            "label": "西安区",
             isLeaf: true
           },
           {
             "value": "220421",
-            "label": "东丰",
+            "label": "东丰县",
             isLeaf: true
           },
           {
             "value": "220422",
-            "label": "东辽",
+            "label": "东辽县",
             isLeaf: true
           }
         ],
@@ -3451,32 +3451,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "220501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "220502",
-            "label": "东昌",
+            "label": "东昌区",
             isLeaf: true
           },
           {
             "value": "220503",
-            "label": "二道江",
+            "label": "二道江区",
             isLeaf: true
           },
           {
             "value": "220521",
-            "label": "通化",
+            "label": "通化县",
             isLeaf: true
           },
           {
             "value": "220523",
-            "label": "辉南",
+            "label": "辉南县",
             isLeaf: true
           },
           {
             "value": "220524",
-            "label": "柳河",
+            "label": "柳河县",
             isLeaf: true
           },
           {
@@ -3497,32 +3497,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "220601",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "220602",
-            "label": "八道江",
+            "label": "八道江区",
             isLeaf: true
           },
           {
             "value": "220621",
-            "label": "抚松",
+            "label": "抚松县",
             isLeaf: true
           },
           {
             "value": "220622",
-            "label": "靖宇",
+            "label": "靖宇县",
             isLeaf: true
           },
           {
             "value": "220623",
-            "label": "长白朝鲜族自治",
+            "label": "长白朝鲜族自治县",
             isLeaf: true
           },
           {
             "value": "220625",
-            "label": "江源",
+            "label": "江源县",
             isLeaf: true
           },
           {
@@ -3532,7 +3532,7 @@ const cityAddressItems = [
           },
           {
             "value": "220602",
-            "label": "浑江",
+            "label": "浑江区",
             isLeaf: true
           }
         ],
@@ -3543,32 +3543,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "220701",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "220702",
-            "label": "宁江",
+            "label": "宁江区",
             isLeaf: true
           },
           {
             "value": "220721",
-            "label": "前郭尔罗斯蒙古族自治",
+            "label": "前郭尔罗斯蒙古族自治县",
             isLeaf: true
           },
           {
             "value": "220722",
-            "label": "长岭",
+            "label": "长岭县",
             isLeaf: true
           },
           {
             "value": "220723",
-            "label": "乾安",
+            "label": "乾安县",
             isLeaf: true
           },
           {
             "value": "220724",
-            "label": "扶余",
+            "label": "扶余县",
             isLeaf: true
           }
         ],
@@ -3579,22 +3579,22 @@ const cityAddressItems = [
         "children": [
           {
             "value": "220801",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "220802",
-            "label": "洮北",
+            "label": "洮北区",
             isLeaf: true
           },
           {
             "value": "220821",
-            "label": "镇赉",
+            "label": "镇赉县",
             isLeaf: true
           },
           {
             "value": "220822",
-            "label": "通榆",
+            "label": "通榆县",
             isLeaf: true
           },
           {
@@ -3645,12 +3645,12 @@ const cityAddressItems = [
           },
           {
             "value": "222424",
-            "label": "汪清",
+            "label": "汪清县",
             isLeaf: true
           },
           {
             "value": "222426",
-            "label": "安图",
+            "label": "安图县",
             isLeaf: true
           }
         ],
@@ -3667,82 +3667,82 @@ const cityAddressItems = [
         "children": [
           {
             "value": "230101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "230102",
-            "label": "道里",
+            "label": "道里区",
             isLeaf: true
           },
           {
             "value": "230103",
-            "label": "南岗",
+            "label": "南岗区",
             isLeaf: true
           },
           {
             "value": "230104",
-            "label": "道外",
+            "label": "道外区",
             isLeaf: true
           },
           {
             "value": "230106",
-            "label": "香坊",
+            "label": "香坊区",
             isLeaf: true
           },
           {
             "value": "230107",
-            "label": "动力",
+            "label": "动力区",
             isLeaf: true
           },
           {
             "value": "230108",
-            "label": "平房",
+            "label": "平房区",
             isLeaf: true
           },
           {
             "value": "230109",
-            "label": "松北",
+            "label": "松北区",
             isLeaf: true
           },
           {
             "value": "230111",
-            "label": "呼兰",
+            "label": "呼兰区",
             isLeaf: true
           },
           {
             "value": "230123",
-            "label": "依兰",
+            "label": "依兰县",
             isLeaf: true
           },
           {
             "value": "230124",
-            "label": "方正",
+            "label": "方正县",
             isLeaf: true
           },
           {
             "value": "230125",
-            "label": "宾",
+            "label": "宾县",
             isLeaf: true
           },
           {
             "value": "230126",
-            "label": "巴彦",
+            "label": "巴彦县",
             isLeaf: true
           },
           {
             "value": "230127",
-            "label": "木兰",
+            "label": "木兰县",
             isLeaf: true
           },
           {
             "value": "230128",
-            "label": "通河",
+            "label": "通河县",
             isLeaf: true
           },
           {
             "value": "230129",
-            "label": "延寿",
+            "label": "延寿县",
             isLeaf: true
           },
           {
@@ -3773,82 +3773,82 @@ const cityAddressItems = [
         "children": [
           {
             "value": "230201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "230202",
-            "label": "龙沙",
+            "label": "龙沙区",
             isLeaf: true
           },
           {
             "value": "230203",
-            "label": "建华",
+            "label": "建华区",
             isLeaf: true
           },
           {
             "value": "230204",
-            "label": "铁锋",
+            "label": "铁锋区",
             isLeaf: true
           },
           {
             "value": "230205",
-            "label": "昂昂溪",
+            "label": "昂昂溪区",
             isLeaf: true
           },
           {
             "value": "230206",
-            "label": "富拉尔基",
+            "label": "富拉尔基区",
             isLeaf: true
           },
           {
             "value": "230207",
-            "label": "碾子山",
+            "label": "碾子山区",
             isLeaf: true
           },
           {
             "value": "230208",
-            "label": "梅里斯达斡尔族",
+            "label": "梅里斯达斡尔族区",
             isLeaf: true
           },
           {
             "value": "230221",
-            "label": "龙江",
+            "label": "龙江县",
             isLeaf: true
           },
           {
             "value": "230223",
-            "label": "依安",
+            "label": "依安县",
             isLeaf: true
           },
           {
             "value": "230224",
-            "label": "泰来",
+            "label": "泰来县",
             isLeaf: true
           },
           {
             "value": "230225",
-            "label": "甘南",
+            "label": "甘南县",
             isLeaf: true
           },
           {
             "value": "230227",
-            "label": "富裕",
+            "label": "富裕县",
             isLeaf: true
           },
           {
             "value": "230229",
-            "label": "克山",
+            "label": "克山县",
             isLeaf: true
           },
           {
             "value": "230230",
-            "label": "克东",
+            "label": "克东县",
             isLeaf: true
           },
           {
             "value": "230231",
-            "label": "拜泉",
+            "label": "拜泉县",
             isLeaf: true
           },
           {
@@ -3864,42 +3864,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "230301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "230302",
-            "label": "鸡冠",
+            "label": "鸡冠区",
             isLeaf: true
           },
           {
             "value": "230303",
-            "label": "恒山",
+            "label": "恒山区",
             isLeaf: true
           },
           {
             "value": "230304",
-            "label": "滴道",
+            "label": "滴道区",
             isLeaf: true
           },
           {
             "value": "230305",
-            "label": "梨树",
+            "label": "梨树区",
             isLeaf: true
           },
           {
             "value": "230306",
-            "label": "城子河",
+            "label": "城子河区",
             isLeaf: true
           },
           {
             "value": "230307",
-            "label": "麻山",
+            "label": "麻山区",
             isLeaf: true
           },
           {
             "value": "230321",
-            "label": "鸡东",
+            "label": "鸡东县",
             isLeaf: true
           },
           {
@@ -3920,47 +3920,47 @@ const cityAddressItems = [
         "children": [
           {
             "value": "230401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "230402",
-            "label": "向阳",
+            "label": "向阳区",
             isLeaf: true
           },
           {
             "value": "230403",
-            "label": "工农",
+            "label": "工农区",
             isLeaf: true
           },
           {
             "value": "230404",
-            "label": "南山",
+            "label": "南山区",
             isLeaf: true
           },
           {
             "value": "230405",
-            "label": "兴安",
+            "label": "兴安区",
             isLeaf: true
           },
           {
             "value": "230406",
-            "label": "东山",
+            "label": "东山区",
             isLeaf: true
           },
           {
             "value": "230407",
-            "label": "兴山",
+            "label": "兴山区",
             isLeaf: true
           },
           {
             "value": "230421",
-            "label": "萝北",
+            "label": "萝北县",
             isLeaf: true
           },
           {
             "value": "230422",
-            "label": "绥滨",
+            "label": "绥滨县",
             isLeaf: true
           }
         ],
@@ -3971,47 +3971,47 @@ const cityAddressItems = [
         "children": [
           {
             "value": "230501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "230502",
-            "label": "尖山",
+            "label": "尖山区",
             isLeaf: true
           },
           {
             "value": "230503",
-            "label": "岭东",
+            "label": "岭东区",
             isLeaf: true
           },
           {
             "value": "230505",
-            "label": "四方台",
+            "label": "四方台区",
             isLeaf: true
           },
           {
             "value": "230506",
-            "label": "宝山",
+            "label": "宝山区",
             isLeaf: true
           },
           {
             "value": "230521",
-            "label": "集贤",
+            "label": "集贤县",
             isLeaf: true
           },
           {
             "value": "230522",
-            "label": "友谊",
+            "label": "友谊县",
             isLeaf: true
           },
           {
             "value": "230523",
-            "label": "宝清",
+            "label": "宝清县",
             isLeaf: true
           },
           {
             "value": "230524",
-            "label": "饶河",
+            "label": "饶河县",
             isLeaf: true
           }
         ],
@@ -4022,52 +4022,52 @@ const cityAddressItems = [
         "children": [
           {
             "value": "230601",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "230602",
-            "label": "萨尔图",
+            "label": "萨尔图区",
             isLeaf: true
           },
           {
             "value": "230603",
-            "label": "龙凤",
+            "label": "龙凤区",
             isLeaf: true
           },
           {
             "value": "230604",
-            "label": "让胡路",
+            "label": "让胡路区",
             isLeaf: true
           },
           {
             "value": "230605",
-            "label": "红岗",
+            "label": "红岗区",
             isLeaf: true
           },
           {
             "value": "230606",
-            "label": "大同",
+            "label": "大同区",
             isLeaf: true
           },
           {
             "value": "230621",
-            "label": "肇州",
+            "label": "肇州县",
             isLeaf: true
           },
           {
             "value": "230622",
-            "label": "肇源",
+            "label": "肇源县",
             isLeaf: true
           },
           {
             "value": "230623",
-            "label": "林甸",
+            "label": "林甸县",
             isLeaf: true
           },
           {
             "value": "230624",
-            "label": "杜尔伯特蒙古族自治",
+            "label": "杜尔伯特蒙古族自治县",
             isLeaf: true
           }
         ],
@@ -4078,87 +4078,87 @@ const cityAddressItems = [
         "children": [
           {
             "value": "230701",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "230702",
-            "label": "伊春",
+            "label": "伊春区",
             isLeaf: true
           },
           {
             "value": "230703",
-            "label": "南岔",
+            "label": "南岔区",
             isLeaf: true
           },
           {
             "value": "230704",
-            "label": "友好",
+            "label": "友好区",
             isLeaf: true
           },
           {
             "value": "230705",
-            "label": "西林",
+            "label": "西林区",
             isLeaf: true
           },
           {
             "value": "230706",
-            "label": "翠峦",
+            "label": "翠峦区",
             isLeaf: true
           },
           {
             "value": "230707",
-            "label": "新青",
+            "label": "新青区",
             isLeaf: true
           },
           {
             "value": "230708",
-            "label": "美溪",
+            "label": "美溪区",
             isLeaf: true
           },
           {
             "value": "230709",
-            "label": "金山屯",
+            "label": "金山屯区",
             isLeaf: true
           },
           {
             "value": "230710",
-            "label": "五营",
+            "label": "五营区",
             isLeaf: true
           },
           {
             "value": "230711",
-            "label": "乌马河",
+            "label": "乌马河区",
             isLeaf: true
           },
           {
             "value": "230712",
-            "label": "汤旺河",
+            "label": "汤旺河区",
             isLeaf: true
           },
           {
             "value": "230713",
-            "label": "带岭",
+            "label": "带岭区",
             isLeaf: true
           },
           {
             "value": "230714",
-            "label": "乌伊岭",
+            "label": "乌伊岭区",
             isLeaf: true
           },
           {
             "value": "230715",
-            "label": "红星",
+            "label": "红星区",
             isLeaf: true
           },
           {
             "value": "230716",
-            "label": "上甘岭",
+            "label": "上甘岭区",
             isLeaf: true
           },
           {
             "value": "230722",
-            "label": "嘉荫",
+            "label": "嘉荫县",
             isLeaf: true
           },
           {
@@ -4174,52 +4174,52 @@ const cityAddressItems = [
         "children": [
           {
             "value": "230801",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "230802",
-            "label": "永红",
+            "label": "永红区",
             isLeaf: true
           },
           {
             "value": "230803",
-            "label": "向阳",
+            "label": "向阳区",
             isLeaf: true
           },
           {
             "value": "230804",
-            "label": "前进",
+            "label": "前进区",
             isLeaf: true
           },
           {
             "value": "230805",
-            "label": "东风",
+            "label": "东风区",
             isLeaf: true
           },
           {
             "value": "230811",
-            "label": "郊",
+            "label": "郊区",
             isLeaf: true
           },
           {
             "value": "230822",
-            "label": "桦南",
+            "label": "桦南县",
             isLeaf: true
           },
           {
             "value": "230826",
-            "label": "桦川",
+            "label": "桦川县",
             isLeaf: true
           },
           {
             "value": "230828",
-            "label": "汤原",
+            "label": "汤原县",
             isLeaf: true
           },
           {
             "value": "230833",
-            "label": "抚远",
+            "label": "抚远县",
             isLeaf: true
           },
           {
@@ -4240,27 +4240,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "230901",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "230902",
-            "label": "新兴",
+            "label": "新兴区",
             isLeaf: true
           },
           {
             "value": "230903",
-            "label": "桃山",
+            "label": "桃山区",
             isLeaf: true
           },
           {
             "value": "230904",
-            "label": "茄子河",
+            "label": "茄子河区",
             isLeaf: true
           },
           {
             "value": "230921",
-            "label": "勃利",
+            "label": "勃利县",
             isLeaf: true
           }
         ],
@@ -4271,37 +4271,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "231001",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "231002",
-            "label": "东安",
+            "label": "东安区",
             isLeaf: true
           },
           {
             "value": "231003",
-            "label": "阳明",
+            "label": "阳明区",
             isLeaf: true
           },
           {
             "value": "231004",
-            "label": "爱民",
+            "label": "爱民区",
             isLeaf: true
           },
           {
             "value": "231005",
-            "label": "西安",
+            "label": "西安区",
             isLeaf: true
           },
           {
             "value": "231024",
-            "label": "东宁",
+            "label": "东宁县",
             isLeaf: true
           },
           {
             "value": "231025",
-            "label": "林口",
+            "label": "林口县",
             isLeaf: true
           },
           {
@@ -4332,27 +4332,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "231101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "231102",
-            "label": "爱辉",
+            "label": "爱辉区",
             isLeaf: true
           },
           {
             "value": "231121",
-            "label": "嫩江",
+            "label": "嫩江县",
             isLeaf: true
           },
           {
             "value": "231123",
-            "label": "逊克",
+            "label": "逊克县",
             isLeaf: true
           },
           {
             "value": "231124",
-            "label": "孙吴",
+            "label": "孙吴县",
             isLeaf: true
           },
           {
@@ -4373,42 +4373,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "231201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "231202",
-            "label": "北林",
+            "label": "北林区",
             isLeaf: true
           },
           {
             "value": "231221",
-            "label": "望奎",
+            "label": "望奎县",
             isLeaf: true
           },
           {
             "value": "231222",
-            "label": "兰西",
+            "label": "兰西县",
             isLeaf: true
           },
           {
             "value": "231223",
-            "label": "青冈",
+            "label": "青冈县",
             isLeaf: true
           },
           {
             "value": "231224",
-            "label": "庆安",
+            "label": "庆安县",
             isLeaf: true
           },
           {
             "value": "231225",
-            "label": "明水",
+            "label": "明水县",
             isLeaf: true
           },
           {
             "value": "231226",
-            "label": "绥棱",
+            "label": "绥棱县",
             isLeaf: true
           },
           {
@@ -4434,27 +4434,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "232721",
-            "label": "呼玛",
+            "label": "呼玛县",
             isLeaf: true
           },
           {
             "value": "232722",
-            "label": "塔河",
+            "label": "塔河县",
             isLeaf: true
           },
           {
             "value": "232723",
-            "label": "漠河",
+            "label": "漠河县",
             isLeaf: true
           },
           {
             "value": "232702",
-            "label": "松岭",
+            "label": "松岭区",
             isLeaf: true
           }
         ],
         "value": "232700",
-        "label": "大兴安岭地"
+        "label": "大兴安岭地区"
       }
     ],
     "value": "230000",
@@ -4466,92 +4466,92 @@ const cityAddressItems = [
         "children": [
           {
             "value": "310101",
-            "label": "黄浦",
+            "label": "黄浦区",
             isLeaf: true
           },
           {
             "value": "310103",
-            "label": "卢湾",
+            "label": "卢湾区",
             isLeaf: true
           },
           {
             "value": "310104",
-            "label": "徐汇",
+            "label": "徐汇区",
             isLeaf: true
           },
           {
             "value": "310105",
-            "label": "长宁",
+            "label": "长宁区",
             isLeaf: true
           },
           {
             "value": "310106",
-            "label": "静安",
+            "label": "静安区",
             isLeaf: true
           },
           {
             "value": "310107",
-            "label": "普陀",
+            "label": "普陀区",
             isLeaf: true
           },
           {
             "value": "310108",
-            "label": "闸北",
+            "label": "闸北区",
             isLeaf: true
           },
           {
             "value": "310109",
-            "label": "虹口",
+            "label": "虹口区",
             isLeaf: true
           },
           {
             "value": "310110",
-            "label": "杨浦",
+            "label": "杨浦区",
             isLeaf: true
           },
           {
             "value": "310112",
-            "label": "闵行",
+            "label": "闵行区",
             isLeaf: true
           },
           {
             "value": "310113",
-            "label": "宝山",
+            "label": "宝山区",
             isLeaf: true
           },
           {
             "value": "310114",
-            "label": "嘉定",
+            "label": "嘉定区",
             isLeaf: true
           },
           {
             "value": "310115",
-            "label": "浦东新",
+            "label": "浦东新区",
             isLeaf: true
           },
           {
             "value": "310116",
-            "label": "金山",
+            "label": "金山区",
             isLeaf: true
           },
           {
             "value": "310117",
-            "label": "松江",
+            "label": "松江区",
             isLeaf: true
           },
           {
             "value": "310118",
-            "label": "青浦",
+            "label": "青浦区",
             isLeaf: true
           },
           {
             "value": "310119",
-            "label": "南汇",
+            "label": "南汇区",
             isLeaf: true
           },
           {
             "value": "310120",
-            "label": "奉贤",
+            "label": "奉贤区",
             isLeaf: true
           }
         ],
@@ -4562,12 +4562,12 @@ const cityAddressItems = [
         "children": [
           {
             "value": "310230",
-            "label": "崇明",
+            "label": "崇明县",
             isLeaf: true
           }
         ],
         "value": "310200",
-        "label": ""
+        "label": "县"
       }
     ],
     "value": "310000",
@@ -4579,72 +4579,72 @@ const cityAddressItems = [
         "children": [
           {
             "value": "320101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "320102",
-            "label": "玄武",
+            "label": "玄武区",
             isLeaf: true
           },
           {
             "value": "320103",
-            "label": "白下",
+            "label": "白下区",
             isLeaf: true
           },
           {
             "value": "320104",
-            "label": "秦淮",
+            "label": "秦淮区",
             isLeaf: true
           },
           {
             "value": "320105",
-            "label": "建邺",
+            "label": "建邺区",
             isLeaf: true
           },
           {
             "value": "320106",
-            "label": "鼓楼",
+            "label": "鼓楼区",
             isLeaf: true
           },
           {
             "value": "320107",
-            "label": "下关",
+            "label": "下关区",
             isLeaf: true
           },
           {
             "value": "320111",
-            "label": "浦口",
+            "label": "浦口区",
             isLeaf: true
           },
           {
             "value": "320113",
-            "label": "栖霞",
+            "label": "栖霞区",
             isLeaf: true
           },
           {
             "value": "320114",
-            "label": "雨花台",
+            "label": "雨花台区",
             isLeaf: true
           },
           {
             "value": "320115",
-            "label": "江宁",
+            "label": "江宁区",
             isLeaf: true
           },
           {
             "value": "320116",
-            "label": "六合",
+            "label": "六合区",
             isLeaf: true
           },
           {
             "value": "320124",
-            "label": "溧水",
+            "label": "溧水县",
             isLeaf: true
           },
           {
             "value": "320125",
-            "label": "高淳",
+            "label": "高淳县",
             isLeaf: true
           }
         ],
@@ -4655,37 +4655,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "320201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "320202",
-            "label": "崇安",
+            "label": "崇安区",
             isLeaf: true
           },
           {
             "value": "320203",
-            "label": "南长",
+            "label": "南长区",
             isLeaf: true
           },
           {
             "value": "320204",
-            "label": "北塘",
+            "label": "北塘区",
             isLeaf: true
           },
           {
             "value": "320205",
-            "label": "锡山",
+            "label": "锡山区",
             isLeaf: true
           },
           {
             "value": "320206",
-            "label": "惠山",
+            "label": "惠山区",
             isLeaf: true
           },
           {
             "value": "320211",
-            "label": "滨湖",
+            "label": "滨湖区",
             isLeaf: true
           },
           {
@@ -4700,12 +4700,12 @@ const cityAddressItems = [
           },
           {
             "value": "320213",
-            "label": "梁溪",
+            "label": "梁溪区",
             isLeaf: true
           },
           {
             "value": "320214",
-            "label": "新吴",
+            "label": "新吴区",
             isLeaf: true
           }
         ],
@@ -4716,52 +4716,52 @@ const cityAddressItems = [
         "children": [
           {
             "value": "320301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "320302",
-            "label": "鼓楼",
+            "label": "鼓楼区",
             isLeaf: true
           },
           {
             "value": "320303",
-            "label": "云龙",
+            "label": "云龙区",
             isLeaf: true
           },
           {
             "value": "320304",
-            "label": "九里",
+            "label": "九里区",
             isLeaf: true
           },
           {
             "value": "320305",
-            "label": "贾汪",
+            "label": "贾汪区",
             isLeaf: true
           },
           {
             "value": "320311",
-            "label": "泉山",
+            "label": "泉山区",
             isLeaf: true
           },
           {
             "value": "320321",
-            "label": "丰",
+            "label": "丰县",
             isLeaf: true
           },
           {
             "value": "320322",
-            "label": "沛",
+            "label": "沛县",
             isLeaf: true
           },
           {
             "value": "320323",
-            "label": "铜山",
+            "label": "铜山县",
             isLeaf: true
           },
           {
             "value": "320324",
-            "label": "睢宁",
+            "label": "睢宁县",
             isLeaf: true
           },
           {
@@ -4782,32 +4782,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "320401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "320402",
-            "label": "天宁",
+            "label": "天宁区",
             isLeaf: true
           },
           {
             "value": "320404",
-            "label": "钟楼",
+            "label": "钟楼区",
             isLeaf: true
           },
           {
             "value": "320405",
-            "label": "戚墅堰",
+            "label": "戚墅堰区",
             isLeaf: true
           },
           {
             "value": "320411",
-            "label": "新北",
+            "label": "新北区",
             isLeaf: true
           },
           {
             "value": "320412",
-            "label": "武进",
+            "label": "武进区",
             isLeaf: true
           },
           {
@@ -4828,37 +4828,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "320501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "320502",
-            "label": "沧浪",
+            "label": "沧浪区",
             isLeaf: true
           },
           {
             "value": "320503",
-            "label": "平江",
+            "label": "平江区",
             isLeaf: true
           },
           {
             "value": "320504",
-            "label": "金阊",
+            "label": "金阊区",
             isLeaf: true
           },
           {
             "value": "320505",
-            "label": "虎丘",
+            "label": "虎丘区",
             isLeaf: true
           },
           {
             "value": "320506",
-            "label": "吴中",
+            "label": "吴中区",
             isLeaf: true
           },
           {
             "value": "320507",
-            "label": "相城",
+            "label": "相城区",
             isLeaf: true
           },
           {
@@ -4888,7 +4888,7 @@ const cityAddressItems = [
           },
           {
             "value": "320508",
-            "label": "姑苏",
+            "label": "姑苏区",
             isLeaf: true
           }
         ],
@@ -4899,27 +4899,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "320601",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "320602",
-            "label": "崇川",
+            "label": "崇川区",
             isLeaf: true
           },
           {
             "value": "320611",
-            "label": "港闸",
+            "label": "港闸区",
             isLeaf: true
           },
           {
             "value": "320621",
-            "label": "海安",
+            "label": "海安县",
             isLeaf: true
           },
           {
             "value": "320623",
-            "label": "如东",
+            "label": "如东县",
             isLeaf: true
           },
           {
@@ -4950,42 +4950,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "320701",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "320703",
-            "label": "连云",
+            "label": "连云区",
             isLeaf: true
           },
           {
             "value": "320705",
-            "label": "新浦",
+            "label": "新浦区",
             isLeaf: true
           },
           {
             "value": "320706",
-            "label": "海州",
+            "label": "海州区",
             isLeaf: true
           },
           {
             "value": "320721",
-            "label": "赣榆",
+            "label": "赣榆县",
             isLeaf: true
           },
           {
             "value": "320722",
-            "label": "东海",
+            "label": "东海县",
             isLeaf: true
           },
           {
             "value": "320723",
-            "label": "灌云",
+            "label": "灌云县",
             isLeaf: true
           },
           {
             "value": "320724",
-            "label": "灌南",
+            "label": "灌南县",
             isLeaf: true
           }
         ],
@@ -4996,57 +4996,57 @@ const cityAddressItems = [
         "children": [
           {
             "value": "320801",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "320802",
-            "label": "清河",
+            "label": "清河区",
             isLeaf: true
           },
           {
             "value": "320803",
-            "label": "楚州",
+            "label": "楚州区",
             isLeaf: true
           },
           {
             "value": "320804",
-            "label": "淮阴",
+            "label": "淮阴区",
             isLeaf: true
           },
           {
             "value": "320811",
-            "label": "清浦",
+            "label": "清浦区",
             isLeaf: true
           },
           {
             "value": "320826",
-            "label": "涟水",
+            "label": "涟水县",
             isLeaf: true
           },
           {
             "value": "320829",
-            "label": "洪泽",
+            "label": "洪泽县",
             isLeaf: true
           },
           {
             "value": "320830",
-            "label": "盱眙",
+            "label": "盱眙县",
             isLeaf: true
           },
           {
             "value": "320831",
-            "label": "金湖",
+            "label": "金湖县",
             isLeaf: true
           },
           {
             "value": "320803",
-            "label": "淮安",
+            "label": "淮安区",
             isLeaf: true
           },
           {
             "value": "320812",
-            "label": "清江浦",
+            "label": "清江浦区",
             isLeaf: true
           }
         ],
@@ -5057,42 +5057,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "320901",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "320902",
-            "label": "亭湖",
+            "label": "亭湖区",
             isLeaf: true
           },
           {
             "value": "320903",
-            "label": "盐都",
+            "label": "盐都区",
             isLeaf: true
           },
           {
             "value": "320921",
-            "label": "响水",
+            "label": "响水县",
             isLeaf: true
           },
           {
             "value": "320922",
-            "label": "滨海",
+            "label": "滨海县",
             isLeaf: true
           },
           {
             "value": "320923",
-            "label": "阜宁",
+            "label": "阜宁县",
             isLeaf: true
           },
           {
             "value": "320924",
-            "label": "射阳",
+            "label": "射阳县",
             isLeaf: true
           },
           {
             "value": "320925",
-            "label": "建湖",
+            "label": "建湖县",
             isLeaf: true
           },
           {
@@ -5113,27 +5113,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "321001",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "321002",
-            "label": "广陵",
+            "label": "广陵区",
             isLeaf: true
           },
           {
             "value": "321003",
-            "label": "邗江",
+            "label": "邗江区",
             isLeaf: true
           },
           {
             "value": "321011",
-            "label": "郊",
+            "label": "郊区",
             isLeaf: true
           },
           {
             "value": "321023",
-            "label": "宝应",
+            "label": "宝应县",
             isLeaf: true
           },
           {
@@ -5159,22 +5159,22 @@ const cityAddressItems = [
         "children": [
           {
             "value": "321101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "321102",
-            "label": "京口",
+            "label": "京口区",
             isLeaf: true
           },
           {
             "value": "321111",
-            "label": "润州",
+            "label": "润州区",
             isLeaf: true
           },
           {
             "value": "321112",
-            "label": "丹徒",
+            "label": "丹徒区",
             isLeaf: true
           },
           {
@@ -5200,17 +5200,17 @@ const cityAddressItems = [
         "children": [
           {
             "value": "321201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "321202",
-            "label": "海陵",
+            "label": "海陵区",
             isLeaf: true
           },
           {
             "value": "321203",
-            "label": "高港",
+            "label": "高港区",
             isLeaf: true
           },
           {
@@ -5241,32 +5241,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "321301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "321302",
-            "label": "宿城",
+            "label": "宿城区",
             isLeaf: true
           },
           {
             "value": "321311",
-            "label": "宿豫",
+            "label": "宿豫区",
             isLeaf: true
           },
           {
             "value": "321322",
-            "label": "沭阳",
+            "label": "沭阳县",
             isLeaf: true
           },
           {
             "value": "321323",
-            "label": "泗阳",
+            "label": "泗阳县",
             isLeaf: true
           },
           {
             "value": "321324",
-            "label": "泗洪",
+            "label": "泗洪县",
             isLeaf: true
           }
         ],
@@ -5283,57 +5283,57 @@ const cityAddressItems = [
         "children": [
           {
             "value": "330101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "330102",
-            "label": "上城",
+            "label": "上城区",
             isLeaf: true
           },
           {
             "value": "330103",
-            "label": "下城",
+            "label": "下城区",
             isLeaf: true
           },
           {
             "value": "330104",
-            "label": "江干",
+            "label": "江干区",
             isLeaf: true
           },
           {
             "value": "330105",
-            "label": "拱墅",
+            "label": "拱墅区",
             isLeaf: true
           },
           {
             "value": "330106",
-            "label": "西湖",
+            "label": "西湖区",
             isLeaf: true
           },
           {
             "value": "330108",
-            "label": "滨江",
+            "label": "滨江区",
             isLeaf: true
           },
           {
             "value": "330109",
-            "label": "萧山",
+            "label": "萧山区",
             isLeaf: true
           },
           {
             "value": "330110",
-            "label": "余杭",
+            "label": "余杭区",
             isLeaf: true
           },
           {
             "value": "330122",
-            "label": "桐庐",
+            "label": "桐庐县",
             isLeaf: true
           },
           {
             "value": "330127",
-            "label": "淳安",
+            "label": "淳安县",
             isLeaf: true
           },
           {
@@ -5359,47 +5359,47 @@ const cityAddressItems = [
         "children": [
           {
             "value": "330201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "330203",
-            "label": "海曙",
+            "label": "海曙区",
             isLeaf: true
           },
           {
             "value": "330204",
-            "label": "江东",
+            "label": "江东区",
             isLeaf: true
           },
           {
             "value": "330205",
-            "label": "江北",
+            "label": "江北区",
             isLeaf: true
           },
           {
             "value": "330206",
-            "label": "北仑",
+            "label": "北仑区",
             isLeaf: true
           },
           {
             "value": "330211",
-            "label": "镇海",
+            "label": "镇海区",
             isLeaf: true
           },
           {
             "value": "330212",
-            "label": "鄞州",
+            "label": "鄞州区",
             isLeaf: true
           },
           {
             "value": "330225",
-            "label": "象山",
+            "label": "象山县",
             isLeaf: true
           },
           {
             "value": "330226",
-            "label": "宁海",
+            "label": "宁海县",
             isLeaf: true
           },
           {
@@ -5425,52 +5425,52 @@ const cityAddressItems = [
         "children": [
           {
             "value": "330301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "330302",
-            "label": "鹿城",
+            "label": "鹿城区",
             isLeaf: true
           },
           {
             "value": "330303",
-            "label": "龙湾",
+            "label": "龙湾区",
             isLeaf: true
           },
           {
             "value": "330304",
-            "label": "瓯海",
+            "label": "瓯海区",
             isLeaf: true
           },
           {
             "value": "330322",
-            "label": "洞头",
+            "label": "洞头县",
             isLeaf: true
           },
           {
             "value": "330324",
-            "label": "永嘉",
+            "label": "永嘉县",
             isLeaf: true
           },
           {
             "value": "330326",
-            "label": "平阳",
+            "label": "平阳县",
             isLeaf: true
           },
           {
             "value": "330327",
-            "label": "苍南",
+            "label": "苍南县",
             isLeaf: true
           },
           {
             "value": "330328",
-            "label": "文成",
+            "label": "文成县",
             isLeaf: true
           },
           {
             "value": "330329",
-            "label": "泰顺",
+            "label": "泰顺县",
             isLeaf: true
           },
           {
@@ -5491,27 +5491,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "330401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "330402",
-            "label": "秀城",
+            "label": "秀城区",
             isLeaf: true
           },
           {
             "value": "330411",
-            "label": "秀洲",
+            "label": "秀洲区",
             isLeaf: true
           },
           {
             "value": "330421",
-            "label": "嘉善",
+            "label": "嘉善县",
             isLeaf: true
           },
           {
             "value": "330424",
-            "label": "海盐",
+            "label": "海盐县",
             isLeaf: true
           },
           {
@@ -5531,7 +5531,7 @@ const cityAddressItems = [
           },
           {
             "value": "330402",
-            "label": "南湖",
+            "label": "南湖区",
             isLeaf: true
           }
         ],
@@ -5542,32 +5542,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "330501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "330502",
-            "label": "吴兴",
+            "label": "吴兴区",
             isLeaf: true
           },
           {
             "value": "330503",
-            "label": "南浔",
+            "label": "南浔区",
             isLeaf: true
           },
           {
             "value": "330521",
-            "label": "德清",
+            "label": "德清县",
             isLeaf: true
           },
           {
             "value": "330522",
-            "label": "长兴",
+            "label": "长兴县",
             isLeaf: true
           },
           {
             "value": "330523",
-            "label": "安吉",
+            "label": "安吉县",
             isLeaf: true
           }
         ],
@@ -5578,22 +5578,22 @@ const cityAddressItems = [
         "children": [
           {
             "value": "330601",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "330602",
-            "label": "越城",
+            "label": "越城区",
             isLeaf: true
           },
           {
             "value": "330621",
-            "label": "绍兴",
+            "label": "绍兴县",
             isLeaf: true
           },
           {
             "value": "330624",
-            "label": "新昌",
+            "label": "新昌县",
             isLeaf: true
           },
           {
@@ -5613,7 +5613,7 @@ const cityAddressItems = [
           },
           {
             "value": "330603",
-            "label": "柯桥",
+            "label": "柯桥区",
             isLeaf: true
           }
         ],
@@ -5624,32 +5624,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "330701",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "330702",
-            "label": "婺城",
+            "label": "婺城区",
             isLeaf: true
           },
           {
             "value": "330703",
-            "label": "金东",
+            "label": "金东区",
             isLeaf: true
           },
           {
             "value": "330723",
-            "label": "武义",
+            "label": "武义县",
             isLeaf: true
           },
           {
             "value": "330726",
-            "label": "浦江",
+            "label": "浦江县",
             isLeaf: true
           },
           {
             "value": "330727",
-            "label": "磐安",
+            "label": "磐安县",
             isLeaf: true
           },
           {
@@ -5680,32 +5680,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "330801",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "330802",
-            "label": "柯城",
+            "label": "柯城区",
             isLeaf: true
           },
           {
             "value": "330803",
-            "label": "衢江",
+            "label": "衢江区",
             isLeaf: true
           },
           {
             "value": "330822",
-            "label": "常山",
+            "label": "常山县",
             isLeaf: true
           },
           {
             "value": "330824",
-            "label": "开化",
+            "label": "开化县",
             isLeaf: true
           },
           {
             "value": "330825",
-            "label": "龙游",
+            "label": "龙游县",
             isLeaf: true
           },
           {
@@ -5721,27 +5721,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "330901",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "330902",
-            "label": "定海",
+            "label": "定海区",
             isLeaf: true
           },
           {
             "value": "330903",
-            "label": "普陀",
+            "label": "普陀区",
             isLeaf: true
           },
           {
             "value": "330921",
-            "label": "岱山",
+            "label": "岱山县",
             isLeaf: true
           },
           {
             "value": "330922",
-            "label": "嵊泗",
+            "label": "嵊泗县",
             isLeaf: true
           }
         ],
@@ -5752,42 +5752,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "331001",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "331002",
-            "label": "椒江",
+            "label": "椒江区",
             isLeaf: true
           },
           {
             "value": "331003",
-            "label": "黄岩",
+            "label": "黄岩区",
             isLeaf: true
           },
           {
             "value": "331004",
-            "label": "路桥",
+            "label": "路桥区",
             isLeaf: true
           },
           {
             "value": "331021",
-            "label": "玉环",
+            "label": "玉环县",
             isLeaf: true
           },
           {
             "value": "331022",
-            "label": "三门",
+            "label": "三门县",
             isLeaf: true
           },
           {
             "value": "331023",
-            "label": "天台",
+            "label": "天台县",
             isLeaf: true
           },
           {
             "value": "331024",
-            "label": "仙居",
+            "label": "仙居县",
             isLeaf: true
           },
           {
@@ -5808,47 +5808,47 @@ const cityAddressItems = [
         "children": [
           {
             "value": "331101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "331102",
-            "label": "莲都",
+            "label": "莲都区",
             isLeaf: true
           },
           {
             "value": "331121",
-            "label": "青田",
+            "label": "青田县",
             isLeaf: true
           },
           {
             "value": "331122",
-            "label": "缙云",
+            "label": "缙云县",
             isLeaf: true
           },
           {
             "value": "331123",
-            "label": "遂昌",
+            "label": "遂昌县",
             isLeaf: true
           },
           {
             "value": "331124",
-            "label": "松阳",
+            "label": "松阳县",
             isLeaf: true
           },
           {
             "value": "331125",
-            "label": "云和",
+            "label": "云和县",
             isLeaf: true
           },
           {
             "value": "331126",
-            "label": "庆元",
+            "label": "庆元县",
             isLeaf: true
           },
           {
             "value": "331127",
-            "label": "景宁畲族自治",
+            "label": "景宁畲族自治县",
             isLeaf: true
           },
           {
@@ -5870,42 +5870,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "340101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "340102",
-            "label": "瑶海",
+            "label": "瑶海区",
             isLeaf: true
           },
           {
             "value": "340103",
-            "label": "庐阳",
+            "label": "庐阳区",
             isLeaf: true
           },
           {
             "value": "340104",
-            "label": "蜀山",
+            "label": "蜀山区",
             isLeaf: true
           },
           {
             "value": "340111",
-            "label": "包河",
+            "label": "包河区",
             isLeaf: true
           },
           {
             "value": "340121",
-            "label": "长丰",
+            "label": "长丰县",
             isLeaf: true
           },
           {
             "value": "340122",
-            "label": "肥东",
+            "label": "肥东县",
             isLeaf: true
           },
           {
             "value": "340123",
-            "label": "肥西",
+            "label": "肥西县",
             isLeaf: true
           },
           {
@@ -5921,52 +5921,52 @@ const cityAddressItems = [
         "children": [
           {
             "value": "340201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "340202",
-            "label": "镜湖",
+            "label": "镜湖区",
             isLeaf: true
           },
           {
             "value": "340203",
-            "label": "马塘",
+            "label": "马塘区",
             isLeaf: true
           },
           {
             "value": "340204",
-            "label": "新芜",
+            "label": "新芜区",
             isLeaf: true
           },
           {
             "value": "340207",
-            "label": "鸠江",
+            "label": "鸠江区",
             isLeaf: true
           },
           {
             "value": "340221",
-            "label": "芜湖",
+            "label": "芜湖县",
             isLeaf: true
           },
           {
             "value": "340222",
-            "label": "繁昌",
+            "label": "繁昌县",
             isLeaf: true
           },
           {
             "value": "340223",
-            "label": "南陵",
+            "label": "南陵县",
             isLeaf: true
           },
           {
             "value": "340203",
-            "label": "弋江",
+            "label": "弋江区",
             isLeaf: true
           },
           {
             "value": "340208",
-            "label": "三山",
+            "label": "三山区",
             isLeaf: true
           }
         ],
@@ -5977,42 +5977,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "340301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "340302",
-            "label": "龙子湖",
+            "label": "龙子湖区",
             isLeaf: true
           },
           {
             "value": "340303",
-            "label": "蚌山",
+            "label": "蚌山区",
             isLeaf: true
           },
           {
             "value": "340304",
-            "label": "禹会",
+            "label": "禹会区",
             isLeaf: true
           },
           {
             "value": "340311",
-            "label": "淮上",
+            "label": "淮上区",
             isLeaf: true
           },
           {
             "value": "340321",
-            "label": "怀远",
+            "label": "怀远县",
             isLeaf: true
           },
           {
             "value": "340322",
-            "label": "五河",
+            "label": "五河县",
             isLeaf: true
           },
           {
             "value": "340323",
-            "label": "固镇",
+            "label": "固镇县",
             isLeaf: true
           }
         ],
@@ -6023,42 +6023,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "340401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "340402",
-            "label": "大通",
+            "label": "大通区",
             isLeaf: true
           },
           {
             "value": "340403",
-            "label": "田家庵",
+            "label": "田家庵区",
             isLeaf: true
           },
           {
             "value": "340404",
-            "label": "谢家集",
+            "label": "谢家集区",
             isLeaf: true
           },
           {
             "value": "340405",
-            "label": "八公山",
+            "label": "八公山区",
             isLeaf: true
           },
           {
             "value": "340406",
-            "label": "潘集",
+            "label": "潘集区",
             isLeaf: true
           },
           {
             "value": "340421",
-            "label": "凤台",
+            "label": "凤台县",
             isLeaf: true
           },
           {
             "value": "340422",
-            "label": "寿",
+            "label": "寿县",
             isLeaf: true
           }
         ],
@@ -6069,37 +6069,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "340501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "340502",
-            "label": "金家庄",
+            "label": "金家庄区",
             isLeaf: true
           },
           {
             "value": "340503",
-            "label": "花山",
+            "label": "花山区",
             isLeaf: true
           },
           {
             "value": "340504",
-            "label": "雨山",
+            "label": "雨山区",
             isLeaf: true
           },
           {
             "value": "340521",
-            "label": "当涂",
+            "label": "当涂县",
             isLeaf: true
           },
           {
             "value": "340523",
-            "label": "和",
+            "label": "和县",
             isLeaf: true
           },
           {
             "value": "340506",
-            "label": "博望",
+            "label": "博望区",
             isLeaf: true
           }
         ],
@@ -6110,27 +6110,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "340601",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "340602",
-            "label": "杜集",
+            "label": "杜集区",
             isLeaf: true
           },
           {
             "value": "340603",
-            "label": "相山",
+            "label": "相山区",
             isLeaf: true
           },
           {
             "value": "340604",
-            "label": "烈山",
+            "label": "烈山区",
             isLeaf: true
           },
           {
             "value": "340621",
-            "label": "濉溪",
+            "label": "濉溪县",
             isLeaf: true
           }
         ],
@@ -6141,37 +6141,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "340701",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "340702",
-            "label": "铜官山",
+            "label": "铜官山区",
             isLeaf: true
           },
           {
             "value": "340703",
-            "label": "狮子山",
+            "label": "狮子山区",
             isLeaf: true
           },
           {
             "value": "340711",
-            "label": "郊",
+            "label": "郊区",
             isLeaf: true
           },
           {
             "value": "340721",
-            "label": "铜陵",
+            "label": "铜陵县",
             isLeaf: true
           },
           {
             "value": "340706",
-            "label": "义安",
+            "label": "义安区",
             isLeaf: true
           },
           {
             "value": "340705",
-            "label": "铜官",
+            "label": "铜官区",
             isLeaf: true
           }
         ],
@@ -6182,57 +6182,57 @@ const cityAddressItems = [
         "children": [
           {
             "value": "340801",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "340802",
-            "label": "迎江",
+            "label": "迎江区",
             isLeaf: true
           },
           {
             "value": "340803",
-            "label": "大观",
+            "label": "大观区",
             isLeaf: true
           },
           {
             "value": "340811",
-            "label": "郊",
+            "label": "郊区",
             isLeaf: true
           },
           {
             "value": "340822",
-            "label": "怀宁",
+            "label": "怀宁县",
             isLeaf: true
           },
           {
             "value": "340823",
-            "label": "枞阳",
+            "label": "枞阳县",
             isLeaf: true
           },
           {
             "value": "340824",
-            "label": "潜山",
+            "label": "潜山县",
             isLeaf: true
           },
           {
             "value": "340825",
-            "label": "太湖",
+            "label": "太湖县",
             isLeaf: true
           },
           {
             "value": "340826",
-            "label": "宿松",
+            "label": "宿松县",
             isLeaf: true
           },
           {
             "value": "340827",
-            "label": "望江",
+            "label": "望江县",
             isLeaf: true
           },
           {
             "value": "340828",
-            "label": "岳西",
+            "label": "岳西县",
             isLeaf: true
           },
           {
@@ -6242,7 +6242,7 @@ const cityAddressItems = [
           },
           {
             "value": "340811",
-            "label": "宜秀",
+            "label": "宜秀区",
             isLeaf: true
           }
         ],
@@ -6253,42 +6253,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "341001",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "341002",
-            "label": "屯溪",
+            "label": "屯溪区",
             isLeaf: true
           },
           {
             "value": "341003",
-            "label": "黄山",
+            "label": "黄山区",
             isLeaf: true
           },
           {
             "value": "341004",
-            "label": "徽州",
+            "label": "徽州区",
             isLeaf: true
           },
           {
             "value": "341021",
-            "label": "歙",
+            "label": "歙县",
             isLeaf: true
           },
           {
             "value": "341022",
-            "label": "休宁",
+            "label": "休宁县",
             isLeaf: true
           },
           {
             "value": "341023",
-            "label": "黟",
+            "label": "黟县",
             isLeaf: true
           },
           {
             "value": "341024",
-            "label": "祁门",
+            "label": "祁门县",
             isLeaf: true
           }
         ],
@@ -6299,37 +6299,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "341101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "341102",
-            "label": "琅琊",
+            "label": "琅琊区",
             isLeaf: true
           },
           {
             "value": "341103",
-            "label": "南谯",
+            "label": "南谯区",
             isLeaf: true
           },
           {
             "value": "341122",
-            "label": "来安",
+            "label": "来安县",
             isLeaf: true
           },
           {
             "value": "341124",
-            "label": "全椒",
+            "label": "全椒县",
             isLeaf: true
           },
           {
             "value": "341125",
-            "label": "定远",
+            "label": "定远县",
             isLeaf: true
           },
           {
             "value": "341126",
-            "label": "凤阳",
+            "label": "凤阳县",
             isLeaf: true
           },
           {
@@ -6350,42 +6350,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "341201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "341202",
-            "label": "颍州",
+            "label": "颍州区",
             isLeaf: true
           },
           {
             "value": "341203",
-            "label": "颍东",
+            "label": "颍东区",
             isLeaf: true
           },
           {
             "value": "341204",
-            "label": "颍泉",
+            "label": "颍泉区",
             isLeaf: true
           },
           {
             "value": "341221",
-            "label": "临泉",
+            "label": "临泉县",
             isLeaf: true
           },
           {
             "value": "341222",
-            "label": "太和",
+            "label": "太和县",
             isLeaf: true
           },
           {
             "value": "341225",
-            "label": "阜南",
+            "label": "阜南县",
             isLeaf: true
           },
           {
             "value": "341226",
-            "label": "颍上",
+            "label": "颍上县",
             isLeaf: true
           },
           {
@@ -6401,37 +6401,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "341301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "341302",
-            "label": "墉桥",
+            "label": "墉桥区",
             isLeaf: true
           },
           {
             "value": "341321",
-            "label": "砀山",
+            "label": "砀山县",
             isLeaf: true
           },
           {
             "value": "341322",
-            "label": "萧",
+            "label": "萧县",
             isLeaf: true
           },
           {
             "value": "341323",
-            "label": "灵璧",
+            "label": "灵璧县",
             isLeaf: true
           },
           {
             "value": "341324",
-            "label": "泗",
+            "label": "泗县",
             isLeaf: true
           },
           {
             "value": "341302",
-            "label": "埇桥",
+            "label": "埇桥区",
             isLeaf: true
           }
         ],
@@ -6442,32 +6442,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "341401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "341402",
-            "label": "居巢",
+            "label": "居巢区",
             isLeaf: true
           },
           {
             "value": "341421",
-            "label": "庐江",
+            "label": "庐江县",
             isLeaf: true
           },
           {
             "value": "341422",
-            "label": "无为",
+            "label": "无为县",
             isLeaf: true
           },
           {
             "value": "341423",
-            "label": "含山",
+            "label": "含山县",
             isLeaf: true
           },
           {
             "value": "341424",
-            "label": "和",
+            "label": "和县",
             isLeaf: true
           }
         ],
@@ -6478,47 +6478,47 @@ const cityAddressItems = [
         "children": [
           {
             "value": "341501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "341502",
-            "label": "金安",
+            "label": "金安区",
             isLeaf: true
           },
           {
             "value": "341503",
-            "label": "裕安",
+            "label": "裕安区",
             isLeaf: true
           },
           {
             "value": "341521",
-            "label": "寿　",
+            "label": "寿　县",
             isLeaf: true
           },
           {
             "value": "341522",
-            "label": "霍邱",
+            "label": "霍邱县",
             isLeaf: true
           },
           {
             "value": "341523",
-            "label": "舒城",
+            "label": "舒城县",
             isLeaf: true
           },
           {
             "value": "341524",
-            "label": "金寨",
+            "label": "金寨县",
             isLeaf: true
           },
           {
             "value": "341525",
-            "label": "霍山",
+            "label": "霍山县",
             isLeaf: true
           },
           {
             "value": "341504",
-            "label": "叶集",
+            "label": "叶集区",
             isLeaf: true
           }
         ],
@@ -6529,27 +6529,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "341601",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "341602",
-            "label": "谯城",
+            "label": "谯城区",
             isLeaf: true
           },
           {
             "value": "341621",
-            "label": "涡阳",
+            "label": "涡阳县",
             isLeaf: true
           },
           {
             "value": "341622",
-            "label": "蒙城",
+            "label": "蒙城县",
             isLeaf: true
           },
           {
             "value": "341623",
-            "label": "利辛",
+            "label": "利辛县",
             isLeaf: true
           }
         ],
@@ -6560,27 +6560,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "341701",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "341702",
-            "label": "贵池",
+            "label": "贵池区",
             isLeaf: true
           },
           {
             "value": "341721",
-            "label": "东至",
+            "label": "东至县",
             isLeaf: true
           },
           {
             "value": "341722",
-            "label": "石台",
+            "label": "石台县",
             isLeaf: true
           },
           {
             "value": "341723",
-            "label": "青阳",
+            "label": "青阳县",
             isLeaf: true
           }
         ],
@@ -6591,37 +6591,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "341801",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "341802",
-            "label": "宣州",
+            "label": "宣州区",
             isLeaf: true
           },
           {
             "value": "341821",
-            "label": "郎溪",
+            "label": "郎溪县",
             isLeaf: true
           },
           {
             "value": "341822",
-            "label": "广德",
+            "label": "广德县",
             isLeaf: true
           },
           {
             "value": "341823",
-            "label": "泾",
+            "label": "泾县",
             isLeaf: true
           },
           {
             "value": "341824",
-            "label": "绩溪",
+            "label": "绩溪县",
             isLeaf: true
           },
           {
             "value": "341825",
-            "label": "旌德",
+            "label": "旌德县",
             isLeaf: true
           },
           {
@@ -6643,62 +6643,62 @@ const cityAddressItems = [
         "children": [
           {
             "value": "350101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "350102",
-            "label": "鼓楼",
+            "label": "鼓楼区",
             isLeaf: true
           },
           {
             "value": "350103",
-            "label": "台江",
+            "label": "台江区",
             isLeaf: true
           },
           {
             "value": "350104",
-            "label": "仓山",
+            "label": "仓山区",
             isLeaf: true
           },
           {
             "value": "350105",
-            "label": "马尾",
+            "label": "马尾区",
             isLeaf: true
           },
           {
             "value": "350111",
-            "label": "晋安",
+            "label": "晋安区",
             isLeaf: true
           },
           {
             "value": "350121",
-            "label": "闽侯",
+            "label": "闽侯县",
             isLeaf: true
           },
           {
             "value": "350122",
-            "label": "连江",
+            "label": "连江县",
             isLeaf: true
           },
           {
             "value": "350123",
-            "label": "罗源",
+            "label": "罗源县",
             isLeaf: true
           },
           {
             "value": "350124",
-            "label": "闽清",
+            "label": "闽清县",
             isLeaf: true
           },
           {
             "value": "350125",
-            "label": "永泰",
+            "label": "永泰县",
             isLeaf: true
           },
           {
             "value": "350128",
-            "label": "平潭",
+            "label": "平潭县",
             isLeaf: true
           },
           {
@@ -6719,37 +6719,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "350201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "350203",
-            "label": "思明",
+            "label": "思明区",
             isLeaf: true
           },
           {
             "value": "350205",
-            "label": "海沧",
+            "label": "海沧区",
             isLeaf: true
           },
           {
             "value": "350206",
-            "label": "湖里",
+            "label": "湖里区",
             isLeaf: true
           },
           {
             "value": "350211",
-            "label": "集美",
+            "label": "集美区",
             isLeaf: true
           },
           {
             "value": "350212",
-            "label": "同安",
+            "label": "同安区",
             isLeaf: true
           },
           {
             "value": "350213",
-            "label": "翔安",
+            "label": "翔安区",
             isLeaf: true
           }
         ],
@@ -6760,32 +6760,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "350301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "350302",
-            "label": "城厢",
+            "label": "城厢区",
             isLeaf: true
           },
           {
             "value": "350303",
-            "label": "涵江",
+            "label": "涵江区",
             isLeaf: true
           },
           {
             "value": "350304",
-            "label": "荔城",
+            "label": "荔城区",
             isLeaf: true
           },
           {
             "value": "350305",
-            "label": "秀屿",
+            "label": "秀屿区",
             isLeaf: true
           },
           {
             "value": "350322",
-            "label": "仙游",
+            "label": "仙游县",
             isLeaf: true
           }
         ],
@@ -6796,62 +6796,62 @@ const cityAddressItems = [
         "children": [
           {
             "value": "350401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "350402",
-            "label": "梅列",
+            "label": "梅列区",
             isLeaf: true
           },
           {
             "value": "350403",
-            "label": "三元",
+            "label": "三元区",
             isLeaf: true
           },
           {
             "value": "350421",
-            "label": "明溪",
+            "label": "明溪县",
             isLeaf: true
           },
           {
             "value": "350423",
-            "label": "清流",
+            "label": "清流县",
             isLeaf: true
           },
           {
             "value": "350424",
-            "label": "宁化",
+            "label": "宁化县",
             isLeaf: true
           },
           {
             "value": "350425",
-            "label": "大田",
+            "label": "大田县",
             isLeaf: true
           },
           {
             "value": "350426",
-            "label": "尤溪",
+            "label": "尤溪县",
             isLeaf: true
           },
           {
             "value": "350427",
-            "label": "沙",
+            "label": "沙县",
             isLeaf: true
           },
           {
             "value": "350428",
-            "label": "将乐",
+            "label": "将乐县",
             isLeaf: true
           },
           {
             "value": "350429",
-            "label": "泰宁",
+            "label": "泰宁县",
             isLeaf: true
           },
           {
             "value": "350430",
-            "label": "建宁",
+            "label": "建宁县",
             isLeaf: true
           },
           {
@@ -6867,52 +6867,52 @@ const cityAddressItems = [
         "children": [
           {
             "value": "350501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "350502",
-            "label": "鲤城",
+            "label": "鲤城区",
             isLeaf: true
           },
           {
             "value": "350503",
-            "label": "丰泽",
+            "label": "丰泽区",
             isLeaf: true
           },
           {
             "value": "350504",
-            "label": "洛江",
+            "label": "洛江区",
             isLeaf: true
           },
           {
             "value": "350505",
-            "label": "泉港",
+            "label": "泉港区",
             isLeaf: true
           },
           {
             "value": "350521",
-            "label": "惠安",
+            "label": "惠安县",
             isLeaf: true
           },
           {
             "value": "350524",
-            "label": "安溪",
+            "label": "安溪县",
             isLeaf: true
           },
           {
             "value": "350525",
-            "label": "永春",
+            "label": "永春县",
             isLeaf: true
           },
           {
             "value": "350526",
-            "label": "德化",
+            "label": "德化县",
             isLeaf: true
           },
           {
             "value": "350527",
-            "label": "金门",
+            "label": "金门县",
             isLeaf: true
           },
           {
@@ -6938,57 +6938,57 @@ const cityAddressItems = [
         "children": [
           {
             "value": "350601",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "350602",
-            "label": "芗城",
+            "label": "芗城区",
             isLeaf: true
           },
           {
             "value": "350603",
-            "label": "龙文",
+            "label": "龙文区",
             isLeaf: true
           },
           {
             "value": "350622",
-            "label": "云霄",
+            "label": "云霄县",
             isLeaf: true
           },
           {
             "value": "350623",
-            "label": "漳浦",
+            "label": "漳浦县",
             isLeaf: true
           },
           {
             "value": "350624",
-            "label": "诏安",
+            "label": "诏安县",
             isLeaf: true
           },
           {
             "value": "350625",
-            "label": "长泰",
+            "label": "长泰县",
             isLeaf: true
           },
           {
             "value": "350626",
-            "label": "东山",
+            "label": "东山县",
             isLeaf: true
           },
           {
             "value": "350627",
-            "label": "南靖",
+            "label": "南靖县",
             isLeaf: true
           },
           {
             "value": "350628",
-            "label": "平和",
+            "label": "平和县",
             isLeaf: true
           },
           {
             "value": "350629",
-            "label": "华安",
+            "label": "华安县",
             isLeaf: true
           },
           {
@@ -7004,37 +7004,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "350701",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "350702",
-            "label": "延平",
+            "label": "延平区",
             isLeaf: true
           },
           {
             "value": "350721",
-            "label": "顺昌",
+            "label": "顺昌县",
             isLeaf: true
           },
           {
             "value": "350722",
-            "label": "浦城",
+            "label": "浦城县",
             isLeaf: true
           },
           {
             "value": "350723",
-            "label": "光泽",
+            "label": "光泽县",
             isLeaf: true
           },
           {
             "value": "350724",
-            "label": "松溪",
+            "label": "松溪县",
             isLeaf: true
           },
           {
             "value": "350725",
-            "label": "政和",
+            "label": "政和县",
             isLeaf: true
           },
           {
@@ -7065,37 +7065,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "350801",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "350802",
-            "label": "新罗",
+            "label": "新罗区",
             isLeaf: true
           },
           {
             "value": "350821",
-            "label": "长汀",
+            "label": "长汀县",
             isLeaf: true
           },
           {
             "value": "350822",
-            "label": "永定",
+            "label": "永定县",
             isLeaf: true
           },
           {
             "value": "350823",
-            "label": "上杭",
+            "label": "上杭县",
             isLeaf: true
           },
           {
             "value": "350824",
-            "label": "武平",
+            "label": "武平县",
             isLeaf: true
           },
           {
             "value": "350825",
-            "label": "连城",
+            "label": "连城县",
             isLeaf: true
           },
           {
@@ -7111,42 +7111,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "350901",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "350902",
-            "label": "蕉城",
+            "label": "蕉城区",
             isLeaf: true
           },
           {
             "value": "350921",
-            "label": "霞浦",
+            "label": "霞浦县",
             isLeaf: true
           },
           {
             "value": "350922",
-            "label": "古田",
+            "label": "古田县",
             isLeaf: true
           },
           {
             "value": "350923",
-            "label": "屏南",
+            "label": "屏南县",
             isLeaf: true
           },
           {
             "value": "350924",
-            "label": "寿宁",
+            "label": "寿宁县",
             isLeaf: true
           },
           {
             "value": "350925",
-            "label": "周宁",
+            "label": "周宁县",
             isLeaf: true
           },
           {
             "value": "350926",
-            "label": "柘荣",
+            "label": "柘荣县",
             isLeaf: true
           },
           {
@@ -7173,52 +7173,52 @@ const cityAddressItems = [
         "children": [
           {
             "value": "360101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "360102",
-            "label": "东湖",
+            "label": "东湖区",
             isLeaf: true
           },
           {
             "value": "360103",
-            "label": "西湖",
+            "label": "西湖区",
             isLeaf: true
           },
           {
             "value": "360104",
-            "label": "青云谱",
+            "label": "青云谱区",
             isLeaf: true
           },
           {
             "value": "360105",
-            "label": "湾里",
+            "label": "湾里区",
             isLeaf: true
           },
           {
             "value": "360111",
-            "label": "青山湖",
+            "label": "青山湖区",
             isLeaf: true
           },
           {
             "value": "360121",
-            "label": "南昌",
+            "label": "南昌县",
             isLeaf: true
           },
           {
             "value": "360122",
-            "label": "新建",
+            "label": "新建县",
             isLeaf: true
           },
           {
             "value": "360123",
-            "label": "安义",
+            "label": "安义县",
             isLeaf: true
           },
           {
             "value": "360124",
-            "label": "进贤",
+            "label": "进贤县",
             isLeaf: true
           }
         ],
@@ -7229,22 +7229,22 @@ const cityAddressItems = [
         "children": [
           {
             "value": "360201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "360202",
-            "label": "昌江",
+            "label": "昌江区",
             isLeaf: true
           },
           {
             "value": "360203",
-            "label": "珠山",
+            "label": "珠山区",
             isLeaf: true
           },
           {
             "value": "360222",
-            "label": "浮梁",
+            "label": "浮梁县",
             isLeaf: true
           },
           {
@@ -7260,32 +7260,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "360301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "360302",
-            "label": "安源",
+            "label": "安源区",
             isLeaf: true
           },
           {
             "value": "360313",
-            "label": "湘东",
+            "label": "湘东区",
             isLeaf: true
           },
           {
             "value": "360321",
-            "label": "莲花",
+            "label": "莲花县",
             isLeaf: true
           },
           {
             "value": "360322",
-            "label": "上栗",
+            "label": "上栗县",
             isLeaf: true
           },
           {
             "value": "360323",
-            "label": "芦溪",
+            "label": "芦溪县",
             isLeaf: true
           }
         ],
@@ -7296,62 +7296,62 @@ const cityAddressItems = [
         "children": [
           {
             "value": "360401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "360402",
-            "label": "庐山",
+            "label": "庐山区",
             isLeaf: true
           },
           {
             "value": "360403",
-            "label": "浔阳",
+            "label": "浔阳区",
             isLeaf: true
           },
           {
             "value": "360421",
-            "label": "九江",
+            "label": "九江县",
             isLeaf: true
           },
           {
             "value": "360423",
-            "label": "武宁",
+            "label": "武宁县",
             isLeaf: true
           },
           {
             "value": "360424",
-            "label": "修水",
+            "label": "修水县",
             isLeaf: true
           },
           {
             "value": "360425",
-            "label": "永修",
+            "label": "永修县",
             isLeaf: true
           },
           {
             "value": "360426",
-            "label": "德安",
+            "label": "德安县",
             isLeaf: true
           },
           {
             "value": "360427",
-            "label": "星子",
+            "label": "星子县",
             isLeaf: true
           },
           {
             "value": "360428",
-            "label": "都昌",
+            "label": "都昌县",
             isLeaf: true
           },
           {
             "value": "360429",
-            "label": "湖口",
+            "label": "湖口县",
             isLeaf: true
           },
           {
             "value": "360430",
-            "label": "彭泽",
+            "label": "彭泽县",
             isLeaf: true
           },
           {
@@ -7361,12 +7361,12 @@ const cityAddressItems = [
           },
           {
             "value": "360421",
-            "label": "柴桑",
+            "label": "柴桑区",
             isLeaf: true
           },
           {
             "value": "360402",
-            "label": "濂溪",
+            "label": "濂溪区",
             isLeaf: true
           },
           {
@@ -7382,17 +7382,17 @@ const cityAddressItems = [
         "children": [
           {
             "value": "360501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "360502",
-            "label": "渝水",
+            "label": "渝水区",
             isLeaf: true
           },
           {
             "value": "360521",
-            "label": "分宜",
+            "label": "分宜县",
             isLeaf: true
           }
         ],
@@ -7403,17 +7403,17 @@ const cityAddressItems = [
         "children": [
           {
             "value": "360601",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "360602",
-            "label": "月湖",
+            "label": "月湖区",
             isLeaf: true
           },
           {
             "value": "360622",
-            "label": "余江",
+            "label": "余江县",
             isLeaf: true
           },
           {
@@ -7429,87 +7429,87 @@ const cityAddressItems = [
         "children": [
           {
             "value": "360701",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "360702",
-            "label": "章贡",
+            "label": "章贡区",
             isLeaf: true
           },
           {
             "value": "360721",
-            "label": "赣",
+            "label": "赣县",
             isLeaf: true
           },
           {
             "value": "360722",
-            "label": "信丰",
+            "label": "信丰县",
             isLeaf: true
           },
           {
             "value": "360723",
-            "label": "大余",
+            "label": "大余县",
             isLeaf: true
           },
           {
             "value": "360724",
-            "label": "上犹",
+            "label": "上犹县",
             isLeaf: true
           },
           {
             "value": "360725",
-            "label": "崇义",
+            "label": "崇义县",
             isLeaf: true
           },
           {
             "value": "360726",
-            "label": "安远",
+            "label": "安远县",
             isLeaf: true
           },
           {
             "value": "360727",
-            "label": "龙南",
+            "label": "龙南县",
             isLeaf: true
           },
           {
             "value": "360728",
-            "label": "定南",
+            "label": "定南县",
             isLeaf: true
           },
           {
             "value": "360729",
-            "label": "全南",
+            "label": "全南县",
             isLeaf: true
           },
           {
             "value": "360730",
-            "label": "宁都",
+            "label": "宁都县",
             isLeaf: true
           },
           {
             "value": "360731",
-            "label": "于都",
+            "label": "于都县",
             isLeaf: true
           },
           {
             "value": "360732",
-            "label": "兴国",
+            "label": "兴国县",
             isLeaf: true
           },
           {
             "value": "360733",
-            "label": "会昌",
+            "label": "会昌县",
             isLeaf: true
           },
           {
             "value": "360734",
-            "label": "寻乌",
+            "label": "寻乌县",
             isLeaf: true
           },
           {
             "value": "360735",
-            "label": "石城",
+            "label": "石城县",
             isLeaf: true
           },
           {
@@ -7524,7 +7524,7 @@ const cityAddressItems = [
           },
           {
             "value": "360704",
-            "label": "赣",
+            "label": "赣县区",
             isLeaf: true
           }
         ],
@@ -7535,67 +7535,67 @@ const cityAddressItems = [
         "children": [
           {
             "value": "360801",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "360802",
-            "label": "吉州",
+            "label": "吉州区",
             isLeaf: true
           },
           {
             "value": "360803",
-            "label": "青原",
+            "label": "青原区",
             isLeaf: true
           },
           {
             "value": "360821",
-            "label": "吉安",
+            "label": "吉安县",
             isLeaf: true
           },
           {
             "value": "360822",
-            "label": "吉水",
+            "label": "吉水县",
             isLeaf: true
           },
           {
             "value": "360823",
-            "label": "峡江",
+            "label": "峡江县",
             isLeaf: true
           },
           {
             "value": "360824",
-            "label": "新干",
+            "label": "新干县",
             isLeaf: true
           },
           {
             "value": "360825",
-            "label": "永丰",
+            "label": "永丰县",
             isLeaf: true
           },
           {
             "value": "360826",
-            "label": "泰和",
+            "label": "泰和县",
             isLeaf: true
           },
           {
             "value": "360827",
-            "label": "遂川",
+            "label": "遂川县",
             isLeaf: true
           },
           {
             "value": "360828",
-            "label": "万安",
+            "label": "万安县",
             isLeaf: true
           },
           {
             "value": "360829",
-            "label": "安福",
+            "label": "安福县",
             isLeaf: true
           },
           {
             "value": "360830",
-            "label": "永新",
+            "label": "永新县",
             isLeaf: true
           },
           {
@@ -7611,42 +7611,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "360901",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "360902",
-            "label": "袁州",
+            "label": "袁州区",
             isLeaf: true
           },
           {
             "value": "360921",
-            "label": "奉新",
+            "label": "奉新县",
             isLeaf: true
           },
           {
             "value": "360922",
-            "label": "万载",
+            "label": "万载县",
             isLeaf: true
           },
           {
             "value": "360923",
-            "label": "上高",
+            "label": "上高县",
             isLeaf: true
           },
           {
             "value": "360924",
-            "label": "宜丰",
+            "label": "宜丰县",
             isLeaf: true
           },
           {
             "value": "360925",
-            "label": "靖安",
+            "label": "靖安县",
             isLeaf: true
           },
           {
             "value": "360926",
-            "label": "铜鼓",
+            "label": "铜鼓县",
             isLeaf: true
           },
           {
@@ -7672,62 +7672,62 @@ const cityAddressItems = [
         "children": [
           {
             "value": "361001",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "361002",
-            "label": "临川",
+            "label": "临川区",
             isLeaf: true
           },
           {
             "value": "361021",
-            "label": "南城",
+            "label": "南城县",
             isLeaf: true
           },
           {
             "value": "361022",
-            "label": "黎川",
+            "label": "黎川县",
             isLeaf: true
           },
           {
             "value": "361023",
-            "label": "南丰",
+            "label": "南丰县",
             isLeaf: true
           },
           {
             "value": "361024",
-            "label": "崇仁",
+            "label": "崇仁县",
             isLeaf: true
           },
           {
             "value": "361025",
-            "label": "乐安",
+            "label": "乐安县",
             isLeaf: true
           },
           {
             "value": "361026",
-            "label": "宜黄",
+            "label": "宜黄县",
             isLeaf: true
           },
           {
             "value": "361027",
-            "label": "金溪",
+            "label": "金溪县",
             isLeaf: true
           },
           {
             "value": "361028",
-            "label": "资溪",
+            "label": "资溪县",
             isLeaf: true
           },
           {
             "value": "361029",
-            "label": "东乡",
+            "label": "东乡县",
             isLeaf: true
           },
           {
             "value": "361030",
-            "label": "广昌",
+            "label": "广昌县",
             isLeaf: true
           }
         ],
@@ -7738,62 +7738,62 @@ const cityAddressItems = [
         "children": [
           {
             "value": "361101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "361102",
-            "label": "信州",
+            "label": "信州区",
             isLeaf: true
           },
           {
             "value": "361121",
-            "label": "上饶",
+            "label": "上饶县",
             isLeaf: true
           },
           {
             "value": "361122",
-            "label": "广丰",
+            "label": "广丰县",
             isLeaf: true
           },
           {
             "value": "361123",
-            "label": "玉山",
+            "label": "玉山县",
             isLeaf: true
           },
           {
             "value": "361124",
-            "label": "铅山",
+            "label": "铅山县",
             isLeaf: true
           },
           {
             "value": "361125",
-            "label": "横峰",
+            "label": "横峰县",
             isLeaf: true
           },
           {
             "value": "361126",
-            "label": "弋阳",
+            "label": "弋阳县",
             isLeaf: true
           },
           {
             "value": "361127",
-            "label": "余干",
+            "label": "余干县",
             isLeaf: true
           },
           {
             "value": "361128",
-            "label": "鄱阳",
+            "label": "鄱阳县",
             isLeaf: true
           },
           {
             "value": "361129",
-            "label": "万年",
+            "label": "万年县",
             isLeaf: true
           },
           {
             "value": "361130",
-            "label": "婺源",
+            "label": "婺源县",
             isLeaf: true
           },
           {
@@ -7815,52 +7815,52 @@ const cityAddressItems = [
         "children": [
           {
             "value": "370101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "370102",
-            "label": "历下",
+            "label": "历下区",
             isLeaf: true
           },
           {
             "value": "370103",
-            "label": "市中",
+            "label": "市中区",
             isLeaf: true
           },
           {
             "value": "370104",
-            "label": "槐荫",
+            "label": "槐荫区",
             isLeaf: true
           },
           {
             "value": "370105",
-            "label": "天桥",
+            "label": "天桥区",
             isLeaf: true
           },
           {
             "value": "370112",
-            "label": "历城",
+            "label": "历城区",
             isLeaf: true
           },
           {
             "value": "370113",
-            "label": "长清",
+            "label": "长清区",
             isLeaf: true
           },
           {
             "value": "370124",
-            "label": "平阴",
+            "label": "平阴县",
             isLeaf: true
           },
           {
             "value": "370125",
-            "label": "济阳",
+            "label": "济阳县",
             isLeaf: true
           },
           {
             "value": "370126",
-            "label": "商河",
+            "label": "商河县",
             isLeaf: true
           },
           {
@@ -7876,42 +7876,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "370201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "370202",
-            "label": "市南",
+            "label": "市南区",
             isLeaf: true
           },
           {
             "value": "370203",
-            "label": "市北",
+            "label": "市北区",
             isLeaf: true
           },
           {
             "value": "370205",
-            "label": "四方",
+            "label": "四方区",
             isLeaf: true
           },
           {
             "value": "370211",
-            "label": "黄岛",
+            "label": "黄岛区",
             isLeaf: true
           },
           {
             "value": "370212",
-            "label": "崂山",
+            "label": "崂山区",
             isLeaf: true
           },
           {
             "value": "370213",
-            "label": "李沧",
+            "label": "李沧区",
             isLeaf: true
           },
           {
             "value": "370214",
-            "label": "城阳",
+            "label": "城阳区",
             isLeaf: true
           },
           {
@@ -7947,47 +7947,47 @@ const cityAddressItems = [
         "children": [
           {
             "value": "370301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "370302",
-            "label": "淄川",
+            "label": "淄川区",
             isLeaf: true
           },
           {
             "value": "370303",
-            "label": "张店",
+            "label": "张店区",
             isLeaf: true
           },
           {
             "value": "370304",
-            "label": "博山",
+            "label": "博山区",
             isLeaf: true
           },
           {
             "value": "370305",
-            "label": "临淄",
+            "label": "临淄区",
             isLeaf: true
           },
           {
             "value": "370306",
-            "label": "周村",
+            "label": "周村区",
             isLeaf: true
           },
           {
             "value": "370321",
-            "label": "桓台",
+            "label": "桓台县",
             isLeaf: true
           },
           {
             "value": "370322",
-            "label": "高青",
+            "label": "高青县",
             isLeaf: true
           },
           {
             "value": "370323",
-            "label": "沂源",
+            "label": "沂源县",
             isLeaf: true
           }
         ],
@@ -7998,32 +7998,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "370401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "370402",
-            "label": "市中",
+            "label": "市中区",
             isLeaf: true
           },
           {
             "value": "370403",
-            "label": "薛城",
+            "label": "薛城区",
             isLeaf: true
           },
           {
             "value": "370404",
-            "label": "峄城",
+            "label": "峄城区",
             isLeaf: true
           },
           {
             "value": "370405",
-            "label": "台儿庄",
+            "label": "台儿庄区",
             isLeaf: true
           },
           {
             "value": "370406",
-            "label": "山亭",
+            "label": "山亭区",
             isLeaf: true
           },
           {
@@ -8039,32 +8039,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "370501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "370502",
-            "label": "东营",
+            "label": "东营区",
             isLeaf: true
           },
           {
             "value": "370503",
-            "label": "河口",
+            "label": "河口区",
             isLeaf: true
           },
           {
             "value": "370521",
-            "label": "垦利",
+            "label": "垦利县",
             isLeaf: true
           },
           {
             "value": "370522",
-            "label": "利津",
+            "label": "利津县",
             isLeaf: true
           },
           {
             "value": "370523",
-            "label": "广饶",
+            "label": "广饶县",
             isLeaf: true
           }
         ],
@@ -8075,32 +8075,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "370601",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "370602",
-            "label": "芝罘",
+            "label": "芝罘区",
             isLeaf: true
           },
           {
             "value": "370611",
-            "label": "福山",
+            "label": "福山区",
             isLeaf: true
           },
           {
             "value": "370612",
-            "label": "牟平",
+            "label": "牟平区",
             isLeaf: true
           },
           {
             "value": "370613",
-            "label": "莱山",
+            "label": "莱山区",
             isLeaf: true
           },
           {
             "value": "370634",
-            "label": "长岛",
+            "label": "长岛县",
             isLeaf: true
           },
           {
@@ -8146,37 +8146,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "370701",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "370702",
-            "label": "潍城",
+            "label": "潍城区",
             isLeaf: true
           },
           {
             "value": "370703",
-            "label": "寒亭",
+            "label": "寒亭区",
             isLeaf: true
           },
           {
             "value": "370704",
-            "label": "坊子",
+            "label": "坊子区",
             isLeaf: true
           },
           {
             "value": "370705",
-            "label": "奎文",
+            "label": "奎文区",
             isLeaf: true
           },
           {
             "value": "370724",
-            "label": "临朐",
+            "label": "临朐县",
             isLeaf: true
           },
           {
             "value": "370725",
-            "label": "昌乐",
+            "label": "昌乐县",
             isLeaf: true
           },
           {
@@ -8217,52 +8217,52 @@ const cityAddressItems = [
         "children": [
           {
             "value": "370801",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "370802",
-            "label": "市中",
+            "label": "市中区",
             isLeaf: true
           },
           {
             "value": "370811",
-            "label": "任城",
+            "label": "任城区",
             isLeaf: true
           },
           {
             "value": "370826",
-            "label": "微山",
+            "label": "微山县",
             isLeaf: true
           },
           {
             "value": "370827",
-            "label": "鱼台",
+            "label": "鱼台县",
             isLeaf: true
           },
           {
             "value": "370828",
-            "label": "金乡",
+            "label": "金乡县",
             isLeaf: true
           },
           {
             "value": "370829",
-            "label": "嘉祥",
+            "label": "嘉祥县",
             isLeaf: true
           },
           {
             "value": "370830",
-            "label": "汶上",
+            "label": "汶上县",
             isLeaf: true
           },
           {
             "value": "370831",
-            "label": "泗水",
+            "label": "泗水县",
             isLeaf: true
           },
           {
             "value": "370832",
-            "label": "梁山",
+            "label": "梁山县",
             isLeaf: true
           },
           {
@@ -8288,27 +8288,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "370901",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "370902",
-            "label": "泰山",
+            "label": "泰山区",
             isLeaf: true
           },
           {
             "value": "370903",
-            "label": "岱岳",
+            "label": "岱岳区",
             isLeaf: true
           },
           {
             "value": "370921",
-            "label": "宁阳",
+            "label": "宁阳县",
             isLeaf: true
           },
           {
             "value": "370923",
-            "label": "东平",
+            "label": "东平县",
             isLeaf: true
           },
           {
@@ -8329,12 +8329,12 @@ const cityAddressItems = [
         "children": [
           {
             "value": "371001",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "371002",
-            "label": "环翠",
+            "label": "环翠区",
             isLeaf: true
           },
           {
@@ -8360,27 +8360,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "371101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "371102",
-            "label": "东港",
+            "label": "东港区",
             isLeaf: true
           },
           {
             "value": "371103",
-            "label": "岚山",
+            "label": "岚山区",
             isLeaf: true
           },
           {
             "value": "371121",
-            "label": "五莲",
+            "label": "五莲县",
             isLeaf: true
           },
           {
             "value": "371122",
-            "label": "莒",
+            "label": "莒县",
             isLeaf: true
           }
         ],
@@ -8391,17 +8391,17 @@ const cityAddressItems = [
         "children": [
           {
             "value": "371201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "371202",
-            "label": "莱城",
+            "label": "莱城区",
             isLeaf: true
           },
           {
             "value": "371203",
-            "label": "钢城",
+            "label": "钢城区",
             isLeaf: true
           }
         ],
@@ -8412,72 +8412,72 @@ const cityAddressItems = [
         "children": [
           {
             "value": "371301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "371302",
-            "label": "兰山",
+            "label": "兰山区",
             isLeaf: true
           },
           {
             "value": "371311",
-            "label": "罗庄",
+            "label": "罗庄区",
             isLeaf: true
           },
           {
             "value": "371312",
-            "label": "河东",
+            "label": "河东区",
             isLeaf: true
           },
           {
             "value": "371321",
-            "label": "沂南",
+            "label": "沂南县",
             isLeaf: true
           },
           {
             "value": "371322",
-            "label": "郯城",
+            "label": "郯城县",
             isLeaf: true
           },
           {
             "value": "371323",
-            "label": "沂水",
+            "label": "沂水县",
             isLeaf: true
           },
           {
             "value": "371324",
-            "label": "苍山",
+            "label": "苍山县",
             isLeaf: true
           },
           {
             "value": "371325",
-            "label": "费",
+            "label": "费县",
             isLeaf: true
           },
           {
             "value": "371326",
-            "label": "平邑",
+            "label": "平邑县",
             isLeaf: true
           },
           {
             "value": "371327",
-            "label": "莒南",
+            "label": "莒南县",
             isLeaf: true
           },
           {
             "value": "371328",
-            "label": "蒙阴",
+            "label": "蒙阴县",
             isLeaf: true
           },
           {
             "value": "371329",
-            "label": "临沭",
+            "label": "临沭县",
             isLeaf: true
           },
           {
             "value": "371324",
-            "label": "兰陵",
+            "label": "兰陵县",
             isLeaf: true
           }
         ],
@@ -8488,52 +8488,52 @@ const cityAddressItems = [
         "children": [
           {
             "value": "371401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "371402",
-            "label": "德城",
+            "label": "德城区",
             isLeaf: true
           },
           {
             "value": "371421",
-            "label": "陵　",
+            "label": "陵　县",
             isLeaf: true
           },
           {
             "value": "371422",
-            "label": "宁津",
+            "label": "宁津县",
             isLeaf: true
           },
           {
             "value": "371423",
-            "label": "庆云",
+            "label": "庆云县",
             isLeaf: true
           },
           {
             "value": "371424",
-            "label": "临邑",
+            "label": "临邑县",
             isLeaf: true
           },
           {
             "value": "371425",
-            "label": "齐河",
+            "label": "齐河县",
             isLeaf: true
           },
           {
             "value": "371426",
-            "label": "平原",
+            "label": "平原县",
             isLeaf: true
           },
           {
             "value": "371427",
-            "label": "夏津",
+            "label": "夏津县",
             isLeaf: true
           },
           {
             "value": "371428",
-            "label": "武城",
+            "label": "武城县",
             isLeaf: true
           },
           {
@@ -8548,7 +8548,7 @@ const cityAddressItems = [
           },
           {
             "value": "371403",
-            "label": "陵城",
+            "label": "陵城区",
             isLeaf: true
           }
         ],
@@ -8559,42 +8559,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "371501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "371502",
-            "label": "东昌府",
+            "label": "东昌府区",
             isLeaf: true
           },
           {
             "value": "371521",
-            "label": "阳谷",
+            "label": "阳谷县",
             isLeaf: true
           },
           {
             "value": "371522",
-            "label": "莘",
+            "label": "莘县",
             isLeaf: true
           },
           {
             "value": "371523",
-            "label": "茌平",
+            "label": "茌平县",
             isLeaf: true
           },
           {
             "value": "371524",
-            "label": "东阿",
+            "label": "东阿县",
             isLeaf: true
           },
           {
             "value": "371525",
-            "label": "冠",
+            "label": "冠县",
             isLeaf: true
           },
           {
             "value": "371526",
-            "label": "高唐",
+            "label": "高唐县",
             isLeaf: true
           },
           {
@@ -8610,42 +8610,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "371601",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "371602",
-            "label": "滨城",
+            "label": "滨城区",
             isLeaf: true
           },
           {
             "value": "371621",
-            "label": "惠民",
+            "label": "惠民县",
             isLeaf: true
           },
           {
             "value": "371622",
-            "label": "阳信",
+            "label": "阳信县",
             isLeaf: true
           },
           {
             "value": "371623",
-            "label": "无棣",
+            "label": "无棣县",
             isLeaf: true
           },
           {
             "value": "371624",
-            "label": "沾化",
+            "label": "沾化县",
             isLeaf: true
           },
           {
             "value": "371625",
-            "label": "博兴",
+            "label": "博兴县",
             isLeaf: true
           },
           {
             "value": "371626",
-            "label": "邹平",
+            "label": "邹平县",
             isLeaf: true
           }
         ],
@@ -8656,52 +8656,52 @@ const cityAddressItems = [
         "children": [
           {
             "value": "371701",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "371702",
-            "label": "牡丹",
+            "label": "牡丹区",
             isLeaf: true
           },
           {
             "value": "371721",
-            "label": "曹",
+            "label": "曹县",
             isLeaf: true
           },
           {
             "value": "371722",
-            "label": "单",
+            "label": "单县",
             isLeaf: true
           },
           {
             "value": "371723",
-            "label": "成武",
+            "label": "成武县",
             isLeaf: true
           },
           {
             "value": "371724",
-            "label": "巨野",
+            "label": "巨野县",
             isLeaf: true
           },
           {
             "value": "371725",
-            "label": "郓城",
+            "label": "郓城县",
             isLeaf: true
           },
           {
             "value": "371726",
-            "label": "鄄城",
+            "label": "鄄城县",
             isLeaf: true
           },
           {
             "value": "371727",
-            "label": "定陶",
+            "label": "定陶县",
             isLeaf: true
           },
           {
             "value": "371728",
-            "label": "东明",
+            "label": "东明县",
             isLeaf: true
           }
         ],
@@ -8718,42 +8718,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "410101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "410102",
-            "label": "中原",
+            "label": "中原区",
             isLeaf: true
           },
           {
             "value": "410103",
-            "label": "二七",
+            "label": "二七区",
             isLeaf: true
           },
           {
             "value": "410104",
-            "label": "管城回族",
+            "label": "管城回族区",
             isLeaf: true
           },
           {
             "value": "410105",
-            "label": "金水",
+            "label": "金水区",
             isLeaf: true
           },
           {
             "value": "410106",
-            "label": "上街",
+            "label": "上街区",
             isLeaf: true
           },
           {
             "value": "410108",
-            "label": "邙山",
+            "label": "邙山区",
             isLeaf: true
           },
           {
             "value": "410122",
-            "label": "中牟",
+            "label": "中牟县",
             isLeaf: true
           },
           {
@@ -8783,7 +8783,7 @@ const cityAddressItems = [
           },
           {
             "value": "410108",
-            "label": "惠济",
+            "label": "惠济区",
             isLeaf: true
           }
         ],
@@ -8794,67 +8794,67 @@ const cityAddressItems = [
         "children": [
           {
             "value": "410201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "410202",
-            "label": "龙亭",
+            "label": "龙亭区",
             isLeaf: true
           },
           {
             "value": "410203",
-            "label": "顺河回族",
+            "label": "顺河回族区",
             isLeaf: true
           },
           {
             "value": "410204",
-            "label": "鼓楼",
+            "label": "鼓楼区",
             isLeaf: true
           },
           {
             "value": "410205",
-            "label": "南关",
+            "label": "南关区",
             isLeaf: true
           },
           {
             "value": "410211",
-            "label": "郊",
+            "label": "郊区",
             isLeaf: true
           },
           {
             "value": "410221",
-            "label": "杞",
+            "label": "杞县",
             isLeaf: true
           },
           {
             "value": "410222",
-            "label": "通许",
+            "label": "通许县",
             isLeaf: true
           },
           {
             "value": "410223",
-            "label": "尉氏",
+            "label": "尉氏县",
             isLeaf: true
           },
           {
             "value": "410224",
-            "label": "开封",
+            "label": "开封县",
             isLeaf: true
           },
           {
             "value": "410225",
-            "label": "兰考",
+            "label": "兰考县",
             isLeaf: true
           },
           {
             "value": "410212",
-            "label": "祥符",
+            "label": "祥符区",
             isLeaf: true
           },
           {
             "value": "410205",
-            "label": "禹王台",
+            "label": "禹王台区",
             isLeaf: true
           }
         ],
@@ -8865,77 +8865,77 @@ const cityAddressItems = [
         "children": [
           {
             "value": "410301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "410302",
-            "label": "老城",
+            "label": "老城区",
             isLeaf: true
           },
           {
             "value": "410303",
-            "label": "西工",
+            "label": "西工区",
             isLeaf: true
           },
           {
             "value": "410304",
-            "label": "廛河回族",
+            "label": "廛河回族区",
             isLeaf: true
           },
           {
             "value": "410305",
-            "label": "涧西",
+            "label": "涧西区",
             isLeaf: true
           },
           {
             "value": "410306",
-            "label": "吉利",
+            "label": "吉利区",
             isLeaf: true
           },
           {
             "value": "410307",
-            "label": "洛龙",
+            "label": "洛龙区",
             isLeaf: true
           },
           {
             "value": "410322",
-            "label": "孟津",
+            "label": "孟津县",
             isLeaf: true
           },
           {
             "value": "410323",
-            "label": "新安",
+            "label": "新安县",
             isLeaf: true
           },
           {
             "value": "410324",
-            "label": "栾川",
+            "label": "栾川县",
             isLeaf: true
           },
           {
             "value": "410325",
-            "label": "嵩",
+            "label": "嵩县",
             isLeaf: true
           },
           {
             "value": "410326",
-            "label": "汝阳",
+            "label": "汝阳县",
             isLeaf: true
           },
           {
             "value": "410327",
-            "label": "宜阳",
+            "label": "宜阳县",
             isLeaf: true
           },
           {
             "value": "410328",
-            "label": "洛宁",
+            "label": "洛宁县",
             isLeaf: true
           },
           {
             "value": "410329",
-            "label": "伊川",
+            "label": "伊川县",
             isLeaf: true
           },
           {
@@ -8945,7 +8945,7 @@ const cityAddressItems = [
           },
           {
             "value": "410304",
-            "label": "瀍河回族",
+            "label": "瀍河回族区",
             isLeaf: true
           }
         ],
@@ -8956,47 +8956,47 @@ const cityAddressItems = [
         "children": [
           {
             "value": "410401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "410402",
-            "label": "新华",
+            "label": "新华区",
             isLeaf: true
           },
           {
             "value": "410403",
-            "label": "卫东",
+            "label": "卫东区",
             isLeaf: true
           },
           {
             "value": "410404",
-            "label": "石龙",
+            "label": "石龙区",
             isLeaf: true
           },
           {
             "value": "410411",
-            "label": "湛河",
+            "label": "湛河区",
             isLeaf: true
           },
           {
             "value": "410421",
-            "label": "宝丰",
+            "label": "宝丰县",
             isLeaf: true
           },
           {
             "value": "410422",
-            "label": "叶",
+            "label": "叶县",
             isLeaf: true
           },
           {
             "value": "410423",
-            "label": "鲁山",
+            "label": "鲁山县",
             isLeaf: true
           },
           {
             "value": "410425",
-            "label": "郏",
+            "label": "郏县",
             isLeaf: true
           },
           {
@@ -9017,47 +9017,47 @@ const cityAddressItems = [
         "children": [
           {
             "value": "410501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "410502",
-            "label": "文峰",
+            "label": "文峰区",
             isLeaf: true
           },
           {
             "value": "410503",
-            "label": "北关",
+            "label": "北关区",
             isLeaf: true
           },
           {
             "value": "410505",
-            "label": "殷都",
+            "label": "殷都区",
             isLeaf: true
           },
           {
             "value": "410506",
-            "label": "龙安",
+            "label": "龙安区",
             isLeaf: true
           },
           {
             "value": "410522",
-            "label": "安阳",
+            "label": "安阳县",
             isLeaf: true
           },
           {
             "value": "410523",
-            "label": "汤阴",
+            "label": "汤阴县",
             isLeaf: true
           },
           {
             "value": "410526",
-            "label": "滑",
+            "label": "滑县",
             isLeaf: true
           },
           {
             "value": "410527",
-            "label": "内黄",
+            "label": "内黄县",
             isLeaf: true
           },
           {
@@ -9073,32 +9073,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "410601",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "410602",
-            "label": "鹤山",
+            "label": "鹤山区",
             isLeaf: true
           },
           {
             "value": "410603",
-            "label": "山城",
+            "label": "山城区",
             isLeaf: true
           },
           {
             "value": "410611",
-            "label": "淇滨",
+            "label": "淇滨区",
             isLeaf: true
           },
           {
             "value": "410621",
-            "label": "浚",
+            "label": "浚县",
             isLeaf: true
           },
           {
             "value": "410622",
-            "label": "淇",
+            "label": "淇县",
             isLeaf: true
           }
         ],
@@ -9109,57 +9109,57 @@ const cityAddressItems = [
         "children": [
           {
             "value": "410701",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "410702",
-            "label": "红旗",
+            "label": "红旗区",
             isLeaf: true
           },
           {
             "value": "410703",
-            "label": "卫滨",
+            "label": "卫滨区",
             isLeaf: true
           },
           {
             "value": "410704",
-            "label": "凤泉",
+            "label": "凤泉区",
             isLeaf: true
           },
           {
             "value": "410711",
-            "label": "牧野",
+            "label": "牧野区",
             isLeaf: true
           },
           {
             "value": "410721",
-            "label": "新乡",
+            "label": "新乡县",
             isLeaf: true
           },
           {
             "value": "410724",
-            "label": "获嘉",
+            "label": "获嘉县",
             isLeaf: true
           },
           {
             "value": "410725",
-            "label": "原阳",
+            "label": "原阳县",
             isLeaf: true
           },
           {
             "value": "410726",
-            "label": "延津",
+            "label": "延津县",
             isLeaf: true
           },
           {
             "value": "410727",
-            "label": "封丘",
+            "label": "封丘县",
             isLeaf: true
           },
           {
             "value": "410728",
-            "label": "长垣",
+            "label": "长垣县",
             isLeaf: true
           },
           {
@@ -9169,7 +9169,7 @@ const cityAddressItems = [
           },
           {
             "value": "410782",
-            "label": "辉市",
+            "label": "辉县市",
             isLeaf: true
           }
         ],
@@ -9180,47 +9180,47 @@ const cityAddressItems = [
         "children": [
           {
             "value": "410801",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "410802",
-            "label": "解放",
+            "label": "解放区",
             isLeaf: true
           },
           {
             "value": "410803",
-            "label": "中站",
+            "label": "中站区",
             isLeaf: true
           },
           {
             "value": "410804",
-            "label": "马村",
+            "label": "马村区",
             isLeaf: true
           },
           {
             "value": "410811",
-            "label": "山阳",
+            "label": "山阳区",
             isLeaf: true
           },
           {
             "value": "410821",
-            "label": "修武",
+            "label": "修武县",
             isLeaf: true
           },
           {
             "value": "410822",
-            "label": "博爱",
+            "label": "博爱县",
             isLeaf: true
           },
           {
             "value": "410823",
-            "label": "武陟",
+            "label": "武陟县",
             isLeaf: true
           },
           {
             "value": "410825",
-            "label": "温",
+            "label": "温县",
             isLeaf: true
           },
           {
@@ -9246,37 +9246,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "410901",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "410902",
-            "label": "华龙",
+            "label": "华龙区",
             isLeaf: true
           },
           {
             "value": "410922",
-            "label": "清丰",
+            "label": "清丰县",
             isLeaf: true
           },
           {
             "value": "410923",
-            "label": "南乐",
+            "label": "南乐县",
             isLeaf: true
           },
           {
             "value": "410926",
-            "label": "范",
+            "label": "范县",
             isLeaf: true
           },
           {
             "value": "410927",
-            "label": "台前",
+            "label": "台前县",
             isLeaf: true
           },
           {
             "value": "410928",
-            "label": "濮阳",
+            "label": "濮阳县",
             isLeaf: true
           }
         ],
@@ -9287,27 +9287,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "411001",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "411002",
-            "label": "魏都",
+            "label": "魏都区",
             isLeaf: true
           },
           {
             "value": "411023",
-            "label": "许昌",
+            "label": "许昌县",
             isLeaf: true
           },
           {
             "value": "411024",
-            "label": "鄢陵",
+            "label": "鄢陵县",
             isLeaf: true
           },
           {
             "value": "411025",
-            "label": "襄城",
+            "label": "襄城县",
             isLeaf: true
           },
           {
@@ -9322,7 +9322,7 @@ const cityAddressItems = [
           },
           {
             "value": "411003",
-            "label": "建安",
+            "label": "建安区",
             isLeaf: true
           }
         ],
@@ -9333,32 +9333,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "411101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "411102",
-            "label": "源汇",
+            "label": "源汇区",
             isLeaf: true
           },
           {
             "value": "411103",
-            "label": "郾城",
+            "label": "郾城区",
             isLeaf: true
           },
           {
             "value": "411104",
-            "label": "召陵",
+            "label": "召陵区",
             isLeaf: true
           },
           {
             "value": "411121",
-            "label": "舞阳",
+            "label": "舞阳县",
             isLeaf: true
           },
           {
             "value": "411122",
-            "label": "临颍",
+            "label": "临颍县",
             isLeaf: true
           }
         ],
@@ -9369,27 +9369,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "411201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "411202",
-            "label": "湖滨",
+            "label": "湖滨区",
             isLeaf: true
           },
           {
             "value": "411221",
-            "label": "渑池",
+            "label": "渑池县",
             isLeaf: true
           },
           {
             "value": "411222",
-            "label": "陕",
+            "label": "陕县",
             isLeaf: true
           },
           {
             "value": "411224",
-            "label": "卢氏",
+            "label": "卢氏县",
             isLeaf: true
           },
           {
@@ -9404,7 +9404,7 @@ const cityAddressItems = [
           },
           {
             "value": "411203",
-            "label": "陕州",
+            "label": "陕州区",
             isLeaf: true
           }
         ],
@@ -9415,67 +9415,67 @@ const cityAddressItems = [
         "children": [
           {
             "value": "411301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "411302",
-            "label": "宛城",
+            "label": "宛城区",
             isLeaf: true
           },
           {
             "value": "411303",
-            "label": "卧龙",
+            "label": "卧龙区",
             isLeaf: true
           },
           {
             "value": "411321",
-            "label": "南召",
+            "label": "南召县",
             isLeaf: true
           },
           {
             "value": "411322",
-            "label": "方城",
+            "label": "方城县",
             isLeaf: true
           },
           {
             "value": "411323",
-            "label": "西峡",
+            "label": "西峡县",
             isLeaf: true
           },
           {
             "value": "411324",
-            "label": "镇平",
+            "label": "镇平县",
             isLeaf: true
           },
           {
             "value": "411325",
-            "label": "内乡",
+            "label": "内乡县",
             isLeaf: true
           },
           {
             "value": "411326",
-            "label": "淅川",
+            "label": "淅川县",
             isLeaf: true
           },
           {
             "value": "411327",
-            "label": "社旗",
+            "label": "社旗县",
             isLeaf: true
           },
           {
             "value": "411328",
-            "label": "唐河",
+            "label": "唐河县",
             isLeaf: true
           },
           {
             "value": "411329",
-            "label": "新野",
+            "label": "新野县",
             isLeaf: true
           },
           {
             "value": "411330",
-            "label": "桐柏",
+            "label": "桐柏县",
             isLeaf: true
           },
           {
@@ -9491,47 +9491,47 @@ const cityAddressItems = [
         "children": [
           {
             "value": "411401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "411402",
-            "label": "梁园",
+            "label": "梁园区",
             isLeaf: true
           },
           {
             "value": "411403",
-            "label": "睢阳",
+            "label": "睢阳区",
             isLeaf: true
           },
           {
             "value": "411421",
-            "label": "民权",
+            "label": "民权县",
             isLeaf: true
           },
           {
             "value": "411422",
-            "label": "睢",
+            "label": "睢县",
             isLeaf: true
           },
           {
             "value": "411423",
-            "label": "宁陵",
+            "label": "宁陵县",
             isLeaf: true
           },
           {
             "value": "411424",
-            "label": "柘城",
+            "label": "柘城县",
             isLeaf: true
           },
           {
             "value": "411425",
-            "label": "虞城",
+            "label": "虞城县",
             isLeaf: true
           },
           {
             "value": "411426",
-            "label": "夏邑",
+            "label": "夏邑县",
             isLeaf: true
           },
           {
@@ -9547,62 +9547,62 @@ const cityAddressItems = [
         "children": [
           {
             "value": "411501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "411502",
-            "label": "师河",
+            "label": "师河区",
             isLeaf: true
           },
           {
             "value": "411503",
-            "label": "平桥",
+            "label": "平桥区",
             isLeaf: true
           },
           {
             "value": "411521",
-            "label": "罗山",
+            "label": "罗山县",
             isLeaf: true
           },
           {
             "value": "411522",
-            "label": "光山",
+            "label": "光山县",
             isLeaf: true
           },
           {
             "value": "411523",
-            "label": "新",
+            "label": "新县",
             isLeaf: true
           },
           {
             "value": "411524",
-            "label": "商城",
+            "label": "商城县",
             isLeaf: true
           },
           {
             "value": "411525",
-            "label": "固始",
+            "label": "固始县",
             isLeaf: true
           },
           {
             "value": "411526",
-            "label": "潢川",
+            "label": "潢川县",
             isLeaf: true
           },
           {
             "value": "411527",
-            "label": "淮滨",
+            "label": "淮滨县",
             isLeaf: true
           },
           {
             "value": "411528",
-            "label": "息",
+            "label": "息县",
             isLeaf: true
           },
           {
             "value": "411502",
-            "label": "浉河",
+            "label": "浉河区",
             isLeaf: true
           }
         ],
@@ -9613,52 +9613,52 @@ const cityAddressItems = [
         "children": [
           {
             "value": "411601",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "411602",
-            "label": "川汇",
+            "label": "川汇区",
             isLeaf: true
           },
           {
             "value": "411621",
-            "label": "扶沟",
+            "label": "扶沟县",
             isLeaf: true
           },
           {
             "value": "411622",
-            "label": "西华",
+            "label": "西华县",
             isLeaf: true
           },
           {
             "value": "411623",
-            "label": "商水",
+            "label": "商水县",
             isLeaf: true
           },
           {
             "value": "411624",
-            "label": "沈丘",
+            "label": "沈丘县",
             isLeaf: true
           },
           {
             "value": "411625",
-            "label": "郸城",
+            "label": "郸城县",
             isLeaf: true
           },
           {
             "value": "411626",
-            "label": "淮阳",
+            "label": "淮阳县",
             isLeaf: true
           },
           {
             "value": "411627",
-            "label": "太康",
+            "label": "太康县",
             isLeaf: true
           },
           {
             "value": "411628",
-            "label": "鹿邑",
+            "label": "鹿邑县",
             isLeaf: true
           },
           {
@@ -9674,57 +9674,57 @@ const cityAddressItems = [
         "children": [
           {
             "value": "411701",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "411702",
-            "label": "驿城",
+            "label": "驿城区",
             isLeaf: true
           },
           {
             "value": "411721",
-            "label": "西平",
+            "label": "西平县",
             isLeaf: true
           },
           {
             "value": "411722",
-            "label": "上蔡",
+            "label": "上蔡县",
             isLeaf: true
           },
           {
             "value": "411723",
-            "label": "平舆",
+            "label": "平舆县",
             isLeaf: true
           },
           {
             "value": "411724",
-            "label": "正阳",
+            "label": "正阳县",
             isLeaf: true
           },
           {
             "value": "411725",
-            "label": "确山",
+            "label": "确山县",
             isLeaf: true
           },
           {
             "value": "411726",
-            "label": "泌阳",
+            "label": "泌阳县",
             isLeaf: true
           },
           {
             "value": "411727",
-            "label": "汝南",
+            "label": "汝南县",
             isLeaf: true
           },
           {
             "value": "411728",
-            "label": "遂平",
+            "label": "遂平县",
             isLeaf: true
           },
           {
             "value": "411729",
-            "label": "新蔡",
+            "label": "新蔡县",
             isLeaf: true
           }
         ],
@@ -9746,72 +9746,72 @@ const cityAddressItems = [
         "children": [
           {
             "value": "420101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "420102",
-            "label": "江岸",
+            "label": "江岸区",
             isLeaf: true
           },
           {
             "value": "420103",
-            "label": "江汉",
+            "label": "江汉区",
             isLeaf: true
           },
           {
             "value": "420104",
-            "label": "乔口",
+            "label": "乔口区",
             isLeaf: true
           },
           {
             "value": "420105",
-            "label": "汉阳",
+            "label": "汉阳区",
             isLeaf: true
           },
           {
             "value": "420106",
-            "label": "武昌",
+            "label": "武昌区",
             isLeaf: true
           },
           {
             "value": "420107",
-            "label": "青山",
+            "label": "青山区",
             isLeaf: true
           },
           {
             "value": "420111",
-            "label": "洪山",
+            "label": "洪山区",
             isLeaf: true
           },
           {
             "value": "420112",
-            "label": "东西湖",
+            "label": "东西湖区",
             isLeaf: true
           },
           {
             "value": "420113",
-            "label": "汉南",
+            "label": "汉南区",
             isLeaf: true
           },
           {
             "value": "420114",
-            "label": "蔡甸",
+            "label": "蔡甸区",
             isLeaf: true
           },
           {
             "value": "420115",
-            "label": "江夏",
+            "label": "江夏区",
             isLeaf: true
           },
           {
             "value": "420116",
-            "label": "黄陂",
+            "label": "黄陂区",
             isLeaf: true
           },
           {
             "value": "420117",
-            "label": "新洲",
+            "label": "新洲区",
             isLeaf: true
           }
         ],
@@ -9822,32 +9822,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "420201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "420202",
-            "label": "黄石港",
+            "label": "黄石港区",
             isLeaf: true
           },
           {
             "value": "420203",
-            "label": "西塞山",
+            "label": "西塞山区",
             isLeaf: true
           },
           {
             "value": "420204",
-            "label": "下陆",
+            "label": "下陆区",
             isLeaf: true
           },
           {
             "value": "420205",
-            "label": "铁山",
+            "label": "铁山区",
             isLeaf: true
           },
           {
             "value": "420222",
-            "label": "阳新",
+            "label": "阳新县",
             isLeaf: true
           },
           {
@@ -9863,42 +9863,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "420301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "420302",
-            "label": "茅箭",
+            "label": "茅箭区",
             isLeaf: true
           },
           {
             "value": "420303",
-            "label": "张湾",
+            "label": "张湾区",
             isLeaf: true
           },
           {
             "value": "420321",
-            "label": "郧",
+            "label": "郧县",
             isLeaf: true
           },
           {
             "value": "420322",
-            "label": "郧西",
+            "label": "郧西县",
             isLeaf: true
           },
           {
             "value": "420323",
-            "label": "竹山",
+            "label": "竹山县",
             isLeaf: true
           },
           {
             "value": "420324",
-            "label": "竹溪",
+            "label": "竹溪县",
             isLeaf: true
           },
           {
             "value": "420325",
-            "label": "房",
+            "label": "房县",
             isLeaf: true
           },
           {
@@ -9908,7 +9908,7 @@ const cityAddressItems = [
           },
           {
             "value": "420304",
-            "label": "郧阳",
+            "label": "郧阳区",
             isLeaf: true
           }
         ],
@@ -9919,57 +9919,57 @@ const cityAddressItems = [
         "children": [
           {
             "value": "420501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "420502",
-            "label": "西陵",
+            "label": "西陵区",
             isLeaf: true
           },
           {
             "value": "420503",
-            "label": "伍家岗",
+            "label": "伍家岗区",
             isLeaf: true
           },
           {
             "value": "420504",
-            "label": "点军",
+            "label": "点军区",
             isLeaf: true
           },
           {
             "value": "420505",
-            "label": "猇亭",
+            "label": "猇亭区",
             isLeaf: true
           },
           {
             "value": "420506",
-            "label": "夷陵",
+            "label": "夷陵区",
             isLeaf: true
           },
           {
             "value": "420525",
-            "label": "远安",
+            "label": "远安县",
             isLeaf: true
           },
           {
             "value": "420526",
-            "label": "兴山",
+            "label": "兴山县",
             isLeaf: true
           },
           {
             "value": "420527",
-            "label": "秭归",
+            "label": "秭归县",
             isLeaf: true
           },
           {
             "value": "420528",
-            "label": "长阳土家族自治",
+            "label": "长阳土家族自治县",
             isLeaf: true
           },
           {
             "value": "420529",
-            "label": "五峰土家族自治",
+            "label": "五峰土家族自治县",
             isLeaf: true
           },
           {
@@ -9995,37 +9995,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "420601",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "420602",
-            "label": "襄城",
+            "label": "襄城区",
             isLeaf: true
           },
           {
             "value": "420606",
-            "label": "樊城",
+            "label": "樊城区",
             isLeaf: true
           },
           {
             "value": "420607",
-            "label": "襄阳",
+            "label": "襄阳区",
             isLeaf: true
           },
           {
             "value": "420624",
-            "label": "南漳",
+            "label": "南漳县",
             isLeaf: true
           },
           {
             "value": "420625",
-            "label": "谷城",
+            "label": "谷城县",
             isLeaf: true
           },
           {
             "value": "420626",
-            "label": "保康",
+            "label": "保康县",
             isLeaf: true
           },
           {
@@ -10045,7 +10045,7 @@ const cityAddressItems = [
           },
           {
             "value": "420607",
-            "label": "襄州",
+            "label": "襄州区",
             isLeaf: true
           }
         ],
@@ -10056,22 +10056,22 @@ const cityAddressItems = [
         "children": [
           {
             "value": "420701",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "420702",
-            "label": "梁子湖",
+            "label": "梁子湖区",
             isLeaf: true
           },
           {
             "value": "420703",
-            "label": "华容",
+            "label": "华容区",
             isLeaf: true
           },
           {
             "value": "420704",
-            "label": "鄂城",
+            "label": "鄂城区",
             isLeaf: true
           }
         ],
@@ -10082,27 +10082,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "420801",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "420802",
-            "label": "东宝",
+            "label": "东宝区",
             isLeaf: true
           },
           {
             "value": "420804",
-            "label": "掇刀",
+            "label": "掇刀区",
             isLeaf: true
           },
           {
             "value": "420821",
-            "label": "京山",
+            "label": "京山县",
             isLeaf: true
           },
           {
             "value": "420822",
-            "label": "沙洋",
+            "label": "沙洋县",
             isLeaf: true
           },
           {
@@ -10118,27 +10118,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "420901",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "420902",
-            "label": "孝南",
+            "label": "孝南区",
             isLeaf: true
           },
           {
             "value": "420921",
-            "label": "孝昌",
+            "label": "孝昌县",
             isLeaf: true
           },
           {
             "value": "420922",
-            "label": "大悟",
+            "label": "大悟县",
             isLeaf: true
           },
           {
             "value": "420923",
-            "label": "云梦",
+            "label": "云梦县",
             isLeaf: true
           },
           {
@@ -10164,32 +10164,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "421001",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "421002",
-            "label": "沙市",
+            "label": "沙市区",
             isLeaf: true
           },
           {
             "value": "421003",
-            "label": "荆州",
+            "label": "荆州区",
             isLeaf: true
           },
           {
             "value": "421022",
-            "label": "公安",
+            "label": "公安县",
             isLeaf: true
           },
           {
             "value": "421023",
-            "label": "监利",
+            "label": "监利县",
             isLeaf: true
           },
           {
             "value": "421024",
-            "label": "江陵",
+            "label": "江陵县",
             isLeaf: true
           },
           {
@@ -10215,47 +10215,47 @@ const cityAddressItems = [
         "children": [
           {
             "value": "421101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "421102",
-            "label": "黄州",
+            "label": "黄州区",
             isLeaf: true
           },
           {
             "value": "421121",
-            "label": "团风",
+            "label": "团风县",
             isLeaf: true
           },
           {
             "value": "421122",
-            "label": "红安",
+            "label": "红安县",
             isLeaf: true
           },
           {
             "value": "421123",
-            "label": "罗田",
+            "label": "罗田县",
             isLeaf: true
           },
           {
             "value": "421124",
-            "label": "英山",
+            "label": "英山县",
             isLeaf: true
           },
           {
             "value": "421125",
-            "label": "浠水",
+            "label": "浠水县",
             isLeaf: true
           },
           {
             "value": "421126",
-            "label": "蕲春",
+            "label": "蕲春县",
             isLeaf: true
           },
           {
             "value": "421127",
-            "label": "黄梅",
+            "label": "黄梅县",
             isLeaf: true
           },
           {
@@ -10276,32 +10276,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "421201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "421202",
-            "label": "咸安",
+            "label": "咸安区",
             isLeaf: true
           },
           {
             "value": "421221",
-            "label": "嘉鱼",
+            "label": "嘉鱼县",
             isLeaf: true
           },
           {
             "value": "421222",
-            "label": "通城",
+            "label": "通城县",
             isLeaf: true
           },
           {
             "value": "421223",
-            "label": "崇阳",
+            "label": "崇阳县",
             isLeaf: true
           },
           {
             "value": "421224",
-            "label": "通山",
+            "label": "通山县",
             isLeaf: true
           },
           {
@@ -10317,12 +10317,12 @@ const cityAddressItems = [
         "children": [
           {
             "value": "421301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "421302",
-            "label": "曾都",
+            "label": "曾都区",
             isLeaf: true
           },
           {
@@ -10332,7 +10332,7 @@ const cityAddressItems = [
           },
           {
             "value": "421321",
-            "label": "随",
+            "label": "随县",
             isLeaf: true
           }
         ],
@@ -10353,32 +10353,32 @@ const cityAddressItems = [
           },
           {
             "value": "422822",
-            "label": "建始",
+            "label": "建始县",
             isLeaf: true
           },
           {
             "value": "422823",
-            "label": "巴东",
+            "label": "巴东县",
             isLeaf: true
           },
           {
             "value": "422825",
-            "label": "宣恩",
+            "label": "宣恩县",
             isLeaf: true
           },
           {
             "value": "422826",
-            "label": "咸丰",
+            "label": "咸丰县",
             isLeaf: true
           },
           {
             "value": "422827",
-            "label": "来凤",
+            "label": "来凤县",
             isLeaf: true
           },
           {
             "value": "422828",
-            "label": "鹤峰",
+            "label": "鹤峰县",
             isLeaf: true
           }
         ],
@@ -10404,7 +10404,7 @@ const cityAddressItems = [
           },
           {
             "value": "429021",
-            "label": "神农架林",
+            "label": "神农架林区",
             isLeaf: true
           }
         ],
@@ -10421,47 +10421,47 @@ const cityAddressItems = [
         "children": [
           {
             "value": "430101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "430102",
-            "label": "芙蓉",
+            "label": "芙蓉区",
             isLeaf: true
           },
           {
             "value": "430103",
-            "label": "天心",
+            "label": "天心区",
             isLeaf: true
           },
           {
             "value": "430104",
-            "label": "岳麓",
+            "label": "岳麓区",
             isLeaf: true
           },
           {
             "value": "430105",
-            "label": "开福",
+            "label": "开福区",
             isLeaf: true
           },
           {
             "value": "430111",
-            "label": "雨花",
+            "label": "雨花区",
             isLeaf: true
           },
           {
             "value": "430121",
-            "label": "长沙",
+            "label": "长沙县",
             isLeaf: true
           },
           {
             "value": "430122",
-            "label": "望城",
+            "label": "望城县",
             isLeaf: true
           },
           {
             "value": "430124",
-            "label": "宁乡",
+            "label": "宁乡县",
             isLeaf: true
           },
           {
@@ -10477,47 +10477,47 @@ const cityAddressItems = [
         "children": [
           {
             "value": "430201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "430202",
-            "label": "荷塘",
+            "label": "荷塘区",
             isLeaf: true
           },
           {
             "value": "430203",
-            "label": "芦淞",
+            "label": "芦淞区",
             isLeaf: true
           },
           {
             "value": "430204",
-            "label": "石峰",
+            "label": "石峰区",
             isLeaf: true
           },
           {
             "value": "430211",
-            "label": "天元",
+            "label": "天元区",
             isLeaf: true
           },
           {
             "value": "430221",
-            "label": "株洲",
+            "label": "株洲县",
             isLeaf: true
           },
           {
             "value": "430223",
-            "label": "攸",
+            "label": "攸县",
             isLeaf: true
           },
           {
             "value": "430224",
-            "label": "茶陵",
+            "label": "茶陵县",
             isLeaf: true
           },
           {
             "value": "430225",
-            "label": "炎陵",
+            "label": "炎陵县",
             isLeaf: true
           },
           {
@@ -10533,22 +10533,22 @@ const cityAddressItems = [
         "children": [
           {
             "value": "430301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "430302",
-            "label": "雨湖",
+            "label": "雨湖区",
             isLeaf: true
           },
           {
             "value": "430304",
-            "label": "岳塘",
+            "label": "岳塘区",
             isLeaf: true
           },
           {
             "value": "430321",
-            "label": "湘潭",
+            "label": "湘潭县",
             isLeaf: true
           },
           {
@@ -10569,57 +10569,57 @@ const cityAddressItems = [
         "children": [
           {
             "value": "430401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "430405",
-            "label": "珠晖",
+            "label": "珠晖区",
             isLeaf: true
           },
           {
             "value": "430406",
-            "label": "雁峰",
+            "label": "雁峰区",
             isLeaf: true
           },
           {
             "value": "430407",
-            "label": "石鼓",
+            "label": "石鼓区",
             isLeaf: true
           },
           {
             "value": "430408",
-            "label": "蒸湘",
+            "label": "蒸湘区",
             isLeaf: true
           },
           {
             "value": "430412",
-            "label": "南岳",
+            "label": "南岳区",
             isLeaf: true
           },
           {
             "value": "430421",
-            "label": "衡阳",
+            "label": "衡阳县",
             isLeaf: true
           },
           {
             "value": "430422",
-            "label": "衡南",
+            "label": "衡南县",
             isLeaf: true
           },
           {
             "value": "430423",
-            "label": "衡山",
+            "label": "衡山县",
             isLeaf: true
           },
           {
             "value": "430424",
-            "label": "衡东",
+            "label": "衡东县",
             isLeaf: true
           },
           {
             "value": "430426",
-            "label": "祁东",
+            "label": "祁东县",
             isLeaf: true
           },
           {
@@ -10640,62 +10640,62 @@ const cityAddressItems = [
         "children": [
           {
             "value": "430501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "430502",
-            "label": "双清",
+            "label": "双清区",
             isLeaf: true
           },
           {
             "value": "430503",
-            "label": "大祥",
+            "label": "大祥区",
             isLeaf: true
           },
           {
             "value": "430511",
-            "label": "北塔",
+            "label": "北塔区",
             isLeaf: true
           },
           {
             "value": "430521",
-            "label": "邵东",
+            "label": "邵东县",
             isLeaf: true
           },
           {
             "value": "430522",
-            "label": "新邵",
+            "label": "新邵县",
             isLeaf: true
           },
           {
             "value": "430523",
-            "label": "邵阳",
+            "label": "邵阳县",
             isLeaf: true
           },
           {
             "value": "430524",
-            "label": "隆回",
+            "label": "隆回县",
             isLeaf: true
           },
           {
             "value": "430525",
-            "label": "洞口",
+            "label": "洞口县",
             isLeaf: true
           },
           {
             "value": "430527",
-            "label": "绥宁",
+            "label": "绥宁县",
             isLeaf: true
           },
           {
             "value": "430528",
-            "label": "新宁",
+            "label": "新宁县",
             isLeaf: true
           },
           {
             "value": "430529",
-            "label": "城步苗族自治",
+            "label": "城步苗族自治县",
             isLeaf: true
           },
           {
@@ -10711,42 +10711,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "430601",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "430602",
-            "label": "岳阳楼",
+            "label": "岳阳楼区",
             isLeaf: true
           },
           {
             "value": "430603",
-            "label": "云溪",
+            "label": "云溪区",
             isLeaf: true
           },
           {
             "value": "430611",
-            "label": "君山",
+            "label": "君山区",
             isLeaf: true
           },
           {
             "value": "430621",
-            "label": "岳阳",
+            "label": "岳阳县",
             isLeaf: true
           },
           {
             "value": "430623",
-            "label": "华容",
+            "label": "华容县",
             isLeaf: true
           },
           {
             "value": "430624",
-            "label": "湘阴",
+            "label": "湘阴县",
             isLeaf: true
           },
           {
             "value": "430626",
-            "label": "平江",
+            "label": "平江县",
             isLeaf: true
           },
           {
@@ -10767,47 +10767,47 @@ const cityAddressItems = [
         "children": [
           {
             "value": "430701",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "430702",
-            "label": "武陵",
+            "label": "武陵区",
             isLeaf: true
           },
           {
             "value": "430703",
-            "label": "鼎城",
+            "label": "鼎城区",
             isLeaf: true
           },
           {
             "value": "430721",
-            "label": "安乡",
+            "label": "安乡县",
             isLeaf: true
           },
           {
             "value": "430722",
-            "label": "汉寿",
+            "label": "汉寿县",
             isLeaf: true
           },
           {
             "value": "430723",
-            "label": "澧",
+            "label": "澧县",
             isLeaf: true
           },
           {
             "value": "430724",
-            "label": "临澧",
+            "label": "临澧县",
             isLeaf: true
           },
           {
             "value": "430725",
-            "label": "桃源",
+            "label": "桃源县",
             isLeaf: true
           },
           {
             "value": "430726",
-            "label": "石门",
+            "label": "石门县",
             isLeaf: true
           },
           {
@@ -10823,27 +10823,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "430801",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "430802",
-            "label": "永定",
+            "label": "永定区",
             isLeaf: true
           },
           {
             "value": "430811",
-            "label": "武陵源",
+            "label": "武陵源区",
             isLeaf: true
           },
           {
             "value": "430821",
-            "label": "慈利",
+            "label": "慈利县",
             isLeaf: true
           },
           {
             "value": "430822",
-            "label": "桑植",
+            "label": "桑植县",
             isLeaf: true
           }
         ],
@@ -10854,32 +10854,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "430901",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "430902",
-            "label": "资阳",
+            "label": "资阳区",
             isLeaf: true
           },
           {
             "value": "430903",
-            "label": "赫山",
+            "label": "赫山区",
             isLeaf: true
           },
           {
             "value": "430921",
-            "label": "南",
+            "label": "南县",
             isLeaf: true
           },
           {
             "value": "430922",
-            "label": "桃江",
+            "label": "桃江县",
             isLeaf: true
           },
           {
             "value": "430923",
-            "label": "安化",
+            "label": "安化县",
             isLeaf: true
           },
           {
@@ -10895,57 +10895,57 @@ const cityAddressItems = [
         "children": [
           {
             "value": "431001",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "431002",
-            "label": "北湖",
+            "label": "北湖区",
             isLeaf: true
           },
           {
             "value": "431003",
-            "label": "苏仙",
+            "label": "苏仙区",
             isLeaf: true
           },
           {
             "value": "431021",
-            "label": "桂阳",
+            "label": "桂阳县",
             isLeaf: true
           },
           {
             "value": "431022",
-            "label": "宜章",
+            "label": "宜章县",
             isLeaf: true
           },
           {
             "value": "431023",
-            "label": "永兴",
+            "label": "永兴县",
             isLeaf: true
           },
           {
             "value": "431024",
-            "label": "嘉禾",
+            "label": "嘉禾县",
             isLeaf: true
           },
           {
             "value": "431025",
-            "label": "临武",
+            "label": "临武县",
             isLeaf: true
           },
           {
             "value": "431026",
-            "label": "汝城",
+            "label": "汝城县",
             isLeaf: true
           },
           {
             "value": "431027",
-            "label": "桂东",
+            "label": "桂东县",
             isLeaf: true
           },
           {
             "value": "431028",
-            "label": "安仁",
+            "label": "安仁县",
             isLeaf: true
           },
           {
@@ -10961,67 +10961,67 @@ const cityAddressItems = [
         "children": [
           {
             "value": "431101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "431102",
-            "label": "芝山",
+            "label": "芝山区",
             isLeaf: true
           },
           {
             "value": "431103",
-            "label": "冷水滩",
+            "label": "冷水滩区",
             isLeaf: true
           },
           {
             "value": "431121",
-            "label": "祁阳",
+            "label": "祁阳县",
             isLeaf: true
           },
           {
             "value": "431122",
-            "label": "东安",
+            "label": "东安县",
             isLeaf: true
           },
           {
             "value": "431123",
-            "label": "双牌",
+            "label": "双牌县",
             isLeaf: true
           },
           {
             "value": "431124",
-            "label": "道",
+            "label": "道县",
             isLeaf: true
           },
           {
             "value": "431125",
-            "label": "江永",
+            "label": "江永县",
             isLeaf: true
           },
           {
             "value": "431126",
-            "label": "宁远",
+            "label": "宁远县",
             isLeaf: true
           },
           {
             "value": "431127",
-            "label": "蓝山",
+            "label": "蓝山县",
             isLeaf: true
           },
           {
             "value": "431128",
-            "label": "新田",
+            "label": "新田县",
             isLeaf: true
           },
           {
             "value": "431129",
-            "label": "江华瑶族自治",
+            "label": "江华瑶族自治县",
             isLeaf: true
           },
           {
             "value": "431102",
-            "label": "零陵",
+            "label": "零陵区",
             isLeaf: true
           }
         ],
@@ -11032,62 +11032,62 @@ const cityAddressItems = [
         "children": [
           {
             "value": "431201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "431202",
-            "label": "鹤城",
+            "label": "鹤城区",
             isLeaf: true
           },
           {
             "value": "431221",
-            "label": "中方",
+            "label": "中方县",
             isLeaf: true
           },
           {
             "value": "431222",
-            "label": "沅陵",
+            "label": "沅陵县",
             isLeaf: true
           },
           {
             "value": "431223",
-            "label": "辰溪",
+            "label": "辰溪县",
             isLeaf: true
           },
           {
             "value": "431224",
-            "label": "溆浦",
+            "label": "溆浦县",
             isLeaf: true
           },
           {
             "value": "431225",
-            "label": "会同",
+            "label": "会同县",
             isLeaf: true
           },
           {
             "value": "431226",
-            "label": "麻阳苗族自治",
+            "label": "麻阳苗族自治县",
             isLeaf: true
           },
           {
             "value": "431227",
-            "label": "新晃侗族自治",
+            "label": "新晃侗族自治县",
             isLeaf: true
           },
           {
             "value": "431228",
-            "label": "芷江侗族自治",
+            "label": "芷江侗族自治县",
             isLeaf: true
           },
           {
             "value": "431229",
-            "label": "靖州苗族侗族自治",
+            "label": "靖州苗族侗族自治县",
             isLeaf: true
           },
           {
             "value": "431230",
-            "label": "通道侗族自治",
+            "label": "通道侗族自治县",
             isLeaf: true
           },
           {
@@ -11103,22 +11103,22 @@ const cityAddressItems = [
         "children": [
           {
             "value": "431301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "431302",
-            "label": "娄星",
+            "label": "娄星区",
             isLeaf: true
           },
           {
             "value": "431321",
-            "label": "双峰",
+            "label": "双峰县",
             isLeaf: true
           },
           {
             "value": "431322",
-            "label": "新化",
+            "label": "新化县",
             isLeaf: true
           },
           {
@@ -11144,37 +11144,37 @@ const cityAddressItems = [
           },
           {
             "value": "433122",
-            "label": "泸溪",
+            "label": "泸溪县",
             isLeaf: true
           },
           {
             "value": "433123",
-            "label": "凤凰",
+            "label": "凤凰县",
             isLeaf: true
           },
           {
             "value": "433124",
-            "label": "花垣",
+            "label": "花垣县",
             isLeaf: true
           },
           {
             "value": "433125",
-            "label": "保靖",
+            "label": "保靖县",
             isLeaf: true
           },
           {
             "value": "433126",
-            "label": "古丈",
+            "label": "古丈县",
             isLeaf: true
           },
           {
             "value": "433127",
-            "label": "永顺",
+            "label": "永顺县",
             isLeaf: true
           },
           {
             "value": "433130",
-            "label": "龙山",
+            "label": "龙山县",
             isLeaf: true
           }
         ],
@@ -11191,57 +11191,57 @@ const cityAddressItems = [
         "children": [
           {
             "value": "440101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "440102",
-            "label": "东山",
+            "label": "东山区",
             isLeaf: true
           },
           {
             "value": "440103",
-            "label": "荔湾",
+            "label": "荔湾区",
             isLeaf: true
           },
           {
             "value": "440104",
-            "label": "越秀",
+            "label": "越秀区",
             isLeaf: true
           },
           {
             "value": "440105",
-            "label": "海珠",
+            "label": "海珠区",
             isLeaf: true
           },
           {
             "value": "440106",
-            "label": "天河",
+            "label": "天河区",
             isLeaf: true
           },
           {
             "value": "440107",
-            "label": "芳村",
+            "label": "芳村区",
             isLeaf: true
           },
           {
             "value": "440111",
-            "label": "白云",
+            "label": "白云区",
             isLeaf: true
           },
           {
             "value": "440112",
-            "label": "黄埔",
+            "label": "黄埔区",
             isLeaf: true
           },
           {
             "value": "440113",
-            "label": "番禺",
+            "label": "番禺区",
             isLeaf: true
           },
           {
             "value": "440114",
-            "label": "花都",
+            "label": "花都区",
             isLeaf: true
           },
           {
@@ -11256,7 +11256,7 @@ const cityAddressItems = [
           },
           {
             "value": "440115",
-            "label": "南沙",
+            "label": "南沙区",
             isLeaf: true
           }
         ],
@@ -11267,47 +11267,47 @@ const cityAddressItems = [
         "children": [
           {
             "value": "440201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "440203",
-            "label": "武江",
+            "label": "武江区",
             isLeaf: true
           },
           {
             "value": "440204",
-            "label": "浈江",
+            "label": "浈江区",
             isLeaf: true
           },
           {
             "value": "440205",
-            "label": "曲江",
+            "label": "曲江区",
             isLeaf: true
           },
           {
             "value": "440222",
-            "label": "始兴",
+            "label": "始兴县",
             isLeaf: true
           },
           {
             "value": "440224",
-            "label": "仁化",
+            "label": "仁化县",
             isLeaf: true
           },
           {
             "value": "440229",
-            "label": "翁源",
+            "label": "翁源县",
             isLeaf: true
           },
           {
             "value": "440232",
-            "label": "乳源瑶族自治",
+            "label": "乳源瑶族自治县",
             isLeaf: true
           },
           {
             "value": "440233",
-            "label": "新丰",
+            "label": "新丰县",
             isLeaf: true
           },
           {
@@ -11328,42 +11328,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "440301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "440303",
-            "label": "罗湖",
+            "label": "罗湖区",
             isLeaf: true
           },
           {
             "value": "440304",
-            "label": "福田",
+            "label": "福田区",
             isLeaf: true
           },
           {
             "value": "440305",
-            "label": "南山",
+            "label": "南山区",
             isLeaf: true
           },
           {
             "value": "440306",
-            "label": "宝安",
+            "label": "宝安区",
             isLeaf: true
           },
           {
             "value": "440307",
-            "label": "龙岗",
+            "label": "龙岗区",
             isLeaf: true
           },
           {
             "value": "440308",
-            "label": "盐田",
+            "label": "盐田区",
             isLeaf: true
           },
           {
             "value": "440310",
-            "label": "坪山",
+            "label": "坪山区",
             isLeaf: true
           }
         ],
@@ -11374,22 +11374,22 @@ const cityAddressItems = [
         "children": [
           {
             "value": "440401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "440402",
-            "label": "香洲",
+            "label": "香洲区",
             isLeaf: true
           },
           {
             "value": "440403",
-            "label": "斗门",
+            "label": "斗门区",
             isLeaf: true
           },
           {
             "value": "440404",
-            "label": "金湾",
+            "label": "金湾区",
             isLeaf: true
           }
         ],
@@ -11400,42 +11400,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "440501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "440507",
-            "label": "龙湖",
+            "label": "龙湖区",
             isLeaf: true
           },
           {
             "value": "440511",
-            "label": "金平",
+            "label": "金平区",
             isLeaf: true
           },
           {
             "value": "440512",
-            "label": "濠江",
+            "label": "濠江区",
             isLeaf: true
           },
           {
             "value": "440513",
-            "label": "潮阳",
+            "label": "潮阳区",
             isLeaf: true
           },
           {
             "value": "440514",
-            "label": "潮南",
+            "label": "潮南区",
             isLeaf: true
           },
           {
             "value": "440515",
-            "label": "澄海",
+            "label": "澄海区",
             isLeaf: true
           },
           {
             "value": "440523",
-            "label": "南澳",
+            "label": "南澳县",
             isLeaf: true
           }
         ],
@@ -11446,32 +11446,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "440601",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "440604",
-            "label": "禅城",
+            "label": "禅城区",
             isLeaf: true
           },
           {
             "value": "440605",
-            "label": "南海",
+            "label": "南海区",
             isLeaf: true
           },
           {
             "value": "440606",
-            "label": "顺德",
+            "label": "顺德区",
             isLeaf: true
           },
           {
             "value": "440607",
-            "label": "三水",
+            "label": "三水区",
             isLeaf: true
           },
           {
             "value": "440608",
-            "label": "高明",
+            "label": "高明区",
             isLeaf: true
           }
         ],
@@ -11482,22 +11482,22 @@ const cityAddressItems = [
         "children": [
           {
             "value": "440701",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "440703",
-            "label": "蓬江",
+            "label": "蓬江区",
             isLeaf: true
           },
           {
             "value": "440704",
-            "label": "江海",
+            "label": "江海区",
             isLeaf: true
           },
           {
             "value": "440705",
-            "label": "新会",
+            "label": "新会区",
             isLeaf: true
           },
           {
@@ -11528,37 +11528,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "440801",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "440802",
-            "label": "赤坎",
+            "label": "赤坎区",
             isLeaf: true
           },
           {
             "value": "440803",
-            "label": "霞山",
+            "label": "霞山区",
             isLeaf: true
           },
           {
             "value": "440804",
-            "label": "坡头",
+            "label": "坡头区",
             isLeaf: true
           },
           {
             "value": "440811",
-            "label": "麻章",
+            "label": "麻章区",
             isLeaf: true
           },
           {
             "value": "440823",
-            "label": "遂溪",
+            "label": "遂溪县",
             isLeaf: true
           },
           {
             "value": "440825",
-            "label": "徐闻",
+            "label": "徐闻县",
             isLeaf: true
           },
           {
@@ -11584,22 +11584,22 @@ const cityAddressItems = [
         "children": [
           {
             "value": "440901",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "440902",
-            "label": "茂南",
+            "label": "茂南区",
             isLeaf: true
           },
           {
             "value": "440903",
-            "label": "茂港",
+            "label": "茂港区",
             isLeaf: true
           },
           {
             "value": "440923",
-            "label": "电白",
+            "label": "电白县",
             isLeaf: true
           },
           {
@@ -11625,37 +11625,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "441201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "441202",
-            "label": "端州",
+            "label": "端州区",
             isLeaf: true
           },
           {
             "value": "441203",
-            "label": "鼎湖",
+            "label": "鼎湖区",
             isLeaf: true
           },
           {
             "value": "441223",
-            "label": "广宁",
+            "label": "广宁县",
             isLeaf: true
           },
           {
             "value": "441224",
-            "label": "怀集",
+            "label": "怀集县",
             isLeaf: true
           },
           {
             "value": "441225",
-            "label": "封开",
+            "label": "封开县",
             isLeaf: true
           },
           {
             "value": "441226",
-            "label": "德庆",
+            "label": "德庆县",
             isLeaf: true
           },
           {
@@ -11676,32 +11676,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "441301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "441302",
-            "label": "惠城",
+            "label": "惠城区",
             isLeaf: true
           },
           {
             "value": "441303",
-            "label": "惠阳",
+            "label": "惠阳区",
             isLeaf: true
           },
           {
             "value": "441322",
-            "label": "博罗",
+            "label": "博罗县",
             isLeaf: true
           },
           {
             "value": "441323",
-            "label": "惠东",
+            "label": "惠东县",
             isLeaf: true
           },
           {
             "value": "441324",
-            "label": "龙门",
+            "label": "龙门县",
             isLeaf: true
           }
         ],
@@ -11712,42 +11712,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "441401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "441402",
-            "label": "梅江",
+            "label": "梅江区",
             isLeaf: true
           },
           {
             "value": "441421",
-            "label": "梅",
+            "label": "梅县",
             isLeaf: true
           },
           {
             "value": "441422",
-            "label": "大埔",
+            "label": "大埔县",
             isLeaf: true
           },
           {
             "value": "441423",
-            "label": "丰顺",
+            "label": "丰顺县",
             isLeaf: true
           },
           {
             "value": "441424",
-            "label": "五华",
+            "label": "五华县",
             isLeaf: true
           },
           {
             "value": "441426",
-            "label": "平远",
+            "label": "平远县",
             isLeaf: true
           },
           {
             "value": "441427",
-            "label": "蕉岭",
+            "label": "蕉岭县",
             isLeaf: true
           },
           {
@@ -11757,7 +11757,7 @@ const cityAddressItems = [
           },
           {
             "value": "441403",
-            "label": "梅",
+            "label": "梅县区",
             isLeaf: true
           }
         ],
@@ -11768,22 +11768,22 @@ const cityAddressItems = [
         "children": [
           {
             "value": "441501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "441502",
-            "label": "城",
+            "label": "城区",
             isLeaf: true
           },
           {
             "value": "441521",
-            "label": "海丰",
+            "label": "海丰县",
             isLeaf: true
           },
           {
             "value": "441523",
-            "label": "陆河",
+            "label": "陆河县",
             isLeaf: true
           },
           {
@@ -11799,37 +11799,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "441601",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "441602",
-            "label": "源城",
+            "label": "源城区",
             isLeaf: true
           },
           {
             "value": "441621",
-            "label": "紫金",
+            "label": "紫金县",
             isLeaf: true
           },
           {
             "value": "441622",
-            "label": "龙川",
+            "label": "龙川县",
             isLeaf: true
           },
           {
             "value": "441623",
-            "label": "连平",
+            "label": "连平县",
             isLeaf: true
           },
           {
             "value": "441624",
-            "label": "和平",
+            "label": "和平县",
             isLeaf: true
           },
           {
             "value": "441625",
-            "label": "东源",
+            "label": "东源县",
             isLeaf: true
           }
         ],
@@ -11840,22 +11840,22 @@ const cityAddressItems = [
         "children": [
           {
             "value": "441701",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "441702",
-            "label": "江城",
+            "label": "江城区",
             isLeaf: true
           },
           {
             "value": "441721",
-            "label": "阳西",
+            "label": "阳西县",
             isLeaf: true
           },
           {
             "value": "441723",
-            "label": "阳东",
+            "label": "阳东县",
             isLeaf: true
           },
           {
@@ -11871,37 +11871,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "441801",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "441802",
-            "label": "清城",
+            "label": "清城区",
             isLeaf: true
           },
           {
             "value": "441821",
-            "label": "佛冈",
+            "label": "佛冈县",
             isLeaf: true
           },
           {
             "value": "441823",
-            "label": "阳山",
+            "label": "阳山县",
             isLeaf: true
           },
           {
             "value": "441825",
-            "label": "连山壮族瑶族自治",
+            "label": "连山壮族瑶族自治县",
             isLeaf: true
           },
           {
             "value": "441826",
-            "label": "连南瑶族自治",
+            "label": "连南瑶族自治县",
             isLeaf: true
           },
           {
             "value": "441827",
-            "label": "清新",
+            "label": "清新县",
             isLeaf: true
           },
           {
@@ -11933,27 +11933,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "442001",
-            "label": "石岐",
+            "label": "石岐区",
             isLeaf: true
           },
           {
             "value": "442002",
-            "label": "东",
+            "label": "东区",
             isLeaf: true
           },
           {
             "value": "442003",
-            "label": "西",
+            "label": "西区",
             isLeaf: true
           },
           {
             "value": "442004",
-            "label": "南",
+            "label": "南区",
             isLeaf: true
           },
           {
             "value": "442005",
-            "label": "五桂山",
+            "label": "五桂山区",
             isLeaf: true
           }
         ],
@@ -11964,22 +11964,22 @@ const cityAddressItems = [
         "children": [
           {
             "value": "445101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "445102",
-            "label": "湘桥",
+            "label": "湘桥区",
             isLeaf: true
           },
           {
             "value": "445121",
-            "label": "潮安",
+            "label": "潮安县",
             isLeaf: true
           },
           {
             "value": "445122",
-            "label": "饶平",
+            "label": "饶平县",
             isLeaf: true
           }
         ],
@@ -11990,27 +11990,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "445201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "445202",
-            "label": "榕城",
+            "label": "榕城区",
             isLeaf: true
           },
           {
             "value": "445221",
-            "label": "揭东",
+            "label": "揭东县",
             isLeaf: true
           },
           {
             "value": "445222",
-            "label": "揭西",
+            "label": "揭西县",
             isLeaf: true
           },
           {
             "value": "445224",
-            "label": "惠来",
+            "label": "惠来县",
             isLeaf: true
           },
           {
@@ -12026,27 +12026,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "445301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "445302",
-            "label": "云城",
+            "label": "云城区",
             isLeaf: true
           },
           {
             "value": "445321",
-            "label": "新兴",
+            "label": "新兴县",
             isLeaf: true
           },
           {
             "value": "445322",
-            "label": "郁南",
+            "label": "郁南县",
             isLeaf: true
           },
           {
             "value": "445323",
-            "label": "云安",
+            "label": "云安县",
             isLeaf: true
           },
           {
@@ -12068,67 +12068,67 @@ const cityAddressItems = [
         "children": [
           {
             "value": "450101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "450102",
-            "label": "兴宁",
+            "label": "兴宁区",
             isLeaf: true
           },
           {
             "value": "450103",
-            "label": "青秀",
+            "label": "青秀区",
             isLeaf: true
           },
           {
             "value": "450105",
-            "label": "江南",
+            "label": "江南区",
             isLeaf: true
           },
           {
             "value": "450107",
-            "label": "西乡塘",
+            "label": "西乡塘区",
             isLeaf: true
           },
           {
             "value": "450108",
-            "label": "良庆",
+            "label": "良庆区",
             isLeaf: true
           },
           {
             "value": "450109",
-            "label": "邕宁",
+            "label": "邕宁区",
             isLeaf: true
           },
           {
             "value": "450122",
-            "label": "武鸣",
+            "label": "武鸣县",
             isLeaf: true
           },
           {
             "value": "450123",
-            "label": "隆安",
+            "label": "隆安县",
             isLeaf: true
           },
           {
             "value": "450124",
-            "label": "马山",
+            "label": "马山县",
             isLeaf: true
           },
           {
             "value": "450125",
-            "label": "上林",
+            "label": "上林县",
             isLeaf: true
           },
           {
             "value": "450126",
-            "label": "宾阳",
+            "label": "宾阳县",
             isLeaf: true
           },
           {
             "value": "450127",
-            "label": "横",
+            "label": "横县",
             isLeaf: true
           }
         ],
@@ -12139,57 +12139,57 @@ const cityAddressItems = [
         "children": [
           {
             "value": "450201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "450202",
-            "label": "城中",
+            "label": "城中区",
             isLeaf: true
           },
           {
             "value": "450203",
-            "label": "鱼峰",
+            "label": "鱼峰区",
             isLeaf: true
           },
           {
             "value": "450204",
-            "label": "柳南",
+            "label": "柳南区",
             isLeaf: true
           },
           {
             "value": "450205",
-            "label": "柳北",
+            "label": "柳北区",
             isLeaf: true
           },
           {
             "value": "450221",
-            "label": "柳江",
+            "label": "柳江县",
             isLeaf: true
           },
           {
             "value": "450222",
-            "label": "柳城",
+            "label": "柳城县",
             isLeaf: true
           },
           {
             "value": "450223",
-            "label": "鹿寨",
+            "label": "鹿寨县",
             isLeaf: true
           },
           {
             "value": "450224",
-            "label": "融安",
+            "label": "融安县",
             isLeaf: true
           },
           {
             "value": "450225",
-            "label": "融水苗族自治",
+            "label": "融水苗族自治县",
             isLeaf: true
           },
           {
             "value": "450226",
-            "label": "三江侗族自治",
+            "label": "三江侗族自治县",
             isLeaf: true
           }
         ],
@@ -12200,92 +12200,92 @@ const cityAddressItems = [
         "children": [
           {
             "value": "450301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "450302",
-            "label": "秀峰",
+            "label": "秀峰区",
             isLeaf: true
           },
           {
             "value": "450303",
-            "label": "叠彩",
+            "label": "叠彩区",
             isLeaf: true
           },
           {
             "value": "450304",
-            "label": "象山",
+            "label": "象山区",
             isLeaf: true
           },
           {
             "value": "450305",
-            "label": "七星",
+            "label": "七星区",
             isLeaf: true
           },
           {
             "value": "450311",
-            "label": "雁山",
+            "label": "雁山区",
             isLeaf: true
           },
           {
             "value": "450321",
-            "label": "阳朔",
+            "label": "阳朔县",
             isLeaf: true
           },
           {
             "value": "450322",
-            "label": "临桂",
+            "label": "临桂县",
             isLeaf: true
           },
           {
             "value": "450323",
-            "label": "灵川",
+            "label": "灵川县",
             isLeaf: true
           },
           {
             "value": "450324",
-            "label": "全州",
+            "label": "全州县",
             isLeaf: true
           },
           {
             "value": "450325",
-            "label": "兴安",
+            "label": "兴安县",
             isLeaf: true
           },
           {
             "value": "450326",
-            "label": "永福",
+            "label": "永福县",
             isLeaf: true
           },
           {
             "value": "450327",
-            "label": "灌阳",
+            "label": "灌阳县",
             isLeaf: true
           },
           {
             "value": "450328",
-            "label": "龙胜各族自治",
+            "label": "龙胜各族自治县",
             isLeaf: true
           },
           {
             "value": "450329",
-            "label": "资源",
+            "label": "资源县",
             isLeaf: true
           },
           {
             "value": "450330",
-            "label": "平乐",
+            "label": "平乐县",
             isLeaf: true
           },
           {
             "value": "450331",
-            "label": "荔蒲",
+            "label": "荔蒲县",
             isLeaf: true
           },
           {
             "value": "450332",
-            "label": "恭城瑶族自治",
+            "label": "恭城瑶族自治县",
             isLeaf: true
           }
         ],
@@ -12296,37 +12296,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "450401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "450403",
-            "label": "万秀",
+            "label": "万秀区",
             isLeaf: true
           },
           {
             "value": "450404",
-            "label": "蝶山",
+            "label": "蝶山区",
             isLeaf: true
           },
           {
             "value": "450405",
-            "label": "长洲",
+            "label": "长洲区",
             isLeaf: true
           },
           {
             "value": "450421",
-            "label": "苍梧",
+            "label": "苍梧县",
             isLeaf: true
           },
           {
             "value": "450422",
-            "label": "藤",
+            "label": "藤县",
             isLeaf: true
           },
           {
             "value": "450423",
-            "label": "蒙山",
+            "label": "蒙山县",
             isLeaf: true
           },
           {
@@ -12336,7 +12336,7 @@ const cityAddressItems = [
           },
           {
             "value": "450406",
-            "label": "龙圩",
+            "label": "龙圩区",
             isLeaf: true
           }
         ],
@@ -12347,27 +12347,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "450501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "450502",
-            "label": "海城",
+            "label": "海城区",
             isLeaf: true
           },
           {
             "value": "450503",
-            "label": "银海",
+            "label": "银海区",
             isLeaf: true
           },
           {
             "value": "450512",
-            "label": "铁山港",
+            "label": "铁山港区",
             isLeaf: true
           },
           {
             "value": "450521",
-            "label": "合浦",
+            "label": "合浦县",
             isLeaf: true
           }
         ],
@@ -12378,22 +12378,22 @@ const cityAddressItems = [
         "children": [
           {
             "value": "450601",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "450602",
-            "label": "港口",
+            "label": "港口区",
             isLeaf: true
           },
           {
             "value": "450603",
-            "label": "防城",
+            "label": "防城区",
             isLeaf: true
           },
           {
             "value": "450621",
-            "label": "上思",
+            "label": "上思县",
             isLeaf: true
           },
           {
@@ -12409,27 +12409,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "450701",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "450702",
-            "label": "钦南",
+            "label": "钦南区",
             isLeaf: true
           },
           {
             "value": "450703",
-            "label": "钦北",
+            "label": "钦北区",
             isLeaf: true
           },
           {
             "value": "450721",
-            "label": "灵山",
+            "label": "灵山县",
             isLeaf: true
           },
           {
             "value": "450722",
-            "label": "浦北",
+            "label": "浦北县",
             isLeaf: true
           }
         ],
@@ -12440,27 +12440,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "450801",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "450802",
-            "label": "港北",
+            "label": "港北区",
             isLeaf: true
           },
           {
             "value": "450803",
-            "label": "港南",
+            "label": "港南区",
             isLeaf: true
           },
           {
             "value": "450804",
-            "label": "覃塘",
+            "label": "覃塘区",
             isLeaf: true
           },
           {
             "value": "450821",
-            "label": "平南",
+            "label": "平南县",
             isLeaf: true
           },
           {
@@ -12476,32 +12476,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "450901",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "450902",
-            "label": "玉州",
+            "label": "玉州区",
             isLeaf: true
           },
           {
             "value": "450921",
-            "label": "容",
+            "label": "容县",
             isLeaf: true
           },
           {
             "value": "450922",
-            "label": "陆川",
+            "label": "陆川县",
             isLeaf: true
           },
           {
             "value": "450923",
-            "label": "博白",
+            "label": "博白县",
             isLeaf: true
           },
           {
             "value": "450924",
-            "label": "兴业",
+            "label": "兴业县",
             isLeaf: true
           },
           {
@@ -12511,7 +12511,7 @@ const cityAddressItems = [
           },
           {
             "value": "450903",
-            "label": "福绵",
+            "label": "福绵区",
             isLeaf: true
           }
         ],
@@ -12522,67 +12522,67 @@ const cityAddressItems = [
         "children": [
           {
             "value": "451001",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "451002",
-            "label": "右江",
+            "label": "右江区",
             isLeaf: true
           },
           {
             "value": "451021",
-            "label": "田阳",
+            "label": "田阳县",
             isLeaf: true
           },
           {
             "value": "451022",
-            "label": "田东",
+            "label": "田东县",
             isLeaf: true
           },
           {
             "value": "451023",
-            "label": "平果",
+            "label": "平果县",
             isLeaf: true
           },
           {
             "value": "451024",
-            "label": "德保",
+            "label": "德保县",
             isLeaf: true
           },
           {
             "value": "451025",
-            "label": "靖西",
+            "label": "靖西县",
             isLeaf: true
           },
           {
             "value": "451026",
-            "label": "那坡",
+            "label": "那坡县",
             isLeaf: true
           },
           {
             "value": "451027",
-            "label": "凌云",
+            "label": "凌云县",
             isLeaf: true
           },
           {
             "value": "451028",
-            "label": "乐业",
+            "label": "乐业县",
             isLeaf: true
           },
           {
             "value": "451029",
-            "label": "田林",
+            "label": "田林县",
             isLeaf: true
           },
           {
             "value": "451030",
-            "label": "西林",
+            "label": "西林县",
             isLeaf: true
           },
           {
             "value": "451031",
-            "label": "隆林各族自治",
+            "label": "隆林各族自治县",
             isLeaf: true
           }
         ],
@@ -12593,37 +12593,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "451101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "451102",
-            "label": "八步",
+            "label": "八步区",
             isLeaf: true
           },
           {
             "value": "451121",
-            "label": "昭平",
+            "label": "昭平县",
             isLeaf: true
           },
           {
             "value": "451122",
-            "label": "钟山",
+            "label": "钟山县",
             isLeaf: true
           },
           {
             "value": "451123",
-            "label": "富川瑶族自治",
+            "label": "富川瑶族自治县",
             isLeaf: true
           },
           {
             "value": "451103",
-            "label": "平桂",
+            "label": "平桂区",
             isLeaf: true
           },
           {
             "value": "451203",
-            "label": "宜州",
+            "label": "宜州区",
             isLeaf: true
           }
         ],
@@ -12634,57 +12634,57 @@ const cityAddressItems = [
         "children": [
           {
             "value": "451201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "451202",
-            "label": "金城江",
+            "label": "金城江区",
             isLeaf: true
           },
           {
             "value": "451221",
-            "label": "南丹",
+            "label": "南丹县",
             isLeaf: true
           },
           {
             "value": "451222",
-            "label": "天峨",
+            "label": "天峨县",
             isLeaf: true
           },
           {
             "value": "451223",
-            "label": "凤山",
+            "label": "凤山县",
             isLeaf: true
           },
           {
             "value": "451224",
-            "label": "东兰",
+            "label": "东兰县",
             isLeaf: true
           },
           {
             "value": "451225",
-            "label": "罗城仫佬族自治",
+            "label": "罗城仫佬族自治县",
             isLeaf: true
           },
           {
             "value": "451226",
-            "label": "环江毛南族自治",
+            "label": "环江毛南族自治县",
             isLeaf: true
           },
           {
             "value": "451227",
-            "label": "巴马瑶族自治",
+            "label": "巴马瑶族自治县",
             isLeaf: true
           },
           {
             "value": "451228",
-            "label": "都安瑶族自治",
+            "label": "都安瑶族自治县",
             isLeaf: true
           },
           {
             "value": "451229",
-            "label": "大化瑶族自治",
+            "label": "大化瑶族自治县",
             isLeaf: true
           },
           {
@@ -12700,32 +12700,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "451301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "451302",
-            "label": "兴宾",
+            "label": "兴宾区",
             isLeaf: true
           },
           {
             "value": "451321",
-            "label": "忻城",
+            "label": "忻城县",
             isLeaf: true
           },
           {
             "value": "451322",
-            "label": "象州",
+            "label": "象州县",
             isLeaf: true
           },
           {
             "value": "451323",
-            "label": "武宣",
+            "label": "武宣县",
             isLeaf: true
           },
           {
             "value": "451324",
-            "label": "金秀瑶族自治",
+            "label": "金秀瑶族自治县",
             isLeaf: true
           },
           {
@@ -12741,37 +12741,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "451401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "451402",
-            "label": "江洲",
+            "label": "江洲区",
             isLeaf: true
           },
           {
             "value": "451421",
-            "label": "扶绥",
+            "label": "扶绥县",
             isLeaf: true
           },
           {
             "value": "451422",
-            "label": "宁明",
+            "label": "宁明县",
             isLeaf: true
           },
           {
             "value": "451423",
-            "label": "龙州",
+            "label": "龙州县",
             isLeaf: true
           },
           {
             "value": "451424",
-            "label": "大新",
+            "label": "大新县",
             isLeaf: true
           },
           {
             "value": "451425",
-            "label": "天等",
+            "label": "天等县",
             isLeaf: true
           },
           {
@@ -12781,7 +12781,7 @@ const cityAddressItems = [
           },
           {
             "value": "500116",
-            "label": "江州",
+            "label": "江州区",
             isLeaf: true
           }
         ],
@@ -12790,7 +12790,7 @@ const cityAddressItems = [
       }
     ],
     "value": "450000",
-    "label": "广西壮族自治"
+    "label": "广西壮族自治区"
   },
   {
     "children": [
@@ -12798,27 +12798,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "460101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "460105",
-            "label": "秀英",
+            "label": "秀英区",
             isLeaf: true
           },
           {
             "value": "460106",
-            "label": "龙华",
+            "label": "龙华区",
             isLeaf: true
           },
           {
             "value": "460107",
-            "label": "琼山",
+            "label": "琼山区",
             isLeaf: true
           },
           {
             "value": "460108",
-            "label": "美兰",
+            "label": "美兰区",
             isLeaf: true
           }
         ],
@@ -12829,7 +12829,7 @@ const cityAddressItems = [
         "children": [
           {
             "value": "460201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           }
         ],
@@ -12870,52 +12870,52 @@ const cityAddressItems = [
           },
           {
             "value": "469025",
-            "label": "定安",
+            "label": "定安县",
             isLeaf: true
           },
           {
             "value": "469026",
-            "label": "屯昌",
+            "label": "屯昌县",
             isLeaf: true
           },
           {
             "value": "469027",
-            "label": "澄迈",
+            "label": "澄迈县",
             isLeaf: true
           },
           {
             "value": "469028",
-            "label": "临高",
+            "label": "临高县",
             isLeaf: true
           },
           {
             "value": "469030",
-            "label": "白沙黎族自治",
+            "label": "白沙黎族自治县",
             isLeaf: true
           },
           {
             "value": "469031",
-            "label": "昌江黎族自治",
+            "label": "昌江黎族自治县",
             isLeaf: true
           },
           {
             "value": "469033",
-            "label": "乐东黎族自治",
+            "label": "乐东黎族自治县",
             isLeaf: true
           },
           {
             "value": "469034",
-            "label": "陵水黎族自治",
+            "label": "陵水黎族自治县",
             isLeaf: true
           },
           {
             "value": "469035",
-            "label": "保亭黎族苗族自治",
+            "label": "保亭黎族苗族自治县",
             isLeaf: true
           },
           {
             "value": "469036",
-            "label": "琼中黎族苗族自治",
+            "label": "琼中黎族苗族自治县",
             isLeaf: true
           },
           {
@@ -12935,7 +12935,7 @@ const cityAddressItems = [
           }
         ],
         "value": "469000",
-        "label": "省直辖级行政单位"
+        "label": "省直辖县级行政单位"
       }
     ],
     "value": "460000",
@@ -12947,87 +12947,87 @@ const cityAddressItems = [
         "children": [
           {
             "value": "500223",
-            "label": "潼南",
+            "label": "潼南区",
             isLeaf: true
           },
           {
             "value": "500101",
-            "label": "万州",
+            "label": "万州区",
             isLeaf: true
           },
           {
             "value": "500102",
-            "label": "涪陵",
+            "label": "涪陵区",
             isLeaf: true
           },
           {
             "value": "500103",
-            "label": "渝中",
+            "label": "渝中区",
             isLeaf: true
           },
           {
             "value": "500104",
-            "label": "大渡口",
+            "label": "大渡口区",
             isLeaf: true
           },
           {
             "value": "500105",
-            "label": "江北",
+            "label": "江北区",
             isLeaf: true
           },
           {
             "value": "500106",
-            "label": "沙坪坝",
+            "label": "沙坪坝区",
             isLeaf: true
           },
           {
             "value": "500107",
-            "label": "九龙坡",
+            "label": "九龙坡区",
             isLeaf: true
           },
           {
             "value": "500108",
-            "label": "南岸",
+            "label": "南岸区",
             isLeaf: true
           },
           {
             "value": "500109",
-            "label": "北碚",
+            "label": "北碚区",
             isLeaf: true
           },
           {
             "value": "500110",
-            "label": "万盛",
+            "label": "万盛区",
             isLeaf: true
           },
           {
             "value": "500111",
-            "label": "双桥",
+            "label": "双桥区",
             isLeaf: true
           },
           {
             "value": "500112",
-            "label": "渝北",
+            "label": "渝北区",
             isLeaf: true
           },
           {
             "value": "500113",
-            "label": "巴南",
+            "label": "巴南区",
             isLeaf: true
           },
           {
             "value": "500114",
-            "label": "黔江",
+            "label": "黔江区",
             isLeaf: true
           },
           {
             "value": "500115",
-            "label": "长寿",
+            "label": "长寿区",
             isLeaf: true
           },
           {
             "value": "500116",
-            "label": "开州",
+            "label": "开州区",
             isLeaf: true
           }
         ],
@@ -13038,108 +13038,108 @@ const cityAddressItems = [
         "children": [
           {
             "value": "500222",
-            "label": "綦江",
+            "label": "綦江县",
             isLeaf: true
           },
 
           {
             "value": "500224",
-            "label": "铜梁",
+            "label": "铜梁县",
             isLeaf: true
           },
           {
             "value": "500225",
-            "label": "大足",
+            "label": "大足县",
             isLeaf: true
           },
           {
             "value": "500226",
-            "label": "荣昌",
+            "label": "荣昌县",
             isLeaf: true
           },
           {
             "value": "500227",
-            "label": "璧山",
+            "label": "璧山县",
             isLeaf: true
           },
           {
             "value": "500228",
-            "label": "梁平",
+            "label": "梁平县",
             isLeaf: true
           },
           {
             "value": "500229",
-            "label": "城口",
+            "label": "城口县",
             isLeaf: true
           },
           {
             "value": "500230",
-            "label": "丰都",
+            "label": "丰都县",
             isLeaf: true
           },
           {
             "value": "500231",
-            "label": "垫江",
+            "label": "垫江县",
             isLeaf: true
           },
           {
             "value": "500232",
-            "label": "武隆",
+            "label": "武隆县",
             isLeaf: true
           },
           {
             "value": "500233",
-            "label": "忠",
+            "label": "忠县",
             isLeaf: true
           },
           {
             "value": "500234",
-            "label": "开",
+            "label": "开县",
             isLeaf: true
           },
           {
             "value": "500235",
-            "label": "云阳",
+            "label": "云阳县",
             isLeaf: true
           },
           {
             "value": "500236",
-            "label": "奉节",
+            "label": "奉节县",
             isLeaf: true
           },
           {
             "value": "500237",
-            "label": "巫山",
+            "label": "巫山县",
             isLeaf: true
           },
           {
             "value": "500238",
-            "label": "巫溪",
+            "label": "巫溪县",
             isLeaf: true
           },
           {
             "value": "500240",
-            "label": "石柱土家族自治",
+            "label": "石柱土家族自治县",
             isLeaf: true
           },
           {
             "value": "500241",
-            "label": "秀山土家族苗族自治",
+            "label": "秀山土家族苗族自治县",
             isLeaf: true
           },
           {
             "value": "500242",
-            "label": "酉阳土家族苗族自治",
+            "label": "酉阳土家族苗族自治县",
             isLeaf: true
           },
           {
             "value": "500243",
-            "label": "彭水苗族土家族自治",
+            "label": "彭水苗族土家族自治县",
             isLeaf: true
           }
         ],
         "value": "500200",
-        "label": ""
+        "label": "县"
       },
 
     ],
@@ -13152,87 +13152,87 @@ const cityAddressItems = [
         "children": [
           {
             "value": "510101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "510104",
-            "label": "锦江",
+            "label": "锦江区",
             isLeaf: true
           },
           {
             "value": "510105",
-            "label": "青羊",
+            "label": "青羊区",
             isLeaf: true
           },
           {
             "value": "510106",
-            "label": "金牛",
+            "label": "金牛区",
             isLeaf: true
           },
           {
             "value": "510107",
-            "label": "武侯",
+            "label": "武侯区",
             isLeaf: true
           },
           {
             "value": "510108",
-            "label": "成华",
+            "label": "成华区",
             isLeaf: true
           },
           {
             "value": "510112",
-            "label": "龙泉驿",
+            "label": "龙泉驿区",
             isLeaf: true
           },
           {
             "value": "510113",
-            "label": "青白江",
+            "label": "青白江区",
             isLeaf: true
           },
           {
             "value": "510114",
-            "label": "新都",
+            "label": "新都区",
             isLeaf: true
           },
           {
             "value": "510115",
-            "label": "温江",
+            "label": "温江区",
             isLeaf: true
           },
           {
             "value": "510121",
-            "label": "金堂",
+            "label": "金堂县",
             isLeaf: true
           },
           {
             "value": "510122",
-            "label": "双流",
+            "label": "双流县",
             isLeaf: true
           },
           {
             "value": "510124",
-            "label": "郫都",
+            "label": "郫都区",
             isLeaf: true
           },
           {
             "value": "510124",
-            "label": "郫",
+            "label": "郫县",
             isLeaf: true
           },
           {
             "value": "510129",
-            "label": "大邑",
+            "label": "大邑县",
             isLeaf: true
           },
           {
             "value": "510131",
-            "label": "蒲江",
+            "label": "蒲江县",
             isLeaf: true
           },
           {
             "value": "510132",
-            "label": "新津",
+            "label": "新津县",
             isLeaf: true
           },
           {
@@ -13263,37 +13263,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "510301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "510302",
-            "label": "自流井",
+            "label": "自流井区",
             isLeaf: true
           },
           {
             "value": "510303",
-            "label": "贡井",
+            "label": "贡井区",
             isLeaf: true
           },
           {
             "value": "510304",
-            "label": "大安",
+            "label": "大安区",
             isLeaf: true
           },
           {
             "value": "510311",
-            "label": "沿滩",
+            "label": "沿滩区",
             isLeaf: true
           },
           {
             "value": "510321",
-            "label": "荣",
+            "label": "荣县",
             isLeaf: true
           },
           {
             "value": "510322",
-            "label": "富顺",
+            "label": "富顺县",
             isLeaf: true
           }
         ],
@@ -13304,32 +13304,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "510401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "510402",
-            "label": "东　",
+            "label": "东　区",
             isLeaf: true
           },
           {
             "value": "510403",
-            "label": "西　",
+            "label": "西　区",
             isLeaf: true
           },
           {
             "value": "510411",
-            "label": "仁和",
+            "label": "仁和区",
             isLeaf: true
           },
           {
             "value": "510421",
-            "label": "米易",
+            "label": "米易县",
             isLeaf: true
           },
           {
             "value": "510422",
-            "label": "盐边",
+            "label": "盐边县",
             isLeaf: true
           }
         ],
@@ -13340,42 +13340,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "510501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "510502",
-            "label": "江阳",
+            "label": "江阳区",
             isLeaf: true
           },
           {
             "value": "510503",
-            "label": "纳溪",
+            "label": "纳溪区",
             isLeaf: true
           },
           {
             "value": "510504",
-            "label": "龙马潭",
+            "label": "龙马潭区",
             isLeaf: true
           },
           {
             "value": "510521",
-            "label": "泸",
+            "label": "泸县",
             isLeaf: true
           },
           {
             "value": "510522",
-            "label": "合江",
+            "label": "合江县",
             isLeaf: true
           },
           {
             "value": "510524",
-            "label": "叙永",
+            "label": "叙永县",
             isLeaf: true
           },
           {
             "value": "510525",
-            "label": "古蔺",
+            "label": "古蔺县",
             isLeaf: true
           }
         ],
@@ -13386,22 +13386,22 @@ const cityAddressItems = [
         "children": [
           {
             "value": "510601",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "510603",
-            "label": "旌阳",
+            "label": "旌阳区",
             isLeaf: true
           },
           {
             "value": "510623",
-            "label": "中江",
+            "label": "中江县",
             isLeaf: true
           },
           {
             "value": "510626",
-            "label": "罗江",
+            "label": "罗江县",
             isLeaf: true
           },
           {
@@ -13427,47 +13427,47 @@ const cityAddressItems = [
         "children": [
           {
             "value": "510701",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "510703",
-            "label": "涪城",
+            "label": "涪城区",
             isLeaf: true
           },
           {
             "value": "510704",
-            "label": "游仙",
+            "label": "游仙区",
             isLeaf: true
           },
           {
             "value": "510722",
-            "label": "三台",
+            "label": "三台县",
             isLeaf: true
           },
           {
             "value": "510723",
-            "label": "盐亭",
+            "label": "盐亭县",
             isLeaf: true
           },
           {
             "value": "510724",
-            "label": "安",
+            "label": "安县",
             isLeaf: true
           },
           {
             "value": "510725",
-            "label": "梓潼",
+            "label": "梓潼县",
             isLeaf: true
           },
           {
             "value": "510726",
-            "label": "北川羌族自治",
+            "label": "北川羌族自治县",
             isLeaf: true
           },
           {
             "value": "510727",
-            "label": "平武",
+            "label": "平武县",
             isLeaf: true
           },
           {
@@ -13483,42 +13483,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "510801",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "510802",
-            "label": "市中",
+            "label": "市中区",
             isLeaf: true
           },
           {
             "value": "510811",
-            "label": "元坝",
+            "label": "元坝区",
             isLeaf: true
           },
           {
             "value": "510812",
-            "label": "朝天",
+            "label": "朝天区",
             isLeaf: true
           },
           {
             "value": "510821",
-            "label": "旺苍",
+            "label": "旺苍县",
             isLeaf: true
           },
           {
             "value": "510822",
-            "label": "青川",
+            "label": "青川县",
             isLeaf: true
           },
           {
             "value": "510823",
-            "label": "剑阁",
+            "label": "剑阁县",
             isLeaf: true
           },
           {
             "value": "510824",
-            "label": "苍溪",
+            "label": "苍溪县",
             isLeaf: true
           }
         ],
@@ -13529,32 +13529,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "510901",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "510903",
-            "label": "船山",
+            "label": "船山区",
             isLeaf: true
           },
           {
             "value": "510904",
-            "label": "安居",
+            "label": "安居区",
             isLeaf: true
           },
           {
             "value": "510921",
-            "label": "蓬溪",
+            "label": "蓬溪县",
             isLeaf: true
           },
           {
             "value": "510922",
-            "label": "射洪",
+            "label": "射洪县",
             isLeaf: true
           },
           {
             "value": "510923",
-            "label": "大英",
+            "label": "大英县",
             isLeaf: true
           }
         ],
@@ -13565,32 +13565,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "511001",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "511002",
-            "label": "市中",
+            "label": "市中区",
             isLeaf: true
           },
           {
             "value": "511011",
-            "label": "东兴",
+            "label": "东兴区",
             isLeaf: true
           },
           {
             "value": "511024",
-            "label": "威远",
+            "label": "威远县",
             isLeaf: true
           },
           {
             "value": "511025",
-            "label": "资中",
+            "label": "资中县",
             isLeaf: true
           },
           {
             "value": "511028",
-            "label": "隆昌",
+            "label": "隆昌县",
             isLeaf: true
           }
         ],
@@ -13601,57 +13601,57 @@ const cityAddressItems = [
         "children": [
           {
             "value": "511101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "511102",
-            "label": "市中",
+            "label": "市中区",
             isLeaf: true
           },
           {
             "value": "511111",
-            "label": "沙湾",
+            "label": "沙湾区",
             isLeaf: true
           },
           {
             "value": "511112",
-            "label": "五通桥",
+            "label": "五通桥区",
             isLeaf: true
           },
           {
             "value": "511113",
-            "label": "金口河",
+            "label": "金口河区",
             isLeaf: true
           },
           {
             "value": "511123",
-            "label": "犍为",
+            "label": "犍为县",
             isLeaf: true
           },
           {
             "value": "511124",
-            "label": "井研",
+            "label": "井研县",
             isLeaf: true
           },
           {
             "value": "511126",
-            "label": "夹江",
+            "label": "夹江县",
             isLeaf: true
           },
           {
             "value": "511129",
-            "label": "沐川",
+            "label": "沐川县",
             isLeaf: true
           },
           {
             "value": "511132",
-            "label": "峨边彝族自治",
+            "label": "峨边彝族自治县",
             isLeaf: true
           },
           {
             "value": "511133",
-            "label": "马边彝族自治",
+            "label": "马边彝族自治县",
             isLeaf: true
           },
           {
@@ -13667,47 +13667,47 @@ const cityAddressItems = [
         "children": [
           {
             "value": "511301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "511302",
-            "label": "顺庆",
+            "label": "顺庆区",
             isLeaf: true
           },
           {
             "value": "511303",
-            "label": "高坪",
+            "label": "高坪区",
             isLeaf: true
           },
           {
             "value": "511304",
-            "label": "嘉陵",
+            "label": "嘉陵区",
             isLeaf: true
           },
           {
             "value": "511321",
-            "label": "南部",
+            "label": "南部县",
             isLeaf: true
           },
           {
             "value": "511322",
-            "label": "营山",
+            "label": "营山县",
             isLeaf: true
           },
           {
             "value": "511323",
-            "label": "蓬安",
+            "label": "蓬安县",
             isLeaf: true
           },
           {
             "value": "511324",
-            "label": "仪陇",
+            "label": "仪陇县",
             isLeaf: true
           },
           {
             "value": "511325",
-            "label": "西充",
+            "label": "西充县",
             isLeaf: true
           },
           {
@@ -13723,37 +13723,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "511401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "511402",
-            "label": "东坡",
+            "label": "东坡区",
             isLeaf: true
           },
           {
             "value": "511421",
-            "label": "仁寿",
+            "label": "仁寿县",
             isLeaf: true
           },
           {
             "value": "511422",
-            "label": "彭山",
+            "label": "彭山县",
             isLeaf: true
           },
           {
             "value": "511423",
-            "label": "洪雅",
+            "label": "洪雅县",
             isLeaf: true
           },
           {
             "value": "511424",
-            "label": "丹棱",
+            "label": "丹棱县",
             isLeaf: true
           },
           {
             "value": "511425",
-            "label": "青神",
+            "label": "青神县",
             isLeaf: true
           }
         ],
@@ -13764,57 +13764,57 @@ const cityAddressItems = [
         "children": [
           {
             "value": "511501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "511502",
-            "label": "翠屏",
+            "label": "翠屏区",
             isLeaf: true
           },
           {
             "value": "511521",
-            "label": "宜宾",
+            "label": "宜宾县",
             isLeaf: true
           },
           {
             "value": "511522",
-            "label": "南溪",
+            "label": "南溪县",
             isLeaf: true
           },
           {
             "value": "511523",
-            "label": "江安",
+            "label": "江安县",
             isLeaf: true
           },
           {
             "value": "511524",
-            "label": "长宁",
+            "label": "长宁县",
             isLeaf: true
           },
           {
             "value": "511525",
-            "label": "高",
+            "label": "高县",
             isLeaf: true
           },
           {
             "value": "511526",
-            "label": "珙",
+            "label": "珙县",
             isLeaf: true
           },
           {
             "value": "511527",
-            "label": "筠连",
+            "label": "筠连县",
             isLeaf: true
           },
           {
             "value": "511528",
-            "label": "兴文",
+            "label": "兴文县",
             isLeaf: true
           },
           {
             "value": "511529",
-            "label": "屏山",
+            "label": "屏山县",
             isLeaf: true
           }
         ],
@@ -13825,27 +13825,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "511601",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "511602",
-            "label": "广安",
+            "label": "广安区",
             isLeaf: true
           },
           {
             "value": "511621",
-            "label": "岳池",
+            "label": "岳池县",
             isLeaf: true
           },
           {
             "value": "511622",
-            "label": "武胜",
+            "label": "武胜县",
             isLeaf: true
           },
           {
             "value": "511623",
-            "label": "邻水",
+            "label": "邻水县",
             isLeaf: true
           },
           {
@@ -13861,37 +13861,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "511701",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "511702",
-            "label": "通川",
+            "label": "通川区",
             isLeaf: true
           },
           {
             "value": "511721",
-            "label": "达",
+            "label": "达县",
             isLeaf: true
           },
           {
             "value": "511722",
-            "label": "宣汉",
+            "label": "宣汉县",
             isLeaf: true
           },
           {
             "value": "511723",
-            "label": "开江",
+            "label": "开江县",
             isLeaf: true
           },
           {
             "value": "511724",
-            "label": "大竹",
+            "label": "大竹县",
             isLeaf: true
           },
           {
             "value": "511725",
-            "label": "渠",
+            "label": "渠县",
             isLeaf: true
           },
           {
@@ -13907,47 +13907,47 @@ const cityAddressItems = [
         "children": [
           {
             "value": "511801",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "511802",
-            "label": "雨城",
+            "label": "雨城区",
             isLeaf: true
           },
           {
             "value": "511821",
-            "label": "名山",
+            "label": "名山县",
             isLeaf: true
           },
           {
             "value": "511822",
-            "label": "荥经",
+            "label": "荥经县",
             isLeaf: true
           },
           {
             "value": "511823",
-            "label": "汉源",
+            "label": "汉源县",
             isLeaf: true
           },
           {
             "value": "511824",
-            "label": "石棉",
+            "label": "石棉县",
             isLeaf: true
           },
           {
             "value": "511825",
-            "label": "天全",
+            "label": "天全县",
             isLeaf: true
           },
           {
             "value": "511826",
-            "label": "芦山",
+            "label": "芦山县",
             isLeaf: true
           },
           {
             "value": "511827",
-            "label": "宝兴",
+            "label": "宝兴县",
             isLeaf: true
           }
         ],
@@ -13958,27 +13958,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "511901",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "511902",
-            "label": "巴州",
+            "label": "巴州区",
             isLeaf: true
           },
           {
             "value": "511921",
-            "label": "通江",
+            "label": "通江县",
             isLeaf: true
           },
           {
             "value": "511922",
-            "label": "南江",
+            "label": "南江县",
             isLeaf: true
           },
           {
             "value": "511923",
-            "label": "平昌",
+            "label": "平昌县",
             isLeaf: true
           }
         ],
@@ -13989,22 +13989,22 @@ const cityAddressItems = [
         "children": [
           {
             "value": "512001",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "512002",
-            "label": "雁江",
+            "label": "雁江区",
             isLeaf: true
           },
           {
             "value": "512021",
-            "label": "安岳",
+            "label": "安岳县",
             isLeaf: true
           },
           {
             "value": "512022",
-            "label": "乐至",
+            "label": "乐至县",
             isLeaf: true
           },
           {
@@ -14020,67 +14020,67 @@ const cityAddressItems = [
         "children": [
           {
             "value": "513221",
-            "label": "汶川",
+            "label": "汶川县",
             isLeaf: true
           },
           {
             "value": "513222",
-            "label": "理",
+            "label": "理县",
             isLeaf: true
           },
           {
             "value": "513223",
-            "label": "茂",
+            "label": "茂县",
             isLeaf: true
           },
           {
             "value": "513224",
-            "label": "松潘",
+            "label": "松潘县",
             isLeaf: true
           },
           {
             "value": "513225",
-            "label": "九寨沟",
+            "label": "九寨沟县",
             isLeaf: true
           },
           {
             "value": "513226",
-            "label": "金川",
+            "label": "金川县",
             isLeaf: true
           },
           {
             "value": "513227",
-            "label": "小金",
+            "label": "小金县",
             isLeaf: true
           },
           {
             "value": "513228",
-            "label": "黑水",
+            "label": "黑水县",
             isLeaf: true
           },
           {
             "value": "513229",
-            "label": "马尔康",
+            "label": "马尔康县",
             isLeaf: true
           },
           {
             "value": "513230",
-            "label": "壤塘",
+            "label": "壤塘县",
             isLeaf: true
           },
           {
             "value": "513231",
-            "label": "阿坝",
+            "label": "阿坝县",
             isLeaf: true
           },
           {
             "value": "513232",
-            "label": "若尔盖",
+            "label": "若尔盖县",
             isLeaf: true
           },
           {
             "value": "513233",
-            "label": "红原",
+            "label": "红原县",
             isLeaf: true
           }
         ],
@@ -14091,92 +14091,92 @@ const cityAddressItems = [
         "children": [
           {
             "value": "513321",
-            "label": "康定",
+            "label": "康定县",
             isLeaf: true
           },
           {
             "value": "513322",
-            "label": "泸定",
+            "label": "泸定县",
             isLeaf: true
           },
           {
             "value": "513323",
-            "label": "丹巴",
+            "label": "丹巴县",
             isLeaf: true
           },
           {
             "value": "513324",
-            "label": "九龙",
+            "label": "九龙县",
             isLeaf: true
           },
           {
             "value": "513325",
-            "label": "雅江",
+            "label": "雅江县",
             isLeaf: true
           },
           {
             "value": "513326",
-            "label": "道孚",
+            "label": "道孚县",
             isLeaf: true
           },
           {
             "value": "513327",
-            "label": "炉霍",
+            "label": "炉霍县",
             isLeaf: true
           },
           {
             "value": "513328",
-            "label": "甘孜",
+            "label": "甘孜县",
             isLeaf: true
           },
           {
             "value": "513329",
-            "label": "新龙",
+            "label": "新龙县",
             isLeaf: true
           },
           {
             "value": "513330",
-            "label": "德格",
+            "label": "德格县",
             isLeaf: true
           },
           {
             "value": "513331",
-            "label": "白玉",
+            "label": "白玉县",
             isLeaf: true
           },
           {
             "value": "513332",
-            "label": "石渠",
+            "label": "石渠县",
             isLeaf: true
           },
           {
             "value": "513333",
-            "label": "色达",
+            "label": "色达县",
             isLeaf: true
           },
           {
             "value": "513334",
-            "label": "理塘",
+            "label": "理塘县",
             isLeaf: true
           },
           {
             "value": "513335",
-            "label": "巴塘",
+            "label": "巴塘县",
             isLeaf: true
           },
           {
             "value": "513336",
-            "label": "乡城",
+            "label": "乡城县",
             isLeaf: true
           },
           {
             "value": "513337",
-            "label": "稻城",
+            "label": "稻城县",
             isLeaf: true
           },
           {
             "value": "513338",
-            "label": "得荣",
+            "label": "得荣县",
             isLeaf: true
           }
         ],
@@ -14192,82 +14192,82 @@ const cityAddressItems = [
           },
           {
             "value": "513422",
-            "label": "木里藏族自治",
+            "label": "木里藏族自治县",
             isLeaf: true
           },
           {
             "value": "513423",
-            "label": "盐源",
+            "label": "盐源县",
             isLeaf: true
           },
           {
             "value": "513424",
-            "label": "德昌",
+            "label": "德昌县",
             isLeaf: true
           },
           {
             "value": "513425",
-            "label": "会理",
+            "label": "会理县",
             isLeaf: true
           },
           {
             "value": "513426",
-            "label": "会东",
+            "label": "会东县",
             isLeaf: true
           },
           {
             "value": "513427",
-            "label": "宁南",
+            "label": "宁南县",
             isLeaf: true
           },
           {
             "value": "513428",
-            "label": "普格",
+            "label": "普格县",
             isLeaf: true
           },
           {
             "value": "513429",
-            "label": "布拖",
+            "label": "布拖县",
             isLeaf: true
           },
           {
             "value": "513430",
-            "label": "金阳",
+            "label": "金阳县",
             isLeaf: true
           },
           {
             "value": "513431",
-            "label": "昭觉",
+            "label": "昭觉县",
             isLeaf: true
           },
           {
             "value": "513432",
-            "label": "喜德",
+            "label": "喜德县",
             isLeaf: true
           },
           {
             "value": "513433",
-            "label": "冕宁",
+            "label": "冕宁县",
             isLeaf: true
           },
           {
             "value": "513434",
-            "label": "越西",
+            "label": "越西县",
             isLeaf: true
           },
           {
             "value": "513435",
-            "label": "甘洛",
+            "label": "甘洛县",
             isLeaf: true
           },
           {
             "value": "513436",
-            "label": "美姑",
+            "label": "美姑县",
             isLeaf: true
           },
           {
             "value": "513437",
-            "label": "雷波",
+            "label": "雷波县",
             isLeaf: true
           }
         ],
@@ -14284,52 +14284,52 @@ const cityAddressItems = [
         "children": [
           {
             "value": "520101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "520102",
-            "label": "南明",
+            "label": "南明区",
             isLeaf: true
           },
           {
             "value": "520103",
-            "label": "云岩",
+            "label": "云岩区",
             isLeaf: true
           },
           {
             "value": "520111",
-            "label": "花溪",
+            "label": "花溪区",
             isLeaf: true
           },
           {
             "value": "520112",
-            "label": "乌当",
+            "label": "乌当区",
             isLeaf: true
           },
           {
             "value": "520113",
-            "label": "白云",
+            "label": "白云区",
             isLeaf: true
           },
           {
             "value": "520114",
-            "label": "小河",
+            "label": "小河区",
             isLeaf: true
           },
           {
             "value": "520121",
-            "label": "开阳",
+            "label": "开阳县",
             isLeaf: true
           },
           {
             "value": "520122",
-            "label": "息烽",
+            "label": "息烽县",
             isLeaf: true
           },
           {
             "value": "520123",
-            "label": "修文",
+            "label": "修文县",
             isLeaf: true
           },
           {
@@ -14345,22 +14345,22 @@ const cityAddressItems = [
         "children": [
           {
             "value": "520201",
-            "label": "钟山",
+            "label": "钟山区",
             isLeaf: true
           },
           {
             "value": "520203",
-            "label": "六枝特",
+            "label": "六枝特区",
             isLeaf: true
           },
           {
             "value": "520221",
-            "label": "水城",
+            "label": "水城县",
             isLeaf: true
           },
           {
             "value": "520222",
-            "label": "盘",
+            "label": "盘县",
             isLeaf: true
           }
         ],
@@ -14371,67 +14371,67 @@ const cityAddressItems = [
         "children": [
           {
             "value": "520301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "520302",
-            "label": "红花岗",
+            "label": "红花岗区",
             isLeaf: true
           },
           {
             "value": "520303",
-            "label": "汇川",
+            "label": "汇川区",
             isLeaf: true
           },
           {
             "value": "520321",
-            "label": "遵义",
+            "label": "遵义县",
             isLeaf: true
           },
           {
             "value": "520322",
-            "label": "桐梓",
+            "label": "桐梓县",
             isLeaf: true
           },
           {
             "value": "520323",
-            "label": "绥阳",
+            "label": "绥阳县",
             isLeaf: true
           },
           {
             "value": "520324",
-            "label": "正安",
+            "label": "正安县",
             isLeaf: true
           },
           {
             "value": "520325",
-            "label": "道真仡佬族苗族自治",
+            "label": "道真仡佬族苗族自治县",
             isLeaf: true
           },
           {
             "value": "520326",
-            "label": "务川仡佬族苗族自治",
+            "label": "务川仡佬族苗族自治县",
             isLeaf: true
           },
           {
             "value": "520327",
-            "label": "凤冈",
+            "label": "凤冈县",
             isLeaf: true
           },
           {
             "value": "520328",
-            "label": "湄潭",
+            "label": "湄潭县",
             isLeaf: true
           },
           {
             "value": "520329",
-            "label": "余庆",
+            "label": "余庆县",
             isLeaf: true
           },
           {
             "value": "520330",
-            "label": "习水",
+            "label": "习水县",
             isLeaf: true
           },
           {
@@ -14452,37 +14452,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "520401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "520402",
-            "label": "西秀",
+            "label": "西秀区",
             isLeaf: true
           },
           {
             "value": "520421",
-            "label": "平坝",
+            "label": "平坝县",
             isLeaf: true
           },
           {
             "value": "520422",
-            "label": "普定",
+            "label": "普定县",
             isLeaf: true
           },
           {
             "value": "520423",
-            "label": "镇宁布依族苗族自治",
+            "label": "镇宁布依族苗族自治县",
             isLeaf: true
           },
           {
             "value": "520424",
-            "label": "关岭布依族苗族自治",
+            "label": "关岭布依族苗族自治县",
             isLeaf: true
           },
           {
             "value": "520425",
-            "label": "紫云苗族布依族自治",
+            "label": "紫云苗族布依族自治县",
             isLeaf: true
           }
         ],
@@ -14498,52 +14498,52 @@ const cityAddressItems = [
           },
           {
             "value": "522222",
-            "label": "江口",
+            "label": "江口县",
             isLeaf: true
           },
           {
             "value": "522223",
-            "label": "玉屏侗族自治",
+            "label": "玉屏侗族自治县",
             isLeaf: true
           },
           {
             "value": "522224",
-            "label": "石阡",
+            "label": "石阡县",
             isLeaf: true
           },
           {
             "value": "522225",
-            "label": "思南",
+            "label": "思南县",
             isLeaf: true
           },
           {
             "value": "522226",
-            "label": "印江土家族苗族自治",
+            "label": "印江土家族苗族自治县",
             isLeaf: true
           },
           {
             "value": "522227",
-            "label": "德江",
+            "label": "德江县",
             isLeaf: true
           },
           {
             "value": "522228",
-            "label": "沿河土家族自治",
+            "label": "沿河土家族自治县",
             isLeaf: true
           },
           {
             "value": "522229",
-            "label": "松桃苗族自治",
+            "label": "松桃苗族自治县",
             isLeaf: true
           },
           {
             "value": "522230",
-            "label": "万山特",
+            "label": "万山特区",
             isLeaf: true
           }
         ],
         "value": "522200",
-        "label": "铜仁地"
+        "label": "铜仁地区"
       },
       {
         "children": [
@@ -14554,37 +14554,37 @@ const cityAddressItems = [
           },
           {
             "value": "522322",
-            "label": "兴仁",
+            "label": "兴仁县",
             isLeaf: true
           },
           {
             "value": "522323",
-            "label": "普安",
+            "label": "普安县",
             isLeaf: true
           },
           {
             "value": "522324",
-            "label": "晴隆",
+            "label": "晴隆县",
             isLeaf: true
           },
           {
             "value": "522325",
-            "label": "贞丰",
+            "label": "贞丰县",
             isLeaf: true
           },
           {
             "value": "522326",
-            "label": "望谟",
+            "label": "望谟县",
             isLeaf: true
           },
           {
             "value": "522327",
-            "label": "册亨",
+            "label": "册亨县",
             isLeaf: true
           },
           {
             "value": "522328",
-            "label": "安龙",
+            "label": "安龙县",
             isLeaf: true
           }
         ],
@@ -14600,42 +14600,42 @@ const cityAddressItems = [
           },
           {
             "value": "522422",
-            "label": "大方",
+            "label": "大方县",
             isLeaf: true
           },
           {
             "value": "522423",
-            "label": "黔西",
+            "label": "黔西县",
             isLeaf: true
           },
           {
             "value": "522424",
-            "label": "金沙",
+            "label": "金沙县",
             isLeaf: true
           },
           {
             "value": "522425",
-            "label": "织金",
+            "label": "织金县",
             isLeaf: true
           },
           {
             "value": "522426",
-            "label": "纳雍",
+            "label": "纳雍县",
             isLeaf: true
           },
           {
             "value": "522427",
-            "label": "威宁彝族回族苗族自治",
+            "label": "威宁彝族回族苗族自治县",
             isLeaf: true
           },
           {
             "value": "522428",
-            "label": "赫章",
+            "label": "赫章县",
             isLeaf: true
           }
         ],
         "value": "522400",
-        "label": "毕节地"
+        "label": "毕节地区"
       },
       {
         "children": [
@@ -14646,77 +14646,77 @@ const cityAddressItems = [
           },
           {
             "value": "522622",
-            "label": "黄平",
+            "label": "黄平县",
             isLeaf: true
           },
           {
             "value": "522623",
-            "label": "施秉",
+            "label": "施秉县",
             isLeaf: true
           },
           {
             "value": "522624",
-            "label": "三穗",
+            "label": "三穗县",
             isLeaf: true
           },
           {
             "value": "522625",
-            "label": "镇远",
+            "label": "镇远县",
             isLeaf: true
           },
           {
             "value": "522626",
-            "label": "岑巩",
+            "label": "岑巩县",
             isLeaf: true
           },
           {
             "value": "522627",
-            "label": "天柱",
+            "label": "天柱县",
             isLeaf: true
           },
           {
             "value": "522628",
-            "label": "锦屏",
+            "label": "锦屏县",
             isLeaf: true
           },
           {
             "value": "522629",
-            "label": "剑河",
+            "label": "剑河县",
             isLeaf: true
           },
           {
             "value": "522630",
-            "label": "台江",
+            "label": "台江县",
             isLeaf: true
           },
           {
             "value": "522631",
-            "label": "黎平",
+            "label": "黎平县",
             isLeaf: true
           },
           {
             "value": "522632",
-            "label": "榕江",
+            "label": "榕江县",
             isLeaf: true
           },
           {
             "value": "522633",
-            "label": "从江",
+            "label": "从江县",
             isLeaf: true
           },
           {
             "value": "522634",
-            "label": "雷山",
+            "label": "雷山县",
             isLeaf: true
           },
           {
             "value": "522635",
-            "label": "麻江",
+            "label": "麻江县",
             isLeaf: true
           },
           {
             "value": "522636",
-            "label": "丹寨",
+            "label": "丹寨县",
             isLeaf: true
           }
         ],
@@ -14737,52 +14737,52 @@ const cityAddressItems = [
           },
           {
             "value": "522722",
-            "label": "荔波",
+            "label": "荔波县",
             isLeaf: true
           },
           {
             "value": "522723",
-            "label": "贵定",
+            "label": "贵定县",
             isLeaf: true
           },
           {
             "value": "522725",
-            "label": "瓮安",
+            "label": "瓮安县",
             isLeaf: true
           },
           {
             "value": "522726",
-            "label": "独山",
+            "label": "独山县",
             isLeaf: true
           },
           {
             "value": "522727",
-            "label": "平塘",
+            "label": "平塘县",
             isLeaf: true
           },
           {
             "value": "522728",
-            "label": "罗甸",
+            "label": "罗甸县",
             isLeaf: true
           },
           {
             "value": "522729",
-            "label": "长顺",
+            "label": "长顺县",
             isLeaf: true
           },
           {
             "value": "522730",
-            "label": "龙里",
+            "label": "龙里县",
             isLeaf: true
           },
           {
             "value": "522731",
-            "label": "惠水",
+            "label": "惠水县",
             isLeaf: true
           },
           {
             "value": "522732",
-            "label": "三都水族自治",
+            "label": "三都水族自治县",
             isLeaf: true
           }
         ],
@@ -14799,72 +14799,72 @@ const cityAddressItems = [
         "children": [
           {
             "value": "530101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "530102",
-            "label": "五华",
+            "label": "五华区",
             isLeaf: true
           },
           {
             "value": "530103",
-            "label": "盘龙",
+            "label": "盘龙区",
             isLeaf: true
           },
           {
             "value": "530111",
-            "label": "官渡",
+            "label": "官渡区",
             isLeaf: true
           },
           {
             "value": "530112",
-            "label": "西山",
+            "label": "西山区",
             isLeaf: true
           },
           {
             "value": "530113",
-            "label": "东川",
+            "label": "东川区",
             isLeaf: true
           },
           {
             "value": "530121",
-            "label": "呈贡",
+            "label": "呈贡县",
             isLeaf: true
           },
           {
             "value": "530122",
-            "label": "晋宁",
+            "label": "晋宁县",
             isLeaf: true
           },
           {
             "value": "530124",
-            "label": "富民",
+            "label": "富民县",
             isLeaf: true
           },
           {
             "value": "530125",
-            "label": "宜良",
+            "label": "宜良县",
             isLeaf: true
           },
           {
             "value": "530126",
-            "label": "石林彝族自治",
+            "label": "石林彝族自治县",
             isLeaf: true
           },
           {
             "value": "530127",
-            "label": "嵩明",
+            "label": "嵩明县",
             isLeaf: true
           },
           {
             "value": "530128",
-            "label": "禄劝彝族苗族自治",
+            "label": "禄劝彝族苗族自治县",
             isLeaf: true
           },
           {
             "value": "530129",
-            "label": "寻甸回族彝族自治",
+            "label": "寻甸回族彝族自治县",
             isLeaf: true
           },
           {
@@ -14880,47 +14880,47 @@ const cityAddressItems = [
         "children": [
           {
             "value": "530301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "530302",
-            "label": "麒麟",
+            "label": "麒麟区",
             isLeaf: true
           },
           {
             "value": "530321",
-            "label": "马龙",
+            "label": "马龙县",
             isLeaf: true
           },
           {
             "value": "530322",
-            "label": "陆良",
+            "label": "陆良县",
             isLeaf: true
           },
           {
             "value": "530323",
-            "label": "师宗",
+            "label": "师宗县",
             isLeaf: true
           },
           {
             "value": "530324",
-            "label": "罗平",
+            "label": "罗平县",
             isLeaf: true
           },
           {
             "value": "530325",
-            "label": "富源",
+            "label": "富源县",
             isLeaf: true
           },
           {
             "value": "530326",
-            "label": "会泽",
+            "label": "会泽县",
             isLeaf: true
           },
           {
             "value": "530328",
-            "label": "沾益",
+            "label": "沾益县",
             isLeaf: true
           },
           {
@@ -14936,52 +14936,52 @@ const cityAddressItems = [
         "children": [
           {
             "value": "530401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "530402",
-            "label": "红塔",
+            "label": "红塔区",
             isLeaf: true
           },
           {
             "value": "530421",
-            "label": "江川",
+            "label": "江川县",
             isLeaf: true
           },
           {
             "value": "530422",
-            "label": "澄江",
+            "label": "澄江县",
             isLeaf: true
           },
           {
             "value": "530423",
-            "label": "通海",
+            "label": "通海县",
             isLeaf: true
           },
           {
             "value": "530424",
-            "label": "华宁",
+            "label": "华宁县",
             isLeaf: true
           },
           {
             "value": "530425",
-            "label": "易门",
+            "label": "易门县",
             isLeaf: true
           },
           {
             "value": "530426",
-            "label": "峨山彝族自治",
+            "label": "峨山彝族自治县",
             isLeaf: true
           },
           {
             "value": "530427",
-            "label": "新平彝族傣族自治",
+            "label": "新平彝族傣族自治县",
             isLeaf: true
           },
           {
             "value": "530428",
-            "label": "元江哈尼族彝族傣族自治",
+            "label": "元江哈尼族彝族傣族自治县",
             isLeaf: true
           }
         ],
@@ -14992,32 +14992,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "530501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "530502",
-            "label": "隆阳",
+            "label": "隆阳区",
             isLeaf: true
           },
           {
             "value": "530521",
-            "label": "施甸",
+            "label": "施甸县",
             isLeaf: true
           },
           {
             "value": "530522",
-            "label": "腾冲",
+            "label": "腾冲县",
             isLeaf: true
           },
           {
             "value": "530523",
-            "label": "龙陵",
+            "label": "龙陵县",
             isLeaf: true
           },
           {
             "value": "530524",
-            "label": "昌宁",
+            "label": "昌宁县",
             isLeaf: true
           }
         ],
@@ -15028,62 +15028,62 @@ const cityAddressItems = [
         "children": [
           {
             "value": "530601",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "530602",
-            "label": "昭阳",
+            "label": "昭阳区",
             isLeaf: true
           },
           {
             "value": "530621",
-            "label": "鲁甸",
+            "label": "鲁甸县",
             isLeaf: true
           },
           {
             "value": "530622",
-            "label": "巧家",
+            "label": "巧家县",
             isLeaf: true
           },
           {
             "value": "530623",
-            "label": "盐津",
+            "label": "盐津县",
             isLeaf: true
           },
           {
             "value": "530624",
-            "label": "大关",
+            "label": "大关县",
             isLeaf: true
           },
           {
             "value": "530625",
-            "label": "永善",
+            "label": "永善县",
             isLeaf: true
           },
           {
             "value": "530626",
-            "label": "绥江",
+            "label": "绥江县",
             isLeaf: true
           },
           {
             "value": "530627",
-            "label": "镇雄",
+            "label": "镇雄县",
             isLeaf: true
           },
           {
             "value": "530628",
-            "label": "彝良",
+            "label": "彝良县",
             isLeaf: true
           },
           {
             "value": "530629",
-            "label": "威信",
+            "label": "威信县",
             isLeaf: true
           },
           {
             "value": "530630",
-            "label": "水富",
+            "label": "水富县",
             isLeaf: true
           }
         ],
@@ -15094,32 +15094,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "530701",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "530702",
-            "label": "古城",
+            "label": "古城区",
             isLeaf: true
           },
           {
             "value": "530721",
-            "label": "玉龙纳西族自治",
+            "label": "玉龙纳西族自治县",
             isLeaf: true
           },
           {
             "value": "530722",
-            "label": "永胜",
+            "label": "永胜县",
             isLeaf: true
           },
           {
             "value": "530723",
-            "label": "华坪",
+            "label": "华坪县",
             isLeaf: true
           },
           {
             "value": "530724",
-            "label": "宁蒗彝族自治",
+            "label": "宁蒗彝族自治县",
             isLeaf: true
           }
         ],
@@ -15130,57 +15130,57 @@ const cityAddressItems = [
         "children": [
           {
             "value": "530801",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "530802",
-            "label": "翠云",
+            "label": "翠云区",
             isLeaf: true
           },
           {
             "value": "530821",
-            "label": "普洱哈尼族彝族自治",
+            "label": "普洱哈尼族彝族自治县",
             isLeaf: true
           },
           {
             "value": "530822",
-            "label": "墨江哈尼族自治",
+            "label": "墨江哈尼族自治县",
             isLeaf: true
           },
           {
             "value": "530823",
-            "label": "景东彝族自治",
+            "label": "景东彝族自治县",
             isLeaf: true
           },
           {
             "value": "530824",
-            "label": "景谷傣族彝族自治",
+            "label": "景谷傣族彝族自治县",
             isLeaf: true
           },
           {
             "value": "530825",
-            "label": "镇沅彝族哈尼族拉祜族自治",
+            "label": "镇沅彝族哈尼族拉祜族自治县",
             isLeaf: true
           },
           {
             "value": "530826",
-            "label": "江城哈尼族彝族自治",
+            "label": "江城哈尼族彝族自治县",
             isLeaf: true
           },
           {
             "value": "530827",
-            "label": "孟连傣族拉祜族佤族自治",
+            "label": "孟连傣族拉祜族佤族自治县",
             isLeaf: true
           },
           {
             "value": "530828",
-            "label": "澜沧拉祜族自治",
+            "label": "澜沧拉祜族自治县",
             isLeaf: true
           },
           {
             "value": "530829",
-            "label": "西盟佤族自治",
+            "label": "西盟佤族自治县",
             isLeaf: true
           }
         ],
@@ -15191,47 +15191,47 @@ const cityAddressItems = [
         "children": [
           {
             "value": "530901",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "530902",
-            "label": "临翔",
+            "label": "临翔区",
             isLeaf: true
           },
           {
             "value": "530921",
-            "label": "凤庆",
+            "label": "凤庆县",
             isLeaf: true
           },
           {
             "value": "530922",
-            "label": "云　",
+            "label": "云　县",
             isLeaf: true
           },
           {
             "value": "530923",
-            "label": "永德",
+            "label": "永德县",
             isLeaf: true
           },
           {
             "value": "530924",
-            "label": "镇康",
+            "label": "镇康县",
             isLeaf: true
           },
           {
             "value": "530925",
-            "label": "双江拉祜族佤族布朗族傣族自治",
+            "label": "双江拉祜族佤族布朗族傣族自治县",
             isLeaf: true
           },
           {
             "value": "530926",
-            "label": "耿马傣族佤族自治",
+            "label": "耿马傣族佤族自治县",
             isLeaf: true
           },
           {
             "value": "530927",
-            "label": "沧源佤族自治",
+            "label": "沧源佤族自治县",
             isLeaf: true
           }
         ],
@@ -15247,47 +15247,47 @@ const cityAddressItems = [
           },
           {
             "value": "532322",
-            "label": "双柏",
+            "label": "双柏县",
             isLeaf: true
           },
           {
             "value": "532323",
-            "label": "牟定",
+            "label": "牟定县",
             isLeaf: true
           },
           {
             "value": "532324",
-            "label": "南华",
+            "label": "南华县",
             isLeaf: true
           },
           {
             "value": "532325",
-            "label": "姚安",
+            "label": "姚安县",
             isLeaf: true
           },
           {
             "value": "532326",
-            "label": "大姚",
+            "label": "大姚县",
             isLeaf: true
           },
           {
             "value": "532327",
-            "label": "永仁",
+            "label": "永仁县",
             isLeaf: true
           },
           {
             "value": "532328",
-            "label": "元谋",
+            "label": "元谋县",
             isLeaf: true
           },
           {
             "value": "532329",
-            "label": "武定",
+            "label": "武定县",
             isLeaf: true
           },
           {
             "value": "532331",
-            "label": "禄丰",
+            "label": "禄丰县",
             isLeaf: true
           }
         ],
@@ -15308,57 +15308,57 @@ const cityAddressItems = [
           },
           {
             "value": "532522",
-            "label": "蒙自",
+            "label": "蒙自县",
             isLeaf: true
           },
           {
             "value": "532523",
-            "label": "屏边苗族自治",
+            "label": "屏边苗族自治县",
             isLeaf: true
           },
           {
             "value": "532524",
-            "label": "建水",
+            "label": "建水县",
             isLeaf: true
           },
           {
             "value": "532525",
-            "label": "石屏",
+            "label": "石屏县",
             isLeaf: true
           },
           {
             "value": "532526",
-            "label": "弥勒",
+            "label": "弥勒县",
             isLeaf: true
           },
           {
             "value": "532527",
-            "label": "泸西",
+            "label": "泸西县",
             isLeaf: true
           },
           {
             "value": "532528",
-            "label": "元阳",
+            "label": "元阳县",
             isLeaf: true
           },
           {
             "value": "532529",
-            "label": "红河",
+            "label": "红河县",
             isLeaf: true
           },
           {
             "value": "532530",
-            "label": "金平苗族瑶族傣族自治",
+            "label": "金平苗族瑶族傣族自治县",
             isLeaf: true
           },
           {
             "value": "532531",
-            "label": "绿春",
+            "label": "绿春县",
             isLeaf: true
           },
           {
             "value": "532532",
-            "label": "河口瑶族自治",
+            "label": "河口瑶族自治县",
             isLeaf: true
           }
         ],
@@ -15369,42 +15369,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "532621",
-            "label": "文山",
+            "label": "文山县",
             isLeaf: true
           },
           {
             "value": "532622",
-            "label": "砚山",
+            "label": "砚山县",
             isLeaf: true
           },
           {
             "value": "532623",
-            "label": "西畴",
+            "label": "西畴县",
             isLeaf: true
           },
           {
             "value": "532624",
-            "label": "麻栗坡",
+            "label": "麻栗坡县",
             isLeaf: true
           },
           {
             "value": "532625",
-            "label": "马关",
+            "label": "马关县",
             isLeaf: true
           },
           {
             "value": "532626",
-            "label": "丘北",
+            "label": "丘北县",
             isLeaf: true
           },
           {
             "value": "532627",
-            "label": "广南",
+            "label": "广南县",
             isLeaf: true
           },
           {
             "value": "532628",
-            "label": "富宁",
+            "label": "富宁县",
             isLeaf: true
           }
         ],
@@ -15420,12 +15420,12 @@ const cityAddressItems = [
           },
           {
             "value": "532822",
-            "label": "勐海",
+            "label": "勐海县",
             isLeaf: true
           },
           {
             "value": "532823",
-            "label": "勐腊",
+            "label": "勐腊县",
             isLeaf: true
           }
         ],
@@ -15441,57 +15441,57 @@ const cityAddressItems = [
           },
           {
             "value": "532922",
-            "label": "漾濞彝族自治",
+            "label": "漾濞彝族自治县",
             isLeaf: true
           },
           {
             "value": "532923",
-            "label": "祥云",
+            "label": "祥云县",
             isLeaf: true
           },
           {
             "value": "532924",
-            "label": "宾川",
+            "label": "宾川县",
             isLeaf: true
           },
           {
             "value": "532925",
-            "label": "弥渡",
+            "label": "弥渡县",
             isLeaf: true
           },
           {
             "value": "532926",
-            "label": "南涧彝族自治",
+            "label": "南涧彝族自治县",
             isLeaf: true
           },
           {
             "value": "532927",
-            "label": "巍山彝族回族自治",
+            "label": "巍山彝族回族自治县",
             isLeaf: true
           },
           {
             "value": "532928",
-            "label": "永平",
+            "label": "永平县",
             isLeaf: true
           },
           {
             "value": "532929",
-            "label": "云龙",
+            "label": "云龙县",
             isLeaf: true
           },
           {
             "value": "532930",
-            "label": "洱源",
+            "label": "洱源县",
             isLeaf: true
           },
           {
             "value": "532931",
-            "label": "剑川",
+            "label": "剑川县",
             isLeaf: true
           },
           {
             "value": "532932",
-            "label": "鹤庆",
+            "label": "鹤庆县",
             isLeaf: true
           }
         ],
@@ -15512,17 +15512,17 @@ const cityAddressItems = [
           },
           {
             "value": "533122",
-            "label": "梁河",
+            "label": "梁河县",
             isLeaf: true
           },
           {
             "value": "533123",
-            "label": "盈江",
+            "label": "盈江县",
             isLeaf: true
           },
           {
             "value": "533124",
-            "label": "陇川",
+            "label": "陇川县",
             isLeaf: true
           }
         ],
@@ -15533,22 +15533,22 @@ const cityAddressItems = [
         "children": [
           {
             "value": "533321",
-            "label": "泸水",
+            "label": "泸水县",
             isLeaf: true
           },
           {
             "value": "533323",
-            "label": "福贡",
+            "label": "福贡县",
             isLeaf: true
           },
           {
             "value": "533324",
-            "label": "贡山独龙族怒族自治",
+            "label": "贡山独龙族怒族自治县",
             isLeaf: true
           },
           {
             "value": "533325",
-            "label": "兰坪白族普米族自治",
+            "label": "兰坪白族普米族自治县",
             isLeaf: true
           }
         ],
@@ -15559,17 +15559,17 @@ const cityAddressItems = [
         "children": [
           {
             "value": "533421",
-            "label": "香格里拉",
+            "label": "香格里拉县",
             isLeaf: true
           },
           {
             "value": "533422",
-            "label": "德钦",
+            "label": "德钦县",
             isLeaf: true
           },
           {
             "value": "533423",
-            "label": "维西傈僳族自治",
+            "label": "维西傈僳族自治县",
             isLeaf: true
           }
         ],
@@ -15586,47 +15586,47 @@ const cityAddressItems = [
         "children": [
           {
             "value": "540101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "540102",
-            "label": "城关",
+            "label": "城关区",
             isLeaf: true
           },
           {
             "value": "540121",
-            "label": "林周",
+            "label": "林周县",
             isLeaf: true
           },
           {
             "value": "540122",
-            "label": "当雄",
+            "label": "当雄县",
             isLeaf: true
           },
           {
             "value": "540123",
-            "label": "尼木",
+            "label": "尼木县",
             isLeaf: true
           },
           {
             "value": "540124",
-            "label": "曲水",
+            "label": "曲水县",
             isLeaf: true
           },
           {
             "value": "540125",
-            "label": "堆龙德庆",
+            "label": "堆龙德庆县",
             isLeaf: true
           },
           {
             "value": "540126",
-            "label": "达孜",
+            "label": "达孜县",
             isLeaf: true
           },
           {
             "value": "540127",
-            "label": "墨竹工卡",
+            "label": "墨竹工卡县",
             isLeaf: true
           }
         ],
@@ -15637,128 +15637,128 @@ const cityAddressItems = [
         "children": [
           {
             "value": "542121",
-            "label": "昌都",
+            "label": "昌都县",
             isLeaf: true
           },
           {
             "value": "542122",
-            "label": "江达",
+            "label": "江达县",
             isLeaf: true
           },
           {
             "value": "542123",
-            "label": "贡觉",
+            "label": "贡觉县",
             isLeaf: true
           },
           {
             "value": "542124",
-            "label": "类乌齐",
+            "label": "类乌齐县",
             isLeaf: true
           },
           {
             "value": "542125",
-            "label": "丁青",
+            "label": "丁青县",
             isLeaf: true
           },
           {
             "value": "542126",
-            "label": "察雅",
+            "label": "察雅县",
             isLeaf: true
           },
           {
             "value": "542127",
-            "label": "八宿",
+            "label": "八宿县",
             isLeaf: true
           },
           {
             "value": "542128",
-            "label": "左贡",
+            "label": "左贡县",
             isLeaf: true
           },
           {
             "value": "542129",
-            "label": "芒康",
+            "label": "芒康县",
             isLeaf: true
           },
           {
             "value": "542132",
-            "label": "洛隆",
+            "label": "洛隆县",
             isLeaf: true
           },
           {
             "value": "542133",
-            "label": "边坝",
+            "label": "边坝县",
             isLeaf: true
           }
         ],
         "value": "542100",
-        "label": "昌都地"
+        "label": "昌都地区"
       },
       {
         "children": [
           {
             "value": "542221",
-            "label": "乃东",
+            "label": "乃东县",
             isLeaf: true
           },
           {
             "value": "542222",
-            "label": "扎囊",
+            "label": "扎囊县",
             isLeaf: true
           },
           {
             "value": "542223",
-            "label": "贡嘎",
+            "label": "贡嘎县",
             isLeaf: true
           },
           {
             "value": "542224",
-            "label": "桑日",
+            "label": "桑日县",
             isLeaf: true
           },
           {
             "value": "542225",
-            "label": "琼结",
+            "label": "琼结县",
             isLeaf: true
           },
           {
             "value": "542226",
-            "label": "曲松",
+            "label": "曲松县",
             isLeaf: true
           },
           {
             "value": "542227",
-            "label": "措美",
+            "label": "措美县",
             isLeaf: true
           },
           {
             "value": "542228",
-            "label": "洛扎",
+            "label": "洛扎县",
             isLeaf: true
           },
           {
             "value": "542229",
-            "label": "加查",
+            "label": "加查县",
             isLeaf: true
           },
           {
             "value": "542231",
-            "label": "隆子",
+            "label": "隆子县",
             isLeaf: true
           },
           {
             "value": "542232",
-            "label": "错那",
+            "label": "错那县",
             isLeaf: true
           },
           {
             "value": "542233",
-            "label": "浪卡子",
+            "label": "浪卡子县",
             isLeaf: true
           }
         ],
         "value": "542200",
-        "label": "山南地"
+        "label": "山南地区"
       },
       {
         "children": [
@@ -15769,234 +15769,234 @@ const cityAddressItems = [
           },
           {
             "value": "542322",
-            "label": "南木林",
+            "label": "南木林县",
             isLeaf: true
           },
           {
             "value": "542323",
-            "label": "江孜",
+            "label": "江孜县",
             isLeaf: true
           },
           {
             "value": "542324",
-            "label": "定日",
+            "label": "定日县",
             isLeaf: true
           },
           {
             "value": "542325",
-            "label": "萨迦",
+            "label": "萨迦县",
             isLeaf: true
           },
           {
             "value": "542326",
-            "label": "拉孜",
+            "label": "拉孜县",
             isLeaf: true
           },
           {
             "value": "542327",
-            "label": "昂仁",
+            "label": "昂仁县",
             isLeaf: true
           },
           {
             "value": "542328",
-            "label": "谢通门",
+            "label": "谢通门县",
             isLeaf: true
           },
           {
             "value": "542329",
-            "label": "白朗",
+            "label": "白朗县",
             isLeaf: true
           },
           {
             "value": "542330",
-            "label": "仁布",
+            "label": "仁布县",
             isLeaf: true
           },
           {
             "value": "542331",
-            "label": "康马",
+            "label": "康马县",
             isLeaf: true
           },
           {
             "value": "542332",
-            "label": "定结",
+            "label": "定结县",
             isLeaf: true
           },
           {
             "value": "542333",
-            "label": "仲巴",
+            "label": "仲巴县",
             isLeaf: true
           },
           {
             "value": "542334",
-            "label": "亚东",
+            "label": "亚东县",
             isLeaf: true
           },
           {
             "value": "542335",
-            "label": "吉隆",
+            "label": "吉隆县",
             isLeaf: true
           },
           {
             "value": "542336",
-            "label": "聂拉木",
+            "label": "聂拉木县",
             isLeaf: true
           },
           {
             "value": "542337",
-            "label": "萨嘎",
+            "label": "萨嘎县",
             isLeaf: true
           },
           {
             "value": "542338",
-            "label": "岗巴",
+            "label": "岗巴县",
             isLeaf: true
           }
         ],
         "value": "542300",
-        "label": "日喀则地"
+        "label": "日喀则地区"
       },
       {
         "children": [
           {
             "value": "542421",
-            "label": "那曲",
+            "label": "那曲县",
             isLeaf: true
           },
           {
             "value": "542422",
-            "label": "嘉黎",
+            "label": "嘉黎县",
             isLeaf: true
           },
           {
             "value": "542423",
-            "label": "比如",
+            "label": "比如县",
             isLeaf: true
           },
           {
             "value": "542424",
-            "label": "聂荣",
+            "label": "聂荣县",
             isLeaf: true
           },
           {
             "value": "542425",
-            "label": "安多",
+            "label": "安多县",
             isLeaf: true
           },
           {
             "value": "542426",
-            "label": "申扎",
+            "label": "申扎县",
             isLeaf: true
           },
           {
             "value": "542427",
-            "label": "索　",
+            "label": "索　县",
             isLeaf: true
           },
           {
             "value": "542428",
-            "label": "班戈",
+            "label": "班戈县",
             isLeaf: true
           },
           {
             "value": "542429",
-            "label": "巴青",
+            "label": "巴青县",
             isLeaf: true
           },
           {
             "value": "542430",
-            "label": "尼玛",
+            "label": "尼玛县",
             isLeaf: true
           }
         ],
         "value": "542400",
-        "label": "那曲地"
+        "label": "那曲地区"
       },
       {
         "children": [
           {
             "value": "542521",
-            "label": "普兰",
+            "label": "普兰县",
             isLeaf: true
           },
           {
             "value": "542522",
-            "label": "札达",
+            "label": "札达县",
             isLeaf: true
           },
           {
             "value": "542523",
-            "label": "噶尔",
+            "label": "噶尔县",
             isLeaf: true
           },
           {
             "value": "542524",
-            "label": "日土",
+            "label": "日土县",
             isLeaf: true
           },
           {
             "value": "542525",
-            "label": "革吉",
+            "label": "革吉县",
             isLeaf: true
           },
           {
             "value": "542526",
-            "label": "改则",
+            "label": "改则县",
             isLeaf: true
           },
           {
             "value": "542527",
-            "label": "措勤",
+            "label": "措勤县",
             isLeaf: true
           }
         ],
         "value": "542500",
-        "label": "阿里地"
+        "label": "阿里地区"
       },
       {
         "children": [
           {
             "value": "542621",
-            "label": "林芝",
+            "label": "林芝县",
             isLeaf: true
           },
           {
             "value": "542622",
-            "label": "工布江达",
+            "label": "工布江达县",
             isLeaf: true
           },
           {
             "value": "542623",
-            "label": "米林",
+            "label": "米林县",
             isLeaf: true
           },
           {
             "value": "542624",
-            "label": "墨脱",
+            "label": "墨脱县",
             isLeaf: true
           },
           {
             "value": "542625",
-            "label": "波密",
+            "label": "波密县",
             isLeaf: true
           },
           {
             "value": "542626",
-            "label": "察隅",
+            "label": "察隅县",
             isLeaf: true
           },
           {
             "value": "542627",
-            "label": "朗",
+            "label": "朗县",
             isLeaf: true
           }
         ],
         "value": "542600",
-        "label": "林芝地"
+        "label": "林芝地区"
       }
     ],
     "value": "540000",
-    "label": "西藏自治"
+    "label": "西藏自治区"
   },
   {
     "children": [
@@ -16004,72 +16004,72 @@ const cityAddressItems = [
         "children": [
           {
             "value": "610101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "610102",
-            "label": "新城",
+            "label": "新城区",
             isLeaf: true
           },
           {
             "value": "610103",
-            "label": "碑林",
+            "label": "碑林区",
             isLeaf: true
           },
           {
             "value": "610104",
-            "label": "莲湖",
+            "label": "莲湖区",
             isLeaf: true
           },
           {
             "value": "610111",
-            "label": "灞桥",
+            "label": "灞桥区",
             isLeaf: true
           },
           {
             "value": "610112",
-            "label": "未央",
+            "label": "未央区",
             isLeaf: true
           },
           {
             "value": "610113",
-            "label": "雁塔",
+            "label": "雁塔区",
             isLeaf: true
           },
           {
             "value": "610114",
-            "label": "阎良",
+            "label": "阎良区",
             isLeaf: true
           },
           {
             "value": "610115",
-            "label": "临潼",
+            "label": "临潼区",
             isLeaf: true
           },
           {
             "value": "610116",
-            "label": "长安",
+            "label": "长安区",
             isLeaf: true
           },
           {
             "value": "610122",
-            "label": "蓝田",
+            "label": "蓝田县",
             isLeaf: true
           },
           {
             "value": "610124",
-            "label": "周至",
+            "label": "周至县",
             isLeaf: true
           },
           {
             "value": "610125",
-            "label": "户",
+            "label": "户县",
             isLeaf: true
           },
           {
             "value": "610126",
-            "label": "高陵",
+            "label": "高陵县",
             isLeaf: true
           }
         ],
@@ -16080,27 +16080,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "610201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "610202",
-            "label": "王益",
+            "label": "王益区",
             isLeaf: true
           },
           {
             "value": "610203",
-            "label": "印台",
+            "label": "印台区",
             isLeaf: true
           },
           {
             "value": "610204",
-            "label": "耀州",
+            "label": "耀州区",
             isLeaf: true
           },
           {
             "value": "610222",
-            "label": "宜君",
+            "label": "宜君县",
             isLeaf: true
           }
         ],
@@ -16111,67 +16111,67 @@ const cityAddressItems = [
         "children": [
           {
             "value": "610301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "610302",
-            "label": "渭滨",
+            "label": "渭滨区",
             isLeaf: true
           },
           {
             "value": "610303",
-            "label": "金台",
+            "label": "金台区",
             isLeaf: true
           },
           {
             "value": "610304",
-            "label": "陈仓",
+            "label": "陈仓区",
             isLeaf: true
           },
           {
             "value": "610322",
-            "label": "凤翔",
+            "label": "凤翔县",
             isLeaf: true
           },
           {
             "value": "610323",
-            "label": "岐山",
+            "label": "岐山县",
             isLeaf: true
           },
           {
             "value": "610324",
-            "label": "扶风",
+            "label": "扶风县",
             isLeaf: true
           },
           {
             "value": "610326",
-            "label": "眉",
+            "label": "眉县",
             isLeaf: true
           },
           {
             "value": "610327",
-            "label": "陇",
+            "label": "陇县",
             isLeaf: true
           },
           {
             "value": "610328",
-            "label": "千阳",
+            "label": "千阳县",
             isLeaf: true
           },
           {
             "value": "610329",
-            "label": "麟游",
+            "label": "麟游县",
             isLeaf: true
           },
           {
             "value": "610330",
-            "label": "凤",
+            "label": "凤县",
             isLeaf: true
           },
           {
             "value": "610331",
-            "label": "太白",
+            "label": "太白县",
             isLeaf: true
           }
         ],
@@ -16182,72 +16182,72 @@ const cityAddressItems = [
         "children": [
           {
             "value": "610401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "610402",
-            "label": "秦都",
+            "label": "秦都区",
             isLeaf: true
           },
           {
             "value": "610403",
-            "label": "杨凌",
+            "label": "杨凌区",
             isLeaf: true
           },
           {
             "value": "610404",
-            "label": "渭城",
+            "label": "渭城区",
             isLeaf: true
           },
           {
             "value": "610422",
-            "label": "三原",
+            "label": "三原县",
             isLeaf: true
           },
           {
             "value": "610423",
-            "label": "泾阳",
+            "label": "泾阳县",
             isLeaf: true
           },
           {
             "value": "610424",
-            "label": "乾",
+            "label": "乾县",
             isLeaf: true
           },
           {
             "value": "610425",
-            "label": "礼泉",
+            "label": "礼泉县",
             isLeaf: true
           },
           {
             "value": "610426",
-            "label": "永寿",
+            "label": "永寿县",
             isLeaf: true
           },
           {
             "value": "610427",
-            "label": "彬",
+            "label": "彬县",
             isLeaf: true
           },
           {
             "value": "610428",
-            "label": "长武",
+            "label": "长武县",
             isLeaf: true
           },
           {
             "value": "610429",
-            "label": "旬邑",
+            "label": "旬邑县",
             isLeaf: true
           },
           {
             "value": "610430",
-            "label": "淳化",
+            "label": "淳化县",
             isLeaf: true
           },
           {
             "value": "610431",
-            "label": "武功",
+            "label": "武功县",
             isLeaf: true
           },
           {
@@ -16263,52 +16263,52 @@ const cityAddressItems = [
         "children": [
           {
             "value": "610501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "610502",
-            "label": "临渭",
+            "label": "临渭区",
             isLeaf: true
           },
           {
             "value": "610521",
-            "label": "华",
+            "label": "华县",
             isLeaf: true
           },
           {
             "value": "610522",
-            "label": "潼关",
+            "label": "潼关县",
             isLeaf: true
           },
           {
             "value": "610523",
-            "label": "大荔",
+            "label": "大荔县",
             isLeaf: true
           },
           {
             "value": "610524",
-            "label": "合阳",
+            "label": "合阳县",
             isLeaf: true
           },
           {
             "value": "610525",
-            "label": "澄城",
+            "label": "澄城县",
             isLeaf: true
           },
           {
             "value": "610526",
-            "label": "蒲城",
+            "label": "蒲城县",
             isLeaf: true
           },
           {
             "value": "610527",
-            "label": "白水",
+            "label": "白水县",
             isLeaf: true
           },
           {
             "value": "610528",
-            "label": "富平",
+            "label": "富平县",
             isLeaf: true
           },
           {
@@ -16329,72 +16329,72 @@ const cityAddressItems = [
         "children": [
           {
             "value": "610601",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "610602",
-            "label": "宝塔",
+            "label": "宝塔区",
             isLeaf: true
           },
           {
             "value": "610621",
-            "label": "延长",
+            "label": "延长县",
             isLeaf: true
           },
           {
             "value": "610622",
-            "label": "延川",
+            "label": "延川县",
             isLeaf: true
           },
           {
             "value": "610623",
-            "label": "子长",
+            "label": "子长县",
             isLeaf: true
           },
           {
             "value": "610624",
-            "label": "安塞",
+            "label": "安塞县",
             isLeaf: true
           },
           {
             "value": "610625",
-            "label": "志丹",
+            "label": "志丹县",
             isLeaf: true
           },
           {
             "value": "610626",
-            "label": "吴旗",
+            "label": "吴旗县",
             isLeaf: true
           },
           {
             "value": "610627",
-            "label": "甘泉",
+            "label": "甘泉县",
             isLeaf: true
           },
           {
             "value": "610628",
-            "label": "富",
+            "label": "富县",
             isLeaf: true
           },
           {
             "value": "610629",
-            "label": "洛川",
+            "label": "洛川县",
             isLeaf: true
           },
           {
             "value": "610630",
-            "label": "宜川",
+            "label": "宜川县",
             isLeaf: true
           },
           {
             "value": "610631",
-            "label": "黄龙",
+            "label": "黄龙县",
             isLeaf: true
           },
           {
             "value": "610632",
-            "label": "黄陵",
+            "label": "黄陵县",
             isLeaf: true
           }
         ],
@@ -16405,62 +16405,62 @@ const cityAddressItems = [
         "children": [
           {
             "value": "610701",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "610702",
-            "label": "汉台",
+            "label": "汉台区",
             isLeaf: true
           },
           {
             "value": "610721",
-            "label": "南郑",
+            "label": "南郑县",
             isLeaf: true
           },
           {
             "value": "610722",
-            "label": "城固",
+            "label": "城固县",
             isLeaf: true
           },
           {
             "value": "610723",
-            "label": "洋",
+            "label": "洋县",
             isLeaf: true
           },
           {
             "value": "610724",
-            "label": "西乡",
+            "label": "西乡县",
             isLeaf: true
           },
           {
             "value": "610725",
-            "label": "勉",
+            "label": "勉县",
             isLeaf: true
           },
           {
             "value": "610726",
-            "label": "宁强",
+            "label": "宁强县",
             isLeaf: true
           },
           {
             "value": "610727",
-            "label": "略阳",
+            "label": "略阳县",
             isLeaf: true
           },
           {
             "value": "610728",
-            "label": "镇巴",
+            "label": "镇巴县",
             isLeaf: true
           },
           {
             "value": "610729",
-            "label": "留坝",
+            "label": "留坝县",
             isLeaf: true
           },
           {
             "value": "610730",
-            "label": "佛坪",
+            "label": "佛坪县",
             isLeaf: true
           }
         ],
@@ -16471,67 +16471,67 @@ const cityAddressItems = [
         "children": [
           {
             "value": "610801",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "610802",
-            "label": "榆阳",
+            "label": "榆阳区",
             isLeaf: true
           },
           {
             "value": "610821",
-            "label": "神木",
+            "label": "神木县",
             isLeaf: true
           },
           {
             "value": "610822",
-            "label": "府谷",
+            "label": "府谷县",
             isLeaf: true
           },
           {
             "value": "610823",
-            "label": "横山",
+            "label": "横山县",
             isLeaf: true
           },
           {
             "value": "610824",
-            "label": "靖边",
+            "label": "靖边县",
             isLeaf: true
           },
           {
             "value": "610825",
-            "label": "定边",
+            "label": "定边县",
             isLeaf: true
           },
           {
             "value": "610826",
-            "label": "绥德",
+            "label": "绥德县",
             isLeaf: true
           },
           {
             "value": "610827",
-            "label": "米脂",
+            "label": "米脂县",
             isLeaf: true
           },
           {
             "value": "610828",
-            "label": "佳",
+            "label": "佳县",
             isLeaf: true
           },
           {
             "value": "610829",
-            "label": "吴堡",
+            "label": "吴堡县",
             isLeaf: true
           },
           {
             "value": "610830",
-            "label": "清涧",
+            "label": "清涧县",
             isLeaf: true
           },
           {
             "value": "610831",
-            "label": "子洲",
+            "label": "子洲县",
             isLeaf: true
           }
         ],
@@ -16542,57 +16542,57 @@ const cityAddressItems = [
         "children": [
           {
             "value": "610901",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "610902",
-            "label": "汉滨",
+            "label": "汉滨区",
             isLeaf: true
           },
           {
             "value": "610921",
-            "label": "汉阴",
+            "label": "汉阴县",
             isLeaf: true
           },
           {
             "value": "610922",
-            "label": "石泉",
+            "label": "石泉县",
             isLeaf: true
           },
           {
             "value": "610923",
-            "label": "宁陕",
+            "label": "宁陕县",
             isLeaf: true
           },
           {
             "value": "610924",
-            "label": "紫阳",
+            "label": "紫阳县",
             isLeaf: true
           },
           {
             "value": "610925",
-            "label": "岚皋",
+            "label": "岚皋县",
             isLeaf: true
           },
           {
             "value": "610926",
-            "label": "平利",
+            "label": "平利县",
             isLeaf: true
           },
           {
             "value": "610927",
-            "label": "镇坪",
+            "label": "镇坪县",
             isLeaf: true
           },
           {
             "value": "610928",
-            "label": "旬阳",
+            "label": "旬阳县",
             isLeaf: true
           },
           {
             "value": "610929",
-            "label": "白河",
+            "label": "白河县",
             isLeaf: true
           }
         ],
@@ -16603,42 +16603,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "611001",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "611002",
-            "label": "商州",
+            "label": "商州区",
             isLeaf: true
           },
           {
             "value": "611021",
-            "label": "洛南",
+            "label": "洛南县",
             isLeaf: true
           },
           {
             "value": "611022",
-            "label": "丹凤",
+            "label": "丹凤县",
             isLeaf: true
           },
           {
             "value": "611023",
-            "label": "商南",
+            "label": "商南县",
             isLeaf: true
           },
           {
             "value": "611024",
-            "label": "山阳",
+            "label": "山阳县",
             isLeaf: true
           },
           {
             "value": "611025",
-            "label": "镇安",
+            "label": "镇安县",
             isLeaf: true
           },
           {
             "value": "611026",
-            "label": "柞水",
+            "label": "柞水县",
             isLeaf: true
           }
         ],
@@ -16655,47 +16655,47 @@ const cityAddressItems = [
         "children": [
           {
             "value": "620101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "620102",
-            "label": "城关",
+            "label": "城关区",
             isLeaf: true
           },
           {
             "value": "620103",
-            "label": "七里河",
+            "label": "七里河区",
             isLeaf: true
           },
           {
             "value": "620104",
-            "label": "西固",
+            "label": "西固区",
             isLeaf: true
           },
           {
             "value": "620105",
-            "label": "安宁",
+            "label": "安宁区",
             isLeaf: true
           },
           {
             "value": "620111",
-            "label": "红古",
+            "label": "红古区",
             isLeaf: true
           },
           {
             "value": "620121",
-            "label": "永登",
+            "label": "永登县",
             isLeaf: true
           },
           {
             "value": "620122",
-            "label": "皋兰",
+            "label": "皋兰县",
             isLeaf: true
           },
           {
             "value": "620123",
-            "label": "榆中",
+            "label": "榆中县",
             isLeaf: true
           }
         ],
@@ -16706,7 +16706,7 @@ const cityAddressItems = [
         "children": [
           {
             "value": "620201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           }
         ],
@@ -16717,17 +16717,17 @@ const cityAddressItems = [
         "children": [
           {
             "value": "620301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "620302",
-            "label": "金川",
+            "label": "金川区",
             isLeaf: true
           },
           {
             "value": "620321",
-            "label": "永昌",
+            "label": "永昌县",
             isLeaf: true
           }
         ],
@@ -16738,32 +16738,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "620401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "620402",
-            "label": "白银",
+            "label": "白银区",
             isLeaf: true
           },
           {
             "value": "620403",
-            "label": "平川",
+            "label": "平川区",
             isLeaf: true
           },
           {
             "value": "620421",
-            "label": "靖远",
+            "label": "靖远县",
             isLeaf: true
           },
           {
             "value": "620422",
-            "label": "会宁",
+            "label": "会宁县",
             isLeaf: true
           },
           {
             "value": "620423",
-            "label": "景泰",
+            "label": "景泰县",
             isLeaf: true
           }
         ],
@@ -16774,47 +16774,47 @@ const cityAddressItems = [
         "children": [
           {
             "value": "620501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "620502",
-            "label": "秦城",
+            "label": "秦城区",
             isLeaf: true
           },
           {
             "value": "620503",
-            "label": "北道",
+            "label": "北道区",
             isLeaf: true
           },
           {
             "value": "620521",
-            "label": "清水",
+            "label": "清水县",
             isLeaf: true
           },
           {
             "value": "620522",
-            "label": "秦安",
+            "label": "秦安县",
             isLeaf: true
           },
           {
             "value": "620523",
-            "label": "甘谷",
+            "label": "甘谷县",
             isLeaf: true
           },
           {
             "value": "620524",
-            "label": "武山",
+            "label": "武山县",
             isLeaf: true
           },
           {
             "value": "620525",
-            "label": "张家川回族自治",
+            "label": "张家川回族自治县",
             isLeaf: true
           },
           {
             "value": "620526",
-            "label": "麦积",
+            "label": "麦积区",
             isLeaf: true
           }
         ],
@@ -16825,27 +16825,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "620601",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "620602",
-            "label": "凉州",
+            "label": "凉州区",
             isLeaf: true
           },
           {
             "value": "620621",
-            "label": "民勤",
+            "label": "民勤县",
             isLeaf: true
           },
           {
             "value": "620622",
-            "label": "古浪",
+            "label": "古浪县",
             isLeaf: true
           },
           {
             "value": "620623",
-            "label": "天祝藏族自治",
+            "label": "天祝藏族自治县",
             isLeaf: true
           }
         ],
@@ -16856,37 +16856,37 @@ const cityAddressItems = [
         "children": [
           {
             "value": "620701",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "620702",
-            "label": "甘州",
+            "label": "甘州区",
             isLeaf: true
           },
           {
             "value": "620721",
-            "label": "肃南裕固族自治",
+            "label": "肃南裕固族自治县",
             isLeaf: true
           },
           {
             "value": "620722",
-            "label": "民乐",
+            "label": "民乐县",
             isLeaf: true
           },
           {
             "value": "620723",
-            "label": "临泽",
+            "label": "临泽县",
             isLeaf: true
           },
           {
             "value": "620724",
-            "label": "高台",
+            "label": "高台县",
             isLeaf: true
           },
           {
             "value": "620725",
-            "label": "山丹",
+            "label": "山丹县",
             isLeaf: true
           }
         ],
@@ -16897,42 +16897,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "620801",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "620802",
-            "label": "崆峒",
+            "label": "崆峒区",
             isLeaf: true
           },
           {
             "value": "620821",
-            "label": "泾川",
+            "label": "泾川县",
             isLeaf: true
           },
           {
             "value": "620822",
-            "label": "灵台",
+            "label": "灵台县",
             isLeaf: true
           },
           {
             "value": "620823",
-            "label": "崇信",
+            "label": "崇信县",
             isLeaf: true
           },
           {
             "value": "620824",
-            "label": "华亭",
+            "label": "华亭县",
             isLeaf: true
           },
           {
             "value": "620825",
-            "label": "庄浪",
+            "label": "庄浪县",
             isLeaf: true
           },
           {
             "value": "620826",
-            "label": "静宁",
+            "label": "静宁县",
             isLeaf: true
           }
         ],
@@ -16943,32 +16943,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "620901",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "620902",
-            "label": "肃州",
+            "label": "肃州区",
             isLeaf: true
           },
           {
             "value": "620921",
-            "label": "金塔",
+            "label": "金塔县",
             isLeaf: true
           },
           {
             "value": "620922",
-            "label": "安西",
+            "label": "安西县",
             isLeaf: true
           },
           {
             "value": "620923",
-            "label": "肃北蒙古族自治",
+            "label": "肃北蒙古族自治县",
             isLeaf: true
           },
           {
             "value": "620924",
-            "label": "阿克塞哈萨克族自治",
+            "label": "阿克塞哈萨克族自治县",
             isLeaf: true
           },
           {
@@ -16989,47 +16989,47 @@ const cityAddressItems = [
         "children": [
           {
             "value": "621001",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "621002",
-            "label": "西峰",
+            "label": "西峰区",
             isLeaf: true
           },
           {
             "value": "621021",
-            "label": "庆城",
+            "label": "庆城县",
             isLeaf: true
           },
           {
             "value": "621022",
-            "label": "环",
+            "label": "环县",
             isLeaf: true
           },
           {
             "value": "621023",
-            "label": "华池",
+            "label": "华池县",
             isLeaf: true
           },
           {
             "value": "621024",
-            "label": "合水",
+            "label": "合水县",
             isLeaf: true
           },
           {
             "value": "621025",
-            "label": "正宁",
+            "label": "正宁县",
             isLeaf: true
           },
           {
             "value": "621026",
-            "label": "宁",
+            "label": "宁县",
             isLeaf: true
           },
           {
             "value": "621027",
-            "label": "镇原",
+            "label": "镇原县",
             isLeaf: true
           }
         ],
@@ -17040,42 +17040,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "621101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "621102",
-            "label": "安定",
+            "label": "安定区",
             isLeaf: true
           },
           {
             "value": "621121",
-            "label": "通渭",
+            "label": "通渭县",
             isLeaf: true
           },
           {
             "value": "621122",
-            "label": "陇西",
+            "label": "陇西县",
             isLeaf: true
           },
           {
             "value": "621123",
-            "label": "渭源",
+            "label": "渭源县",
             isLeaf: true
           },
           {
             "value": "621124",
-            "label": "临洮",
+            "label": "临洮县",
             isLeaf: true
           },
           {
             "value": "621125",
-            "label": "漳",
+            "label": "漳县",
             isLeaf: true
           },
           {
             "value": "621126",
-            "label": "岷",
+            "label": "岷县",
             isLeaf: true
           }
         ],
@@ -17086,52 +17086,52 @@ const cityAddressItems = [
         "children": [
           {
             "value": "621201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "621202",
-            "label": "武都",
+            "label": "武都区",
             isLeaf: true
           },
           {
             "value": "621221",
-            "label": "成",
+            "label": "成县",
             isLeaf: true
           },
           {
             "value": "621222",
-            "label": "文",
+            "label": "文县",
             isLeaf: true
           },
           {
             "value": "621223",
-            "label": "宕昌",
+            "label": "宕昌县",
             isLeaf: true
           },
           {
             "value": "621224",
-            "label": "康",
+            "label": "康县",
             isLeaf: true
           },
           {
             "value": "621225",
-            "label": "西和",
+            "label": "西和县",
             isLeaf: true
           },
           {
             "value": "621226",
-            "label": "礼",
+            "label": "礼县",
             isLeaf: true
           },
           {
             "value": "621227",
-            "label": "徽",
+            "label": "徽县",
             isLeaf: true
           },
           {
             "value": "621228",
-            "label": "两当",
+            "label": "两当县",
             isLeaf: true
           }
         ],
@@ -17147,37 +17147,37 @@ const cityAddressItems = [
           },
           {
             "value": "622921",
-            "label": "临夏",
+            "label": "临夏县",
             isLeaf: true
           },
           {
             "value": "622922",
-            "label": "康乐",
+            "label": "康乐县",
             isLeaf: true
           },
           {
             "value": "622923",
-            "label": "永靖",
+            "label": "永靖县",
             isLeaf: true
           },
           {
             "value": "622924",
-            "label": "广河",
+            "label": "广河县",
             isLeaf: true
           },
           {
             "value": "622925",
-            "label": "和政",
+            "label": "和政县",
             isLeaf: true
           },
           {
             "value": "622926",
-            "label": "东乡族自治",
+            "label": "东乡族自治县",
             isLeaf: true
           },
           {
             "value": "622927",
-            "label": "积石山保安族东乡族撒拉族自治",
+            "label": "积石山保安族东乡族撒拉族自治县",
             isLeaf: true
           }
         ],
@@ -17193,37 +17193,37 @@ const cityAddressItems = [
           },
           {
             "value": "623021",
-            "label": "临潭",
+            "label": "临潭县",
             isLeaf: true
           },
           {
             "value": "623022",
-            "label": "卓尼",
+            "label": "卓尼县",
             isLeaf: true
           },
           {
             "value": "623023",
-            "label": "舟曲",
+            "label": "舟曲县",
             isLeaf: true
           },
           {
             "value": "623024",
-            "label": "迭部",
+            "label": "迭部县",
             isLeaf: true
           },
           {
             "value": "623025",
-            "label": "玛曲",
+            "label": "玛曲县",
             isLeaf: true
           },
           {
             "value": "623026",
-            "label": "碌曲",
+            "label": "碌曲县",
             isLeaf: true
           },
           {
             "value": "623027",
-            "label": "夏河",
+            "label": "夏河县",
             isLeaf: true
           }
         ],
@@ -17240,42 +17240,42 @@ const cityAddressItems = [
         "children": [
           {
             "value": "630101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "630102",
-            "label": "城东",
+            "label": "城东区",
             isLeaf: true
           },
           {
             "value": "630103",
-            "label": "城中",
+            "label": "城中区",
             isLeaf: true
           },
           {
             "value": "630104",
-            "label": "城西",
+            "label": "城西区",
             isLeaf: true
           },
           {
             "value": "630105",
-            "label": "城北",
+            "label": "城北区",
             isLeaf: true
           },
           {
             "value": "630121",
-            "label": "大通回族土族自治",
+            "label": "大通回族土族自治县",
             isLeaf: true
           },
           {
             "value": "630122",
-            "label": "湟中",
+            "label": "湟中县",
             isLeaf: true
           },
           {
             "value": "630123",
-            "label": "湟源",
+            "label": "湟源县",
             isLeaf: true
           }
         ],
@@ -17286,58 +17286,58 @@ const cityAddressItems = [
         "children": [
           {
             "value": "632121",
-            "label": "平安",
+            "label": "平安县",
             isLeaf: true
           },
           {
             "value": "632122",
-            "label": "民和回族土族自治",
+            "label": "民和回族土族自治县",
             isLeaf: true
           },
           {
             "value": "632123",
-            "label": "乐都",
+            "label": "乐都县",
             isLeaf: true
           },
           {
             "value": "632126",
-            "label": "互助土族自治",
+            "label": "互助土族自治县",
             isLeaf: true
           },
           {
             "value": "632127",
-            "label": "化隆回族自治",
+            "label": "化隆回族自治县",
             isLeaf: true
           },
           {
             "value": "632128",
-            "label": "循化撒拉族自治",
+            "label": "循化撒拉族自治县",
             isLeaf: true
           }
         ],
         "value": "632100",
-        "label": "海东地"
+        "label": "海东地区"
       },
       {
         "children": [
           {
             "value": "632221",
-            "label": "门源回族自治",
+            "label": "门源回族自治县",
             isLeaf: true
           },
           {
             "value": "632222",
-            "label": "祁连",
+            "label": "祁连县",
             isLeaf: true
           },
           {
             "value": "632223",
-            "label": "海晏",
+            "label": "海晏县",
             isLeaf: true
           },
           {
             "value": "632224",
-            "label": "刚察",
+            "label": "刚察县",
             isLeaf: true
           }
         ],
@@ -17348,22 +17348,22 @@ const cityAddressItems = [
         "children": [
           {
             "value": "632321",
-            "label": "同仁",
+            "label": "同仁县",
             isLeaf: true
           },
           {
             "value": "632322",
-            "label": "尖扎",
+            "label": "尖扎县",
             isLeaf: true
           },
           {
             "value": "632323",
-            "label": "泽库",
+            "label": "泽库县",
             isLeaf: true
           },
           {
             "value": "632324",
-            "label": "河南蒙古族自治",
+            "label": "河南蒙古族自治县",
             isLeaf: true
           }
         ],
@@ -17374,27 +17374,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "632521",
-            "label": "共和",
+            "label": "共和县",
             isLeaf: true
           },
           {
             "value": "632522",
-            "label": "同德",
+            "label": "同德县",
             isLeaf: true
           },
           {
             "value": "632523",
-            "label": "贵德",
+            "label": "贵德县",
             isLeaf: true
           },
           {
             "value": "632524",
-            "label": "兴海",
+            "label": "兴海县",
             isLeaf: true
           },
           {
             "value": "632525",
-            "label": "贵南",
+            "label": "贵南县",
             isLeaf: true
           }
         ],
@@ -17405,32 +17405,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "632621",
-            "label": "玛沁",
+            "label": "玛沁县",
             isLeaf: true
           },
           {
             "value": "632622",
-            "label": "班玛",
+            "label": "班玛县",
             isLeaf: true
           },
           {
             "value": "632623",
-            "label": "甘德",
+            "label": "甘德县",
             isLeaf: true
           },
           {
             "value": "632624",
-            "label": "达日",
+            "label": "达日县",
             isLeaf: true
           },
           {
             "value": "632625",
-            "label": "久治",
+            "label": "久治县",
             isLeaf: true
           },
           {
             "value": "632626",
-            "label": "玛多",
+            "label": "玛多县",
             isLeaf: true
           }
         ],
@@ -17441,32 +17441,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "632721",
-            "label": "玉树",
+            "label": "玉树县",
             isLeaf: true
           },
           {
             "value": "632722",
-            "label": "杂多",
+            "label": "杂多县",
             isLeaf: true
           },
           {
             "value": "632723",
-            "label": "称多",
+            "label": "称多县",
             isLeaf: true
           },
           {
             "value": "632724",
-            "label": "治多",
+            "label": "治多县",
             isLeaf: true
           },
           {
             "value": "632725",
-            "label": "囊谦",
+            "label": "囊谦县",
             isLeaf: true
           },
           {
             "value": "632726",
-            "label": "曲麻莱",
+            "label": "曲麻莱县",
             isLeaf: true
           }
         ],
@@ -17487,17 +17487,17 @@ const cityAddressItems = [
           },
           {
             "value": "632821",
-            "label": "乌兰",
+            "label": "乌兰县",
             isLeaf: true
           },
           {
             "value": "632822",
-            "label": "都兰",
+            "label": "都兰县",
             isLeaf: true
           },
           {
             "value": "632823",
-            "label": "天峻",
+            "label": "天峻县",
             isLeaf: true
           }
         ],
@@ -17514,32 +17514,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "640101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "640104",
-            "label": "兴庆",
+            "label": "兴庆区",
             isLeaf: true
           },
           {
             "value": "640105",
-            "label": "西夏",
+            "label": "西夏区",
             isLeaf: true
           },
           {
             "value": "640106",
-            "label": "金凤",
+            "label": "金凤区",
             isLeaf: true
           },
           {
             "value": "640121",
-            "label": "永宁",
+            "label": "永宁县",
             isLeaf: true
           },
           {
             "value": "640122",
-            "label": "贺兰",
+            "label": "贺兰县",
             isLeaf: true
           },
           {
@@ -17555,22 +17555,22 @@ const cityAddressItems = [
         "children": [
           {
             "value": "640201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "640202",
-            "label": "大武口",
+            "label": "大武口区",
             isLeaf: true
           },
           {
             "value": "640205",
-            "label": "惠农",
+            "label": "惠农区",
             isLeaf: true
           },
           {
             "value": "640221",
-            "label": "平罗",
+            "label": "平罗县",
             isLeaf: true
           }
         ],
@@ -17581,22 +17581,22 @@ const cityAddressItems = [
         "children": [
           {
             "value": "640301",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "640302",
-            "label": "利通",
+            "label": "利通区",
             isLeaf: true
           },
           {
             "value": "640323",
-            "label": "盐池",
+            "label": "盐池县",
             isLeaf: true
           },
           {
             "value": "640324",
-            "label": "同心",
+            "label": "同心县",
             isLeaf: true
           },
           {
@@ -17612,32 +17612,32 @@ const cityAddressItems = [
         "children": [
           {
             "value": "640401",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "640402",
-            "label": "原州",
+            "label": "原州区",
             isLeaf: true
           },
           {
             "value": "640422",
-            "label": "西吉",
+            "label": "西吉县",
             isLeaf: true
           },
           {
             "value": "640423",
-            "label": "隆德",
+            "label": "隆德县",
             isLeaf: true
           },
           {
             "value": "640424",
-            "label": "泾源",
+            "label": "泾源县",
             isLeaf: true
           },
           {
             "value": "640425",
-            "label": "彭阳",
+            "label": "彭阳县",
             isLeaf: true
           }
         ],
@@ -17648,22 +17648,22 @@ const cityAddressItems = [
         "children": [
           {
             "value": "640501",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "640502",
-            "label": "沙坡头",
+            "label": "沙坡头区",
             isLeaf: true
           },
           {
             "value": "640521",
-            "label": "中宁",
+            "label": "中宁县",
             isLeaf: true
           },
           {
             "value": "640522",
-            "label": "海原",
+            "label": "海原县",
             isLeaf: true
           }
         ],
@@ -17672,7 +17672,7 @@ const cityAddressItems = [
       }
     ],
     "value": "640000",
-    "label": "宁夏回族自治"
+    "label": "宁夏回族自治区"
   },
   {
     "children": [
@@ -17680,47 +17680,47 @@ const cityAddressItems = [
         "children": [
           {
             "value": "650101",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "650102",
-            "label": "天山",
+            "label": "天山区",
             isLeaf: true
           },
           {
             "value": "650103",
-            "label": "沙依巴克",
+            "label": "沙依巴克区",
             isLeaf: true
           },
           {
             "value": "650104",
-            "label": "新市",
+            "label": "新市区",
             isLeaf: true
           },
           {
             "value": "650105",
-            "label": "水磨沟",
+            "label": "水磨沟区",
             isLeaf: true
           },
           {
             "value": "650106",
-            "label": "头屯河",
+            "label": "头屯河区",
             isLeaf: true
           },
           {
             "value": "650107",
-            "label": "达坂城",
+            "label": "达坂城区",
             isLeaf: true
           },
           {
             "value": "650108",
-            "label": "东山",
+            "label": "东山区",
             isLeaf: true
           },
           {
             "value": "650121",
-            "label": "乌鲁木齐",
+            "label": "乌鲁木齐县",
             isLeaf: true
           }
         ],
@@ -17731,27 +17731,27 @@ const cityAddressItems = [
         "children": [
           {
             "value": "650201",
-            "label": "市辖",
+            "label": "市辖区",
             isLeaf: true
           },
           {
             "value": "650202",
-            "label": "独山子",
+            "label": "独山子区",
             isLeaf: true
           },
           {
             "value": "650203",
-            "label": "克拉玛依",
+            "label": "克拉玛依区",
             isLeaf: true
           },
           {
             "value": "650204",
-            "label": "白碱滩",
+            "label": "白碱滩区",
             isLeaf: true
           },
           {
             "value": "650205",
-            "label": "乌尔禾",
+            "label": "乌尔禾区",
             isLeaf: true
           }
         ],
@@ -17767,17 +17767,17 @@ const cityAddressItems = [
           },
           {
             "value": "652122",
-            "label": "鄯善",
+            "label": "鄯善县",
             isLeaf: true
           },
           {
             "value": "652123",
-            "label": "托克逊",
+            "label": "托克逊县",
             isLeaf: true
           }
         ],
         "value": "652100",
-        "label": "吐鲁番地"
+        "label": "吐鲁番地区"
       },
       {
         "children": [
@@ -17788,17 +17788,17 @@ const cityAddressItems = [
           },
           {
             "value": "652222",
-            "label": "巴里坤哈萨克自治",
+            "label": "巴里坤哈萨克自治县",
             isLeaf: true
           },
           {
             "value": "652223",
-            "label": "伊吾",
+            "label": "伊吾县",
             isLeaf: true
           }
         ],
         "value": "652200",
-        "label": "哈密地"
+        "label": "哈密地区"
       },
       {
         "children": [
@@ -17819,27 +17819,27 @@ const cityAddressItems = [
           },
           {
             "value": "652323",
-            "label": "呼图壁",
+            "label": "呼图壁县",
             isLeaf: true
           },
           {
             "value": "652324",
-            "label": "玛纳斯",
+            "label": "玛纳斯县",
             isLeaf: true
           },
           {
             "value": "652325",
-            "label": "奇台",
+            "label": "奇台县",
             isLeaf: true
           },
           {
             "value": "652327",
-            "label": "吉木萨尔",
+            "label": "吉木萨尔县",
             isLeaf: true
           },
           {
             "value": "652328",
-            "label": "木垒哈萨克自治",
+            "label": "木垒哈萨克自治县",
             isLeaf: true
           }
         ],
@@ -17855,12 +17855,12 @@ const cityAddressItems = [
           },
           {
             "value": "652722",
-            "label": "精河",
+            "label": "精河县",
             isLeaf: true
           },
           {
             "value": "652723",
-            "label": "温泉",
+            "label": "温泉县",
             isLeaf: true
           }
         ],
@@ -17876,42 +17876,42 @@ const cityAddressItems = [
           },
           {
             "value": "652822",
-            "label": "轮台",
+            "label": "轮台县",
             isLeaf: true
           },
           {
             "value": "652823",
-            "label": "尉犁",
+            "label": "尉犁县",
             isLeaf: true
           },
           {
             "value": "652824",
-            "label": "若羌",
+            "label": "若羌县",
             isLeaf: true
           },
           {
             "value": "652825",
-            "label": "且末",
+            "label": "且末县",
             isLeaf: true
           },
           {
             "value": "652826",
-            "label": "焉耆回族自治",
+            "label": "焉耆回族自治县",
             isLeaf: true
           },
           {
             "value": "652827",
-            "label": "和静",
+            "label": "和静县",
             isLeaf: true
           },
           {
             "value": "652828",
-            "label": "和硕",
+            "label": "和硕县",
             isLeaf: true
           },
           {
             "value": "652829",
-            "label": "博湖",
+            "label": "博湖县",
             isLeaf: true
           }
         ],
@@ -17927,47 +17927,47 @@ const cityAddressItems = [
           },
           {
             "value": "652922",
-            "label": "温宿",
+            "label": "温宿县",
             isLeaf: true
           },
           {
             "value": "652923",
-            "label": "库车",
+            "label": "库车县",
             isLeaf: true
           },
           {
             "value": "652924",
-            "label": "沙雅",
+            "label": "沙雅县",
             isLeaf: true
           },
           {
             "value": "652925",
-            "label": "新和",
+            "label": "新和县",
             isLeaf: true
           },
           {
             "value": "652926",
-            "label": "拜城",
+            "label": "拜城县",
             isLeaf: true
           },
           {
             "value": "652927",
-            "label": "乌什",
+            "label": "乌什县",
             isLeaf: true
           },
           {
             "value": "652928",
-            "label": "阿瓦提",
+            "label": "阿瓦提县",
             isLeaf: true
           },
           {
             "value": "652929",
-            "label": "柯坪",
+            "label": "柯坪县",
             isLeaf: true
           }
         ],
         "value": "652900",
-        "label": "阿克苏地"
+        "label": "阿克苏地区"
       },
       {
         "children": [
@@ -17978,17 +17978,17 @@ const cityAddressItems = [
           },
           {
             "value": "653022",
-            "label": "阿克陶",
+            "label": "阿克陶县",
             isLeaf: true
           },
           {
             "value": "653023",
-            "label": "阿合奇",
+            "label": "阿合奇县",
             isLeaf: true
           },
           {
             "value": "653024",
-            "label": "乌恰",
+            "label": "乌恰县",
             isLeaf: true
           }
         ],
@@ -18004,62 +18004,62 @@ const cityAddressItems = [
           },
           {
             "value": "653121",
-            "label": "疏附",
+            "label": "疏附县",
             isLeaf: true
           },
           {
             "value": "653122",
-            "label": "疏勒",
+            "label": "疏勒县",
             isLeaf: true
           },
           {
             "value": "653123",
-            "label": "英吉沙",
+            "label": "英吉沙县",
             isLeaf: true
           },
           {
             "value": "653124",
-            "label": "泽普",
+            "label": "泽普县",
             isLeaf: true
           },
           {
             "value": "653125",
-            "label": "莎车",
+            "label": "莎车县",
             isLeaf: true
           },
           {
             "value": "653126",
-            "label": "叶城",
+            "label": "叶城县",
             isLeaf: true
           },
           {
             "value": "653127",
-            "label": "麦盖提",
+            "label": "麦盖提县",
             isLeaf: true
           },
           {
             "value": "653128",
-            "label": "岳普湖",
+            "label": "岳普湖县",
             isLeaf: true
           },
           {
             "value": "653129",
-            "label": "伽师",
+            "label": "伽师县",
             isLeaf: true
           },
           {
             "value": "653130",
-            "label": "巴楚",
+            "label": "巴楚县",
             isLeaf: true
           },
           {
             "value": "653131",
-            "label": "塔什库尔干塔吉克自治",
+            "label": "塔什库尔干塔吉克自治县",
             isLeaf: true
           }
         ],
         "value": "653100",
-        "label": "喀什地"
+        "label": "喀什地区"
       },
       {
         "children": [
@@ -18070,42 +18070,42 @@ const cityAddressItems = [
           },
           {
             "value": "653221",
-            "label": "和田",
+            "label": "和田县",
             isLeaf: true
           },
           {
             "value": "653222",
-            "label": "墨玉",
+            "label": "墨玉县",
             isLeaf: true
           },
           {
             "value": "653223",
-            "label": "皮山",
+            "label": "皮山县",
             isLeaf: true
           },
           {
             "value": "653224",
-            "label": "洛浦",
+            "label": "洛浦县",
             isLeaf: true
           },
           {
             "value": "653225",
-            "label": "策勒",
+            "label": "策勒县",
             isLeaf: true
           },
           {
             "value": "653226",
-            "label": "于田",
+            "label": "于田县",
             isLeaf: true
           },
           {
             "value": "653227",
-            "label": "民丰",
+            "label": "民丰县",
             isLeaf: true
           }
         ],
         "value": "653200",
-        "label": "和田地"
+        "label": "和田地区"
       },
       {
         "children": [
@@ -18121,42 +18121,42 @@ const cityAddressItems = [
           },
           {
             "value": "654021",
-            "label": "伊宁",
+            "label": "伊宁县",
             isLeaf: true
           },
           {
             "value": "654022",
-            "label": "察布查尔锡伯自治",
+            "label": "察布查尔锡伯自治县",
             isLeaf: true
           },
           {
             "value": "654023",
-            "label": "霍城",
+            "label": "霍城县",
             isLeaf: true
           },
           {
             "value": "654024",
-            "label": "巩留",
+            "label": "巩留县",
             isLeaf: true
           },
           {
             "value": "654025",
-            "label": "新源",
+            "label": "新源县",
             isLeaf: true
           },
           {
             "value": "654026",
-            "label": "昭苏",
+            "label": "昭苏县",
             isLeaf: true
           },
           {
             "value": "654027",
-            "label": "特克斯",
+            "label": "特克斯县",
             isLeaf: true
           },
           {
             "value": "654028",
-            "label": "尼勒克",
+            "label": "尼勒克县",
             isLeaf: true
           }
         ],
@@ -18177,32 +18177,32 @@ const cityAddressItems = [
           },
           {
             "value": "654221",
-            "label": "额敏",
+            "label": "额敏县",
             isLeaf: true
           },
           {
             "value": "654223",
-            "label": "沙湾",
+            "label": "沙湾县",
             isLeaf: true
           },
           {
             "value": "654224",
-            "label": "托里",
+            "label": "托里县",
             isLeaf: true
           },
           {
             "value": "654225",
-            "label": "裕民",
+            "label": "裕民县",
             isLeaf: true
           },
           {
             "value": "654226",
-            "label": "和布克赛尔蒙古自治",
+            "label": "和布克赛尔蒙古自治县",
             isLeaf: true
           }
         ],
         "value": "654200",
-        "label": "塔城地"
+        "label": "塔城地区"
       },
       {
         "children": [
@@ -18213,37 +18213,37 @@ const cityAddressItems = [
           },
           {
             "value": "654321",
-            "label": "布尔津",
+            "label": "布尔津县",
             isLeaf: true
           },
           {
             "value": "654322",
-            "label": "富蕴",
+            "label": "富蕴县",
             isLeaf: true
           },
           {
             "value": "654323",
-            "label": "福海",
+            "label": "福海县",
             isLeaf: true
           },
           {
             "value": "654324",
-            "label": "哈巴河",
+            "label": "哈巴河县",
             isLeaf: true
           },
           {
             "value": "654325",
-            "label": "青河",
+            "label": "青河县",
             isLeaf: true
           },
           {
             "value": "654326",
-            "label": "吉木乃",
+            "label": "吉木乃县",
             isLeaf: true
           }
         ],
         "value": "654300",
-        "label": "阿勒泰地"
+        "label": "阿勒泰地区"
       },
       {
         "children": [
@@ -18273,7 +18273,7 @@ const cityAddressItems = [
       }
     ],
     "value": "650000",
-    "label": "新疆维吾尔自治"
+    "label": "新疆维吾尔自治区"
   },
   {
     "children": [
@@ -18281,7 +18281,7 @@ const cityAddressItems = [
         "children": [
           {
             "value": "710101",
-            "label": "台湾市内",
+            "label": "台湾市区内",
             isLeaf: true
           }
         ],
@@ -18298,7 +18298,7 @@ const cityAddressItems = [
         "children": [
           {
             "value": "810101",
-            "label": "香港市内",
+            "label": "香港市区内",
             isLeaf: true
           }
         ],
@@ -18315,7 +18315,7 @@ const cityAddressItems = [
         "children": [
           {
             "value": "820101",
-            "label": "澳门市内",
+            "label": "澳门市区内",
             isLeaf: true
           }
         ],

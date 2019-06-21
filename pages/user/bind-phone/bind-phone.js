@@ -79,7 +79,7 @@ Page({
         icon: "none",
         title: '验证码错误',
       });
-      return;
+      return; 
     }
     wx.showLoading({
       title: '绑定中...',
