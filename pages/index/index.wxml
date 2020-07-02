@@ -5,6 +5,8 @@
       <text class="picker">{{ address[0] }}  {{ address[2] }}</text>
       <view class='icon-slide'></view>
     </picker>
+
+
   </view>
 
   <view class='header'>

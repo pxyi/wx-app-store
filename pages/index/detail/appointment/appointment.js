@@ -28,7 +28,6 @@ Page({
   onLoad: function (options) {
 
     this.setData({ shopId: options.shopId });
-
     getUserInfo().then(userInfo => {
       this.setData({ userInfo });
       this.getCardDetail(userInfo.memberId);

@@ -36,6 +36,7 @@ Page({
  
     //that.getaddressIndex('0');
     // 对用户的设置进行判断，如果没有授权，即使用户返回到保存页面，显示的也是“去授权”按钮；同意授权之后才显示保存按钮
+    console.log(e);
     if (!e.detail.authSetting['scope.userLocation']) {
       wx.showModal({
         title: '警告',

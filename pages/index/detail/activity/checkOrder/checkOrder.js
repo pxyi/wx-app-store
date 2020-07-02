@@ -94,7 +94,7 @@ Page({
             orderNo: res.result.result.orderNo
           })
       wx.requestPayment({
-        'timeStamp': res.result.result.timeStamp+'',
+        'timeStamp': res.result.result.timeStamp + '',
         'nonceStr': res.result.result.nonceStr,
         'package': res.result.result.packages,
         'signType': 'MD5',
